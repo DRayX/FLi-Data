@@ -1,0 +1,316 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100302_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100301_env",
+          "Value": {
+            "SubLevelID": "Map_100301_env",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100301/Map_100301_env"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_mapobj",
+          "Value": {
+            "SubLevelID": "Map_100302_mapobj",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Map_100302_mapobj"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_mod",
+          "Value": {
+            "SubLevelID": "Map_100302_mod",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Map_100302_mod"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_area",
+          "Value": {
+            "SubLevelID": "Map_100302_area",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Map_100302_area"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c01",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c02",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c03",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c04",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c04",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c04"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c05",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c05",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c05"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c06",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c06",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c06"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100302_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_100302_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Phase/Map_100302_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100302_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Map_100302_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_Sound",
+          "Value": {
+            "SubLevelID": "Map_100302_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100302_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100302_line00",
+          "Value": {
+            "SubLevelID": "Map_100302_line00",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100302/Line/Map_100302_line00"
+            },
+            "ValidConditions": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        39,
+        131,
+        195,
+        35,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

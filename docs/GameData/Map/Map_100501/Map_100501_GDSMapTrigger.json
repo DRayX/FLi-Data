@@ -1,0 +1,411 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100501_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1870865161",
+          "Value": {
+            "ID": 1870865161,
+            "triggerType": "TG_RETURN_RPG",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_TempByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 21
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 21
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2100727015",
+          "Value": {
+            "ID": 2100727015,
+            "triggerType": "TG_ACTION_FLOOR_BUTTON",
+            "TargetID": "FP_map_100501_btn_action_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 27
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 24
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3314215810",
+          "Value": {
+            "ID": 3314215810,
+            "triggerType": "TG_ACTION_FLOOR_BUTTON",
+            "TargetID": "FP_map_100501_btn_action_02",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 27
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 24
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1482543931",
+          "Value": {
+            "ID": 1482543931,
+            "triggerType": "TG_ACTION_FLOOR_BUTTON",
+            "TargetID": "FP_map_100501_btn_action_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RpgPauseOn",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 27
+                  },
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 24
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RpgPauseOff",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3772888158",
+          "Value": {
+            "ID": 3772888158,
+            "triggerType": "TG_ACTION_FLOOR_BUTTON",
+            "TargetID": "FP_map_100501_btn_action_02",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RpgPauseOn",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 27
+                  },
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 24
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RpgPauseOff",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        139,
+        2,
+        1,
+        110,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        215,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        20,
+        235,
+        0,
+        0,
+        52,
+        35,
+        0,
+        0,
+        0,
+        50,
+        9,
+        0,
+        0,
+        0,
+        52,
+        57,
+        0,
+        0,
+        0,
+        50,
+        20,
+        235,
+        0,
+        0,
+        52,
+        68,
+        0,
+        0,
+        0,
+        52,
+        96,
+        0,
+        0,
+        0,
+        52,
+        121,
+        0,
+        0,
+        0,
+        50,
+        20,
+        235,
+        0,
+        0,
+        52,
+        132,
+        0,
+        0,
+        0,
+        52,
+        160,
+        0,
+        0,
+        0,
+        52,
+        185,
+        0,
+        0,
+        0,
+        50,
+        20,
+        235,
+        0,
+        0,
+        52,
+        196,
+        0,
+        0,
+        0,
+        52,
+        224,
+        0,
+        0,
+        0,
+        52,
+        249,
+        0,
+        0,
+        0,
+        50,
+        20,
+        235,
+        0,
+        0,
+        52,
+        4,
+        1,
+        0,
+        0,
+        52,
+        32,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000Map_100501\u0000flg_boss_battle_state\u0000flg_boss_battle_state\u0000Map_100501\u0000sysmes_map_100501_retire_00\u0000trg_map_100501_retire_00\u0000Map_100501\u0000sysmes_map_100501_retire_00\u0000trg_map_100501_retire_00\u0000Map_100501\u0000sysmes_map_100501_retire_00\u0000trg_map_100501_retire_00\u0000Map_100501\u0000sysmes_map_100501_retire_00\u0000trg_map_100501_retire_00\u0000"
+    }
+  }
+]

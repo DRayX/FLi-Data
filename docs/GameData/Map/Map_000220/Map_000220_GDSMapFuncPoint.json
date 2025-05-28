@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_000220_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "FP_p060010_01",
+          "Value": {
+            "funcPointId": "FP_p060010_01",
+            "OnePlaceId": "op_p060010_map_000220_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p060030_02",
+          "Value": {
+            "funcPointId": "FP_p060030_02",
+            "OnePlaceId": "op_p060030_map_000220_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        176,
+        139,
+        0,
+        15,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        128,
+        2,
+        0,
+        0,
+        50,
+        106,
+        234,
+        0,
+        0,
+        50,
+        126,
+        234,
+        0,
+        0,
+        50,
+        70,
+        235,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

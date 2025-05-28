@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_000210_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "FP_p050010_map_000210_01",
+          "Value": {
+            "funcPointId": "FP_p050010_map_000210_01",
+            "OnePlaceId": "op_p050010_map_000210_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        177,
+        139,
+        0,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        192,
+        1,
+        0,
+        0,
+        50,
+        90,
+        195,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

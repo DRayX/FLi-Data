@@ -1,0 +1,425 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "z01_debug_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1581901952",
+          "Value": {
+            "ID": 1581901952,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_0001",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [
+              {
+                "Cmd": "ExeCmd_TestLog",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 15
+                  }
+                ]
+              }
+            ],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_TestLog",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_ShopBuy",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1291601774",
+          "Value": {
+            "ID": 1291601774,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "trg_chr100100_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4097843211",
+          "Value": {
+            "ID": 4097843211,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "trg_chr000100_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_TalkNpcJustBefore",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1771509938",
+          "Value": {
+            "ID": 1771509938,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "shop_npc_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_TempByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_ShopBuy",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3509288919",
+          "Value": {
+            "ID": 3509288919,
+            "triggerType": "TG_MENU_END",
+            "TargetID": "shop_menu",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_TempByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_TalkNpcJustBefore",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3281965113",
+          "Value": {
+            "ID": 3281965113,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "skill_reset",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ResetLifeSkillPoint",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2065872732",
+          "Value": {
+            "ID": 2065872732,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_0002",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_ItemCraft",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "591505162",
+          "Value": {
+            "ID": 591505162,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "appraisal_event",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AppraisalEvent",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2617098351",
+          "Value": {
+            "ID": 2617098351,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "shop_npc_10",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ShopDeliveryList",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "710905723",
+          "Value": {
+            "ID": 710905723,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tg_rpg_timer_test_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_TimerSetup",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2464409630",
+          "Value": {
+            "ID": 2464409630,
+            "triggerType": "TG_COMMAND_TIMER",
+            "TargetID": "z01_timer_test_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2153138160",
+          "Value": {
+            "ID": 2153138160,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tg_rpg_timer_test_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_TempTimerSetup",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "954867861",
+          "Value": {
+            "ID": 954867861,
+            "triggerType": "TG_COMMAND_TIMER",
+            "TargetID": "z01_timer_test_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        32,
+        142,
+        247,
+        80,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        18,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        75,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        93,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        111,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        129,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        147,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000マップトリガー即時実行コマンド\u0000マップトリガー実行コマンド\u0000shop_npc_00\u0000shop_npc_00_state\u0000shop_item_00\u0000shop_npc_00_state\u0000z01_timer_test_01\u0000rpg_timer_test_01\u0000z01_timer_test_02\u0000rpg_timer_test_02\u0000"
+    }
+  }
+]

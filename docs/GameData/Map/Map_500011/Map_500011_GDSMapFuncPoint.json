@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_500011_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "fp_map_500011_01",
+          "Value": {
+            "funcPointId": "fp_map_500011_01",
+            "OnePlaceId": "OP_000001",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 8,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_map500011_workbench_00",
+          "Value": {
+            "funcPointId": "FP_map500011_workbench_00",
+            "OnePlaceId": "op_map500011_workbench_00",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 8,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 141,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": []
+          }
+        }
+      ]
+    }
+  }
+]

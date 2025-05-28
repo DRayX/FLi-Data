@@ -1,0 +1,1137 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "PlantDungeon_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "479320681",
+          "Value": {
+            "ID": 479320681,
+            "triggerType": "TG_MJ_FP_BUTTON",
+            "TargetID": "mjfp_to_PlantDungeon_next_Floor",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonCurrentFloorCleared",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_IsHostOrOffline_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_PlantDungeonRootMenu",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3767785130",
+          "Value": {
+            "ID": 3767785130,
+            "triggerType": "TG_MJ_FP_BUTTON",
+            "TargetID": "mjfp_to_PlantDungeon_next_Floor",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonCurrentFloorCleared",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_IsOnlineGuest_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 36
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2397027407",
+          "Value": {
+            "ID": 2397027407,
+            "triggerType": "TG_MJ_FP_BUTTON",
+            "TargetID": "mjfp_to_PlantDungeon_next_Floor",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 38
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1265656350",
+          "Value": {
+            "ID": 1265656350,
+            "triggerType": "TG_BTL_GENE_DEFEAT_ALL",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_FloorEnemyAllDefeat",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_AllEnemyDefeatPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2586039992",
+          "Value": {
+            "ID": 2586039992,
+            "triggerType": "TG_MJ_FP_BUTTON",
+            "TargetID": "mjfp_to_BossRoom",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_FloorEnemyAllDefeat",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 35
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 36
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "354893215",
+          "Value": {
+            "ID": 354893215,
+            "triggerType": "TG_MJ_FP_BUTTON",
+            "TargetID": "mjfp_to_BossRoom",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 38
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2352022360",
+          "Value": {
+            "ID": 2352022360,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "tg_plantdugeon_go_to_next_floor",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunMapExitEvent",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 31
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump_MapJumpFuncPoint",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 31
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2831316627",
+          "Value": {
+            "ID": 2831316627,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "tg_plantdugeon_go_to_next_floor",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_ForceMapJump",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1100384347",
+          "Value": {
+            "ID": 1100384347,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "tg_plantdugeon_go_to_next_floor_boss",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunMapExitEvent",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump_MapJumpFuncPoint",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1094460557",
+          "Value": {
+            "ID": 1094460557,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "tg_plantdugeon_go_to_next_floor_boss",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_ForceMapJump",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 21
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "641273985",
+          "Value": {
+            "ID": 641273985,
+            "triggerType": "TG_GET_ITEM",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3207762226",
+          "Value": {
+            "ID": 3207762226,
+            "triggerType": "TG_PICKPOINT_MINIGAME_DESTROY_ORE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2911321820",
+          "Value": {
+            "ID": 2911321820,
+            "triggerType": "TG_PICKPOINT_MINIGAME_DESTROY_FISH",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "356211129",
+          "Value": {
+            "ID": 356211129,
+            "triggerType": "TG_PICKPOINT_MINIGAME_DESTROY_TREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2297192704",
+          "Value": {
+            "ID": 2297192704,
+            "triggerType": "TG_PICKPOINT_MINIGAME_DESTROY_VEGETABLE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2784669157",
+          "Value": {
+            "ID": 2784669157,
+            "triggerType": "TG_OPEN_TBOX",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "45581390",
+          "Value": {
+            "ID": 45581390,
+            "triggerType": "TG_BTL_GENE_DEFEAT_ALL",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "254580708",
+          "Value": {
+            "ID": 254580708,
+            "triggerType": "TG_PLANTDUNGEON_ALL_ENEMY_DEFEAT",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4135634112",
+          "Value": {
+            "ID": 4135634112,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsStartFloor",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ExecMapEffectFunction",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 16
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_PlantDungeonClearConditionTelop",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "222890559",
+          "Value": {
+            "ID": 222890559,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_PlayTelop",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_NotifyMenuRelease",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 24
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_ExecMapEffectFunction",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1011550088",
+          "Value": {
+            "ID": 1011550088,
+            "triggerType": "TG_PLANTDUNGEON_CLEAR_FLOOR",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ExecMapEffectFunction",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_ClearCurrentFloorPlantDungeon",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedata",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "775559600",
+          "Value": {
+            "ID": 775559600,
+            "triggerType": "TG_PLANTDUNGEON_CLEAR_FLOOR",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ExecMapEffectFunction",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_ClearCurrentFloorPlantDungeon",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedata",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3749459436",
+          "Value": {
+            "ID": 3749459436,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CurrentFloorTypeEqual",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3967621373",
+          "Value": {
+            "ID": 3967621373,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "fp_ripening_alter",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonRipeningAlterNotBuried",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_PlantDungeonRipeningAltarMenu",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1511540795",
+          "Value": {
+            "ID": 1511540795,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "fp_ripening_alter",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonRipeningAlterMaterialAdd",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 50
+                  },
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 44
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1915765319",
+          "Value": {
+            "ID": 1915765319,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "tg_access_ripening_alter_add_material_select",
+            "TargetSubID": "0",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_PlantDungeonRipeningAltarMenu",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1213336968",
+          "Value": {
+            "ID": 1213336968,
+            "triggerType": "TG_BOSS_DEFEAT_COUNT_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ExitFromPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "96327314",
+          "Value": {
+            "ID": 96327314,
+            "triggerType": "TG_BOSS_DEFEAT_COUNT_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnlineHost_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_ReserveRetire",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "380620420",
+          "Value": {
+            "ID": 380620420,
+            "triggerType": "TG_PLANTDUNGEON_EXEC_FLOOR_CLEAR_TELOP",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsStartFloor",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_IsBossFloor",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_DungeonEnemyAllFellDownNotify",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "882334853",
+          "Value": {
+            "ID": 882334853,
+            "triggerType": "TG_PLANTDUNGEON_ESCAPE_DUNGEON",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ExitFromPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2838417481",
+          "Value": {
+            "ID": 2838417481,
+            "triggerType": "TG_PLANTDUNGEON_ESCAPE_DUNGEON",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnlineHost_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_ReserveRetire",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3492422224",
+          "Value": {
+            "ID": 3492422224,
+            "triggerType": "TG_RETURN_RPG",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 37
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 37
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1793768893",
+          "Value": {
+            "ID": 1793768893,
+            "triggerType": "TG_PLANTDUNGEON_ESCAPE_DUNGEON_MENU",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ExitFromPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2441602053",
+          "Value": {
+            "ID": 2441602053,
+            "triggerType": "TG_PLANTDUNGEON_ESCAPE_DUNGEON_MENU",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnlineHost_True",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_PlantDungeonIsCleared",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_SetClear",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "132334488",
+          "Value": {
+            "ID": 132334488,
+            "triggerType": "TG_PLANTDUNGEON_ESCAPE_DUNGEON_MENU",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnlineHost_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_ReserveRetire",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "575921280",
+          "Value": {
+            "ID": 575921280,
+            "triggerType": "TG_PLANTDUNGEON_ESCAPE_DUNGEON_MENU",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsOnlineGuest_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_Multiplay_ReserveRetire",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2278718887",
+          "Value": {
+            "ID": 2278718887,
+            "triggerType": "TG_BTL_BOSS_DEFEAT_START",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_CheckCurrentFloorConditionPlantDungeon",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2766424188",
+          "Value": {
+            "ID": 2766424188,
+            "triggerType": "TG_BTL_BOSS_DEFEAT",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonCurrentFloorCleared",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_IsBossFloor_True",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_BeginBossDefeatCount",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_BGMUpdate",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        255,
+        200,
+        214,
+        130,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        39,
+        0,
+        0,
+        0,
+        52,
+        78,
+        0,
+        0,
+        0,
+        52,
+        114,
+        0,
+        0,
+        0,
+        52,
+        151,
+        0,
+        0,
+        0,
+        52,
+        190,
+        0,
+        0,
+        0,
+        52,
+        222,
+        0,
+        0,
+        0,
+        52,
+        254,
+        0,
+        0,
+        0,
+        52,
+        11,
+        1,
+        0,
+        0,
+        52,
+        28,
+        1,
+        0,
+        0,
+        52,
+        45,
+        1,
+        0,
+        0,
+        52,
+        67,
+        1,
+        0,
+        0,
+        52,
+        84,
+        1,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        98,
+        1,
+        0,
+        0,
+        52,
+        123,
+        1,
+        0,
+        0,
+        52,
+        138,
+        1,
+        0,
+        0,
+        52,
+        153,
+        1,
+        0,
+        0,
+        52,
+        168,
+        1,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        52,
+        183,
+        1,
+        0,
+        0,
+        52,
+        194,
+        1,
+        0,
+        0,
+        52,
+        205,
+        1,
+        0,
+        0,
+        52,
+        0,
+        2,
+        0,
+        0,
+        52,
+        45,
+        2,
+        0,
+        0,
+        52,
+        83,
+        2,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sysmes_plantdungeon_next_floor_guest\u0000sysmes_plantdungeon_next_floor_disable\u0000sysmes_plantdungeon_next_floor_boss\u0000tg_plantdugeon_go_to_next_floor_boss\u0000sysmes_plantdungeon_next_floor_disable\u0000mjfp_to_PlantDungeon_next_Floor\u0000mjfp_to_PlantDungeon_next_Floor\u0000PlantDungeon\u0000mjfp_to_BossRoom\u0000mjfp_to_BossRoom\u0000PlantDungeon_BossRoom\u0000PD_LandingEffect\u0000OnEnterToRoom\u0000main_menu_dungeon_retire\u0000PD_StairEffect\u0000OnAllEnemyBeat\u0000PD_StairEffect\u0000OnAllEnemyBeat\u0000hlp_010490\u0000hlp_010490\u0000sysmes_plantdungeon_ripening_altar_fillup_material\u0000tg_access_ripening_alter_add_material_select\u0000flg_plantdungeon_ripeningalter_effect\u0000flg_plantdungeon_ripeningalter_effect\u0000"
+    }
+  }
+]

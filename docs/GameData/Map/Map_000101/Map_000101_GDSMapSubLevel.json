@@ -1,0 +1,226 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_000101_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_000101_runtime_placement_c02",
+          "Value": {
+            "SubLevelID": "Map_000101_runtime_placement_c02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Phase/Map_000101_runtime_placement_c02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_000101_runtime_placement_c05",
+          "Value": {
+            "SubLevelID": "Map_000101_runtime_placement_c05",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Phase/Map_000101_runtime_placement_c05"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_000101_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_000101_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Phase/Map_000101_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_000101_fasttravel",
+          "Value": {
+            "SubLevelID": "Map_000101_fasttravel",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/FastTravel/Map_000101_fasttravel"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_000101_Sound",
+          "Value": {
+            "SubLevelID": "Map_000101_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_000101_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_000101_Elevator",
+          "Value": {
+            "SubLevelID": "Map_000101_Elevator",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Map_000101_Elevator"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_000101_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_000101_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Map_000101_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_000101_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_000101_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Phase/Map_000101_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_000101_p020030_wall_01",
+          "Value": {
+            "SubLevelID": "Map_000101_p020030_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Wall/Map_000101_p020030_wall_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_000101_line00",
+          "Value": {
+            "SubLevelID": "Map_000101_line00",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000101/Line/Map_000101_line00"
+            },
+            "ValidConditions": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        44,
+        46,
+        0,
+        25,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        150,
+        2,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0,
+        50,
+        120,
+        195,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_elevator_wall\u0000"
+    }
+  }
+]

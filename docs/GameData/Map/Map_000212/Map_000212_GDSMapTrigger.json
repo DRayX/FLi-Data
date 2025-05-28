@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_000212_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3043641705",
+          "Value": {
+            "ID": 3043641705,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000212_btn_action_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2816468615",
+          "Value": {
+            "ID": 2816468615,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000212_btn_action_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1479483535",
+          "Value": {
+            "ID": 1479483535,
+            "triggerType": "TG_OPEN_TBOX",
+            "TargetID": "map_000212_treasure_0001",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunGeneralTalk",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        255,
+        195,
+        15,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sysmes_map_000212_00\u0000sysmes_map_000212_01\u0000gtt_p50200_chr100400_00\u0000"
+    }
+  }
+]

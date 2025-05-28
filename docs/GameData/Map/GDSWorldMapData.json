@@ -1,0 +1,2023 @@
+[
+  {
+    "Type": "GDSWorldMapData",
+    "Name": "GDSWorldMapData",
+    "Class": "UScriptClass'GDSWorldMapData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "WorldMap_000100",
+          "Value": {
+            "ID": "WorldMap_000100",
+            "nameId": "name_WorldMap_000100",
+            "mapId": "Map_000100",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": false,
+            "MapRegion": 0,
+            "MapButtonPosition": {
+              "X": 40.0,
+              "Y": 164.0
+            },
+            "MapFocusAreaIndex": 0,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "WorldMap_000101",
+          "Value": {
+            "ID": "WorldMap_000101",
+            "nameId": "name_WorldMap_000101",
+            "mapId": "Map_000101",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": false,
+            "MapRegion": 0,
+            "MapButtonPosition": {
+              "X": 40.0,
+              "Y": -98.0
+            },
+            "MapFocusAreaIndex": 1,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "WorldMap_100100",
+          "Value": {
+            "ID": "WorldMap_100100",
+            "nameId": "name_WorldMap_100100",
+            "mapId": "Map_100100",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": false,
+            "MapRegion": 1,
+            "MapButtonPosition": {
+              "X": 24.0,
+              "Y": 80.0
+            },
+            "MapFocusAreaIndex": 0,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "WorldMap_100101",
+          "Value": {
+            "ID": "WorldMap_100101",
+            "nameId": "name_WorldMap_100101",
+            "mapId": "Map_100101",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": false,
+            "MapRegion": 1,
+            "MapButtonPosition": {
+              "X": 8.0,
+              "Y": -156.0
+            },
+            "MapFocusAreaIndex": 1,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsMapMenuLaunchMode_False",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsMapMenuLaunchMode_False",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "WorldMap_100301",
+          "Value": {
+            "ID": "WorldMap_100301",
+            "nameId": "name_WorldMap_100301",
+            "mapId": "Map_100300",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": false,
+            "MapRegion": 1,
+            "MapButtonPosition": {
+              "X": 512.0,
+              "Y": -280.0
+            },
+            "MapFocusAreaIndex": 2,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "WorldMap_100400",
+          "Value": {
+            "ID": "WorldMap_100400",
+            "nameId": "name_WorldMap_100400",
+            "mapId": "Map_100400",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": true,
+            "MapRegion": 1,
+            "MapButtonPosition": {
+              "X": -528.0,
+              "Y": 156.0
+            },
+            "MapFocusAreaIndex": 3,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "WorldMap_100500",
+          "Value": {
+            "ID": "WorldMap_100500",
+            "nameId": "name_WorldMap_100500",
+            "mapId": "Map_100500",
+            "AreaID": "None",
+            "isUseInitPos": false,
+            "initPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "offsetBg": false,
+            "MapRegion": 1,
+            "MapButtonPosition": {
+              "X": 650.0,
+              "Y": 146.0
+            },
+            "MapFocusAreaIndex": 4,
+            "hideIconType": 0,
+            "hideIconPos": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "HugeMap_01",
+          "Value": {
+            "ID": "HugeMap_01",
+            "nameId": "name_HugeMap_01",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area001",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": 59363.35,
+              "Y": 26421.5
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -88.0,
+              "Y": 354.0
+            },
+            "MapFocusAreaIndex": 0,
+            "hideIconType": 145,
+            "hideIconPos": {
+              "X": 66800.0,
+              "Y": 18000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_02",
+          "Value": {
+            "ID": "HugeMap_02",
+            "nameId": "name_HugeMap_02",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area002",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": 50039.74,
+              "Y": -10383.5
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 106.0,
+              "Y": 270.0
+            },
+            "MapFocusAreaIndex": 1,
+            "hideIconType": 146,
+            "hideIconPos": {
+              "X": 57500.0,
+              "Y": -30000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_03",
+          "Value": {
+            "ID": "HugeMap_03",
+            "nameId": "name_HugeMap_03",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area003",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": 21557.79,
+              "Y": -48053.49
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 170.0,
+              "Y": 145.0
+            },
+            "MapFocusAreaIndex": 2,
+            "hideIconType": 147,
+            "hideIconPos": {
+              "X": 24000.0,
+              "Y": -42000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_04",
+          "Value": {
+            "ID": "HugeMap_04",
+            "nameId": "name_HugeMap_04",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area005",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -28302.58,
+              "Y": -9860.96
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 96.0,
+              "Y": -20.0
+            },
+            "MapFocusAreaIndex": 3,
+            "hideIconType": 148,
+            "hideIconPos": {
+              "X": -17000.0,
+              "Y": -26200.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_05",
+          "Value": {
+            "ID": "HugeMap_05",
+            "nameId": "name_HugeMap_05",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area006",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -2681.6,
+              "Y": -9037.3
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -80.0,
+              "Y": 22.0
+            },
+            "MapFocusAreaIndex": 4,
+            "hideIconType": 149,
+            "hideIconPos": {
+              "X": -7500.0,
+              "Y": 9600.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_06",
+          "Value": {
+            "ID": "HugeMap_06",
+            "nameId": "name_HugeMap_06",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area004",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": 20763.24,
+              "Y": 15341.92
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -78.0,
+              "Y": 152.0
+            },
+            "MapFocusAreaIndex": 5,
+            "hideIconType": 150,
+            "hideIconPos": {
+              "X": 26000.0,
+              "Y": 13700.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_07",
+          "Value": {
+            "ID": "HugeMap_07",
+            "nameId": "name_HugeMap_07",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area007",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -17768.68,
+              "Y": -65233.46
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 204.0,
+              "Y": -102.0
+            },
+            "MapFocusAreaIndex": 6,
+            "hideIconType": 151,
+            "hideIconPos": {
+              "X": -22000.0,
+              "Y": -58500.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 320,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 325,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_08",
+          "Value": {
+            "ID": "HugeMap_08",
+            "nameId": "name_HugeMap_08",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area008",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -41650.12,
+              "Y": -92209.1
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 320.0,
+              "Y": -202.0
+            },
+            "MapFocusAreaIndex": 7,
+            "hideIconType": 152,
+            "hideIconPos": {
+              "X": -49000.0,
+              "Y": -75000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 330,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 335,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 340,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_09",
+          "Value": {
+            "ID": "HugeMap_09",
+            "nameId": "name_HugeMap_09",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area009",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -87656.64,
+              "Y": -68898.49
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 250.0,
+              "Y": -302.0
+            },
+            "MapFocusAreaIndex": 8,
+            "hideIconType": 153,
+            "hideIconPos": {
+              "X": -81800.0,
+              "Y": -60000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 345,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 350,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 355,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_10",
+          "Value": {
+            "ID": "HugeMap_10",
+            "nameId": "name_HugeMap_10",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area010",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -55094.35,
+              "Y": -22064.61
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": 128.0,
+              "Y": -232.0
+            },
+            "MapFocusAreaIndex": 9,
+            "hideIconType": 154,
+            "hideIconPos": {
+              "X": -62500.0,
+              "Y": -28000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 360,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 365,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 370,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_11",
+          "Value": {
+            "ID": "HugeMap_11",
+            "nameId": "name_HugeMap_11",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area011",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -66019.0,
+              "Y": 14612.0
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -56.0,
+              "Y": -260.0
+            },
+            "MapFocusAreaIndex": 10,
+            "hideIconType": 155,
+            "hideIconPos": {
+              "X": -66000.0,
+              "Y": 9300.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 375,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 380,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 385,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_12",
+          "Value": {
+            "ID": "HugeMap_12",
+            "nameId": "name_HugeMap_12",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area012",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -43103.2,
+              "Y": 8881.6
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -142.0,
+              "Y": -138.0
+            },
+            "MapFocusAreaIndex": 11,
+            "hideIconType": 156,
+            "hideIconPos": {
+              "X": -37000.0,
+              "Y": 29000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 390,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 395,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 400,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_13",
+          "Value": {
+            "ID": "HugeMap_13",
+            "nameId": "name_HugeMap_13",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area013",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -29149.41,
+              "Y": 84248.54
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -394.0,
+              "Y": -38.0
+            },
+            "MapFocusAreaIndex": 12,
+            "hideIconType": 157,
+            "hideIconPos": {
+              "X": -33000.0,
+              "Y": 72000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 405,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 410,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 415,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_14",
+          "Value": {
+            "ID": "HugeMap_14",
+            "nameId": "name_HugeMap_14",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area014",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -2269.25,
+              "Y": 75204.53
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -428.0,
+              "Y": 58.0
+            },
+            "MapFocusAreaIndex": 13,
+            "hideIconType": 158,
+            "hideIconPos": {
+              "X": 13000.0,
+              "Y": 85000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 420,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 425,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 430,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        },
+        {
+          "Key": "HugeMap_15",
+          "Value": {
+            "ID": "HugeMap_15",
+            "nameId": "name_HugeMap_15",
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area015",
+            "isUseInitPos": true,
+            "initPos": {
+              "X": -5382.91,
+              "Y": 52386.79
+            },
+            "offsetBg": true,
+            "MapRegion": 2,
+            "MapButtonPosition": {
+              "X": -244.0,
+              "Y": 52.0
+            },
+            "MapFocusAreaIndex": 14,
+            "hideIconType": 159,
+            "hideIconPos": {
+              "X": 1800.0,
+              "Y": 52000.0
+            },
+            "DisplayableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 435,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "SelectableCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 440,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "ExposureCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 445,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "DetailDispCondition": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        165,
+        123,
+        0,
+        194,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        14,
+        2,
+        0,
+        0,
+        50,
+        52,
+        78,
+        0,
+        0,
+        50,
+        52,
+        78,
+        0,
+        0,
+        50,
+        52,
+        78,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        250,
+        195,
+        0,
+        0,
+        50,
+        40,
+        235,
+        0,
+        0,
+        50,
+        62,
+        78,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        40,
+        235,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        62,
+        78,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        62,
+        78,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        50,
+        250,
+        195,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        71,
+        39,
+        0,
+        0,
+        50,
+        84,
+        156,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        84,
+        156,
+        0,
+        0,
+        50,
+        110,
+        195,
+        0,
+        0,
+        52,
+        43,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        54,
+        0,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        104,
+        156,
+        0,
+        0,
+        50,
+        104,
+        156,
+        0,
+        0,
+        50,
+        104,
+        156,
+        0,
+        0,
+        50,
+        114,
+        156,
+        0,
+        0,
+        50,
+        130,
+        195,
+        0,
+        0,
+        50,
+        130,
+        195,
+        0,
+        0,
+        50,
+        130,
+        195,
+        0,
+        0,
+        50,
+        140,
+        195,
+        0,
+        0,
+        50,
+        166,
+        234,
+        0,
+        0,
+        50,
+        166,
+        234,
+        0,
+        0,
+        50,
+        166,
+        234,
+        0,
+        0,
+        50,
+        176,
+        234,
+        0,
+        0,
+        50,
+        206,
+        234,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        52,
+        91,
+        0,
+        0,
+        0,
+        52,
+        117,
+        0,
+        0,
+        0,
+        52,
+        143,
+        0,
+        0,
+        0,
+        52,
+        169,
+        0,
+        0,
+        0,
+        52,
+        195,
+        0,
+        0,
+        0,
+        52,
+        221,
+        0,
+        0,
+        0,
+        52,
+        247,
+        0,
+        0,
+        0,
+        52,
+        17,
+        1,
+        0,
+        0,
+        52,
+        43,
+        1,
+        0,
+        0,
+        52,
+        69,
+        1,
+        0,
+        0,
+        52,
+        95,
+        1,
+        0,
+        0,
+        52,
+        121,
+        1,
+        0,
+        0,
+        52,
+        147,
+        1,
+        0,
+        0,
+        52,
+        173,
+        1,
+        0,
+        0,
+        52,
+        199,
+        1,
+        0,
+        0,
+        52,
+        225,
+        1,
+        0,
+        0,
+        52,
+        251,
+        1,
+        0,
+        0,
+        52,
+        21,
+        2,
+        0,
+        0,
+        52,
+        47,
+        2,
+        0,
+        0,
+        52,
+        73,
+        2,
+        0,
+        0,
+        52,
+        99,
+        2,
+        0,
+        0,
+        52,
+        125,
+        2,
+        0,
+        0,
+        52,
+        151,
+        2,
+        0,
+        0,
+        52,
+        177,
+        2,
+        0,
+        0,
+        52,
+        203,
+        2,
+        0,
+        0,
+        52,
+        229,
+        2,
+        0,
+        0,
+        52,
+        255,
+        2,
+        0,
+        0,
+        52,
+        25,
+        3,
+        0,
+        0,
+        52,
+        51,
+        3,
+        0,
+        0,
+        52,
+        77,
+        3,
+        0,
+        0,
+        52,
+        103,
+        3,
+        0,
+        0,
+        52,
+        129,
+        3,
+        0,
+        0,
+        52,
+        155,
+        3,
+        0,
+        0,
+        52,
+        181,
+        3,
+        0,
+        0,
+        52,
+        207,
+        3,
+        0,
+        0,
+        52,
+        233,
+        3,
+        0,
+        0,
+        52,
+        3,
+        4,
+        0,
+        0,
+        52,
+        29,
+        4,
+        0,
+        0,
+        52,
+        55,
+        4,
+        0,
+        0,
+        52,
+        81,
+        4,
+        0,
+        0,
+        52,
+        107,
+        4,
+        0,
+        0,
+        52,
+        133,
+        4,
+        0,
+        0,
+        52,
+        159,
+        4,
+        0,
+        0,
+        52,
+        185,
+        4,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_travelpoint_NG_Map_000101\u0000ev01_10900\u0000ev01_10900\u0000ev01_10900\u0000flg_travelpoint_200000_01\u0000flg_travelpoint_200000_01\u0000flg_travelpoint_200000_01\u0000flg_travelpoint_200000_02\u0000flg_travelpoint_200000_02\u0000flg_travelpoint_200000_02\u0000flg_travelpoint_200000_03\u0000flg_travelpoint_200000_03\u0000flg_travelpoint_200000_03\u0000flg_travelpoint_200000_05\u0000flg_travelpoint_200000_05\u0000flg_travelpoint_200000_05\u0000flg_travelpoint_200000_06\u0000flg_travelpoint_200000_06\u0000flg_travelpoint_200000_06\u0000flg_travelpoint_200000_04\u0000flg_travelpoint_200000_04\u0000flg_travelpoint_200000_04\u0000flg_travelpoint_200000_07\u0000flg_travelpoint_200000_07\u0000flg_travelpoint_200000_07\u0000flg_travelpoint_200000_08\u0000flg_travelpoint_200000_08\u0000flg_travelpoint_200000_08\u0000flg_travelpoint_200000_09\u0000flg_travelpoint_200000_09\u0000flg_travelpoint_200000_09\u0000flg_travelpoint_200000_10\u0000flg_travelpoint_200000_10\u0000flg_travelpoint_200000_10\u0000flg_travelpoint_200000_11\u0000flg_travelpoint_200000_11\u0000flg_travelpoint_200000_11\u0000flg_travelpoint_200000_12\u0000flg_travelpoint_200000_12\u0000flg_travelpoint_200000_12\u0000flg_travelpoint_200000_13\u0000flg_travelpoint_200000_13\u0000flg_travelpoint_200000_13\u0000flg_travelpoint_200000_14\u0000flg_travelpoint_200000_14\u0000flg_travelpoint_200000_14\u0000flg_travelpoint_200000_15\u0000flg_travelpoint_200000_15\u0000flg_travelpoint_200000_15\u0000"
+    }
+  }
+]

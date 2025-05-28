@@ -1,0 +1,1552 @@
+[
+  {
+    "Type": "GDSMapEnemyPlacementConfig",
+    "Name": "PlantDungeon_BossRoom_GDSMapEnemyPlacementConfig",
+    "Class": "UScriptClass'GDSMapEnemyPlacementConfig'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 1149654350,
+            "Name": "grp_enemy_plantdungeon_boss010"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1149654350,
+              "Name": "grp_enemy_plantdungeon_boss010"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1108245461,
+                  "Name": "para_enm12300303"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0106_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 4231672363,
+            "Name": "grp_enemy_plantdungeon_boss011"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 4231672363,
+              "Name": "grp_enemy_plantdungeon_boss011"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1119537222,
+                  "Name": "para_enm12400201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0302_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 4002389445,
+            "Name": "grp_enemy_plantdungeon_boss012"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 4002389445,
+              "Name": "grp_enemy_plantdungeon_boss012"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1766790972,
+                  "Name": "para_enm10200701"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0305_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1446247072,
+            "Name": "grp_enemy_plantdungeon_boss013"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1446247072,
+              "Name": "grp_enemy_plantdungeon_boss013"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 2571358931,
+                  "Name": "para_enm10e00201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0406_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3420766745,
+            "Name": "grp_enemy_plantdungeon_boss014"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3420766745,
+              "Name": "grp_enemy_plantdungeon_boss014"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 516756593,
+                  "Name": "para_enm11a00401"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0501_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1935189372,
+            "Name": "grp_enemy_plantdungeon_boss015"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1935189372,
+              "Name": "grp_enemy_plantdungeon_boss015"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 248701224,
+                  "Name": "para_enm11900501"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0502_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1642924690,
+            "Name": "grp_enemy_plantdungeon_boss016"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1642924690,
+              "Name": "grp_enemy_plantdungeon_boss016"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 891558582,
+                  "Name": "para_enm12400101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0110_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3645992439,
+            "Name": "grp_enemy_plantdungeon_boss017"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3645992439,
+              "Name": "grp_enemy_plantdungeon_boss017"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 2238208030,
+                  "Name": "para_enm11a00501"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0901_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2167569825,
+            "Name": "grp_enemy_plantdungeon_boss018"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2167569825,
+              "Name": "grp_enemy_plantdungeon_boss018"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 2080372154,
+                  "Name": "para_enm10900201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0903_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 965614276,
+            "Name": "grp_enemy_plantdungeon_boss019"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 965614276,
+              "Name": "grp_enemy_plantdungeon_boss019"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 2035037144,
+                  "Name": "para_enm11900601"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0912_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3389608621,
+            "Name": "grp_enemy_plantdungeon_boss020"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3389608621,
+              "Name": "grp_enemy_plantdungeon_boss020"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1591759475,
+                  "Name": "para_enm10c00101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0914_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1610652198,
+            "Name": "grp_enemy_plantdungeon_boss022"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1610652198,
+              "Name": "grp_enemy_plantdungeon_boss022"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 858781464,
+                  "Name": "para_enm11301001"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1005_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3636264259,
+            "Name": "grp_enemy_plantdungeon_boss023"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3636264259,
+              "Name": "grp_enemy_plantdungeon_boss023"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 207693642,
+                  "Name": "para_enm10900101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1007_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1164690938,
+            "Name": "grp_enemy_plantdungeon_boss024"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1164690938,
+              "Name": "grp_enemy_plantdungeon_boss024"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 3764042197,
+                  "Name": "para_enm10900301"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1008_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 4258767519,
+            "Name": "grp_enemy_plantdungeon_boss025"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 4258767519,
+              "Name": "grp_enemy_plantdungeon_boss025"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1987999539,
+                  "Name": "para_enm10e00401"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1014_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 814756533,
+            "Name": "grp_enemy_plantdungeon_boss001"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 814756533,
+              "Name": "grp_enemy_plantdungeon_boss001"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 2239007139,
+                  "Name": "para_enm10200501"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1017_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 572890459,
+            "Name": "grp_enemy_plantdungeon_boss002"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 572890459,
+              "Name": "grp_enemy_plantdungeon_boss002"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 207693642,
+                  "Name": "para_enm10900101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1007_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2593782334,
+            "Name": "grp_enemy_plantdungeon_boss003"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2593782334,
+              "Name": "grp_enemy_plantdungeon_boss003"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 696156291,
+                  "Name": "para_enm10c00201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1024_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 122602119,
+            "Name": "grp_enemy_plantdungeon_boss004"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 122602119,
+              "Name": "grp_enemy_plantdungeon_boss004"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 3892818782,
+                  "Name": "para_enm12300301"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_1020_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2009218016,
+            "Name": "grp_enemy_plantdungeon_boss999"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2009218016,
+              "Name": "grp_enemy_plantdungeon_boss999"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 891558582,
+                  "Name": "para_enm12400101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 20,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 100,
+                  "Money": 256,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0701_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 100,
+                  "sp": 0,
+                  "physicalOffense": 8,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

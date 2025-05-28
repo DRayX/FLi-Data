@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_000221_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "531623498",
+          "Value": {
+            "ID": 531623498,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_elevator_map_000221_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        141,
+        3,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        31,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_elevator_active_layer_03\u0000flg_elevator_active_layer_03\u0000"
+    }
+  }
+]

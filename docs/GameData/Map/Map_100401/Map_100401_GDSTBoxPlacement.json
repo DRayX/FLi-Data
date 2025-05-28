@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "GDSTBoxPlacement",
+    "Name": "Map_100401_GDSTBoxPlacement",
+    "Class": "UScriptClass'GDSTBoxPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "treasure_map_100401_0001",
+          "Value": {
+            "idx": 0,
+            "ID": "treasure_map_100401_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_100400_treasure_event",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -1394.3257,
+              "Y": -720.7524,
+              "Z": 148.0,
+              "W": 70.0
+            }
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        98,
+        9,
+        1,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        91,
+        2,
+        0,
+        0,
+        50,
+        200,
+        195,
+        0,
+        0,
+        50,
+        210,
+        195,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

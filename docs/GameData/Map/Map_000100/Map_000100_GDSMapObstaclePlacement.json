@@ -1,0 +1,837 @@
+[
+  {
+    "Type": "GDSMapObstaclePlacement",
+    "Name": "Map_000100_GDSMapObstaclePlacement",
+    "Class": "UScriptClass'GDSMapObstaclePlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "obstacle_Map_000100_reclaim_00",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_00",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -2600.0,
+              "Y": -1900.0,
+              "Z": 300.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 3,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ics01000580",
+              "Num": 5
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_00",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_01",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_01",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -1500.0,
+              "Y": -800.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 1,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iky01000420",
+              "Num": 20
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_01",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_02",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_02",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -1300.0,
+              "Y": 1150.0,
+              "Z": 150.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 2,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ico03010580",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_02",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_03",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_03",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -770.0,
+              "Y": 1610.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 4,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iky01000420",
+              "Num": 50
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_03",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_01.BP_obstacle_01_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_04",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_04",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 450.0,
+              "Y": 2350.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 3,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "imt01003960",
+              "Num": 10
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_04",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_05",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_05",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 1200.0,
+              "Y": -1450.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 3,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iam01006030",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_05",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_06",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_06",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 2150.0,
+              "Y": 250.0,
+              "Z": 300.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 5,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ics01000660",
+              "Num": 10
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_06",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_07",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_07",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -2830.0,
+              "Y": 1110.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 5,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iam01006020",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_07",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_01.BP_obstacle_01_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_08",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_08",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -1340.0,
+              "Y": 300.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 4,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "imt01000520",
+              "Num": 2
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_08",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_02.BP_obstacle_02_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_09",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_09",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -2140.0,
+              "Y": -1060.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 4,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ico04050130",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_09",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_03.BP_obstacle_03_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_10",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_10",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -2590.0,
+              "Y": -3400.0,
+              "Z": 150.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 5,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iky01000420",
+              "Num": 80
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_10",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_04.BP_obstacle_04_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_11",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_11",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 800.0,
+              "Y": -3460.0,
+              "Z": 300.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 9,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ics01000740",
+              "Num": 3
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_11",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_03.BP_obstacle_03_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_12",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_12",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 1660.0,
+              "Y": 3550.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 6,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ico04040010",
+              "Num": 10
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_12",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_04.BP_obstacle_04_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_13",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_13",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -2690.0,
+              "Y": 3570.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 7,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "imt01000380",
+              "Num": 3
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_13",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_05.BP_obstacle_05_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_15",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_15",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 2560.0,
+              "Y": 3330.0,
+              "Z": 150.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 8,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iky01000420",
+              "Num": 100
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_15",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_03.BP_obstacle_03_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_16",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_16",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 2740.0,
+              "Y": -1500.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 12,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ico01090470",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_16",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_05.BP_obstacle_05_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_17",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_17",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -740.0,
+              "Y": -3520.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 10,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "imt01000540",
+              "Num": 5
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_17",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_06.BP_obstacle_06_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_18",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_18",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -140.0,
+              "Y": 3510.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 10,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iam01006210",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_18",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_06.BP_obstacle_06_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_19",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_19",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 2770.0,
+              "Y": 1350.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 15,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ico01091080",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_19",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_08.BP_obstacle_08_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_20",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_20",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 2140.0,
+              "Y": -3300.0,
+              "Z": 150.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 20,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "ico01091650",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_20",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_07.BP_obstacle_07_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_21",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_21",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -505.0,
+              "Y": 355.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 2,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "imt01000280",
+              "Num": 10
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_21",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_22",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_22",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 255.0,
+              "Y": 270.0,
+              "Z": 0.0,
+              "W": 150.0
+            },
+            "releaseCond": {
+              "friendNum": 5,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iam01006010",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_22",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_03.BP_obstacle_03_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_reclaim_23",
+          "Value": {
+            "ID": "obstacle_Map_000100_reclaim_23",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": 1450.0,
+              "Y": 1800.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 3,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "iam01006000",
+              "Num": 1
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "obstacle_23",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_obstacle_00.BP_obstacle_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_guild",
+          "Value": {
+            "ID": "obstacle_Map_000100_guild",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -2700.0,
+              "Y": 0.0,
+              "Z": 5.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": true,
+            "refCraftObjId": "obstacle_guild",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_guild.BP_guild_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000100_myhouse",
+          "Value": {
+            "ID": "obstacle_Map_000100_myhouse",
+            "Type": "EObstacleType::Reclaim",
+            "Pos": {
+              "X": -70.0,
+              "Y": -1150.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": true,
+            "refCraftObjId": "obstacle_myhouse",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/Map_000100/BP_myhouse.BP_myhouse_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+]

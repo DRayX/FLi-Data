@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100104_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100104_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_100104_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100104/Phase/Map_100104_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100104_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100104_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100104/Map_100104_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100104_Sound",
+          "Value": {
+            "SubLevelID": "Map_100104_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100104_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100104_mapobj",
+          "Value": {
+            "SubLevelID": "Map_100104_mapobj",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100104/Map_100104_mapobj"
+            },
+            "ValidConditions": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        144,
+        203,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

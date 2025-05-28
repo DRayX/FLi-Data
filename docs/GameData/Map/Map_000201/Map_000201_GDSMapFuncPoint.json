@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_000201_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "FP_p050030_02",
+          "Value": {
+            "funcPointId": "FP_p050030_02",
+            "OnePlaceId": "op_p050030_map_000201_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 30,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p050200_03",
+          "Value": {
+            "funcPointId": "FP_p050200_03",
+            "OnePlaceId": "op_p050200_map_000201_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 30,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        176,
+        139,
+        0,
+        20,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        161,
+        1,
+        0,
+        0,
+        50,
+        110,
+        195,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        24,
+        196,
+        0,
+        0,
+        52,
+        20,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_FP_p050030_01\u0000flg_FP_p050200_02\u0000"
+    }
+  }
+]

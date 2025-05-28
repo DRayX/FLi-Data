@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "GDSMapJumpFuncPointPlacement",
+    "Name": "Map_210000_GDSMapJumpFuncPointPlacement",
+    "Class": "UScriptClass'GDSMapJumpFuncPointPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "mjfp_Map_210000_to_Map_200000",
+          "Value": {
+            "ID": "mjfp_Map_210000_to_Map_200000",
+            "mapJumpFuncPointTypeDataId": "mft_way_no_exit_action",
+            "mapJumpEventParamDataId": "way_event_default",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [
+              {
+                "Type": 57,
+                "placeType": "EGameIconPlaceType::CharaHead",
+                "textId": "None",
+                "Offset": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 230.0
+                },
+                "namePlateIconID": [
+                  "ICON_NAMEPLATE_DUNGEON_01"
+                ]
+              }
+            ],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_000200_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_000200_runtime_placement_c02",
+          "Value": {
+            "SubLevelID": "Map_000200_runtime_placement_c02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000200/phase/Map_000200_runtime_placement_c02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_000200_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_000200_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000200/Map_000200_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_000200_line00",
+          "Value": {
+            "SubLevelID": "Map_000200_line00",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000200/Line/Map_000200_line00"
+            },
+            "ValidConditions": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        111,
+        199,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

@@ -1,0 +1,1716 @@
+[
+  {
+    "Type": "GDSMapEnemyPlacementConfig",
+    "Name": "Map_100103_GDSMapEnemyPlacementConfig",
+    "Class": "UScriptClass'GDSMapEnemyPlacementConfig'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 2386594965,
+            "Name": "grp_enmy_map100103_enm104006_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2386594965,
+              "Name": "grp_enmy_map100103_enm104006_01"
+            },
+            "Min": -1,
+            "Max": 3,
+            "Limit": 3,
+            "isPopAuto": false,
+            "repopTime": -1.0,
+            "isSlow": true,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 809735794,
+                  "Name": "para_enm10400901"
+                },
+                "AreaRankLevel": "None",
+                "Level": 10,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -12248.0,
+                  "Y": 340.0,
+                  "Z": 1.0,
+                  "W": -16.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "None"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2633311099,
+            "Name": "grp_enmy_map100103_enm104006_02"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2633311099,
+              "Name": "grp_enmy_map100103_enm104006_02"
+            },
+            "Min": -1,
+            "Max": 3,
+            "Limit": 3,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": true,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1121388803,
+                  "Name": "para_enm10400601"
+                },
+                "AreaRankLevel": "None",
+                "Level": 50,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -18037.2,
+                  "Y": -6222.9,
+                  "Z": -109.8,
+                  "W": 90.9
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "None"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2831810,
+            "Name": "grp_map100103_enm11800401_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2831810,
+              "Name": "grp_map100103_enm11800401_01"
+            },
+            "Min": -1,
+            "Max": 3,
+            "Limit": 3,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 340969568,
+                  "Name": "para_enm11800401"
+                },
+                "AreaRankLevel": "None",
+                "Level": 12,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -16612.0,
+                  "Y": 50.0,
+                  "Z": 90.0,
+                  "W": 0.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 500.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 37,
+                  "Money": 34,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0108_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 264025412,
+            "Name": "grp_map100103_enm10400101_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 264025412,
+              "Name": "grp_map100103_enm10400101_01"
+            },
+            "Min": -1,
+            "Max": 3,
+            "Limit": 3,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 897239446,
+                  "Name": "para_enm_Cave_10400101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 15,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -17936.0,
+                  "Y": -1536.0,
+                  "Z": 90.0,
+                  "W": 80.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 500.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 109,
+                  "Money": 68,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0109_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 673478592,
+            "Name": "grp_map100103_enm10a00201_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 673478592,
+              "Name": "grp_map100103_enm10a00201_01"
+            },
+            "Min": -1,
+            "Max": 5,
+            "Limit": 5,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4031073420,
+                  "Name": "para_enm10a00201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 13,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 2,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -6771.0,
+                  "Y": 829.0,
+                  "Z": 392.0,
+                  "W": -61.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 500.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 71,
+                  "Money": 60,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0002_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              },
+              {
+                "paramId": {
+                  "crc": 4031073420,
+                  "Name": "para_enm10a00201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 12,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 3,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -6190.0,
+                  "Y": -187.0,
+                  "Z": 392.0,
+                  "W": 105.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 500.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 55,
+                  "Money": 56,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0002_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1955878057,
+            "Name": "grp_map100103_enm10f00201_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1955878057,
+              "Name": "grp_map100103_enm10f00201_01"
+            },
+            "Min": -1,
+            "Max": 3,
+            "Limit": 3,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 3244129275,
+                  "Name": "para_enm10f00201"
+                },
+                "AreaRankLevel": "None",
+                "Level": 11,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -4592.0,
+                  "Y": 1595.0,
+                  "Z": 242.0,
+                  "W": -106.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 500.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 35,
+                  "Money": 42,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0003_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2728147270,
+            "Name": "grp_map100103_enm10100101_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2728147270,
+              "Name": "grp_map100103_enm10100101_01"
+            },
+            "Min": -1,
+            "Max": 4,
+            "Limit": 4,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 3713610478,
+                  "Name": "para_enm_Cave_10100101"
+                },
+                "AreaRankLevel": "None",
+                "Level": 12,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -7310.0,
+                  "Y": -1396.0,
+                  "Z": 92.0,
+                  "W": 57.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 500.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 37,
+                  "Money": 34,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_enm_0107_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1904710370,
+            "Name": "grp_map100103_box_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1904710370,
+              "Name": "grp_map100103_box_01"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 1875.0,
+                  "Y": 1256.0,
+                  "Z": 160.0,
+                  "W": -24.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1664236812,
+            "Name": "grp_map100103_box_02"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1664236812,
+              "Name": "grp_map100103_box_02"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": 1739.0,
+                  "Y": 1319.0,
+                  "Z": 160.0,
+                  "W": -34.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3683539561,
+            "Name": "grp_map100103_box_03"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3683539561,
+              "Name": "grp_map100103_box_03"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -6476.0,
+                  "Y": 491.0,
+                  "Z": 460.0,
+                  "W": 52.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1180263120,
+            "Name": "grp_map100103_box_04"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1180263120,
+              "Name": "grp_map100103_box_04"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -6340.0,
+                  "Y": 543.0,
+                  "Z": 460.0,
+                  "W": 32.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 4276422069,
+            "Name": "grp_map100103_box_05"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 4276422069,
+              "Name": "grp_map100103_box_05"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -12143.0,
+                  "Y": -1172.0,
+                  "Z": 160.0,
+                  "W": 1.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3964709467,
+            "Name": "grp_map100103_box_06"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3964709467,
+              "Name": "grp_map100103_box_06"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -12022.0,
+                  "Y": -1134.0,
+                  "Z": 160.0,
+                  "W": -22.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1424805182,
+            "Name": "grp_map100103_box_07"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 1424805182,
+              "Name": "grp_map100103_box_07"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -12676.0,
+                  "Y": 1497.0,
+                  "Z": 160.0,
+                  "W": 5.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 210754920,
+            "Name": "grp_map100103_box_08"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 210754920,
+              "Name": "grp_map100103_box_08"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -12806.0,
+                  "Y": 1506.0,
+                  "Z": 160.0,
+                  "W": -31.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3023288845,
+            "Name": "grp_map100103_box_09"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 3023288845,
+              "Name": "grp_map100103_box_09"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -18258.0,
+                  "Y": 739.0,
+                  "Z": 160.0,
+                  "W": 21.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 93451545,
+            "Name": "grp_map100103_box_10"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 93451545,
+              "Name": "grp_map100103_box_10"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 4251276115,
+                  "Name": "para_box_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -18291.0,
+                  "Y": 608.0,
+                  "Z": 160.0,
+                  "W": -18.0
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_box_0000_01"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 466662503,
+            "Name": "grp_enemy_map100103_barrel_01"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 466662503,
+              "Name": "grp_enemy_map100103_barrel_01"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1567510175,
+                  "Name": "para_barrel_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -922.8,
+                  "Y": -955.8,
+                  "Z": 2.2,
+                  "W": 99.8
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_barrel_boss_battle"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 157621129,
+            "Name": "grp_enemy_map100103_barrel_02"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 157621129,
+              "Name": "grp_enemy_map100103_barrel_02"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1567510175,
+                  "Name": "para_barrel_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -1145.3,
+                  "Y": -922.8,
+                  "Z": 2.2,
+                  "W": 80.8
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_barrel_boss_battle"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2983820524,
+            "Name": "grp_enemy_map100103_barrel_03"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 2983820524,
+              "Name": "grp_enemy_map100103_barrel_03"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1567510175,
+                  "Name": "para_barrel_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -16261.0,
+                  "Y": -4424.9,
+                  "Z": 2.2,
+                  "W": -169.9
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_barrel_boss_battle"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 739132501,
+            "Name": "grp_enemy_map100103_barrel_04"
+          },
+          "Value": {
+            "GroupID": {
+              "crc": 739132501,
+              "Name": "grp_enemy_map100103_barrel_04"
+            },
+            "Min": -1,
+            "Max": 1,
+            "Limit": 1,
+            "isPopAuto": true,
+            "repopTime": -1.0,
+            "isSlow": false,
+            "subMapId": "None",
+            "AreaID": "None",
+            "areaRank": 0,
+            "Condition": [],
+            "Enemy": [
+              {
+                "paramId": {
+                  "crc": 1567510175,
+                  "Name": "para_barrel_01"
+                },
+                "AreaRankLevel": "None",
+                "Level": 1,
+                "generateId": "None",
+                "isRandomPlacement": false,
+                "maximumSpawn": 0,
+                "Percent": 100,
+                "PopPoint": {
+                  "X": -19864.9,
+                  "Y": -6845.3,
+                  "Z": 2.0,
+                  "W": 81.6
+                },
+                "formation": "None",
+                "areaNo": 0,
+                "distanceInGroup": 190.0,
+                "isIgnoreAutoRotSet": false,
+                "overwrite_BattleConditionDistance": {
+                  "ChaseDistance": -1.0,
+                  "SearchDistance": -1.0,
+                  "activeDistance": -1.0
+                },
+                "absolutePointId": "None",
+                "absolutePointSeq": 0,
+                "InitWaitType": 0,
+                "isBossFight": false,
+                "isTimerRepop": false,
+                "CameraParam": "None",
+                "btlRangeType": "EBtlRangeType::None",
+                "Drop": {
+                  "Exp": 0,
+                  "Money": 0,
+                  "itemData": {
+                    "tableGroupId": "tbl_grp_barrel_boss_battle"
+                  }
+                },
+                "baseParamCorrect": {
+                  "HP": 0,
+                  "sp": 0,
+                  "physicalOffense": 0,
+                  "physicalDefense": 0,
+                  "magicOffense": 0,
+                  "magicDefense": 0,
+                  "criticalRate": 0,
+                  "criticalRateEvasion": 0
+                },
+                "expCorrect": 0,
+                "moneyCorrect": 0
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        28,
+        12,
+        31,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0,
+        0,
+        50,
+        182,
+        17,
+        1,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

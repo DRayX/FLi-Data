@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_910000_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_910000_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_910000_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_910000/Map_910000_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_910000_Sound",
+          "Value": {
+            "SubLevelID": "Map_910000_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_910000_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_910000_p010010_wall",
+          "Value": {
+            "SubLevelID": "Map_910000_p010010_wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_910000/wall/Map_910000_p010010_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        21,
+        239,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

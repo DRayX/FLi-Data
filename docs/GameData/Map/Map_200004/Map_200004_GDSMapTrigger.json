@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_200004_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "838622951",
+          "Value": {
+            "ID": 838622951,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200004_recipe_0001",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        218,
+        112,
+        0,
+        30,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        239,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        58,
+        0,
+        0,
+        0,
+        52,
+        88,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_recipe_life11_ilt03000110\u0000recipe_life11_ilt03000110\u0000irp_recipe_life11_ilt03000110\u0000flg_recipe_life11_ilt03000110\u0000"
+    }
+  }
+]

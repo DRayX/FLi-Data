@@ -1,0 +1,472 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_910000_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "985341969",
+          "Value": {
+            "ID": 985341969,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_910000_chr101200",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2233586093",
+          "Value": {
+            "ID": 2233586093,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_910000_chr903800",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "512007618",
+          "Value": {
+            "ID": 512007618,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_910000_chr903900",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "619950384",
+          "Value": {
+            "ID": 619950384,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_910000_chr903a00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1399677888",
+          "Value": {
+            "ID": 1399677888,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_910000_chr903b00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4155854556",
+          "Value": {
+            "ID": 4155854556,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_910000_chr903700",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3450578532",
+          "Value": {
+            "ID": 3450578532,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_p010020_01a",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        143,
+        170,
+        125,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        67,
+        0,
+        0,
+        0,
+        52,
+        88,
+        0,
+        0,
+        0,
+        52,
+        109,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        132,
+        0,
+        0,
+        0,
+        52,
+        153,
+        0,
+        0,
+        0,
+        52,
+        174,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        197,
+        0,
+        0,
+        0,
+        52,
+        218,
+        0,
+        0,
+        0,
+        52,
+        239,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        6,
+        1,
+        0,
+        0,
+        52,
+        27,
+        1,
+        0,
+        0,
+        52,
+        48,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        71,
+        1,
+        0,
+        0,
+        52,
+        92,
+        1,
+        0,
+        0,
+        52,
+        113,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        136,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_p10020_chr101200\u0000flg_p10020_chr101200\u0000cnt_p010020_talk_check\u0000flg_p10020_chr903800\u0000flg_p10020_chr903800\u0000cnt_p010020_talk_check\u0000flg_p10020_chr903900\u0000flg_p10020_chr903900\u0000cnt_p010020_talk_check\u0000flg_p10020_chr903a00\u0000flg_p10020_chr903a00\u0000cnt_p010020_talk_check\u0000flg_p10020_chr903b00\u0000flg_p10020_chr903b00\u0000cnt_p010020_talk_check\u0000flg_p10020_chr903700\u0000flg_p10020_chr903700\u0000cnt_p010020_talk_check\u0000sysmes_map_910000_00\u0000"
+    }
+  }
+]

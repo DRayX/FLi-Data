@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_000301_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_000300_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_000300_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_000300/Phase/Map_000300_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        141,
+        3,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

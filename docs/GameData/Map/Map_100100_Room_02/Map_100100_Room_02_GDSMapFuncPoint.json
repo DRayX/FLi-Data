@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_100100_Room_02_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "FP_p020040_01",
+          "Value": {
+            "funcPointId": "FP_p020040_01",
+            "OnePlaceId": "OP_p020040_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        35,
+        88,
+        164,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        165,
+        0,
+        0,
+        0,
+        50,
+        72,
+        78,
+        0,
+        0
+      ]
+    }
+  }
+]

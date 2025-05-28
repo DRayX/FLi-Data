@@ -1,0 +1,238 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100505_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1739388493",
+          "Value": {
+            "ID": 1739388493,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100505_btn_action_00",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4199628394",
+          "Value": {
+            "ID": 4199628394,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "sysmes_map_100505_00",
+            "TargetSubID": "0",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GameTimeForwardingWithRefresh",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "68398007",
+          "Value": {
+            "ID": 68398007,
+            "triggerType": "TG_MAP_JUMP_BEGIN",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1655727010",
+          "Value": {
+            "ID": 1655727010,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100500_quest_013",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1509439246",
+          "Value": {
+            "ID": 1509439246,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100500_quest_013_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        99,
+        198,
+        50,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        40,
+        0,
+        0,
+        0,
+        52,
+        64,
+        0,
+        0,
+        0,
+        52,
+        88,
+        0,
+        0,
+        0,
+        52,
+        112,
+        0,
+        0,
+        0,
+        52,
+        136,
+        0,
+        0,
+        0,
+        52,
+        160,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sysmes_map_100505_00\u0000ME_SLEEPING_TIME\u0000flg_map100500_quest_001\u0000flg_map100500_quest_001\u0000flg_map100500_quest_013\u0000flg_map100500_quest_013\u0000flg_map100500_quest_013\u0000flg_map100500_quest_013\u0000"
+    }
+  }
+]

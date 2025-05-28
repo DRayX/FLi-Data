@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_500101_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_500101_env",
+          "Value": {
+            "SubLevelID": "Map_500101_env",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_500101/Map_500101_env"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_500101_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_500101_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_500101/Map_500101_runtime_placement"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_500101_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_500101_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_500101/Map_500101_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        }
+      ]
+    }
+  }
+]

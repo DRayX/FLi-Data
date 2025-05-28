@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100101_Room_00_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3529020745",
+          "Value": {
+            "ID": 3529020745,
+            "triggerType": "TG_MAP_JUMP_BEGIN",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2511472583",
+          "Value": {
+            "ID": 2511472583,
+            "triggerType": "TG_OBSTACLE_BUTTON",
+            "TargetID": "obstacle_Map_100101_Room_00_lift_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_CommonOKWindow",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 18
+                  },
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        106,
+        28,
+        1,
+        25,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        11,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        50,
+        0,
+        0,
+        0,
+        52,
+        61,
+        0,
+        0,
+        0,
+        52,
+        80,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_map100100_quest_003\u0000flg_map100100_quest_003\u0000hlp_010280\u0000cho_common_ok_0001\u0000unlock_stop\u0000"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "GDSMapItemTableSetting",
+    "Name": "Map_PG_Sandbox_001_GDSMapItemTableSetting",
+    "Class": "UScriptClass'GDSMapItemTableSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbl_test_pg_00",
+          "Value": {
+            "tableId": "tbl_test_pg_00",
+            "tableData": [
+              {
+                "ItemId": "imt01000010",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "ItemId": "imt01000010",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "ItemId": "imt01000020",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "ItemId": "imt01000020",
+                "Value": 10,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 10,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 11
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        141,
+        3,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000imt01000020\u0000"
+    }
+  }
+]

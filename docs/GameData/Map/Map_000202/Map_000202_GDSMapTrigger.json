@@ -1,0 +1,262 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_000202_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "979330300",
+          "Value": {
+            "ID": 979330300,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000202_btn_action_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "686476050",
+          "Value": {
+            "ID": 686476050,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000202_btn_action_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2421599351",
+          "Value": {
+            "ID": 2421599351,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000202_btn_action_03",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "226596046",
+          "Value": {
+            "ID": 226596046,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000202_btn_action_04",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3040736171",
+          "Value": {
+            "ID": 3040736171,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000202_btn_action_05",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2250378568",
+          "Value": {
+            "ID": 2250378568,
+            "triggerType": "TG_OBSTACLE_BUTTON",
+            "TargetID": "obstacle_Map_000202_lift_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_CommonOKWindow",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 18
+                  },
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        88,
+        25,
+        1,
+        55,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        11,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        50,
+        92,
+        78,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        50,
+        116,
+        234,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        50,
+        136,
+        234,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        52,
+        107,
+        0,
+        0,
+        0,
+        52,
+        118,
+        0,
+        0,
+        0,
+        52,
+        137,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sysmes_map_000202_00\u0000sysmes_map_000202_01\u0000sysmes_map_000202_02\u0000sysmes_map_000202_03\u0000sysmes_map_000202_04\u0000hlp_010280\u0000cho_common_ok_0001\u0000unlock_stop\u0000"
+    }
+  }
+]

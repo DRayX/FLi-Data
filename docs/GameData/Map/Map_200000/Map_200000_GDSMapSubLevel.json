@@ -1,0 +1,3817 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_200000_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_200000_env00",
+          "Value": {
+            "SubLevelID": "Map_200000_env00",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Map_200000_env00"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_01",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_01",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_01",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_battle"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_02",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_floor"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_03",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_03",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_03",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_battle"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_04",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_04",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_04",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_soil"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_05",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_05",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_05",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_grass"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_06",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_06",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_06",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_battle"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_07",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_07",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_07",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_grass"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_08",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_08",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_08",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_battle"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_09",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_09",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_09",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_normal"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_10",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_10",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_10",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_normal"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_11",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_11",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_11",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_normal"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_12",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_12",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_floor"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_13",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_13",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_13",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_soil"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_14",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_14",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_14",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_normal"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_15",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_15",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_15",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_floor"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_16",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_16",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_16",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_grass"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_17",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_17",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_17",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_grass"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_18",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_18",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_18",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_floor"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_19",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_19",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_19",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_grass"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_normal_20",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_normal_20",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_20",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_grass"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_OuterWall_01",
+          "Value": {
+            "SubLevelID": "Map_200000_OuterWall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_OuterWall_01"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200000_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_200000_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Map_200000_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200000_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_200000_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Map_200000_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200000_npcpath_placement",
+          "Value": {
+            "SubLevelID": "Map_200000_npcpath_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Map_200000_npcpath_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200000_animalpath_placement",
+          "Value": {
+            "SubLevelID": "Map_200000_animalpath_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Map_200000_animalpath_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_01",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_01",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_01",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_02",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_03",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_03",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_03",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_04",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_04",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_04",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_05",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_05",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_05",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_06",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_06",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_06",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_07",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_07",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_07",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_08",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_08",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_08",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_09",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_09",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_09",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_10",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_10",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_10",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_11",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_11",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_11",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_12",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_12",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_13",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_13",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_13",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_14",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_14",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_14",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_15",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_15",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_15",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_16",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_16",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_16",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_17",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_17",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_17",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_18",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_18",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_18",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_19",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_19",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_19",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_20",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_20",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_20",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/area/Map_200000_shrine_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_InvisibleWall",
+          "Value": {
+            "SubLevelID": "Map_200000_InvisibleWall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_InvisibleWall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_seal_wall",
+          "Value": {
+            "SubLevelID": "Map_200000_seal_wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_seal_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_seal_wall_online",
+          "Value": {
+            "SubLevelID": "Map_200000_seal_wall_online",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_seal_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_p020086_Wall",
+          "Value": {
+            "SubLevelID": "Map_200000_p020086_Wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_p020086_Wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_p020120_Wall",
+          "Value": {
+            "SubLevelID": "Map_200000_p020120_Wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_p020120_Wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_p020140_Wall",
+          "Value": {
+            "SubLevelID": "Map_200000_p020140_Wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_p020140_Wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_OnlineWall",
+          "Value": {
+            "SubLevelID": "Map_200000_OnlineWall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_OnlineWall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_wall_02",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_wall_02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/Wall/Map_200000_shrine_wall_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_mushroom_07",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_mushroom_07",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_07",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_mushroom"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_mushroom_16",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_mushroom_16",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_16",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_mushroom"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_mushroom_17",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_mushroom_17",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_17",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_mushroom"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_mushroom_19",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_mushroom_19",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_19",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_mushroom"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_mushroom_20",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_mushroom_20",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_20",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_mushroom"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_02_01",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_02_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_02_floor_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_02_02",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_02_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_02_floor_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 320,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 325,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_12_01",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_12_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_12_floor_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 330,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 335,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 340,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 345,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_12_02",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_12_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_12_floor_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 350,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 355,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 360,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 365,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_12_03",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_12_03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_12_floor_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 370,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 375,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 380,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 385,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_15_01",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_15_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_15_floor_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 390,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 395,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 400,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 405,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_15_02",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_15_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_15_floor_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 410,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 415,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 420,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 425,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_15_03",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_15_03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_15_floor_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 430,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 435,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 440,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 445,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_18_01",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_18_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_18_floor_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 450,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 455,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 460,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 465,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_18_02",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_18_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_18_floor_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 470,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 475,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 480,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 485,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_minigame_shine_floor_18_03",
+          "Value": {
+            "SubLevelID": "Map_200000_minigame_shine_floor_18_03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_18_floor_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_ShrinMinigameType_Equal",
+                "arg": [
+                  {
+                    "m_offset": 490,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 495,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 500,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_ShrineMinigameStageNo",
+                "arg": [
+                  {
+                    "m_offset": 505,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_road_shrine02",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_road_shrine02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_floor_clear_road"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 510,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 515,
+                    "m_dataSize": 5
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 520,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 525,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_road_shrine12",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_road_shrine12",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_floor_clear_road"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 530,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 535,
+                    "m_dataSize": 5
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 540,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 545,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_road_shrine15",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_road_shrine15",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_floor_clear_road"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 550,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 555,
+                    "m_dataSize": 5
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 560,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 565,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_road_shrine18",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_road_shrine18",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/subLevel_shrine/Map_200000_minigame_shine_floor_clear_road"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 570,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 575,
+                    "m_dataSize": 5
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 580,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 585,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_wall_shrine02",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_wall_shrine02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 590,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 595,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_wall_shrine12",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_wall_shrine12",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 600,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 605,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_wall_shrine15",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_wall_shrine15",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_15",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 610,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 615,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_wall_shrine18",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_wall_shrine18",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_18",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 620,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 625,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_clear_wall_shrine02",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_clear_wall_shrine02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_clear_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 630,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 635,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 640,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_clear_wall_shrine12",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_clear_wall_shrine12",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_clear_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 645,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 650,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 655,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_clear_wall_shrine15",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_clear_wall_shrine15",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_clear_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 660,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 665,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 670,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shine_floor_clear_wall_shrine18",
+          "Value": {
+            "SubLevelID": "Map_200000_shine_floor_clear_wall_shrine18",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/wall/Map_200000_shine_floor_clear_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 675,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_InShrinMinigameMap",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 680,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsShrineMinigameRun",
+                "arg": [
+                  {
+                    "m_offset": 685,
+                    "m_dataSize": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_01_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_01_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_01",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 690,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_02_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_02_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 695,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_03_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_03_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_03",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 700,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_04_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_04_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_04",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 705,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_05_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_05_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_05",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 710,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_06_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_06_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_06",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 715,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_07_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_07_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_07",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 720,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_08_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_08_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_08",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 725,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_09_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_09_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_09",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 730,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_10_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_10_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_10",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 735,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_11_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_11_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_11",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 740,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_12_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_12_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 745,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_13_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_13_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_13",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 750,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_14_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_14_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_14",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 755,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_15_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_15_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_15",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 760,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_16_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_16_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_16",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 765,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_17_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_17_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_17",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 770,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_18_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_18_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_18",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 775,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_19_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_19_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_19",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 780,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_shrine_20_Sound",
+          "Value": {
+            "SubLevelID": "Map_200000_shrine_20_Sound",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "shrine_20",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/sound/env/Map_200000_shrine_01_Sound"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 785,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map200000_event_tower",
+          "Value": {
+            "SubLevelID": "Map200000_event_tower",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/event/Map200000_event_tower"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 790,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200000_line",
+          "Value": {
+            "SubLevelID": "Map_200000_line",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200000/map_obj/Map_200000_line"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 795,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        32,
+        9,
+        0,
+        32,
+        3,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        41,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        12,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        52,
+        52,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        72,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        52,
+        92,
+        0,
+        0,
+        0,
+        52,
+        102,
+        0,
+        0,
+        0,
+        52,
+        112,
+        0,
+        0,
+        0,
+        52,
+        122,
+        0,
+        0,
+        0,
+        52,
+        132,
+        0,
+        0,
+        0,
+        52,
+        142,
+        0,
+        0,
+        0,
+        52,
+        152,
+        0,
+        0,
+        0,
+        52,
+        162,
+        0,
+        0,
+        0,
+        52,
+        172,
+        0,
+        0,
+        0,
+        52,
+        182,
+        0,
+        0,
+        0,
+        52,
+        192,
+        0,
+        0,
+        0,
+        52,
+        202,
+        0,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        52,
+        222,
+        0,
+        0,
+        0,
+        52,
+        232,
+        0,
+        0,
+        0,
+        52,
+        242,
+        0,
+        0,
+        0,
+        52,
+        252,
+        0,
+        0,
+        0,
+        52,
+        6,
+        1,
+        0,
+        0,
+        52,
+        16,
+        1,
+        0,
+        0,
+        52,
+        26,
+        1,
+        0,
+        0,
+        52,
+        36,
+        1,
+        0,
+        0,
+        52,
+        46,
+        1,
+        0,
+        0,
+        52,
+        56,
+        1,
+        0,
+        0,
+        52,
+        66,
+        1,
+        0,
+        0,
+        52,
+        76,
+        1,
+        0,
+        0,
+        52,
+        86,
+        1,
+        0,
+        0,
+        52,
+        96,
+        1,
+        0,
+        0,
+        52,
+        106,
+        1,
+        0,
+        0,
+        52,
+        116,
+        1,
+        0,
+        0,
+        52,
+        126,
+        1,
+        0,
+        0,
+        52,
+        136,
+        1,
+        0,
+        0,
+        52,
+        146,
+        1,
+        0,
+        0,
+        52,
+        170,
+        1,
+        0,
+        0,
+        52,
+        189,
+        1,
+        0,
+        0,
+        50,
+        118,
+        78,
+        0,
+        0,
+        50,
+        142,
+        78,
+        0,
+        0,
+        50,
+        162,
+        78,
+        0,
+        0,
+        52,
+        208,
+        1,
+        0,
+        0,
+        52,
+        222,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        232,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        242,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        252,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        6,
+        2,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        16,
+        2,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        26,
+        2,
+        0,
+        0,
+        52,
+        36,
+        2,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        41,
+        2,
+        0,
+        0,
+        52,
+        51,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        56,
+        2,
+        0,
+        0,
+        52,
+        66,
+        2,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        71,
+        2,
+        0,
+        0,
+        52,
+        81,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        86,
+        2,
+        0,
+        0,
+        52,
+        96,
+        2,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        101,
+        2,
+        0,
+        0,
+        52,
+        111,
+        2,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        116,
+        2,
+        0,
+        0,
+        52,
+        126,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        131,
+        2,
+        0,
+        0,
+        52,
+        141,
+        2,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        146,
+        2,
+        0,
+        0,
+        52,
+        156,
+        2,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        161,
+        2,
+        0,
+        0,
+        52,
+        171,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        176,
+        2,
+        0,
+        0,
+        52,
+        186,
+        2,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        191,
+        2,
+        0,
+        0,
+        52,
+        201,
+        2,
+        0,
+        0,
+        52,
+        207,
+        2,
+        0,
+        0,
+        52,
+        221,
+        2,
+        0,
+        0,
+        52,
+        248,
+        2,
+        0,
+        0,
+        52,
+        2,
+        3,
+        0,
+        0,
+        52,
+        8,
+        3,
+        0,
+        0,
+        52,
+        22,
+        3,
+        0,
+        0,
+        52,
+        49,
+        3,
+        0,
+        0,
+        52,
+        59,
+        3,
+        0,
+        0,
+        52,
+        65,
+        3,
+        0,
+        0,
+        52,
+        79,
+        3,
+        0,
+        0,
+        52,
+        106,
+        3,
+        0,
+        0,
+        52,
+        116,
+        3,
+        0,
+        0,
+        52,
+        122,
+        3,
+        0,
+        0,
+        52,
+        136,
+        3,
+        0,
+        0,
+        52,
+        163,
+        3,
+        0,
+        0,
+        52,
+        173,
+        3,
+        0,
+        0,
+        52,
+        179,
+        3,
+        0,
+        0,
+        52,
+        189,
+        3,
+        0,
+        0,
+        52,
+        195,
+        3,
+        0,
+        0,
+        52,
+        205,
+        3,
+        0,
+        0,
+        52,
+        211,
+        3,
+        0,
+        0,
+        52,
+        221,
+        3,
+        0,
+        0,
+        52,
+        227,
+        3,
+        0,
+        0,
+        52,
+        241,
+        3,
+        0,
+        0,
+        52,
+        251,
+        3,
+        0,
+        0,
+        52,
+        1,
+        4,
+        0,
+        0,
+        52,
+        15,
+        4,
+        0,
+        0,
+        52,
+        25,
+        4,
+        0,
+        0,
+        52,
+        31,
+        4,
+        0,
+        0,
+        52,
+        45,
+        4,
+        0,
+        0,
+        52,
+        55,
+        4,
+        0,
+        0,
+        52,
+        61,
+        4,
+        0,
+        0,
+        52,
+        75,
+        4,
+        0,
+        0,
+        52,
+        85,
+        4,
+        0,
+        0,
+        52,
+        91,
+        4,
+        0,
+        0,
+        52,
+        101,
+        4,
+        0,
+        0,
+        52,
+        111,
+        4,
+        0,
+        0,
+        52,
+        121,
+        4,
+        0,
+        0,
+        52,
+        131,
+        4,
+        0,
+        0,
+        52,
+        141,
+        4,
+        0,
+        0,
+        52,
+        151,
+        4,
+        0,
+        0,
+        52,
+        161,
+        4,
+        0,
+        0,
+        52,
+        171,
+        4,
+        0,
+        0,
+        52,
+        181,
+        4,
+        0,
+        0,
+        52,
+        191,
+        4,
+        0,
+        0,
+        52,
+        201,
+        4,
+        0,
+        0,
+        52,
+        211,
+        4,
+        0,
+        0,
+        52,
+        221,
+        4,
+        0,
+        0,
+        52,
+        231,
+        4,
+        0,
+        0,
+        52,
+        241,
+        4,
+        0,
+        0,
+        52,
+        251,
+        4,
+        0,
+        0,
+        52,
+        5,
+        5,
+        0,
+        0,
+        52,
+        15,
+        5,
+        0,
+        0,
+        52,
+        25,
+        5,
+        0,
+        0,
+        52,
+        35,
+        5,
+        0,
+        0,
+        52,
+        54,
+        5,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000shrine_01\u0000shrine_02\u0000shrine_03\u0000shrine_04\u0000shrine_05\u0000shrine_06\u0000shrine_07\u0000shrine_08\u0000shrine_09\u0000shrine_10\u0000shrine_11\u0000shrine_12\u0000shrine_13\u0000shrine_14\u0000shrine_15\u0000shrine_16\u0000shrine_17\u0000shrine_18\u0000shrine_19\u0000shrine_20\u0000shrine_01\u0000shrine_02\u0000shrine_03\u0000shrine_04\u0000shrine_05\u0000shrine_06\u0000shrine_07\u0000shrine_08\u0000shrine_09\u0000shrine_10\u0000shrine_11\u0000shrine_12\u0000shrine_13\u0000shrine_14\u0000shrine_15\u0000shrine_16\u0000shrine_17\u0000shrine_18\u0000shrine_19\u0000shrine_20\u0000flg_check_InvisibleWall\u0000flg_Xernes_barrier\u0000flg_Xernes_barrier\u0000flg_shrine_02\u0000shrine_02\u0000shrine_07\u0000shrine_16\u0000shrine_17\u0000shrine_19\u0000shrine_20\u0000shrine_02\u0000True\u0000shrine_02\u0000True\u0000shrine_12\u0000True\u0000shrine_12\u0000True\u0000shrine_12\u0000True\u0000shrine_15\u0000True\u0000shrine_15\u0000True\u0000shrine_15\u0000True\u0000shrine_18\u0000True\u0000shrine_18\u0000True\u0000shrine_18\u0000True\u0000shrine_02\u0000False\u0000flg_shrine_02\u0000flg_shine_floor_clear_road\u0000shrine_12\u0000False\u0000flg_shrine_12\u0000flg_shine_floor_clear_road\u0000shrine_15\u0000False\u0000flg_shrine_15\u0000flg_shine_floor_clear_road\u0000shrine_18\u0000False\u0000flg_shrine_18\u0000flg_shine_floor_clear_road\u0000shrine_02\u0000False\u0000shrine_12\u0000False\u0000shrine_15\u0000False\u0000shrine_18\u0000False\u0000flg_shrine_02\u0000shrine_02\u0000False\u0000flg_shrine_12\u0000shrine_12\u0000False\u0000flg_shrine_15\u0000shrine_15\u0000False\u0000flg_shrine_18\u0000shrine_18\u0000False\u0000shrine_01\u0000shrine_02\u0000shrine_03\u0000shrine_04\u0000shrine_05\u0000shrine_06\u0000shrine_07\u0000shrine_08\u0000shrine_09\u0000shrine_10\u0000shrine_11\u0000shrine_12\u0000shrine_13\u0000shrine_14\u0000shrine_15\u0000shrine_16\u0000shrine_17\u0000shrine_18\u0000shrine_19\u0000shrine_20\u0000flg_tower_erase_01\u0000flg_dungen_line_01\u0000"
+    }
+  }
+]

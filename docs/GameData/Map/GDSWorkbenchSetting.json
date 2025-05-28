@@ -1,0 +1,1103 @@
+[
+  {
+    "Type": "GDSWorkbenchSetting",
+    "Name": "GDSWorkbenchSetting",
+    "Class": "UScriptClass'GDSWorkbenchSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Workbench_map_500001_001",
+          "Value": {
+            "ID": "Workbench_map_500001_001",
+            "search": {
+              "mapId": "Map_000100",
+              "mapPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_500001",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 330.0,
+                "Y": 310.0,
+                "Z": 40.0,
+                "W": 0.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_500011_001",
+          "Value": {
+            "ID": "Workbench_map_500011_001",
+            "search": {
+              "mapId": "Map_000100",
+              "mapPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_500011",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": -100.0,
+                "Y": -1220.0,
+                "Z": 2.3,
+                "W": 0.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "ev_map_100100_001",
+          "Value": {
+            "ID": "ev_map_100100_001",
+            "search": {
+              "mapId": "Map_100100",
+              "mapPos": {
+                "X": 3044.4,
+                "Y": -1514.1,
+                "Z": 540.2,
+                "W": 180.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100100",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 3044.4,
+                "Y": -1514.1,
+                "Z": 540.2,
+                "W": 180.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsGeneralConditionCheckDisable",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100100_001",
+          "Value": {
+            "ID": "Workbench_map_100100_001",
+            "search": {
+              "mapId": "Map_100100",
+              "mapPos": {
+                "X": 1100.1129,
+                "Y": -3669.881,
+                "Z": 535.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100100",
+              "mapSubId": "area_04",
+              "mapPos": {
+                "X": 14920.0,
+                "Y": -10.0,
+                "Z": -7960.2,
+                "W": 0.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "life0009",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsGeneralConditionCheckEnable",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100100_002",
+          "Value": {
+            "ID": "Workbench_map_100100_002",
+            "search": {
+              "mapId": "Map_100100",
+              "mapPos": {
+                "X": -670.81195,
+                "Y": -31.749344,
+                "Z": 551.1982,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100100",
+              "mapSubId": "area_08",
+              "mapPos": {
+                "X": 14882.6,
+                "Y": -367.7,
+                "Z": -7960.2,
+                "W": 0.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "life0010",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsGeneralConditionCheckEnable",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100100_003",
+          "Value": {
+            "ID": "Workbench_map_100100_003",
+            "search": {
+              "mapId": "Map_100100",
+              "mapPos": {
+                "X": 2254.3,
+                "Y": 3445.8,
+                "Z": 607.5,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100100",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 2254.3,
+                "Y": 3445.8,
+                "Z": 607.6,
+                "W": -39.0
+              },
+              "cameraAzimuth": 141.0
+            },
+            "lifeId": "life0011",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsGeneralConditionCheckEnable",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100100_004",
+          "Value": {
+            "ID": "Workbench_map_100100_004",
+            "search": {
+              "mapId": "Map_100100",
+              "mapPos": {
+                "X": 1142.0416,
+                "Y": 1038.6072,
+                "Z": 600.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100100",
+              "mapSubId": "area_11",
+              "mapPos": {
+                "X": 14917.5,
+                "Y": -30.4,
+                "Z": -7960.2,
+                "W": 0.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "life0012",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsGeneralConditionCheckEnable",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100100_005",
+          "Value": {
+            "ID": "Workbench_map_100100_005",
+            "search": {
+              "mapId": "Map_100100",
+              "mapPos": {
+                "X": 1745.8884,
+                "Y": 1027.7759,
+                "Z": 600.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100100",
+              "mapSubId": "area_09",
+              "mapPos": {
+                "X": 14967.5,
+                "Y": -60.4,
+                "Z": -7960.2,
+                "W": 0.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "life0013",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsGeneralConditionCheckEnable",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100300_001",
+          "Value": {
+            "ID": "Workbench_map_100300_001",
+            "search": {
+              "mapId": "Map_100300",
+              "mapPos": {
+                "X": 7050.0,
+                "Y": -2590.0,
+                "Z": 375.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100300",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 7050.0,
+                "Y": -2590.0,
+                "Z": 374.99637,
+                "W": 0.0
+              },
+              "cameraAzimuth": 180.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100300_002",
+          "Value": {
+            "ID": "Workbench_map_100300_002",
+            "search": {
+              "mapId": "Map_100300",
+              "mapPos": {
+                "X": 2450.0,
+                "Y": 12300.0,
+                "Z": 809.4,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100300",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 2450.0,
+                "Y": 12300.0,
+                "Z": 809.4,
+                "W": 90.0
+              },
+              "cameraAzimuth": -90.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100400_001",
+          "Value": {
+            "ID": "Workbench_map_100400_001",
+            "search": {
+              "mapId": "Map_100400",
+              "mapPos": {
+                "X": 9822.205,
+                "Y": -9690.575,
+                "Z": 511.759,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100400",
+              "mapSubId": "area_01",
+              "mapPos": {
+                "X": 15140.0,
+                "Y": 330.0,
+                "Z": -7960.2,
+                "W": 90.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "life0014",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100400_002",
+          "Value": {
+            "ID": "Workbench_map_100400_002",
+            "search": {
+              "mapId": "Map_100400",
+              "mapPos": {
+                "X": 13952.847,
+                "Y": -5211.652,
+                "Z": 552.5,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100400",
+              "mapSubId": "area_02",
+              "mapPos": {
+                "X": 14840.0,
+                "Y": -350.0,
+                "Z": -7960.2,
+                "W": -90.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100500_001",
+          "Value": {
+            "ID": "Workbench_map_100500_001",
+            "search": {
+              "mapId": "Map_100500",
+              "mapPos": {
+                "X": 330.0,
+                "Y": 2590.0,
+                "Z": 750.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100500",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 330.0,
+                "Y": 2590.0,
+                "Z": 750.0,
+                "W": 180.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_100500_002",
+          "Value": {
+            "ID": "Workbench_map_100500_002",
+            "search": {
+              "mapId": "Map_100500",
+              "mapPos": {
+                "X": 330.0,
+                "Y": 2930.0,
+                "Z": 750.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_100500",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 330.0,
+                "Y": 2930.0,
+                "Z": 750.0,
+                "W": 180.0
+              },
+              "cameraAzimuth": 0.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_001",
+          "Value": {
+            "ID": "Workbench_map_200000_001",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": 73081.9,
+                "Y": -13607.3,
+                "Z": 202.1,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 73081.9,
+                "Y": -13607.3,
+                "Z": 202.1,
+                "W": -164.0
+              },
+              "cameraAzimuth": 16.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_002",
+          "Value": {
+            "ID": "Workbench_map_200000_002",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": 73155.1,
+                "Y": -13950.5,
+                "Z": 202.1,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 73155.1,
+                "Y": -13950.5,
+                "Z": 202.1,
+                "W": -164.0
+              },
+              "cameraAzimuth": 16.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_003",
+          "Value": {
+            "ID": "Workbench_map_200000_003",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": 3348.3,
+                "Y": 1811.9,
+                "Z": 652.1,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 3348.3,
+                "Y": 1811.9,
+                "Z": 652.1,
+                "W": 133.0
+              },
+              "cameraAzimuth": -47.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_004",
+          "Value": {
+            "ID": "Workbench_map_200000_004",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": 3073.1,
+                "Y": 1573.9,
+                "Z": 652.1,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": 3073.1,
+                "Y": 1573.9,
+                "Z": 652.1,
+                "W": 133.0
+              },
+              "cameraAzimuth": -47.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_005",
+          "Value": {
+            "ID": "Workbench_map_200000_005",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": -16117.7,
+                "Y": 46257.2,
+                "Z": 2104.2,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": -16117.7,
+                "Y": 46257.2,
+                "Z": 2104.2,
+                "W": -5.0
+              },
+              "cameraAzimuth": 175.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_006",
+          "Value": {
+            "ID": "Workbench_map_200000_006",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": -16062.6,
+                "Y": 46606.2,
+                "Z": 2104.2,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": -16062.6,
+                "Y": 46606.2,
+                "Z": 2104.2,
+                "W": -5.0
+              },
+              "cameraAzimuth": 175.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_007",
+          "Value": {
+            "ID": "Workbench_map_200000_007",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": -58460.0,
+                "Y": -68450.0,
+                "Z": 640.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": -58460.0,
+                "Y": -68450.0,
+                "Z": 640.0,
+                "W": 16.0
+              },
+              "cameraAzimuth": -164.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_008",
+          "Value": {
+            "ID": "Workbench_map_200000_008",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": -37130.0,
+                "Y": 41420.0,
+                "Z": 200.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": -37130.0,
+                "Y": 41420.0,
+                "Z": 200.0,
+                "W": 45.0
+              },
+              "cameraAzimuth": -135.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Workbench_map_200000_009",
+          "Value": {
+            "ID": "Workbench_map_200000_009",
+            "search": {
+              "mapId": "Map_200000",
+              "mapPos": {
+                "X": -54210.0,
+                "Y": -34340.0,
+                "Z": 3900.0,
+                "W": 0.0
+              }
+            },
+            "workbench": {
+              "mapId": "Map_200000",
+              "mapSubId": "None",
+              "mapPos": {
+                "X": -54210.0,
+                "Y": -34340.0,
+                "Z": 3900.0,
+                "W": 164.0
+              },
+              "cameraAzimuth": -16.0
+            },
+            "lifeId": "None",
+            "textId": "None",
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        63,
+        118,
+        0,
+        140,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        185,
+        1,
+        0,
+        0,
+        50,
+        138,
+        117,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        51,
+        0,
+        0,
+        0,
+        52,
+        78,
+        0,
+        0,
+        0,
+        52,
+        105,
+        0,
+        0,
+        0,
+        52,
+        132,
+        0,
+        0,
+        0,
+        52,
+        159,
+        0,
+        0,
+        0,
+        50,
+        124,
+        156,
+        0,
+        0,
+        50,
+        204,
+        156,
+        0,
+        0,
+        50,
+        150,
+        195,
+        0,
+        0,
+        52,
+        186,
+        0,
+        0,
+        0,
+        50,
+        10,
+        0,
+        0,
+        0,
+        52,
+        201,
+        0,
+        0,
+        0,
+        50,
+        30,
+        0,
+        0,
+        0,
+        50,
+        250,
+        195,
+        0,
+        0,
+        50,
+        176,
+        234,
+        0,
+        0,
+        50,
+        176,
+        234,
+        0,
+        0,
+        52,
+        216,
+        0,
+        0,
+        0,
+        52,
+        237,
+        0,
+        0,
+        0,
+        52,
+        2,
+        1,
+        0,
+        0,
+        52,
+        23,
+        1,
+        0,
+        0,
+        52,
+        44,
+        1,
+        0,
+        0,
+        52,
+        65,
+        1,
+        0,
+        0,
+        52,
+        86,
+        1,
+        0,
+        0,
+        52,
+        107,
+        1,
+        0,
+        0,
+        52,
+        128,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ev90_02600\u0000ev90_02600\u0000FAST_TRAVEL_MAP_100100_SUB\u0000FAST_TRAVEL_MAP_100100_SUB\u0000FAST_TRAVEL_MAP_100100_SUB\u0000FAST_TRAVEL_MAP_100100_SUB\u0000FAST_TRAVEL_MAP_100100_SUB\u0000FAST_TRAVEL_MAP_100100_SUB\u0000qsa_life14_001\u0000qsa_life14_001\u0000flg_enemy_village_01\u0000flg_enemy_village_01\u0000flg_enemy_village_02\u0000flg_enemy_village_02\u0000flg_enemy_village_03\u0000flg_enemy_village_03\u0000flg_enemy_village_04\u0000flg_enemy_village_05\u0000flg_enemy_village_06\u0000"
+    }
+  }
+]

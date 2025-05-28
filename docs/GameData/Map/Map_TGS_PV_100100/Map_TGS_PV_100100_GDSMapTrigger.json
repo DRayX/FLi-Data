@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_TGS_PV_100100_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "103499291",
+          "Value": {
+            "ID": 103499291,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map100100_workbench_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMiniGame_ItemCraftGame",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 13
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        180,
+        93,
+        164,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        165,
+        0,
+        0,
+        0,
+        52,
+        0,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "recipe_104003\u0000"
+    }
+  }
+]

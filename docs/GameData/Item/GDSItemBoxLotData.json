@@ -1,0 +1,6185 @@
+[
+  {
+    "Type": "GDSItemBoxLotData",
+    "Name": "GDSItemBoxLotData",
+    "Class": "UScriptClass'GDSItemBoxLotData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 974111034,
+            "Name": "ItemBox_Test01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 974111034,
+              "Name": "ItemBox_Test01"
+            },
+            "lotItems": [
+              {
+                "lotteryWeight": 1,
+                "ID": "ics01002810",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "ics01002920",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "ics01003010",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "imt01004090",
+                "Num": 4,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "ics01002940",
+                "Num": 5,
+                "Conditions": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2411806391,
+            "Name": "itembox_lottery_01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2411806391,
+              "Name": "itembox_lottery_01"
+            },
+            "lotItems": [
+              {
+                "lotteryWeight": 20,
+                "ID": "iam01003720",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "iam01003690",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01004810",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 5,
+                "ID": "imt01000530",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "imt01000550",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01000580",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01000660",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01000780",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01000620",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01000700",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01001320",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01002080",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01002820",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "ics01003020",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico01091170",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico04050090",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico03010780",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 10,
+                "ID": "ico04050120",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 10,
+                "ID": "ico03010860",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico01060290",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico01060310",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life13_ico03010150",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life12_ico01060090",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life11_ico01090640",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life14_ico03010230",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life14_ico03010930",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 2641662297,
+            "Name": "itembox_lottery_02"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2641662297,
+              "Name": "itembox_lottery_02"
+            },
+            "lotItems": [
+              {
+                "lotteryWeight": 20,
+                "ID": "iam01006170",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01004810",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004150",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004160",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004170",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004180",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004190",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004200",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004210",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004220",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004230",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "imt01004240",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003860",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003870",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003880",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003890",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003900",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003910",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003920",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003935",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003940",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "imt01003950",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 5,
+                "ID": "imt01000540",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01000590",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01000670",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01000630",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01000710",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01001260",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01001460",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01002040",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ics01002780",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico01091563",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico03011010",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico03010270",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico01070220",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life12_iam01006000",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life12_iam01006010",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 30,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life12_iam01006020",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 35,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_life12_iam01006030",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 40,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 633927228,
+            "Name": "itembox_lottery_03"
+          },
+          "Value": {
+            "ID": {
+              "crc": 633927228,
+              "Name": "itembox_lottery_03"
+            },
+            "lotItems": [
+              {
+                "lotteryWeight": 40,
+                "ID": "iam01003650",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "imt01004810",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004150",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004160",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004170",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004180",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004190",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004200",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004210",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004220",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004230",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01004240",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003860",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003870",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003880",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003890",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003900",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003910",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003920",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003935",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003940",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 50,
+                "ID": "imt01003950",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 5,
+                "ID": "imt01000550",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "ics01000600",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "ics01000680",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "ics01001340",
+                "Num": 3,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "ics01002980",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "ics01001700",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 60,
+                "ID": "ics01002840",
+                "Num": 2,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ico01091561",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 30,
+                "ID": "ico04060020",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 20,
+                "ID": "ico03010220",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 40,
+                "ID": "ico03010100",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 10,
+                "ID": "ico01090480",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 10,
+                "ID": "ico01090470",
+                "Num": 1,
+                "Conditions": []
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "irp_recipe_life13_vic000901",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 45,
+                        "m_dataSize": 27
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 5,
+                "ID": "irp_life14_ico01091561",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 50,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 5,
+                "ID": "irp_life14_ico01090480",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 55,
+                        "m_dataSize": 22
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 990770068,
+            "Name": "Colorchange_lottery_00"
+          },
+          "Value": {
+            "ID": {
+              "crc": 990770068,
+              "Name": "Colorchange_lottery_00"
+            },
+            "lotItems": [
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000102",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 60,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 65,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000103",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 70,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 75,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000104",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 80,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 85,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000202",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 90,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 95,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000203",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 100,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 105,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000204",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 110,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 115,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000302",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 120,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 125,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000303",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 130,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 135,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000304",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 140,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 145,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000402",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 150,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 155,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000403",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 160,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 165,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000404",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 170,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 175,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000502",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 180,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 185,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000503",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 190,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 195,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000504",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 200,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 205,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000602",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 210,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 215,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000603",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 220,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 225,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000604",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 230,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 235,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000702",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 240,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 245,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000703",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 250,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 255,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000704",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 260,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 265,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 100,
+                "ID": "iky_chr000802",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 270,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 275,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 100,
+                "ID": "iky_chr000803",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 280,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 285,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 100,
+                "ID": "iky_chr000804",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 290,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 295,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000902",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 300,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 305,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000903",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 310,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 315,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000904",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 320,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 325,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000a02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 330,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 335,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000a03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 340,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 345,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000a04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 350,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 355,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000b02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 360,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 365,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000b03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 370,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 375,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000b04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 380,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 385,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000c02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 390,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 395,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000c03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 400,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 405,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000c04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 410,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 415,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000d02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 420,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 425,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000d03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 430,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 435,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000d04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 440,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 445,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000e02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 450,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 455,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000e03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 460,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 465,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000e04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 470,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 475,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000f02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 480,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 485,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000f03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 490,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 495,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr000f04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 500,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 505,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001002",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 510,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 515,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001003",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 520,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 525,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001004",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 530,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 535,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001102",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 540,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 545,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001103",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 550,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 555,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001104",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 560,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 565,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001202",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 570,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 575,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001203",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 580,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 585,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001204",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 590,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 595,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001302",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 600,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 605,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001303",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 610,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 615,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001304",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 620,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 625,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001402",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 630,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 635,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001403",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 640,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 645,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001404",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 650,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 655,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001502",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 660,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 665,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001503",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 670,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 675,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001504",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 680,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 685,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001602",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 690,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 695,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001603",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 700,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 705,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001604",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 710,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 715,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001702",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 720,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 725,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001703",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 730,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 735,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001704",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 740,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 745,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001802",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 750,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 755,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001803",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 760,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 765,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001804",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 770,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 775,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001902",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 780,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 785,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001903",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 790,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 795,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001904",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 800,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 805,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001a02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 810,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 815,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001a03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 820,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 825,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001a04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 830,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 835,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001b02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 840,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 845,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001b03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 850,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 855,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001b04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 860,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 865,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001c02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 870,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 875,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001c03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 880,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 885,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001c04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 890,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 895,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001d02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 900,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 905,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001d03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 910,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 915,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001d04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 920,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 925,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001e02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 930,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 935,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001e03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 940,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 945,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001e04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 950,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 955,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001f02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 960,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 965,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001f03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 970,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 975,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr001f04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 980,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 985,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002002",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 990,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 995,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002003",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1000,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1005,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002004",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1010,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1015,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002102",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1020,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1025,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002103",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1030,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1035,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002104",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1040,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1045,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002202",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1050,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1055,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002203",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1060,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1065,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002204",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1070,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1075,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002302",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1080,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1085,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002303",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1090,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1095,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002304",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1100,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1105,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002402",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1110,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1115,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002403",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1120,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1125,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002404",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1130,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1135,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002502",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1140,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1145,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002503",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1150,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1155,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002504",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1160,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1165,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002602",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1170,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1175,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002603",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1180,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1185,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002604",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1190,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1195,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002702",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1200,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1205,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002703",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1210,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1215,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002704",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1220,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1225,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002802",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1230,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1235,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002803",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1240,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1245,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002804",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1250,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1255,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002902",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1260,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1265,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002903",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1270,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1275,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002904",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1280,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1285,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002a02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1290,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1295,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002a03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1300,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1305,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002a04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1310,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1315,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002b02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1320,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1325,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002b03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1330,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1335,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002b04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1340,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1345,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002c02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1350,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1355,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002c03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1360,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1365,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002c04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1370,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1375,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002d02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1380,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1385,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002d03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1390,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1395,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002d04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1400,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1405,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002e02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1410,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1415,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002e03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1420,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1425,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002e04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1430,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1435,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002f02",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1440,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1445,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002f03",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1450,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1455,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr002f04",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1460,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1465,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003102",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1470,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1475,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003103",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1480,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1485,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003104",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1490,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1495,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003202",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1500,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1505,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003203",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1510,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1515,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003204",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1520,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1525,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003402",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1530,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1535,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003403",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1540,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1545,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 10000,
+                "ID": "iky_chr003404",
+                "Num": 1,
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                    "arg": [
+                      {
+                        "m_offset": 1550,
+                        "m_dataSize": 13
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsFellowNPC",
+                    "arg": [
+                      {
+                        "m_offset": 1555,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "lotteryWeight": 1,
+                "ID": "iky01000420",
+                "Num": 100,
+                "Conditions": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        187,
+        72,
+        3,
+        24,
+        6,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        25,
+        0,
+        0,
+        0,
+        52,
+        48,
+        0,
+        0,
+        0,
+        52,
+        71,
+        0,
+        0,
+        0,
+        52,
+        94,
+        0,
+        0,
+        0,
+        52,
+        117,
+        0,
+        0,
+        0,
+        52,
+        140,
+        0,
+        0,
+        0,
+        52,
+        163,
+        0,
+        0,
+        0,
+        52,
+        186,
+        0,
+        0,
+        0,
+        52,
+        209,
+        0,
+        0,
+        0,
+        52,
+        237,
+        0,
+        0,
+        0,
+        52,
+        4,
+        1,
+        0,
+        0,
+        52,
+        27,
+        1,
+        0,
+        0,
+        52,
+        41,
+        1,
+        0,
+        0,
+        52,
+        56,
+        1,
+        0,
+        0,
+        52,
+        70,
+        1,
+        0,
+        0,
+        52,
+        85,
+        1,
+        0,
+        0,
+        52,
+        99,
+        1,
+        0,
+        0,
+        52,
+        114,
+        1,
+        0,
+        0,
+        52,
+        128,
+        1,
+        0,
+        0,
+        52,
+        143,
+        1,
+        0,
+        0,
+        52,
+        157,
+        1,
+        0,
+        0,
+        52,
+        172,
+        1,
+        0,
+        0,
+        52,
+        186,
+        1,
+        0,
+        0,
+        52,
+        201,
+        1,
+        0,
+        0,
+        52,
+        215,
+        1,
+        0,
+        0,
+        52,
+        230,
+        1,
+        0,
+        0,
+        52,
+        244,
+        1,
+        0,
+        0,
+        52,
+        3,
+        2,
+        0,
+        0,
+        52,
+        17,
+        2,
+        0,
+        0,
+        52,
+        32,
+        2,
+        0,
+        0,
+        52,
+        46,
+        2,
+        0,
+        0,
+        52,
+        61,
+        2,
+        0,
+        0,
+        52,
+        75,
+        2,
+        0,
+        0,
+        52,
+        90,
+        2,
+        0,
+        0,
+        52,
+        104,
+        2,
+        0,
+        0,
+        52,
+        119,
+        2,
+        0,
+        0,
+        52,
+        133,
+        2,
+        0,
+        0,
+        52,
+        148,
+        2,
+        0,
+        0,
+        52,
+        162,
+        2,
+        0,
+        0,
+        52,
+        177,
+        2,
+        0,
+        0,
+        52,
+        191,
+        2,
+        0,
+        0,
+        52,
+        206,
+        2,
+        0,
+        0,
+        52,
+        220,
+        2,
+        0,
+        0,
+        52,
+        235,
+        2,
+        0,
+        0,
+        52,
+        249,
+        2,
+        0,
+        0,
+        52,
+        8,
+        3,
+        0,
+        0,
+        52,
+        22,
+        3,
+        0,
+        0,
+        52,
+        37,
+        3,
+        0,
+        0,
+        52,
+        51,
+        3,
+        0,
+        0,
+        52,
+        66,
+        3,
+        0,
+        0,
+        52,
+        80,
+        3,
+        0,
+        0,
+        52,
+        95,
+        3,
+        0,
+        0,
+        52,
+        109,
+        3,
+        0,
+        0,
+        52,
+        124,
+        3,
+        0,
+        0,
+        52,
+        138,
+        3,
+        0,
+        0,
+        52,
+        153,
+        3,
+        0,
+        0,
+        52,
+        167,
+        3,
+        0,
+        0,
+        52,
+        182,
+        3,
+        0,
+        0,
+        52,
+        196,
+        3,
+        0,
+        0,
+        52,
+        211,
+        3,
+        0,
+        0,
+        52,
+        225,
+        3,
+        0,
+        0,
+        52,
+        240,
+        3,
+        0,
+        0,
+        52,
+        254,
+        3,
+        0,
+        0,
+        52,
+        13,
+        4,
+        0,
+        0,
+        52,
+        27,
+        4,
+        0,
+        0,
+        52,
+        42,
+        4,
+        0,
+        0,
+        52,
+        56,
+        4,
+        0,
+        0,
+        52,
+        71,
+        4,
+        0,
+        0,
+        52,
+        85,
+        4,
+        0,
+        0,
+        52,
+        100,
+        4,
+        0,
+        0,
+        52,
+        114,
+        4,
+        0,
+        0,
+        52,
+        129,
+        4,
+        0,
+        0,
+        52,
+        143,
+        4,
+        0,
+        0,
+        52,
+        158,
+        4,
+        0,
+        0,
+        52,
+        172,
+        4,
+        0,
+        0,
+        52,
+        187,
+        4,
+        0,
+        0,
+        52,
+        201,
+        4,
+        0,
+        0,
+        52,
+        216,
+        4,
+        0,
+        0,
+        52,
+        230,
+        4,
+        0,
+        0,
+        52,
+        245,
+        4,
+        0,
+        0,
+        52,
+        3,
+        5,
+        0,
+        0,
+        52,
+        18,
+        5,
+        0,
+        0,
+        52,
+        32,
+        5,
+        0,
+        0,
+        52,
+        47,
+        5,
+        0,
+        0,
+        52,
+        61,
+        5,
+        0,
+        0,
+        52,
+        76,
+        5,
+        0,
+        0,
+        52,
+        90,
+        5,
+        0,
+        0,
+        52,
+        105,
+        5,
+        0,
+        0,
+        52,
+        119,
+        5,
+        0,
+        0,
+        52,
+        134,
+        5,
+        0,
+        0,
+        52,
+        148,
+        5,
+        0,
+        0,
+        52,
+        163,
+        5,
+        0,
+        0,
+        52,
+        177,
+        5,
+        0,
+        0,
+        52,
+        192,
+        5,
+        0,
+        0,
+        52,
+        206,
+        5,
+        0,
+        0,
+        52,
+        221,
+        5,
+        0,
+        0,
+        52,
+        235,
+        5,
+        0,
+        0,
+        52,
+        250,
+        5,
+        0,
+        0,
+        52,
+        8,
+        6,
+        0,
+        0,
+        52,
+        23,
+        6,
+        0,
+        0,
+        52,
+        37,
+        6,
+        0,
+        0,
+        52,
+        52,
+        6,
+        0,
+        0,
+        52,
+        66,
+        6,
+        0,
+        0,
+        52,
+        81,
+        6,
+        0,
+        0,
+        52,
+        95,
+        6,
+        0,
+        0,
+        52,
+        110,
+        6,
+        0,
+        0,
+        52,
+        124,
+        6,
+        0,
+        0,
+        52,
+        139,
+        6,
+        0,
+        0,
+        52,
+        153,
+        6,
+        0,
+        0,
+        52,
+        168,
+        6,
+        0,
+        0,
+        52,
+        182,
+        6,
+        0,
+        0,
+        52,
+        197,
+        6,
+        0,
+        0,
+        52,
+        211,
+        6,
+        0,
+        0,
+        52,
+        226,
+        6,
+        0,
+        0,
+        52,
+        240,
+        6,
+        0,
+        0,
+        52,
+        255,
+        6,
+        0,
+        0,
+        52,
+        13,
+        7,
+        0,
+        0,
+        52,
+        28,
+        7,
+        0,
+        0,
+        52,
+        42,
+        7,
+        0,
+        0,
+        52,
+        57,
+        7,
+        0,
+        0,
+        52,
+        71,
+        7,
+        0,
+        0,
+        52,
+        86,
+        7,
+        0,
+        0,
+        52,
+        100,
+        7,
+        0,
+        0,
+        52,
+        115,
+        7,
+        0,
+        0,
+        52,
+        129,
+        7,
+        0,
+        0,
+        52,
+        144,
+        7,
+        0,
+        0,
+        52,
+        158,
+        7,
+        0,
+        0,
+        52,
+        173,
+        7,
+        0,
+        0,
+        52,
+        187,
+        7,
+        0,
+        0,
+        52,
+        202,
+        7,
+        0,
+        0,
+        52,
+        216,
+        7,
+        0,
+        0,
+        52,
+        231,
+        7,
+        0,
+        0,
+        52,
+        245,
+        7,
+        0,
+        0,
+        52,
+        4,
+        8,
+        0,
+        0,
+        52,
+        18,
+        8,
+        0,
+        0,
+        52,
+        33,
+        8,
+        0,
+        0,
+        52,
+        47,
+        8,
+        0,
+        0,
+        52,
+        62,
+        8,
+        0,
+        0,
+        52,
+        76,
+        8,
+        0,
+        0,
+        52,
+        91,
+        8,
+        0,
+        0,
+        52,
+        105,
+        8,
+        0,
+        0,
+        52,
+        120,
+        8,
+        0,
+        0,
+        52,
+        134,
+        8,
+        0,
+        0,
+        52,
+        149,
+        8,
+        0,
+        0,
+        52,
+        163,
+        8,
+        0,
+        0,
+        52,
+        178,
+        8,
+        0,
+        0,
+        52,
+        192,
+        8,
+        0,
+        0,
+        52,
+        207,
+        8,
+        0,
+        0,
+        52,
+        221,
+        8,
+        0,
+        0,
+        52,
+        236,
+        8,
+        0,
+        0,
+        52,
+        250,
+        8,
+        0,
+        0,
+        52,
+        9,
+        9,
+        0,
+        0,
+        52,
+        23,
+        9,
+        0,
+        0,
+        52,
+        38,
+        9,
+        0,
+        0,
+        52,
+        52,
+        9,
+        0,
+        0,
+        52,
+        67,
+        9,
+        0,
+        0,
+        52,
+        81,
+        9,
+        0,
+        0,
+        52,
+        96,
+        9,
+        0,
+        0,
+        52,
+        110,
+        9,
+        0,
+        0,
+        52,
+        125,
+        9,
+        0,
+        0,
+        52,
+        139,
+        9,
+        0,
+        0,
+        52,
+        154,
+        9,
+        0,
+        0,
+        52,
+        168,
+        9,
+        0,
+        0,
+        52,
+        183,
+        9,
+        0,
+        0,
+        52,
+        197,
+        9,
+        0,
+        0,
+        52,
+        212,
+        9,
+        0,
+        0,
+        52,
+        226,
+        9,
+        0,
+        0,
+        52,
+        241,
+        9,
+        0,
+        0,
+        52,
+        255,
+        9,
+        0,
+        0,
+        52,
+        14,
+        10,
+        0,
+        0,
+        52,
+        28,
+        10,
+        0,
+        0,
+        52,
+        43,
+        10,
+        0,
+        0,
+        52,
+        57,
+        10,
+        0,
+        0,
+        52,
+        72,
+        10,
+        0,
+        0,
+        52,
+        86,
+        10,
+        0,
+        0,
+        52,
+        101,
+        10,
+        0,
+        0,
+        52,
+        115,
+        10,
+        0,
+        0,
+        52,
+        130,
+        10,
+        0,
+        0,
+        52,
+        144,
+        10,
+        0,
+        0,
+        52,
+        159,
+        10,
+        0,
+        0,
+        52,
+        173,
+        10,
+        0,
+        0,
+        52,
+        188,
+        10,
+        0,
+        0,
+        52,
+        202,
+        10,
+        0,
+        0,
+        52,
+        217,
+        10,
+        0,
+        0,
+        52,
+        231,
+        10,
+        0,
+        0,
+        52,
+        246,
+        10,
+        0,
+        0,
+        52,
+        4,
+        11,
+        0,
+        0,
+        52,
+        19,
+        11,
+        0,
+        0,
+        52,
+        33,
+        11,
+        0,
+        0,
+        52,
+        48,
+        11,
+        0,
+        0,
+        52,
+        62,
+        11,
+        0,
+        0,
+        52,
+        77,
+        11,
+        0,
+        0,
+        52,
+        91,
+        11,
+        0,
+        0,
+        52,
+        106,
+        11,
+        0,
+        0,
+        52,
+        120,
+        11,
+        0,
+        0,
+        52,
+        135,
+        11,
+        0,
+        0,
+        52,
+        149,
+        11,
+        0,
+        0,
+        52,
+        164,
+        11,
+        0,
+        0,
+        52,
+        178,
+        11,
+        0,
+        0,
+        52,
+        193,
+        11,
+        0,
+        0,
+        52,
+        207,
+        11,
+        0,
+        0,
+        52,
+        222,
+        11,
+        0,
+        0,
+        52,
+        236,
+        11,
+        0,
+        0,
+        52,
+        251,
+        11,
+        0,
+        0,
+        52,
+        9,
+        12,
+        0,
+        0,
+        52,
+        24,
+        12,
+        0,
+        0,
+        52,
+        38,
+        12,
+        0,
+        0,
+        52,
+        53,
+        12,
+        0,
+        0,
+        52,
+        67,
+        12,
+        0,
+        0,
+        52,
+        82,
+        12,
+        0,
+        0,
+        52,
+        96,
+        12,
+        0,
+        0,
+        52,
+        111,
+        12,
+        0,
+        0,
+        52,
+        125,
+        12,
+        0,
+        0,
+        52,
+        140,
+        12,
+        0,
+        0,
+        52,
+        154,
+        12,
+        0,
+        0,
+        52,
+        169,
+        12,
+        0,
+        0,
+        52,
+        183,
+        12,
+        0,
+        0,
+        52,
+        198,
+        12,
+        0,
+        0,
+        52,
+        212,
+        12,
+        0,
+        0,
+        52,
+        227,
+        12,
+        0,
+        0,
+        52,
+        241,
+        12,
+        0,
+        0,
+        52,
+        0,
+        13,
+        0,
+        0,
+        52,
+        14,
+        13,
+        0,
+        0,
+        52,
+        29,
+        13,
+        0,
+        0,
+        52,
+        43,
+        13,
+        0,
+        0,
+        52,
+        58,
+        13,
+        0,
+        0,
+        52,
+        72,
+        13,
+        0,
+        0,
+        52,
+        87,
+        13,
+        0,
+        0,
+        52,
+        101,
+        13,
+        0,
+        0,
+        52,
+        116,
+        13,
+        0,
+        0,
+        52,
+        130,
+        13,
+        0,
+        0,
+        52,
+        145,
+        13,
+        0,
+        0,
+        52,
+        159,
+        13,
+        0,
+        0,
+        52,
+        174,
+        13,
+        0,
+        0,
+        52,
+        188,
+        13,
+        0,
+        0,
+        52,
+        203,
+        13,
+        0,
+        0,
+        52,
+        217,
+        13,
+        0,
+        0,
+        52,
+        232,
+        13,
+        0,
+        0,
+        52,
+        246,
+        13,
+        0,
+        0,
+        52,
+        5,
+        14,
+        0,
+        0,
+        52,
+        19,
+        14,
+        0,
+        0,
+        52,
+        34,
+        14,
+        0,
+        0,
+        52,
+        48,
+        14,
+        0,
+        0,
+        52,
+        63,
+        14,
+        0,
+        0,
+        52,
+        77,
+        14,
+        0,
+        0,
+        52,
+        92,
+        14,
+        0,
+        0,
+        52,
+        106,
+        14,
+        0,
+        0,
+        52,
+        121,
+        14,
+        0,
+        0,
+        52,
+        135,
+        14,
+        0,
+        0,
+        52,
+        150,
+        14,
+        0,
+        0,
+        52,
+        164,
+        14,
+        0,
+        0,
+        52,
+        179,
+        14,
+        0,
+        0,
+        52,
+        193,
+        14,
+        0,
+        0,
+        52,
+        208,
+        14,
+        0,
+        0,
+        52,
+        222,
+        14,
+        0,
+        0,
+        52,
+        237,
+        14,
+        0,
+        0,
+        52,
+        251,
+        14,
+        0,
+        0,
+        52,
+        10,
+        15,
+        0,
+        0,
+        52,
+        24,
+        15,
+        0,
+        0,
+        52,
+        39,
+        15,
+        0,
+        0,
+        52,
+        53,
+        15,
+        0,
+        0,
+        52,
+        68,
+        15,
+        0,
+        0,
+        52,
+        82,
+        15,
+        0,
+        0,
+        52,
+        97,
+        15,
+        0,
+        0,
+        52,
+        111,
+        15,
+        0,
+        0,
+        52,
+        126,
+        15,
+        0,
+        0,
+        52,
+        140,
+        15,
+        0,
+        0,
+        52,
+        155,
+        15,
+        0,
+        0,
+        52,
+        169,
+        15,
+        0,
+        0,
+        52,
+        184,
+        15,
+        0,
+        0,
+        52,
+        198,
+        15,
+        0,
+        0,
+        52,
+        213,
+        15,
+        0,
+        0,
+        52,
+        227,
+        15,
+        0,
+        0,
+        52,
+        242,
+        15,
+        0,
+        0,
+        52,
+        0,
+        16,
+        0,
+        0,
+        52,
+        15,
+        16,
+        0,
+        0,
+        52,
+        29,
+        16,
+        0,
+        0,
+        52,
+        44,
+        16,
+        0,
+        0,
+        52,
+        58,
+        16,
+        0,
+        0,
+        52,
+        73,
+        16,
+        0,
+        0,
+        52,
+        87,
+        16,
+        0,
+        0,
+        52,
+        102,
+        16,
+        0,
+        0,
+        52,
+        116,
+        16,
+        0,
+        0,
+        52,
+        131,
+        16,
+        0,
+        0,
+        52,
+        145,
+        16,
+        0,
+        0,
+        52,
+        160,
+        16,
+        0,
+        0,
+        52,
+        174,
+        16,
+        0,
+        0,
+        52,
+        189,
+        16,
+        0,
+        0,
+        52,
+        203,
+        16,
+        0,
+        0,
+        52,
+        218,
+        16,
+        0,
+        0,
+        52,
+        232,
+        16,
+        0,
+        0,
+        52,
+        247,
+        16,
+        0,
+        0,
+        52,
+        5,
+        17,
+        0,
+        0,
+        52,
+        20,
+        17,
+        0,
+        0,
+        52,
+        34,
+        17,
+        0,
+        0,
+        52,
+        49,
+        17,
+        0,
+        0,
+        52,
+        63,
+        17,
+        0,
+        0,
+        52,
+        78,
+        17,
+        0,
+        0,
+        52,
+        92,
+        17,
+        0,
+        0,
+        52,
+        107,
+        17,
+        0,
+        0,
+        52,
+        121,
+        17,
+        0,
+        0,
+        52,
+        136,
+        17,
+        0,
+        0,
+        52,
+        150,
+        17,
+        0,
+        0,
+        52,
+        165,
+        17,
+        0,
+        0,
+        52,
+        179,
+        17,
+        0,
+        0,
+        52,
+        194,
+        17,
+        0,
+        0,
+        52,
+        208,
+        17,
+        0,
+        0,
+        52,
+        223,
+        17,
+        0,
+        0,
+        52,
+        237,
+        17,
+        0,
+        0,
+        52,
+        252,
+        17,
+        0,
+        0,
+        52,
+        10,
+        18,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000irp_life13_ico03010150\u0000irp_life12_ico01060090\u0000irp_life11_ico01090640\u0000irp_life14_ico03010230\u0000irp_life14_ico03010930\u0000irp_life12_iam01006000\u0000irp_life12_iam01006010\u0000irp_life12_iam01006020\u0000irp_life12_iam01006030\u0000irp_recipe_life13_vic000901\u0000irp_life14_ico01091561\u0000irp_life14_ico01090480\u0000iky_chr000102\u0000para_chr000100\u0000iky_chr000103\u0000para_chr000100\u0000iky_chr000104\u0000para_chr000100\u0000iky_chr000202\u0000para_chr000200\u0000iky_chr000203\u0000para_chr000200\u0000iky_chr000204\u0000para_chr000200\u0000iky_chr000302\u0000para_chr000300\u0000iky_chr000303\u0000para_chr000300\u0000iky_chr000304\u0000para_chr000300\u0000iky_chr000402\u0000para_chr000400\u0000iky_chr000403\u0000para_chr000400\u0000iky_chr000404\u0000para_chr000400\u0000iky_chr000502\u0000para_chr000500\u0000iky_chr000503\u0000para_chr000500\u0000iky_chr000504\u0000para_chr000500\u0000iky_chr000602\u0000para_chr000600\u0000iky_chr000603\u0000para_chr000600\u0000iky_chr000604\u0000para_chr000600\u0000iky_chr000702\u0000para_chr000700\u0000iky_chr000703\u0000para_chr000700\u0000iky_chr000704\u0000para_chr000700\u0000iky_chr000802\u0000para_chr000800\u0000iky_chr000803\u0000para_chr000800\u0000iky_chr000804\u0000para_chr000800\u0000iky_chr000902\u0000para_chr000900\u0000iky_chr000903\u0000para_chr000900\u0000iky_chr000904\u0000para_chr000900\u0000iky_chr000a02\u0000para_chr000a00\u0000iky_chr000a03\u0000para_chr000a00\u0000iky_chr000a04\u0000para_chr000a00\u0000iky_chr000b02\u0000para_chr000b00\u0000iky_chr000b03\u0000para_chr000b00\u0000iky_chr000b04\u0000para_chr000b00\u0000iky_chr000c02\u0000para_chr000c00\u0000iky_chr000c03\u0000para_chr000c00\u0000iky_chr000c04\u0000para_chr000c00\u0000iky_chr000d02\u0000para_chr000d00\u0000iky_chr000d03\u0000para_chr000d00\u0000iky_chr000d04\u0000para_chr000d00\u0000iky_chr000e02\u0000para_chr000e00\u0000iky_chr000e03\u0000para_chr000e00\u0000iky_chr000e04\u0000para_chr000e00\u0000iky_chr000f02\u0000para_chr000f00\u0000iky_chr000f03\u0000para_chr000f00\u0000iky_chr000f04\u0000para_chr000f00\u0000iky_chr001002\u0000para_chr001000\u0000iky_chr001003\u0000para_chr001000\u0000iky_chr001004\u0000para_chr001000\u0000iky_chr001102\u0000para_chr001100\u0000iky_chr001103\u0000para_chr001100\u0000iky_chr001104\u0000para_chr001100\u0000iky_chr001202\u0000para_chr001200\u0000iky_chr001203\u0000para_chr001200\u0000iky_chr001204\u0000para_chr001200\u0000iky_chr001302\u0000para_chr001300\u0000iky_chr001303\u0000para_chr001300\u0000iky_chr001304\u0000para_chr001300\u0000iky_chr001402\u0000para_chr001400\u0000iky_chr001403\u0000para_chr001400\u0000iky_chr001404\u0000para_chr001400\u0000iky_chr001502\u0000para_chr001500\u0000iky_chr001503\u0000para_chr001500\u0000iky_chr001504\u0000para_chr001500\u0000iky_chr001602\u0000para_chr001600\u0000iky_chr001603\u0000para_chr001600\u0000iky_chr001604\u0000para_chr001600\u0000iky_chr001702\u0000para_chr001700\u0000iky_chr001703\u0000para_chr001700\u0000iky_chr001704\u0000para_chr001700\u0000iky_chr001802\u0000para_chr001800\u0000iky_chr001803\u0000para_chr001800\u0000iky_chr001804\u0000para_chr001800\u0000iky_chr001902\u0000para_chr001900\u0000iky_chr001903\u0000para_chr001900\u0000iky_chr001904\u0000para_chr001900\u0000iky_chr001a02\u0000para_chr001a00\u0000iky_chr001a03\u0000para_chr001a00\u0000iky_chr001a04\u0000para_chr001a00\u0000iky_chr001b02\u0000para_chr001b00\u0000iky_chr001b03\u0000para_chr001b00\u0000iky_chr001b04\u0000para_chr001b00\u0000iky_chr001c02\u0000para_chr001c00\u0000iky_chr001c03\u0000para_chr001c00\u0000iky_chr001c04\u0000para_chr001c00\u0000iky_chr001d02\u0000para_chr001d00\u0000iky_chr001d03\u0000para_chr001d00\u0000iky_chr001d04\u0000para_chr001d00\u0000iky_chr001e02\u0000para_chr001e00\u0000iky_chr001e03\u0000para_chr001e00\u0000iky_chr001e04\u0000para_chr001e00\u0000iky_chr001f02\u0000para_chr001f00\u0000iky_chr001f03\u0000para_chr001f00\u0000iky_chr001f04\u0000para_chr001f00\u0000iky_chr002002\u0000para_chr002000\u0000iky_chr002003\u0000para_chr002000\u0000iky_chr002004\u0000para_chr002000\u0000iky_chr002102\u0000para_chr002100\u0000iky_chr002103\u0000para_chr002100\u0000iky_chr002104\u0000para_chr002100\u0000iky_chr002202\u0000para_chr002200\u0000iky_chr002203\u0000para_chr002200\u0000iky_chr002204\u0000para_chr002200\u0000iky_chr002302\u0000para_chr002300\u0000iky_chr002303\u0000para_chr002300\u0000iky_chr002304\u0000para_chr002300\u0000iky_chr002402\u0000para_chr002400\u0000iky_chr002403\u0000para_chr002400\u0000iky_chr002404\u0000para_chr002400\u0000iky_chr002502\u0000para_chr002500\u0000iky_chr002503\u0000para_chr002500\u0000iky_chr002504\u0000para_chr002500\u0000iky_chr002602\u0000para_chr002600\u0000iky_chr002603\u0000para_chr002600\u0000iky_chr002604\u0000para_chr002600\u0000iky_chr002702\u0000para_chr002700\u0000iky_chr002703\u0000para_chr002700\u0000iky_chr002704\u0000para_chr002700\u0000iky_chr002802\u0000para_chr002800\u0000iky_chr002803\u0000para_chr002800\u0000iky_chr002804\u0000para_chr002800\u0000iky_chr002902\u0000para_chr002900\u0000iky_chr002903\u0000para_chr002900\u0000iky_chr002904\u0000para_chr002900\u0000iky_chr002a02\u0000para_chr002a00\u0000iky_chr002a03\u0000para_chr002a00\u0000iky_chr002a04\u0000para_chr002a00\u0000iky_chr002b02\u0000para_chr002b00\u0000iky_chr002b03\u0000para_chr002b00\u0000iky_chr002b04\u0000para_chr002b00\u0000iky_chr002c02\u0000para_chr002c00\u0000iky_chr002c03\u0000para_chr002c00\u0000iky_chr002c04\u0000para_chr002c00\u0000iky_chr002d02\u0000para_chr002d00\u0000iky_chr002d03\u0000para_chr002d00\u0000iky_chr002d04\u0000para_chr002d00\u0000iky_chr002e02\u0000para_chr002e00\u0000iky_chr002e03\u0000para_chr002e00\u0000iky_chr002e04\u0000para_chr002e00\u0000iky_chr002f02\u0000para_chr002f00\u0000iky_chr002f03\u0000para_chr002f00\u0000iky_chr002f04\u0000para_chr002f00\u0000iky_chr003102\u0000para_chr003100\u0000iky_chr003103\u0000para_chr003100\u0000iky_chr003104\u0000para_chr003100\u0000iky_chr003202\u0000para_chr003200\u0000iky_chr003203\u0000para_chr003200\u0000iky_chr003204\u0000para_chr003200\u0000iky_chr003402\u0000para_chr003400\u0000iky_chr003403\u0000para_chr003400\u0000iky_chr003404\u0000para_chr003400\u0000"
+    }
+  }
+]

@@ -1,0 +1,465 @@
+[
+  {
+    "Type": "GDSPickStatusData",
+    "Name": "GDSPickStatusData",
+    "Class": "UScriptClass'GDSPickStatusData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "pick_map_wood_0000",
+          "Value": {
+            "ID": "pick_map_wood_0000",
+            "pickType": 1,
+            "modelID": "mdl_tree_0001",
+            "defaultStatus": "EPickPointStatusType::Vegetable_04",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Blank",
+                "GroupID": "None",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::Vegetable_04"
+                  },
+                  {
+                    "updateType": 2,
+                    "nextStatus": "EPickPointStatusType::Vegetable_04"
+                  },
+                  {
+                    "updateType": 70,
+                    "nextStatus": "EPickPointStatusType::Vegetable_04"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::Vegetable_04",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_cut"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Blank"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_map_fruit_wood_0000",
+          "Value": {
+            "ID": "pick_map_fruit_wood_0000",
+            "pickType": 1,
+            "modelID": "mdl_tree_0001",
+            "defaultStatus": "EPickPointStatusType::Delete",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Blank",
+                "GroupID": "None",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::Delete"
+                  },
+                  {
+                    "updateType": 70,
+                    "nextStatus": "EPickPointStatusType::Delete"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::Delete",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": true,
+                "eventInfo": {
+                  "evType": "EPickEventType::Action",
+                  "evTag": "ev_shake"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Vegetable_04"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::Vegetable_04",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_cut"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Blank"
+                  },
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::Delete"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_map_deposit_0000",
+          "Value": {
+            "ID": "pick_map_deposit_0000",
+            "pickType": 2,
+            "modelID": "mdl_mining_0001",
+            "defaultStatus": "EPickPointStatusType::20",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Blank",
+                "GroupID": "None",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::20"
+                  },
+                  {
+                    "updateType": 2,
+                    "nextStatus": "EPickPointStatusType::20"
+                  },
+                  {
+                    "updateType": 70,
+                    "nextStatus": "EPickPointStatusType::20"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::20",
+                "GroupID": "grp_01",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_mining"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Blank"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_map_vegetable_0000",
+          "Value": {
+            "ID": "pick_map_vegetable_0000",
+            "pickType": 4,
+            "modelID": "mdl_vegetable_0001",
+            "defaultStatus": "EPickPointStatusType::44",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Blank",
+                "GroupID": "None",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::44"
+                  },
+                  {
+                    "updateType": 2,
+                    "nextStatus": "EPickPointStatusType::44"
+                  },
+                  {
+                    "updateType": 70,
+                    "nextStatus": "EPickPointStatusType::44"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::44",
+                "GroupID": "grp_04",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_harvesting"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Blank"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_map_fish_0000",
+          "Value": {
+            "ID": "pick_map_fish_0000",
+            "pickType": 3,
+            "modelID": "mdl_fish_0001",
+            "defaultStatus": "EPickPointStatusType::30",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Blank",
+                "GroupID": "None",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::30"
+                  },
+                  {
+                    "updateType": 2,
+                    "nextStatus": "EPickPointStatusType::30"
+                  },
+                  {
+                    "updateType": 70,
+                    "nextStatus": "EPickPointStatusType::30"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::30",
+                "GroupID": "grp_01",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_fishing"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Blank"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_wood_0001",
+          "Value": {
+            "ID": "pick_wood_0001",
+            "pickType": 1,
+            "modelID": "mdl_tree_0001",
+            "defaultStatus": "EPickPointStatusType::Vegetable_04",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Vegetable_04",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_cut"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::90"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_fruit_wood_0001",
+          "Value": {
+            "ID": "pick_fruit_wood_0001",
+            "pickType": 1,
+            "modelID": "mdl_tree_0001",
+            "defaultStatus": "EPickPointStatusType::Delete",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::Delete",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": true,
+                "eventInfo": {
+                  "evType": "EPickEventType::Action",
+                  "evTag": "ev_shake"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::Vegetable_04"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::Vegetable_04",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_cut"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::90"
+                  },
+                  {
+                    "updateType": 60,
+                    "nextStatus": "EPickPointStatusType::Delete"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_deposit_0000",
+          "Value": {
+            "ID": "pick_deposit_0000",
+            "pickType": 2,
+            "modelID": "mdl_mining_0001",
+            "defaultStatus": "EPickPointStatusType::20",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::20",
+                "GroupID": "grp_01",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_mining"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::90"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "pick_vegetable_0000",
+          "Value": {
+            "ID": "pick_vegetable_0000",
+            "pickType": 4,
+            "modelID": "mdl_vegetable_0001",
+            "defaultStatus": "EPickPointStatusType::40",
+            "statusInfo": [
+              {
+                "Status": "EPickPointStatusType::40",
+                "GroupID": "grp_00",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": []
+              },
+              {
+                "Status": "EPickPointStatusType::41",
+                "GroupID": "grp_01",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::None",
+                  "evTag": "None"
+                },
+                "UpdateInfo": []
+              },
+              {
+                "Status": "EPickPointStatusType::42",
+                "GroupID": "grp_02",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_harvesting"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::90"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::43",
+                "GroupID": "grp_03",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_harvesting"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::90"
+                  }
+                ]
+              },
+              {
+                "Status": "EPickPointStatusType::44",
+                "GroupID": "grp_04",
+                "viewType": "None",
+                "exItemView": false,
+                "eventInfo": {
+                  "evType": "EPickEventType::Minigame",
+                  "evTag": "ev_harvesting"
+                },
+                "UpdateInfo": [
+                  {
+                    "updateType": 50,
+                    "nextStatus": "EPickPointStatusType::90"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

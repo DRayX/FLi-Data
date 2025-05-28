@@ -1,0 +1,593 @@
+[
+  {
+    "Type": "GDSMapSoundSetting",
+    "Name": "GDSMapSoundSetting",
+    "Class": "UScriptClass'GDSMapSoundSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 1261106821,
+            "Name": "Torch"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1261106821,
+              "Name": "Torch"
+            },
+            "cond": {
+              "Cmd": "CondCmd_UnCondition",
+              "arg": []
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1841958593,
+            "Name": "enemy_village_01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1841958593,
+              "Name": "enemy_village_01"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 0,
+                  "m_dataSize": 20
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2139070767,
+            "Name": "enemy_village_02"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2139070767,
+              "Name": "enemy_village_02"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 5,
+                  "m_dataSize": 20
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3351496266,
+            "Name": "enemy_village_03"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3351496266,
+              "Name": "enemy_village_03"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 10,
+                  "m_dataSize": 20
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1511325427,
+            "Name": "enemy_village_04"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1511325427,
+              "Name": "enemy_village_04"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 15,
+                  "m_dataSize": 20
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3802700182,
+            "Name": "enemy_village_05"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3802700182,
+              "Name": "enemy_village_05"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 20,
+                  "m_dataSize": 20
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 4028446328,
+            "Name": "enemy_village_06"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4028446328,
+              "Name": "enemy_village_06"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 25,
+                  "m_dataSize": 20
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2902247557,
+            "Name": "tag_tower083_01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2902247557,
+              "Name": "tag_tower083_01"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 30,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2437381806,
+            "Name": "tag_tower075_02"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2437381806,
+              "Name": "tag_tower075_02"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 35,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3409709038,
+            "Name": "tag_tower067_03"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3409709038,
+              "Name": "tag_tower067_03"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 40,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2133035941,
+            "Name": "tag_tower064_04"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2133035941,
+              "Name": "tag_tower064_04"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 45,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1115532622,
+            "Name": "tag_tower035_05"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1115532622,
+              "Name": "tag_tower035_05"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 50,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2978784307,
+            "Name": "tag_tower045_06"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2978784307,
+              "Name": "tag_tower045_06"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 55,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 8028431,
+            "Name": "tag_tower048_07"
+          },
+          "Value": {
+            "ID": {
+              "crc": 8028431,
+              "Name": "tag_tower048_07"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 60,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1918016797,
+            "Name": "tag_tower029_08"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1918016797,
+              "Name": "tag_tower029_08"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 65,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2923961701,
+            "Name": "tag_tower008_09"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2923961701,
+              "Name": "tag_tower008_09"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 70,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 4121350742,
+            "Name": "tag_tower026_10"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4121350742,
+              "Name": "tag_tower026_10"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 75,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1695800730,
+            "Name": "tag_tower014_11"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1695800730,
+              "Name": "tag_tower014_11"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 80,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3624878014,
+            "Name": "tag_tower024_12"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3624878014,
+              "Name": "tag_tower024_12"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 85,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3521457946,
+            "Name": "tag_tower030_13"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3521457946,
+              "Name": "tag_tower030_13"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 90,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 52306081,
+            "Name": "tag_tower041_14"
+          },
+          "Value": {
+            "ID": {
+              "crc": 52306081,
+              "Name": "tag_tower041_14"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 95,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2456482614,
+            "Name": "tag_tower042_15"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2456482614,
+              "Name": "tag_tower042_15"
+            },
+            "cond": {
+              "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+              "arg": [
+                {
+                  "m_offset": 100,
+                  "m_dataSize": 25
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        117,
+        103,
+        222,
+        105,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        52,
+        107,
+        0,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        52,
+        154,
+        0,
+        0,
+        0,
+        52,
+        180,
+        0,
+        0,
+        0,
+        52,
+        206,
+        0,
+        0,
+        0,
+        52,
+        232,
+        0,
+        0,
+        0,
+        52,
+        2,
+        1,
+        0,
+        0,
+        52,
+        28,
+        1,
+        0,
+        0,
+        52,
+        54,
+        1,
+        0,
+        0,
+        52,
+        80,
+        1,
+        0,
+        0,
+        52,
+        106,
+        1,
+        0,
+        0,
+        52,
+        132,
+        1,
+        0,
+        0,
+        52,
+        158,
+        1,
+        0,
+        0,
+        52,
+        184,
+        1,
+        0,
+        0,
+        52,
+        210,
+        1,
+        0,
+        0,
+        52,
+        236,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_enemy_village_01\u0000flg_enemy_village_02\u0000flg_enemy_village_03\u0000flg_enemy_village_04\u0000flg_enemy_village_05\u0000flg_enemy_village_06\u0000flg_travelpoint_200000_01\u0000flg_travelpoint_200000_02\u0000flg_travelpoint_200000_03\u0000flg_travelpoint_200000_04\u0000flg_travelpoint_200000_05\u0000flg_travelpoint_200000_06\u0000flg_travelpoint_200000_07\u0000flg_travelpoint_200000_08\u0000flg_travelpoint_200000_09\u0000flg_travelpoint_200000_10\u0000flg_travelpoint_200000_11\u0000flg_travelpoint_200000_12\u0000flg_travelpoint_200000_13\u0000flg_travelpoint_200000_14\u0000flg_travelpoint_200000_15\u0000"
+    }
+  }
+]

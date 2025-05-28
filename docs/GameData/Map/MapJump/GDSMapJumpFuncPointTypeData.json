@@ -1,0 +1,100 @@
+[
+  {
+    "Type": "GDSMapJumpFuncPointTypeData",
+    "Name": "GDSMapJumpFuncPointTypeData",
+    "Class": "UScriptClass'GDSMapJumpFuncPointTypeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "outdoor_door",
+          "Value": {
+            "ID": "outdoor_door",
+            "enterEventScriptId": "outdoor_door_enter",
+            "exitEventScriptId": "outdoor_door_exit"
+          }
+        },
+        {
+          "Key": "mft_way",
+          "Value": {
+            "ID": "mft_way",
+            "enterEventScriptId": "way_enter",
+            "exitEventScriptId": "way_exit"
+          }
+        },
+        {
+          "Key": "mft_way_no_exit_action",
+          "Value": {
+            "ID": "mft_way_no_exit_action",
+            "enterEventScriptId": "way_enter",
+            "exitEventScriptId": "mj_wipe_out_soon"
+          }
+        },
+        {
+          "Key": "mft_way_loastforest_enter",
+          "Value": {
+            "ID": "mft_way_loastforest_enter",
+            "enterEventScriptId": "lostforest_enter",
+            "exitEventScriptId": "mj_wipe_out_soon"
+          }
+        },
+        {
+          "Key": "mft_way_loastforest_exit",
+          "Value": {
+            "ID": "mft_way_loastforest_exit",
+            "enterEventScriptId": "lostforest_enter",
+            "exitEventScriptId": "lostforest_exit"
+          }
+        },
+        {
+          "Key": "mft_way_loastforest",
+          "Value": {
+            "ID": "mft_way_loastforest",
+            "enterEventScriptId": "lostforest_enter_success",
+            "exitEventScriptId": "lostforest_exit_failure"
+          }
+        },
+        {
+          "Key": "way",
+          "Value": {
+            "ID": "way",
+            "enterEventScriptId": "way_enter",
+            "exitEventScriptId": "way_exit"
+          }
+        },
+        {
+          "Key": "mft_plantdungeon_start",
+          "Value": {
+            "ID": "mft_plantdungeon_start",
+            "enterEventScriptId": "warp_enter",
+            "exitEventScriptId": "warp_exit"
+          }
+        },
+        {
+          "Key": "mft_plantdungeon_entrance",
+          "Value": {
+            "ID": "mft_plantdungeon_entrance",
+            "enterEventScriptId": "wipe_in_enter",
+            "exitEventScriptId": "mj_wipe_out_soon"
+          }
+        },
+        {
+          "Key": "mft_plantdungeon_in",
+          "Value": {
+            "ID": "mft_plantdungeon_in",
+            "enterEventScriptId": "wipe_in_enter",
+            "exitEventScriptId": "mj_wipe_out_soon"
+          }
+        },
+        {
+          "Key": "room_default",
+          "Value": {
+            "ID": "room_default",
+            "enterEventScriptId": "way_enter",
+            "exitEventScriptId": "mj_wipe_out_soon"
+          }
+        }
+      ]
+    }
+  }
+]

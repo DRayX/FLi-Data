@@ -1,0 +1,146 @@
+[
+  {
+    "Type": "GDSMapJumpFuncPointPlacement",
+    "Name": "PlantDungeon_GDSMapJumpFuncPointPlacement",
+    "Class": "UScriptClass'GDSMapJumpFuncPointPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "mjfp_landing",
+          "Value": {
+            "ID": "mjfp_landing",
+            "mapJumpFuncPointTypeDataId": "mft_plantdungeon_entrance",
+            "mapJumpEventParamDataId": "mjep_plantdungeon_start",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              0
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_Exit",
+          "Value": {
+            "ID": "mjfp_Exit",
+            "mapJumpFuncPointTypeDataId": "mft_plantdungeon_entrance",
+            "mapJumpEventParamDataId": "mjep_plantdungeon_start",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              0
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_from_PlantDungeon_prev_Floor",
+          "Value": {
+            "ID": "mjfp_from_PlantDungeon_prev_Floor",
+            "mapJumpFuncPointTypeDataId": "mft_plantdungeon_start",
+            "mapJumpEventParamDataId": "mjep_plantdungeon_start",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              0
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_to_PlantDungeon_next_Floor",
+          "Value": {
+            "ID": "mjfp_to_PlantDungeon_next_Floor",
+            "mapJumpFuncPointTypeDataId": "mft_plantdungeon_start",
+            "mapJumpEventParamDataId": "mjep_plantdungeon_start",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [
+              {
+                "Type": 15,
+                "placeType": "EGameIconPlaceType::CharaHead",
+                "textId": "None",
+                "Offset": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "namePlateIconID": []
+              }
+            ],
+            "mapIconType": 49,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_to_BossRoom",
+          "Value": {
+            "ID": "mjfp_to_BossRoom",
+            "mapJumpFuncPointTypeDataId": "mft_plantdungeon_start",
+            "mapJumpEventParamDataId": "mjep_plantdungeon_start",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [
+              {
+                "Type": 15,
+                "placeType": "EGameIconPlaceType::CharaHead",
+                "textId": "None",
+                "Offset": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "namePlateIconID": []
+              }
+            ],
+            "mapIconType": 49,
+            "CameraOffset": 0.0
+          }
+        }
+      ]
+    }
+  }
+]

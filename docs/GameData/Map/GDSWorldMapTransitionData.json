@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "GDSWorldMapTransitionData",
+    "Name": "GDSWorldMapTransitionData",
+    "Class": "UScriptClass'GDSWorldMapTransitionData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "transition_setting_multi_01",
+          "Value": {
+            "ID": "transition_setting_multi_01",
+            "mapId": "Map_100100",
+            "transitionMapIdList": [
+              "Map_100100",
+              "Map_100101"
+            ]
+          }
+        },
+        {
+          "Key": "transition_setting_multi_02",
+          "Value": {
+            "ID": "transition_setting_multi_02",
+            "mapId": "Map_100101",
+            "transitionMapIdList": [
+              "Map_100100",
+              "Map_100101"
+            ]
+          }
+        },
+        {
+          "Key": "transition_setting_multi_03",
+          "Value": {
+            "ID": "transition_setting_multi_03",
+            "mapId": "Map_200000",
+            "transitionMapIdList": [
+              "Map_200000"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

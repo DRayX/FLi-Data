@@ -1,0 +1,171 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100501_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100100_env",
+          "Value": {
+            "SubLevelID": "Map_100100_env",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_env"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100501_mod",
+          "Value": {
+            "SubLevelID": "Map_100501_mod",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100501/Map_100501_mod"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100501_area",
+          "Value": {
+            "SubLevelID": "Map_100501_area",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100501/Map_100501_area"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100501_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_100501_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100501/Phase/Map_100501_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100501_Sound",
+          "Value": {
+            "SubLevelID": "Map_100501_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100501_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100501_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100501_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100501/Map_100501_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100501_fence",
+          "Value": {
+            "SubLevelID": "Map_100501_fence",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100501/Map_100501_fence"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100501_effect",
+          "Value": {
+            "SubLevelID": "Map_100501_effect",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100501/Map_100501_effect"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        122,
+        236,
+        0,
+        15,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        148,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        50,
+        20,
+        235,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_check_InvisibleWall\u0000flg_check_InvisibleWall\u0000"
+    }
+  }
+]

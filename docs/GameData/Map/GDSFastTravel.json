@@ -1,0 +1,2238 @@
+[
+  {
+    "Type": "GDSFastTravel",
+    "Name": "GDSFastTravel",
+    "Class": "UScriptClass'GDSFastTravel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 799881547,
+            "Name": "FT000100_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 799881547,
+              "Name": "FT000100_001"
+            },
+            "flagNo": 0,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_000100",
+            "TargetPlayerStartID": "PS_FT000100_001",
+            "cameraAzimuth": 180.0,
+            "Position": {
+              "X": -3700.0,
+              "Y": -1069.0,
+              "Z": -50.0
+            },
+            "AreaID": "None",
+            "Title": "name_Map_000100_000",
+            "iconID": "ICON_TAB_BOARD_00",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1254752781,
+            "Name": "FT000101_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1254752781,
+              "Name": "FT000101_001"
+            },
+            "flagNo": 1,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_000101",
+            "TargetPlayerStartID": "PS_FT000101_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 3963.6775,
+              "Y": -40.58078,
+              "Z": 17.93203
+            },
+            "AreaID": "None",
+            "Title": "name_FT000101_001",
+            "iconID": "ICON_TAB_BOARD_07",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2162797324,
+            "Name": "FT100100_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2162797324,
+              "Name": "FT100100_001"
+            },
+            "flagNo": 2,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100100",
+            "TargetPlayerStartID": "PS_FT100100_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 3732.0,
+              "Y": -582.0,
+              "Z": 509.0
+            },
+            "AreaID": "None",
+            "Title": "name_FT100100_001",
+            "iconID": "ICON_TAB_BOARD_01",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3851325514,
+            "Name": "FT100101_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3851325514,
+              "Name": "FT100101_001"
+            },
+            "flagNo": 3,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100101",
+            "TargetPlayerStartID": "PS_FT100101_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 5961.9,
+              "Y": -10.8,
+              "Z": 821.5
+            },
+            "AreaID": "None",
+            "Title": "name_FT100101_001",
+            "iconID": "ICON_TAB_BOARD_01",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "Exposure": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 4147855268,
+            "Name": "FT100101_002"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4147855268,
+              "Name": "FT100101_002"
+            },
+            "flagNo": 4,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100101",
+            "TargetPlayerStartID": "PS_FT100101_002",
+            "cameraAzimuth": 50.0,
+            "Position": {
+              "X": -10972.0,
+              "Y": 4045.0,
+              "Z": 223.0
+            },
+            "AreaID": "None",
+            "Title": "name_FT100101_002",
+            "iconID": "ICON_TAB_BOARD_01",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1334270145,
+            "Name": "FT100101_003"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1334270145,
+              "Name": "FT100101_003"
+            },
+            "flagNo": 5,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100101",
+            "TargetPlayerStartID": "PS_FT100101_003",
+            "cameraAzimuth": 325.0,
+            "Position": {
+              "X": -8689.073,
+              "Y": 15399.721,
+              "Z": 175.37628
+            },
+            "AreaID": "None",
+            "Title": "name_FT100101_003",
+            "iconID": "ICON_TAB_BOARD_01",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3528482936,
+            "Name": "FT100101_004"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3528482936,
+              "Name": "FT100101_004"
+            },
+            "flagNo": 6,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100101",
+            "TargetPlayerStartID": "PS_FT100101_004",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 3800.0,
+              "Y": 9964.493,
+              "Z": 71.10777
+            },
+            "AreaID": "None",
+            "Title": "name_FT100101_004",
+            "iconID": "ICON_TAB_BOARD_01",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2206355766,
+            "Name": "FT100300_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2206355766,
+              "Name": "FT100300_001"
+            },
+            "flagNo": 7,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100300",
+            "TargetPlayerStartID": "PS_FT100300_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 7313.0,
+              "Y": -1456.0,
+              "Z": 312.0
+            },
+            "AreaID": "None",
+            "Title": "name_WorldMap_100301",
+            "iconID": "ICON_TAB_BOARD_02",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1743029459,
+            "Name": "FT100300_001a"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1743029459,
+              "Name": "FT100300_001a"
+            },
+            "flagNo": 8,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100300",
+            "TargetPlayerStartID": "PS_FT100300_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 7392.7944,
+              "Y": -1915.7601,
+              "Z": 312.61584
+            },
+            "AreaID": "None",
+            "Title": "name_FT100300_001",
+            "iconID": "ICON_TAB_BOARD_02",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2436366040,
+            "Name": "FT100300_002"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2436366040,
+              "Name": "FT100300_002"
+            },
+            "flagNo": 9,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100300",
+            "TargetPlayerStartID": "PS_FT100300_002",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 1229.7,
+              "Y": 8265.3,
+              "Z": 725.4
+            },
+            "AreaID": "None",
+            "Title": "name_FT100300_002",
+            "iconID": "ICON_TAB_BOARD_02",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 697014717,
+            "Name": "FT100300_003"
+          },
+          "Value": {
+            "ID": {
+              "crc": 697014717,
+              "Name": "FT100300_003"
+            },
+            "flagNo": 10,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100300",
+            "TargetPlayerStartID": "PS_FT100300_003",
+            "cameraAzimuth": 90.0,
+            "Position": {
+              "X": -3695.0,
+              "Y": -6611.0,
+              "Z": 962.4
+            },
+            "AreaID": "None",
+            "Title": "name_FT100300_003",
+            "iconID": "ICON_TAB_BOARD_02",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3025969412,
+            "Name": "FT100300_004"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3025969412,
+              "Name": "FT100300_004"
+            },
+            "flagNo": 11,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100300",
+            "TargetPlayerStartID": "PS_FT100300_004",
+            "cameraAzimuth": 270.0,
+            "Position": {
+              "X": -4954.117,
+              "Y": -1166.0898,
+              "Z": 3166.4995
+            },
+            "AreaID": "None",
+            "Title": "name_FT100300_004",
+            "iconID": "ICON_TAB_BOARD_02",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2274075237,
+            "Name": "FT100400_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2274075237,
+              "Name": "FT100400_001"
+            },
+            "flagNo": 12,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100400",
+            "TargetPlayerStartID": "PS_FT100400_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 17114.402,
+              "Y": -7937.758,
+              "Z": 263.05167
+            },
+            "AreaID": "None",
+            "Title": "name_Map_100400_000",
+            "iconID": "ICON_TAB_BOARD_03",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 3748763206,
+            "Name": "FT100400_001a"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3748763206,
+              "Name": "FT100400_001a"
+            },
+            "flagNo": 13,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100400",
+            "TargetPlayerStartID": "PS_FT100400_001",
+            "cameraAzimuth": 90.0,
+            "Position": {
+              "X": 17003.34,
+              "Y": -7161.5864,
+              "Z": 235.36101
+            },
+            "AreaID": "None",
+            "Title": "name_FT100400_001",
+            "iconID": "ICON_TAB_BOARD_03",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2503871883,
+            "Name": "FT100400_002"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2503871883,
+              "Name": "FT100400_002"
+            },
+            "flagNo": 14,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100400",
+            "TargetPlayerStartID": "PS_FT100400_002",
+            "cameraAzimuth": 200.0,
+            "Position": {
+              "X": 6086.752,
+              "Y": 4592.9937,
+              "Z": 53.35634
+            },
+            "AreaID": "None",
+            "Title": "name_Map_100401_000",
+            "iconID": "ICON_TAB_BOARD_03",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 763521774,
+            "Name": "FT100400_003"
+          },
+          "Value": {
+            "ID": {
+              "crc": 763521774,
+              "Name": "FT100400_003"
+            },
+            "flagNo": 15,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100400",
+            "TargetPlayerStartID": "PS_FT100400_003",
+            "cameraAzimuth": 50.0,
+            "Position": {
+              "X": -10294.3,
+              "Y": -6524.2,
+              "Z": 90.1
+            },
+            "AreaID": "None",
+            "Title": "name_FT100400_003",
+            "iconID": "ICON_TAB_BOARD_03",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2958381655,
+            "Name": "FT100400_004"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2958381655,
+              "Name": "FT100400_004"
+            },
+            "flagNo": 16,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100400",
+            "TargetPlayerStartID": "PS_FT100400_004",
+            "cameraAzimuth": 55.0,
+            "Position": {
+              "X": 1725.4,
+              "Y": 1498.9,
+              "Z": 120.2
+            },
+            "AreaID": "None",
+            "Title": "name_FT100400_004",
+            "iconID": "ICON_TAB_BOARD_03",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2252234616,
+            "Name": "FT100500_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2252234616,
+              "Name": "FT100500_001"
+            },
+            "flagNo": 17,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100500",
+            "TargetPlayerStartID": "PS_FT100500_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 4990.0,
+              "Y": 460.0,
+              "Z": 140.0
+            },
+            "AreaID": "None",
+            "Title": "name_WorldMap_100500",
+            "iconID": "ICON_TAB_BOARD_04",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 782996460,
+            "Name": "FT100500_001a"
+          },
+          "Value": {
+            "ID": {
+              "crc": 782996460,
+              "Name": "FT100500_001a"
+            },
+            "flagNo": 18,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100500",
+            "TargetPlayerStartID": "PS_FT100500_001",
+            "cameraAzimuth": 0.0,
+            "Position": {
+              "X": 5048.695,
+              "Y": 4.980194,
+              "Z": 140.0
+            },
+            "AreaID": "None",
+            "Title": "name_FT100500_001",
+            "iconID": "ICON_TAB_BOARD_04",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 26
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2492199062,
+            "Name": "FT100500_002"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2492199062,
+              "Name": "FT100500_002"
+            },
+            "flagNo": 19,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_100500",
+            "TargetPlayerStartID": "PS_FT100500_002",
+            "cameraAzimuth": 40.0,
+            "Position": {
+              "X": 4067.9,
+              "Y": -2780.6,
+              "Z": 126.9
+            },
+            "AreaID": "None",
+            "Title": "name_FT100500_002",
+            "iconID": "ICON_TAB_BOARD_04",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2883643033,
+            "Name": "FT200000_001"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2883643033,
+              "Name": "FT200000_001"
+            },
+            "flagNo": 20,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_001",
+            "cameraAzimuth": 175.0,
+            "Position": {
+              "X": 59363.35,
+              "Y": 26421.5,
+              "Z": 555.0
+            },
+            "AreaID": "map200000_area001",
+            "Title": "name_HugeMap_01",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3109374327,
+            "Name": "FT200000_002"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3109374327,
+              "Name": "FT200000_002"
+            },
+            "flagNo": 21,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_002",
+            "cameraAzimuth": 136.6,
+            "Position": {
+              "X": 50039.74,
+              "Y": -10383.5,
+              "Z": 691.14
+            },
+            "AreaID": "map200000_area002",
+            "Title": "name_HugeMap_02",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 32058898,
+            "Name": "FT200000_003"
+          },
+          "Value": {
+            "ID": {
+              "crc": 32058898,
+              "Name": "FT200000_003"
+            },
+            "flagNo": 22,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_003",
+            "cameraAzimuth": 205.7,
+            "Position": {
+              "X": 21557.79,
+              "Y": -48053.49,
+              "Z": 600.0
+            },
+            "AreaID": "map200000_area003",
+            "Title": "name_HugeMap_03",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2621314731,
+            "Name": "FT200000_004"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2621314731,
+              "Name": "FT200000_004"
+            },
+            "flagNo": 23,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_004",
+            "cameraAzimuth": 92.8,
+            "Position": {
+              "X": 20763.24,
+              "Y": 15341.92,
+              "Z": 2200.0
+            },
+            "AreaID": "map200000_area004",
+            "Title": "name_HugeMap_06",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 612528590,
+            "Name": "FT200000_005"
+          },
+          "Value": {
+            "ID": {
+              "crc": 612528590,
+              "Name": "FT200000_005"
+            },
+            "flagNo": 24,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_005",
+            "cameraAzimuth": 101.5,
+            "Position": {
+              "X": -28302.58,
+              "Y": -9860.96,
+              "Z": 500.0
+            },
+            "AreaID": "map200000_area005",
+            "Title": "name_HugeMap_04",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 909631008,
+            "Name": "FT200000_006"
+          },
+          "Value": {
+            "ID": {
+              "crc": 909631008,
+              "Name": "FT200000_006"
+            },
+            "flagNo": 25,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_006",
+            "cameraAzimuth": 103.3,
+            "Position": {
+              "X": -3339.105,
+              "Y": -8639.482,
+              "Z": 432.4604
+            },
+            "AreaID": "map200000_area006",
+            "Title": "name_HugeMap_05",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2391521605,
+            "Name": "FT200000_007"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2391521605,
+              "Name": "FT200000_007"
+            },
+            "flagNo": 26,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_007",
+            "cameraAzimuth": 120.0,
+            "Position": {
+              "X": -18250.326,
+              "Y": -64511.246,
+              "Z": 1063.5128
+            },
+            "AreaID": "map200000_area007",
+            "Title": "name_HugeMap_07",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3605571859,
+            "Name": "FT200000_008"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3605571859,
+              "Name": "FT200000_008"
+            },
+            "flagNo": 27,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_008",
+            "cameraAzimuth": 250.0,
+            "Position": {
+              "X": -41850.12,
+              "Y": -92129.1,
+              "Z": 1153.0793
+            },
+            "AreaID": "map200000_area008",
+            "Title": "name_HugeMap_08",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1851051638,
+            "Name": "FT200000_009"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1851051638,
+              "Name": "FT200000_009"
+            },
+            "flagNo": 28,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_009",
+            "cameraAzimuth": 204.7,
+            "Position": {
+              "X": -87656.64,
+              "Y": -68898.49,
+              "Z": 100.0
+            },
+            "AreaID": "map200000_area009",
+            "Title": "name_HugeMap_09",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3757474146,
+            "Name": "FT200000_010"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3757474146,
+              "Name": "FT200000_010"
+            },
+            "flagNo": 29,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_010",
+            "cameraAzimuth": 65.0,
+            "Position": {
+              "X": -55094.35,
+              "Y": -22064.61,
+              "Z": 3900.0
+            },
+            "AreaID": "map200000_area010",
+            "Title": "name_HugeMap_10",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1732961799,
+            "Name": "FT200000_011"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1732961799,
+              "Name": "FT200000_011"
+            },
+            "flagNo": 30,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_011",
+            "cameraAzimuth": 76.3,
+            "Position": {
+              "X": -66598.836,
+              "Y": 14980.867,
+              "Z": 1229.4412
+            },
+            "AreaID": "map200000_area011",
+            "Title": "name_HugeMap_11",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1979664873,
+            "Name": "FT200000_012"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1979664873,
+              "Name": "FT200000_012"
+            },
+            "flagNo": 31,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_012",
+            "cameraAzimuth": 95.7,
+            "Position": {
+              "X": -43864.266,
+              "Y": 9024.6875,
+              "Z": 2655.8354
+            },
+            "AreaID": "map200000_area012",
+            "Title": "name_HugeMap_12",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3443732108,
+            "Name": "FT200000_013"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3443732108,
+              "Name": "FT200000_013"
+            },
+            "flagNo": 32,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_013",
+            "cameraAzimuth": 117.0,
+            "Position": {
+              "X": -29149.41,
+              "Y": 84248.54,
+              "Z": 783.84
+            },
+            "AreaID": "map200000_area013",
+            "Title": "name_HugeMap_13",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1351882293,
+            "Name": "FT200000_014"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1351882293,
+              "Name": "FT200000_014"
+            },
+            "flagNo": 33,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_014",
+            "cameraAzimuth": 70.1,
+            "Position": {
+              "X": -2269.25,
+              "Y": 75204.53,
+              "Z": 750.0
+            },
+            "AreaID": "map200000_area014",
+            "Title": "name_HugeMap_14",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 320,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3894964560,
+            "Name": "FT200000_015"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3894964560,
+              "Name": "FT200000_015"
+            },
+            "flagNo": 34,
+            "FastTravelType": 1,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_015",
+            "cameraAzimuth": 194.2,
+            "Position": {
+              "X": -5382.91,
+              "Y": 52386.79,
+              "Z": -0.46
+            },
+            "AreaID": "map200000_area015",
+            "Title": "name_HugeMap_15",
+            "iconID": "ICON_TAB_BOARD_08",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 325,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3808487677,
+            "Name": "FT200000_051"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3808487677,
+              "Name": "FT200000_051"
+            },
+            "flagNo": 35,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_051",
+            "cameraAzimuth": -30.0,
+            "Position": {
+              "X": 72976.8,
+              "Y": -12310.324,
+              "Z": 292.0
+            },
+            "AreaID": "map200000_area002",
+            "Title": "name_Map_200000_033",
+            "iconID": "ICON_TAB_BOARD_10",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 330,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 4055189267,
+            "Name": "FT200000_052"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4055189267,
+              "Name": "FT200000_052"
+            },
+            "flagNo": 36,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_052",
+            "cameraAzimuth": -90.0,
+            "Position": {
+              "X": 4524.8955,
+              "Y": 2587.8264,
+              "Z": 755.3911
+            },
+            "AreaID": "map200000_area006",
+            "Title": "name_Map_200000_034",
+            "iconID": "ICON_TAB_BOARD_10",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 335,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1225334902,
+            "Name": "FT200000_053"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1225334902,
+              "Name": "FT200000_053"
+            },
+            "flagNo": 37,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_053",
+            "cameraAzimuth": 130.0,
+            "Position": {
+              "X": -16536.762,
+              "Y": 44947.75,
+              "Z": 2183.9028
+            },
+            "AreaID": "map200000_area015",
+            "Title": "name_Map_200000_035",
+            "iconID": "ICON_TAB_BOARD_10",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 340,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 3571325135,
+            "Name": "FT200000_054"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3571325135,
+              "Name": "FT200000_054"
+            },
+            "flagNo": 38,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_054",
+            "cameraAzimuth": 230.0,
+            "Position": {
+              "X": -58625.207,
+              "Y": -67065.41,
+              "Z": 697.79724
+            },
+            "AreaID": "map200000_area008",
+            "Title": "name_Map_200000_036",
+            "iconID": "ICON_TAB_BOARD_10",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 345,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 1818394538,
+            "Name": "FT200000_055"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1818394538,
+              "Name": "FT200000_055"
+            },
+            "flagNo": 39,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_055",
+            "cameraAzimuth": 170.0,
+            "Position": {
+              "X": -35882.0,
+              "Y": 40736.1,
+              "Z": 190.2
+            },
+            "AreaID": "map200000_area012",
+            "Title": "name_Map_200000_037",
+            "iconID": "ICON_TAB_BOARD_10",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 350,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        },
+        {
+          "Key": {
+            "crc": 2128072772,
+            "Name": "FT200000_056"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2128072772,
+              "Name": "FT200000_056"
+            },
+            "flagNo": 40,
+            "FastTravelType": 0,
+            "TargetMapID": "Map_200000",
+            "TargetPlayerStartID": "PS_FT200000_056",
+            "cameraAzimuth": 300.0,
+            "Position": {
+              "X": -54041.6,
+              "Y": -33432.8,
+              "Z": 3992.0
+            },
+            "AreaID": "map200000_area010",
+            "Title": "name_Map_200000_038",
+            "iconID": "ICON_TAB_BOARD_10",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 355,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "selectable": [],
+            "Exposure": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        86,
+        92,
+        38,
+        104,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        41,
+        0,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        50,
+        68,
+        117,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        196,
+        234,
+        0,
+        0,
+        50,
+        40,
+        235,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        84,
+        156,
+        0,
+        0,
+        50,
+        110,
+        195,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        84,
+        156,
+        0,
+        0,
+        50,
+        110,
+        195,
+        0,
+        0,
+        52,
+        58,
+        0,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        84,
+        156,
+        0,
+        0,
+        50,
+        110,
+        195,
+        0,
+        0,
+        52,
+        84,
+        0,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        242,
+        78,
+        0,
+        0,
+        50,
+        84,
+        156,
+        0,
+        0,
+        50,
+        110,
+        195,
+        0,
+        0,
+        52,
+        110,
+        0,
+        0,
+        0,
+        50,
+        114,
+        156,
+        0,
+        0,
+        50,
+        114,
+        156,
+        0,
+        0,
+        52,
+        136,
+        0,
+        0,
+        0,
+        52,
+        163,
+        0,
+        0,
+        0,
+        52,
+        189,
+        0,
+        0,
+        0,
+        50,
+        174,
+        156,
+        0,
+        0,
+        52,
+        215,
+        0,
+        0,
+        0,
+        52,
+        241,
+        0,
+        0,
+        0,
+        50,
+        140,
+        195,
+        0,
+        0,
+        50,
+        140,
+        195,
+        0,
+        0,
+        52,
+        11,
+        1,
+        0,
+        0,
+        52,
+        38,
+        1,
+        0,
+        0,
+        52,
+        64,
+        1,
+        0,
+        0,
+        52,
+        90,
+        1,
+        0,
+        0,
+        52,
+        116,
+        1,
+        0,
+        0,
+        50,
+        176,
+        234,
+        0,
+        0,
+        50,
+        176,
+        234,
+        0,
+        0,
+        52,
+        142,
+        1,
+        0,
+        0,
+        52,
+        169,
+        1,
+        0,
+        0,
+        50,
+        206,
+        234,
+        0,
+        0,
+        52,
+        195,
+        1,
+        0,
+        0,
+        52,
+        221,
+        1,
+        0,
+        0,
+        52,
+        247,
+        1,
+        0,
+        0,
+        52,
+        17,
+        2,
+        0,
+        0,
+        52,
+        43,
+        2,
+        0,
+        0,
+        52,
+        69,
+        2,
+        0,
+        0,
+        52,
+        95,
+        2,
+        0,
+        0,
+        52,
+        121,
+        2,
+        0,
+        0,
+        52,
+        147,
+        2,
+        0,
+        0,
+        52,
+        173,
+        2,
+        0,
+        0,
+        52,
+        199,
+        2,
+        0,
+        0,
+        52,
+        225,
+        2,
+        0,
+        0,
+        52,
+        251,
+        2,
+        0,
+        0,
+        52,
+        21,
+        3,
+        0,
+        0,
+        52,
+        47,
+        3,
+        0,
+        0,
+        52,
+        73,
+        3,
+        0,
+        0,
+        52,
+        94,
+        3,
+        0,
+        0,
+        52,
+        115,
+        3,
+        0,
+        0,
+        52,
+        136,
+        3,
+        0,
+        0,
+        52,
+        157,
+        3,
+        0,
+        0,
+        52,
+        178,
+        3,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_travelpoint_NG_Map_000101\u0000flg_travelpoint_100101_02\u0000flg_travelpoint_100101_03\u0000flg_travelpoint_100101_04\u0000flg_travelpoint_100300_01\u0000flg_travelpoint_100300_01a\u0000flg_travelpoint_100300_02\u0000flg_travelpoint_100300_03\u0000flg_travelpoint_100300_04\u0000flg_travelpoint_100400_01\u0000flg_travelpoint_100400_01a\u0000flg_travelpoint_100400_02\u0000flg_travelpoint_100400_03\u0000flg_travelpoint_100400_04\u0000flg_travelpoint_100500_01\u0000flg_travelpoint_100500_01a\u0000flg_travelpoint_100500_02\u0000flg_travelpoint_200000_01\u0000flg_travelpoint_200000_02\u0000flg_travelpoint_200000_03\u0000flg_travelpoint_200000_04\u0000flg_travelpoint_200000_05\u0000flg_travelpoint_200000_06\u0000flg_travelpoint_200000_07\u0000flg_travelpoint_200000_08\u0000flg_travelpoint_200000_09\u0000flg_travelpoint_200000_10\u0000flg_travelpoint_200000_11\u0000flg_travelpoint_200000_12\u0000flg_travelpoint_200000_13\u0000flg_travelpoint_200000_14\u0000flg_travelpoint_200000_15\u0000flg_enemy_village_01\u0000flg_enemy_village_02\u0000flg_enemy_village_03\u0000flg_enemy_village_04\u0000flg_enemy_village_05\u0000flg_enemy_village_06\u0000"
+    }
+  }
+]

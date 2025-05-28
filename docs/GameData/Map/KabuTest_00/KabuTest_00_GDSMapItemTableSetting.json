@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "GDSMapItemTableSetting",
+    "Name": "KabuTest_00_GDSMapItemTableSetting",
+    "Class": "UScriptClass'GDSMapItemTableSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbl_KabuTest_00_01_01",
+          "Value": {
+            "tableId": "tbl_KabuTest_00_01_01",
+            "tableData": [
+              {
+                "ItemId": "imt01000510",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_KabuTest_00_05_01",
+          "Value": {
+            "tableId": "tbl_KabuTest_00_05_01",
+            "tableData": [
+              {
+                "ItemId": "imt01002810",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_KabuTest_00_05_02",
+          "Value": {
+            "tableId": "tbl_KabuTest_00_05_02",
+            "tableData": [
+              {
+                "ItemId": "imt01000190",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

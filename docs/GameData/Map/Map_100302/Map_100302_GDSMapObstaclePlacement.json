@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "GDSMapObstaclePlacement",
+    "Name": "Map_100302_GDSMapObstaclePlacement",
+    "Class": "UScriptClass'GDSMapObstaclePlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "obstacle_Map_100302_lift_00",
+          "Value": {
+            "ID": "obstacle_Map_100302_lift_00",
+            "Type": "EObstacleType::Unlock",
+            "Pos": {
+              "X": -6000.0,
+              "Y": 7585.0,
+              "Z": 200.0,
+              "W": 180.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [
+                {
+                  "ID": "imt01004460",
+                  "Num": 30
+                }
+              ],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_lift_00.BP_lift_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_200009_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "2445523442",
+          "Value": {
+            "ID": 2445523442,
+            "triggerType": "TG_EVENT_END",
+            "TargetID": "ev90_00300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 19
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateNPC",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        158,
+        251,
+        0,
+        30,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        170,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        14,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        34,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        46,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ico05010110\u0000flg_get_ico05010110\u0000ico05010110\u0000flg_get_ico05010110\u0000"
+    }
+  }
+]

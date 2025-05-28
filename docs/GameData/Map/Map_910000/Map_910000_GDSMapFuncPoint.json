@@ -1,0 +1,235 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_910000_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "FP_p010020_01",
+          "Value": {
+            "funcPointId": "FP_p010020_01",
+            "OnePlaceId": "op_map_910000_000010",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GlobalByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p010020_01a",
+          "Value": {
+            "funcPointId": "FP_p010020_01a",
+            "OnePlaceId": "op_map_910000_000010",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 10,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GlobalByteFlag_Less",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p010020_01b",
+          "Value": {
+            "funcPointId": "FP_p010020_01b",
+            "OnePlaceId": "op_map_910000_000010a",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 10,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GlobalByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        132,
+        139,
+        0,
+        45,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        99,
+        2,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        25,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        48,
+        0,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000cnt_p010020_talk_check\u0000cnt_p010020_talk_check\u0000cnt_p010020_talk_check\u0000"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "GDSMapPickPoint",
+    "Name": "Mapdk_000100_GDSMapPickPoint",
+    "Class": "UScriptClass'GDSMapPickPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "mapdk_000100_fish_point_0000",
+          "Value": {
+            "ID": "mapdk_000100_fish_point_0000",
+            "dataIdx": 0,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1000.0,
+              "Y": -1500.0,
+              "Z": 70.0,
+              "W": 1.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 550.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0005",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,968 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "Map_000100_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "FP_hagram_kidou",
+          "Value": {
+            "funcPointId": "FP_hagram_kidou",
+            "OnePlaceId": "op_hagram_kidou",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_ft000100_001",
+          "Value": {
+            "funcPointId": "FP_ft000100_001",
+            "OnePlaceId": "op_FT000100_001",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": -3846.974,
+              "Y": -875.8287,
+              "Z": 0.0
+            },
+            "Condition": []
+          }
+        },
+        {
+          "Key": "FP_obj00120b",
+          "Value": {
+            "funcPointId": "FP_obj00120b",
+            "OnePlaceId": "op_obj00120b",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 10,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 116,
+            "Position": {
+              "X": -6754.0,
+              "Y": 32.0,
+              "Z": 455.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_obj00120b_01",
+          "Value": {
+            "funcPointId": "FP_obj00120b_01",
+            "OnePlaceId": "op_obj00120b_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              0
+            ],
+            "GameIconInfo": {
+              "Type": 21,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 170.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_obj00120b_02",
+          "Value": {
+            "funcPointId": "FP_obj00120b_02",
+            "OnePlaceId": "op_obj00120b_02",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_multiplay_01",
+          "Value": {
+            "funcPointId": "FP_multiplay_01",
+            "OnePlaceId": "op_multiplay_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_guild_reform",
+          "Value": {
+            "funcPointId": "FP_guild_reform",
+            "OnePlaceId": "op_guild_reform",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsFellowNPC_Greater",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_guid_bulletinboard",
+          "Value": {
+            "funcPointId": "FP_guid_bulletinboard",
+            "OnePlaceId": "None",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 10,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": -135.0,
+              "Y": 240.0,
+              "Z": 60.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_plantdungeon_outside",
+          "Value": {
+            "funcPointId": "FP_plantdungeon_outside",
+            "OnePlaceId": "op_plantdungeon_outside",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 36,
+            "Position": {
+              "X": -4209.0,
+              "Y": 3377.0,
+              "Z": 12.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonIsExist",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_plantdungeon_ripening_alter",
+          "Value": {
+            "funcPointId": "FP_plantdungeon_ripening_alter",
+            "OnePlaceId": "op_plantdungeon_ripening_alter",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 123,
+            "Position": {
+              "X": -4017.0,
+              "Y": 3878.0,
+              "Z": 10.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 39
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p020020_02",
+          "Value": {
+            "funcPointId": "FP_p020020_02",
+            "OnePlaceId": "op_p020020_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p020070_01",
+          "Value": {
+            "funcPointId": "FP_p020070_01",
+            "OnePlaceId": "op_p020070_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 30,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": -123.12009,
+              "Y": -908.3177,
+              "Z": -24.647394
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p020080_01",
+          "Value": {
+            "funcPointId": "FP_p020080_01",
+            "OnePlaceId": "op_p020070_map_000100_02",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p020080_02",
+          "Value": {
+            "funcPointId": "FP_p020080_02",
+            "OnePlaceId": "op_p020080_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p020200_01",
+          "Value": {
+            "funcPointId": "FP_p020200_01",
+            "OnePlaceId": "op_p020200_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 180.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": -3727.487,
+              "Y": -1179.9893,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p030090_01",
+          "Value": {
+            "funcPointId": "FP_p030090_01",
+            "OnePlaceId": "op_p030090_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": -6820.5093,
+              "Y": 50.010796,
+              "Z": 490.82465
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p030140_01",
+          "Value": {
+            "funcPointId": "FP_p030140_01",
+            "OnePlaceId": "op_p030140_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": -6820.5093,
+              "Y": 50.010796,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_p040100_01",
+          "Value": {
+            "funcPointId": "FP_p040100_01",
+            "OnePlaceId": "op_p040100_map_000100_01",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "GameIconInfo": {
+              "Type": 0,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 120.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "FP_plantdungeon_guide",
+          "Value": {
+            "funcPointId": "FP_plantdungeon_guide",
+            "OnePlaceId": "op_plantdungeon_guide",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [],
+            "GameIconInfo": {
+              "Type": 22,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 60.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 139,
+            "Position": {
+              "X": -4175.5,
+              "Y": 3414.9,
+              "Z": 101.9
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        184,
+        243,
+        0,
+        120,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        252,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        148,
+        117,
+        0,
+        0,
+        50,
+        164,
+        156,
+        0,
+        0,
+        50,
+        164,
+        156,
+        0,
+        0,
+        50,
+        90,
+        195,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        50,
+        188,
+        117,
+        0,
+        0,
+        52,
+        35,
+        0,
+        0,
+        0,
+        50,
+        52,
+        78,
+        0,
+        0,
+        50,
+        212,
+        78,
+        0,
+        0,
+        52,
+        75,
+        0,
+        0,
+        0,
+        50,
+        222,
+        78,
+        0,
+        0,
+        50,
+        222,
+        78,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        50,
+        232,
+        78,
+        0,
+        0,
+        50,
+        138,
+        117,
+        0,
+        0,
+        50,
+        188,
+        117,
+        0,
+        0,
+        52,
+        98,
+        0,
+        0,
+        0,
+        50,
+        164,
+        156,
+        0,
+        0,
+        52,
+        113,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        125,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ev04_12700\u0000ev90_02600\u0000Map_000100\u0000flg_plant_dungeon_ripening_alter_appear\u0000ev02_11000\u0000Map_MyHouse\u0000ev03_20500_000\u0000ics01003480\u0000flg_guild_quest_038\u0000"
+    }
+  }
+]

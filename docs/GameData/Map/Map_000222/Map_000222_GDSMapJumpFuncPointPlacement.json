@@ -1,0 +1,127 @@
+[
+  {
+    "Type": "GDSMapJumpFuncPointPlacement",
+    "Name": "Map_000222_GDSMapJumpFuncPointPlacement",
+    "Class": "UScriptClass'GDSMapJumpFuncPointPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "mjfp_Map_000222_to_Map_000220",
+          "Value": {
+            "ID": "mjfp_Map_000222_to_Map_000220",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 2113.628,
+              "Y": 6.705589,
+              "Z": 43.605072
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_000222_to_Map_000235",
+          "Value": {
+            "ID": "mjfp_Map_000222_to_Map_000235",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_000222_to_Map_000236",
+          "Value": {
+            "ID": "mjfp_Map_000222_to_Map_000236",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        77,
+        137,
+        0,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        90,
+        2,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        50,
+        132,
+        17,
+        1,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

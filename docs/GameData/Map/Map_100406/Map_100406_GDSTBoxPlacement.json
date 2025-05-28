@@ -1,0 +1,546 @@
+[
+  {
+    "Type": "GDSTBoxPlacement",
+    "Name": "Map_100406_GDSTBoxPlacement",
+    "Class": "UScriptClass'GDSTBoxPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "map_100406_treasure_0001",
+          "Value": {
+            "idx": 1,
+            "ID": "map_100406_treasure_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_100406_treasure_0001",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -12212.0,
+              "Y": -770.0,
+              "Z": 300.0,
+              "W": -135.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_treasure_0002",
+          "Value": {
+            "idx": 2,
+            "ID": "map_100406_treasure_0002",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_100406_treasure_0002",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -12220.0,
+              "Y": -310.0,
+              "Z": 300.0,
+              "W": 136.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_treasure_0003",
+          "Value": {
+            "idx": 3,
+            "ID": "map_100406_treasure_0003",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_100406_treasure_0003",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -11470.0,
+              "Y": -350.0,
+              "Z": 300.0,
+              "W": 9.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_treasure_0005",
+          "Value": {
+            "idx": 5,
+            "ID": "map_100406_treasure_0005",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 70,
+                "Item": {
+                  "tableId": "tbl_100406_01",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -11460.0,
+              "Y": -163.0,
+              "Z": 365.0,
+              "W": 0.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_treasure_0006",
+          "Value": {
+            "idx": 6,
+            "ID": "map_100406_treasure_0006",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 70,
+                "Item": {
+                  "tableId": "tbl_100406_02",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -11419.0,
+              "Y": -998.0,
+              "Z": 415.0,
+              "W": 0.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_treasure_0007",
+          "Value": {
+            "idx": 7,
+            "ID": "map_100406_treasure_0007",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 70,
+                "Item": {
+                  "tableId": "tbl_100406_02",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -12069.0,
+              "Y": 42.0,
+              "Z": 381.0,
+              "W": 0.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0001",
+          "Value": {
+            "idx": 9,
+            "ID": "map_100406_shell_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": 1684.0,
+              "Y": 1337.0,
+              "Z": 0.0,
+              "W": -73.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0002",
+          "Value": {
+            "idx": 10,
+            "ID": "map_100406_shell_0002",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": 1483.0,
+              "Y": 1351.0,
+              "Z": 0.0,
+              "W": 188.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0003",
+          "Value": {
+            "idx": 11,
+            "ID": "map_100406_shell_0003",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -1601.0,
+              "Y": -459.0,
+              "Z": 0.0,
+              "W": -149.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0004",
+          "Value": {
+            "idx": 12,
+            "ID": "map_100406_shell_0004",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -1080.0,
+              "Y": 81.0,
+              "Z": 0.0,
+              "W": -25.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0005",
+          "Value": {
+            "idx": 13,
+            "ID": "map_100406_shell_0005",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -12486.0,
+              "Y": 1218.0,
+              "Z": 0.0,
+              "W": -14.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0006",
+          "Value": {
+            "idx": 14,
+            "ID": "map_100406_shell_0006",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -11079.0,
+              "Y": -1904.0,
+              "Z": 150.0,
+              "W": 97.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0007",
+          "Value": {
+            "idx": 15,
+            "ID": "map_100406_shell_0007",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -11079.0,
+              "Y": -1669.0,
+              "Z": 150.0,
+              "W": 243.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_shell_0008",
+          "Value": {
+            "idx": 16,
+            "ID": "map_100406_shell_0008",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 50,
+                "Item": {
+                  "tableId": "tbl_shell_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -11350.0,
+              "Y": -1789.0,
+              "Z": 150.0,
+              "W": 14.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_beetle_0001",
+          "Value": {
+            "idx": 17,
+            "ID": "map_100406_beetle_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsNotHaveItem",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 62,
+                "Item": {
+                  "tableId": "tbl_beetle_0002",
+                  "Num": 0
+                },
+                "Exp": 10
+              }
+            ],
+            "Pos": {
+              "X": -11379.0,
+              "Y": 884.0,
+              "Z": 351.0,
+              "W": 105.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_coral_0001",
+          "Value": {
+            "idx": 18,
+            "ID": "map_100406_coral_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 70,
+                "Item": {
+                  "tableId": "tbl_coral_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -12423.0,
+              "Y": 804.0,
+              "Z": 300.0,
+              "W": -15.0
+            }
+          }
+        },
+        {
+          "Key": "map_100406_coral_0002",
+          "Value": {
+            "idx": 19,
+            "ID": "map_100406_coral_0002",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 70,
+                "Item": {
+                  "tableId": "tbl_coral_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -10388.0,
+              "Y": -786.0,
+              "Z": 0.0,
+              "W": 66.0
+            }
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        79,
+        200,
+        0,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        43,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000imt01000340\u0000"
+    }
+  }
+]

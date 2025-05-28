@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_200007_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_200007_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_200007_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200007/Map_200007_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200007_obj",
+          "Value": {
+            "SubLevelID": "Map_200007_obj",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200007/Map_200007_obj"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200007_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_200007_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200007/Map_200007_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200007_Sound",
+          "Value": {
+            "SubLevelID": "Map_200007_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_200007_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200007_OnlineWall",
+          "Value": {
+            "SubLevelID": "Map_200007_OnlineWall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200007/Wall/Map_200007_OnlineWall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200007_shrineWall",
+          "Value": {
+            "SubLevelID": "Map_200007_shrineWall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200007/Wall/Map_200007_shrineWall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        14,
+        246,
+        0,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        103,
+        2,
+        0,
+        0,
+        50,
+        162,
+        78,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

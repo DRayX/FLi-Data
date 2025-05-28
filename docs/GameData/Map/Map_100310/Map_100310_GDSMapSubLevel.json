@@ -1,0 +1,160 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100310_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map100310_Env",
+          "Value": {
+            "SubLevelID": "Map100310_Env",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Map100310_Env"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100310_mod",
+          "Value": {
+            "SubLevelID": "Map_100310_mod",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Map100310_mod"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100310_area",
+          "Value": {
+            "SubLevelID": "Map_100310_area",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Map100310_mod"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100310_runtime_placement_c04",
+          "Value": {
+            "SubLevelID": "Map_100310_runtime_placement_c04",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Phase/Map_100310_runtime_placement_c04"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100310_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_100310_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Phase/Map_100310_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100310_p040170_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100310_p040170_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Wall/Map_100310_p040170_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100310_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100310_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100310/Map_100310_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        53,
+        176,
+        101,
+        15,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        56,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_check_InvisibleWall\u0000"
+    }
+  }
+]

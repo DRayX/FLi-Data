@@ -1,0 +1,1267 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100100_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100100_env",
+          "Value": {
+            "SubLevelID": "Map_100100_env",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_env"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_mod",
+          "Value": {
+            "SubLevelID": "Map_100100_mod",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_mod"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100100_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_mod_break00",
+          "Value": {
+            "SubLevelID": "Map_100100_mod_break00",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_Mod_break00"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_mod_rebuild00",
+          "Value": {
+            "SubLevelID": "Map_100100_mod_rebuild00",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_Mod_rebuild00"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c01",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c02",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c03",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c04",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c04",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c04"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c05",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c05",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c05"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c06",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c06",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c06"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Phase/Map_100100_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_fasttravel",
+          "Value": {
+            "SubLevelID": "Map_100100_fasttravel",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/FastTravel/Map_100100_fasttravel"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_p010030_wall",
+          "Value": {
+            "SubLevelID": "Map_100100_p010030_wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_p010030_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p010040_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_p010040_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_p010040_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p010060_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_p010060_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_p010060_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p010060_wall_02",
+          "Value": {
+            "SubLevelID": "Map_100100_p010060_wall_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_p010060_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p060210_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_p060210_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_p060210_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 33
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p010050_wall",
+          "Value": {
+            "SubLevelID": "Map_100100_p010050_wall",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_p010050_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_life01_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_life01_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_lifequest_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_life02_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_life02_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_lifequest_wall_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_life04_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_life04_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Wall/Map_100100_lifequest_wall_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_line00",
+          "Value": {
+            "SubLevelID": "Map_100100_line00",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Line/Map_100100_line00"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_area",
+          "Value": {
+            "SubLevelID": "test_Map_area",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_area"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_01",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_01",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_01",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_02",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_03",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_03",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_03",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_04",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_04",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_04",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_04"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_05",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_05",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_05",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_05"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_06",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_06",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_06",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_06"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_07",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_07",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_07",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_08",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_08",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_08",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_08"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_09",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_09",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_09",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_09"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_10",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_10",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_10",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_10"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_11",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_11",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_11",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_11"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_12",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_12",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/Map_100100_room_12"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_Sound",
+          "Value": {
+            "SubLevelID": "Map_100100_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100100_Sound"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_Sound_room_02",
+          "Value": {
+            "SubLevelID": "Map_100100_Sound_room_02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100100_Sound_room_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_Sound_room_09",
+          "Value": {
+            "SubLevelID": "Map_100100_Sound_room_09",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "area_09",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100100_Sound_room_09"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_tour",
+          "Value": {
+            "SubLevelID": "Map_100100_tour",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_tour"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p060060_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100100_p060060_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/wall/Map_100100_p060060_wall_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 30
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p060060_wall_02",
+          "Value": {
+            "SubLevelID": "Map_100100_p060060_wall_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/wall/Map_100100_p060060_wall_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 30
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p060060_wall_03",
+          "Value": {
+            "SubLevelID": "Map_100100_p060060_wall_03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/wall/Map_100100_p060060_wall_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 30
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_p010140_col",
+          "Value": {
+            "SubLevelID": "Map_100100_p010140_col",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/wall/Map_100100_p010140_col"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        249,
+        49,
+        0,
+        235,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        209,
+        1,
+        0,
+        0,
+        50,
+        166,
+        39,
+        0,
+        0,
+        50,
+        42,
+        78,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0,
+        50,
+        46,
+        39,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        76,
+        39,
+        0,
+        0,
+        50,
+        106,
+        39,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        46,
+        0,
+        0,
+        0,
+        50,
+        146,
+        234,
+        0,
+        0,
+        50,
+        66,
+        39,
+        0,
+        0,
+        52,
+        80,
+        0,
+        0,
+        0,
+        52,
+        104,
+        0,
+        0,
+        0,
+        52,
+        130,
+        0,
+        0,
+        0,
+        52,
+        156,
+        0,
+        0,
+        0,
+        52,
+        180,
+        0,
+        0,
+        0,
+        52,
+        188,
+        0,
+        0,
+        0,
+        52,
+        196,
+        0,
+        0,
+        0,
+        52,
+        204,
+        0,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        52,
+        220,
+        0,
+        0,
+        0,
+        52,
+        228,
+        0,
+        0,
+        0,
+        52,
+        236,
+        0,
+        0,
+        0,
+        52,
+        244,
+        0,
+        0,
+        0,
+        52,
+        252,
+        0,
+        0,
+        0,
+        52,
+        4,
+        1,
+        0,
+        0,
+        52,
+        12,
+        1,
+        0,
+        0,
+        52,
+        20,
+        1,
+        0,
+        0,
+        52,
+        28,
+        1,
+        0,
+        0,
+        50,
+        70,
+        117,
+        0,
+        0,
+        52,
+        36,
+        1,
+        0,
+        0,
+        52,
+        56,
+        1,
+        0,
+        0,
+        50,
+        146,
+        234,
+        0,
+        0,
+        52,
+        87,
+        1,
+        0,
+        0,
+        52,
+        95,
+        1,
+        0,
+        0,
+        50,
+        146,
+        234,
+        0,
+        0,
+        52,
+        126,
+        1,
+        0,
+        0,
+        52,
+        134,
+        1,
+        0,
+        0,
+        50,
+        146,
+        234,
+        0,
+        0,
+        52,
+        165,
+        1,
+        0,
+        0,
+        50,
+        156,
+        39,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_check_InvisibleWall\u0000flg_p10100_inn_rest\u0000flg_placement_minigame_take_start\u0000flg_check_InvisibleWall\u0000flg_check_InvisibleWall_2\u0000flg_check_InvisibleWall_3\u0000flg_check_InvisibleWall\u0000area_01\u0000area_02\u0000area_03\u0000area_04\u0000area_05\u0000area_06\u0000area_07\u0000area_08\u0000area_09\u0000area_10\u0000area_11\u0000area_12\u0000area_02\u0000area_09\u0000flg_p030022_tour_01\u0000flg_placement_minigame_take_01\u0000area_05\u0000flg_placement_minigame_take_02\u0000area_05\u0000flg_placement_minigame_take_03\u0000area_05\u0000"
+    }
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_000230_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3567273117",
+          "Value": {
+            "ID": 3567273117,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_elevator_map_000230_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3545857636",
+          "Value": {
+            "ID": 3545857636,
+            "triggerType": "TG_MAP_JUMP_ENTER",
+            "TargetID": "Map_000230",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_UpdateFuncPoint",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        115,
+        217,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        31,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_elevator_active_layer_04\u0000flg_elevator_active_layer_04\u0000"
+    }
+  }
+]

@@ -1,0 +1,2563 @@
+[
+  {
+    "Type": "GDSAnywhereGateSetting",
+    "Name": "GDSAnywhereGateSetting",
+    "Class": "UScriptClass'GDSAnywhereGateSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_500001",
+          "Value": {
+            "mapId": "Map_500001",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 10
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_500011",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_500002",
+          "Value": {
+            "mapId": "Map_500002",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 10
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_500011",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000100",
+          "Value": {
+            "mapId": "NPCRoom_000100",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000200",
+          "Value": {
+            "mapId": "NPCRoom_000200",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000300",
+          "Value": {
+            "mapId": "NPCRoom_000300",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000400",
+          "Value": {
+            "mapId": "NPCRoom_000400",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000500",
+          "Value": {
+            "mapId": "NPCRoom_000500",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 30,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000600",
+          "Value": {
+            "mapId": "NPCRoom_000600",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 35,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000700",
+          "Value": {
+            "mapId": "NPCRoom_000700",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 40,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000800",
+          "Value": {
+            "mapId": "NPCRoom_000800",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 45,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000900",
+          "Value": {
+            "mapId": "NPCRoom_000900",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 50,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000a00",
+          "Value": {
+            "mapId": "NPCRoom_000a00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 55,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000b00",
+          "Value": {
+            "mapId": "NPCRoom_000b00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 60,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000c00",
+          "Value": {
+            "mapId": "NPCRoom_000c00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 65,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000d00",
+          "Value": {
+            "mapId": "NPCRoom_000d00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 70,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000e00",
+          "Value": {
+            "mapId": "NPCRoom_000e00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 75,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_000f00",
+          "Value": {
+            "mapId": "NPCRoom_000f00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 80,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001000",
+          "Value": {
+            "mapId": "NPCRoom_001000",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 85,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001100",
+          "Value": {
+            "mapId": "NPCRoom_001100",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 90,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001200",
+          "Value": {
+            "mapId": "NPCRoom_001200",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 95,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001300",
+          "Value": {
+            "mapId": "NPCRoom_001300",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 100,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001400",
+          "Value": {
+            "mapId": "NPCRoom_001400",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 105,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001500",
+          "Value": {
+            "mapId": "NPCRoom_001500",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 110,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001600",
+          "Value": {
+            "mapId": "NPCRoom_001600",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 115,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001700",
+          "Value": {
+            "mapId": "NPCRoom_001700",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 120,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001800",
+          "Value": {
+            "mapId": "NPCRoom_001800",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 125,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001900",
+          "Value": {
+            "mapId": "NPCRoom_001900",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 130,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001a00",
+          "Value": {
+            "mapId": "NPCRoom_001a00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 135,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001b00",
+          "Value": {
+            "mapId": "NPCRoom_001b00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 140,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001c00",
+          "Value": {
+            "mapId": "NPCRoom_001c00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 145,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001d00",
+          "Value": {
+            "mapId": "NPCRoom_001d00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 150,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001e00",
+          "Value": {
+            "mapId": "NPCRoom_001e00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 155,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_001f00",
+          "Value": {
+            "mapId": "NPCRoom_001f00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 160,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002000",
+          "Value": {
+            "mapId": "NPCRoom_002000",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 165,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002100",
+          "Value": {
+            "mapId": "NPCRoom_002100",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 170,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002200",
+          "Value": {
+            "mapId": "NPCRoom_002200",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 175,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002300",
+          "Value": {
+            "mapId": "NPCRoom_002300",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 180,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002400",
+          "Value": {
+            "mapId": "NPCRoom_002400",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 185,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002500",
+          "Value": {
+            "mapId": "NPCRoom_002500",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 190,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002600",
+          "Value": {
+            "mapId": "NPCRoom_002600",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 195,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002700",
+          "Value": {
+            "mapId": "NPCRoom_002700",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 200,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002800",
+          "Value": {
+            "mapId": "NPCRoom_002800",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 205,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002900",
+          "Value": {
+            "mapId": "NPCRoom_002900",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 210,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002a00",
+          "Value": {
+            "mapId": "NPCRoom_002a00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 215,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002b00",
+          "Value": {
+            "mapId": "NPCRoom_002b00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 220,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002c00",
+          "Value": {
+            "mapId": "NPCRoom_002c00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 225,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002d00",
+          "Value": {
+            "mapId": "NPCRoom_002d00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 230,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002e00",
+          "Value": {
+            "mapId": "NPCRoom_002e00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 235,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_002f00",
+          "Value": {
+            "mapId": "NPCRoom_002f00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 240,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_003100",
+          "Value": {
+            "mapId": "NPCRoom_003100",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 245,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_003200",
+          "Value": {
+            "mapId": "NPCRoom_003200",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 250,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCRoom_003400",
+          "Value": {
+            "mapId": "NPCRoom_003400",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotFellowNPCInhabitant",
+                    "arg": [
+                      {
+                        "m_offset": 255,
+                        "m_dataSize": 14
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCEmptyRoom_00",
+          "Value": {
+            "mapId": "NPCEmptyRoom_00",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 260,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              },
+              {
+                "ID": 1,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 265,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsNotVacantHouse",
+                    "arg": [
+                      {
+                        "m_offset": 270,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCEmptyRoom_01",
+          "Value": {
+            "mapId": "NPCEmptyRoom_01",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 275,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              },
+              {
+                "ID": 1,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 280,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsNotVacantHouse",
+                    "arg": [
+                      {
+                        "m_offset": 285,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCEmptyRoom_02",
+          "Value": {
+            "mapId": "NPCEmptyRoom_02",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 290,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              },
+              {
+                "ID": 1,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 295,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsNotVacantHouse",
+                    "arg": [
+                      {
+                        "m_offset": 300,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCEmptyRoom_03",
+          "Value": {
+            "mapId": "NPCEmptyRoom_03",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 305,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              },
+              {
+                "ID": 1,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 310,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsNotVacantHouse",
+                    "arg": [
+                      {
+                        "m_offset": 315,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCEmptyRoom_04",
+          "Value": {
+            "mapId": "NPCEmptyRoom_04",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 320,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              },
+              {
+                "ID": 1,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 325,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsNotVacantHouse",
+                    "arg": [
+                      {
+                        "m_offset": 330,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "NPCEmptyRoom_05",
+          "Value": {
+            "mapId": "NPCEmptyRoom_05",
+            "Info": [
+              {
+                "ID": 0,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsNotBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 335,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              },
+              {
+                "ID": 1,
+                "mapSubId": "None",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsBuildHouse",
+                    "arg": [
+                      {
+                        "m_offset": 340,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  },
+                  {
+                    "Cmd": "CondCmd_IsNotVacantHouse",
+                    "arg": [
+                      {
+                        "m_offset": 345,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ],
+                "correct": {
+                  "mapId": "Map_000100",
+                  "mapSubId": "None",
+                  "psId": "None",
+                  "Pos": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0,
+                    "W": 1.0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        156,
+        215,
+        191,
+        94,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        119,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        39,
+        0,
+        0,
+        0,
+        52,
+        54,
+        0,
+        0,
+        0,
+        52,
+        69,
+        0,
+        0,
+        0,
+        52,
+        84,
+        0,
+        0,
+        0,
+        52,
+        99,
+        0,
+        0,
+        0,
+        52,
+        114,
+        0,
+        0,
+        0,
+        52,
+        129,
+        0,
+        0,
+        0,
+        52,
+        144,
+        0,
+        0,
+        0,
+        52,
+        159,
+        0,
+        0,
+        0,
+        52,
+        174,
+        0,
+        0,
+        0,
+        52,
+        189,
+        0,
+        0,
+        0,
+        52,
+        204,
+        0,
+        0,
+        0,
+        52,
+        219,
+        0,
+        0,
+        0,
+        52,
+        234,
+        0,
+        0,
+        0,
+        52,
+        249,
+        0,
+        0,
+        0,
+        52,
+        8,
+        1,
+        0,
+        0,
+        52,
+        23,
+        1,
+        0,
+        0,
+        52,
+        38,
+        1,
+        0,
+        0,
+        52,
+        53,
+        1,
+        0,
+        0,
+        52,
+        68,
+        1,
+        0,
+        0,
+        52,
+        83,
+        1,
+        0,
+        0,
+        52,
+        98,
+        1,
+        0,
+        0,
+        52,
+        113,
+        1,
+        0,
+        0,
+        52,
+        128,
+        1,
+        0,
+        0,
+        52,
+        143,
+        1,
+        0,
+        0,
+        52,
+        158,
+        1,
+        0,
+        0,
+        52,
+        173,
+        1,
+        0,
+        0,
+        52,
+        188,
+        1,
+        0,
+        0,
+        52,
+        203,
+        1,
+        0,
+        0,
+        52,
+        218,
+        1,
+        0,
+        0,
+        52,
+        233,
+        1,
+        0,
+        0,
+        52,
+        248,
+        1,
+        0,
+        0,
+        52,
+        7,
+        2,
+        0,
+        0,
+        52,
+        22,
+        2,
+        0,
+        0,
+        52,
+        37,
+        2,
+        0,
+        0,
+        52,
+        52,
+        2,
+        0,
+        0,
+        52,
+        67,
+        2,
+        0,
+        0,
+        52,
+        82,
+        2,
+        0,
+        0,
+        52,
+        97,
+        2,
+        0,
+        0,
+        52,
+        112,
+        2,
+        0,
+        0,
+        52,
+        127,
+        2,
+        0,
+        0,
+        52,
+        142,
+        2,
+        0,
+        0,
+        52,
+        157,
+        2,
+        0,
+        0,
+        52,
+        172,
+        2,
+        0,
+        0,
+        52,
+        187,
+        2,
+        0,
+        0,
+        52,
+        202,
+        2,
+        0,
+        0,
+        52,
+        217,
+        2,
+        0,
+        0,
+        52,
+        232,
+        2,
+        0,
+        0,
+        52,
+        247,
+        2,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ev90_02600\u0000ev90_02600\u0000para_chr000100\u0000para_chr000200\u0000para_chr000300\u0000para_chr000400\u0000para_chr000500\u0000para_chr000600\u0000para_chr000700\u0000para_chr000800\u0000para_chr000900\u0000para_chr000a00\u0000para_chr000b00\u0000para_chr000c00\u0000para_chr000d00\u0000para_chr000e00\u0000para_chr000f00\u0000para_chr001000\u0000para_chr001100\u0000para_chr001200\u0000para_chr001300\u0000para_chr001400\u0000para_chr001500\u0000para_chr001600\u0000para_chr001700\u0000para_chr001800\u0000para_chr001900\u0000para_chr001a00\u0000para_chr001b00\u0000para_chr001c00\u0000para_chr001d00\u0000para_chr001e00\u0000para_chr001f00\u0000para_chr002000\u0000para_chr002100\u0000para_chr002200\u0000para_chr002300\u0000para_chr002400\u0000para_chr002500\u0000para_chr002600\u0000para_chr002700\u0000para_chr002800\u0000para_chr002900\u0000para_chr002a00\u0000para_chr002b00\u0000para_chr002c00\u0000para_chr002d00\u0000para_chr002e00\u0000para_chr002f00\u0000para_chr003100\u0000para_chr003200\u0000para_chr003400\u0000"
+    }
+  }
+]

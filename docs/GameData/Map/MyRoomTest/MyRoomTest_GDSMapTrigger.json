@@ -1,0 +1,378 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "MyRoomTest_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3972978124",
+          "Value": {
+            "ID": 3972978124,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_to_Map_000100",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3836915957",
+          "Value": {
+            "ID": 3836915957,
+            "triggerType": "TG_MAP_JUMP_ENTER",
+            "TargetID": "MyRoomTest",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsPutObjectMyRoom",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 15
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PerchesOnCraft",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 16
+                  },
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 15
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3895185240",
+          "Value": {
+            "ID": 3895185240,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsPutObjectMyRoom",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 15
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PerchesOnCraft",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 16
+                  },
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 15
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2637124139",
+          "Value": {
+            "ID": 2637124139,
+            "triggerType": "TG_CRAFT_OBJ_TAKE_START",
+            "TargetID": "obj_ico01091680",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GlobalByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 27
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayMotionNpc",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 16
+                  },
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1951606345",
+          "Value": {
+            "ID": 1951606345,
+            "triggerType": "TG_CRAFT_OBJ_TAKE_END",
+            "TargetID": "obj_ico01091680",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GlobalByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 27
+                  },
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_UpdateNPC",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_LotteryFriendNpcFlag",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 27
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        0,
+        0,
+        0,
+        110,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        248,
+        127,
+        0,
+        0,
+        50,
+        142,
+        78,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        35,
+        0,
+        0,
+        0,
+        52,
+        51,
+        0,
+        0,
+        0,
+        52,
+        68,
+        0,
+        0,
+        0,
+        51,
+        0,
+        128,
+        60,
+        67,
+        52,
+        84,
+        0,
+        0,
+        0,
+        52,
+        95,
+        0,
+        0,
+        0,
+        52,
+        111,
+        0,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        51,
+        0,
+        128,
+        60,
+        67,
+        52,
+        144,
+        0,
+        0,
+        0,
+        52,
+        155,
+        0,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        52,
+        183,
+        0,
+        0,
+        0,
+        52,
+        200,
+        0,
+        0,
+        0,
+        52,
+        204,
+        0,
+        0,
+        0,
+        52,
+        215,
+        0,
+        0,
+        0,
+        50,
+        6,
+        0,
+        0,
+        0,
+        52,
+        243,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000hlp_000091\u0000hlp_000091\u0000ev40_01250\u0000obj_ico01091680\u0000myRoom_chr100400\u0000obj_ico01091680\u0000ev40_01250\u0000obj_ico01091680\u0000myRoom_chr100400\u0000obj_ico01091680\u0000ev40_01250\u0000flg_npc_placement_chr100400\u0000myRoom_chr100400\u0000fly\u0000ev40_01250\u0000flg_npc_placement_chr100400\u0000flg_npc_placement_chr100400\u0000"
+    }
+  }
+]

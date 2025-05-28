@@ -1,0 +1,297 @@
+[
+  {
+    "Type": "GDSTBoxPlacement",
+    "Name": "Map_000200_GDSTBoxPlacement",
+    "Class": "UScriptClass'GDSTBoxPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "map_000200_treasure_0002",
+          "Value": {
+            "idx": 0,
+            "ID": "map_000200_treasure_0002",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_000200_treasure_0002",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -2306.0,
+              "Y": -2551.0,
+              "Z": 160.0,
+              "W": 47.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_mushroom_0001",
+          "Value": {
+            "idx": 1,
+            "ID": "map_000200_mushroom_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 10,
+                "Item": {
+                  "tableId": "tbl_mushroom_0001",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": 4487.0,
+              "Y": 1147.0,
+              "Z": 630.0,
+              "W": -157.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_fllower_0001",
+          "Value": {
+            "idx": 2,
+            "ID": "map_000200_fllower_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 21,
+                "Item": {
+                  "tableId": "tbl_flower_0001",
+                  "Num": 0
+                },
+                "Exp": 2
+              }
+            ],
+            "Pos": {
+              "X": 3042.0,
+              "Y": -382.0,
+              "Z": 203.0,
+              "W": -110.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_fllower_0002",
+          "Value": {
+            "idx": 3,
+            "ID": "map_000200_fllower_0002",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 20,
+                "Item": {
+                  "tableId": "tbl_flower_0002",
+                  "Num": 0
+                },
+                "Exp": 2
+              }
+            ],
+            "Pos": {
+              "X": 3236.0,
+              "Y": 81.0,
+              "Z": 203.0,
+              "W": 74.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_grass_0001",
+          "Value": {
+            "idx": 4,
+            "ID": "map_000200_grass_0001",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 30,
+                "Item": {
+                  "tableId": "tbl_grass_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": 3200.0,
+              "Y": 1886.0,
+              "Z": 618.0,
+              "W": -78.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_grass_0002",
+          "Value": {
+            "idx": 5,
+            "ID": "map_000200_grass_0002",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 32,
+                "Item": {
+                  "tableId": "tbl_grass_2010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -1525.0,
+              "Y": 2438.0,
+              "Z": 165.0,
+              "W": 155.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_grass_0003",
+          "Value": {
+            "idx": 6,
+            "ID": "map_000200_grass_0003",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 29,
+                "Item": {
+                  "tableId": "tbl_grass_3010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -741.0,
+              "Y": -2802.0,
+              "Z": 165.0,
+              "W": -171.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_grass_0004",
+          "Value": {
+            "idx": 7,
+            "ID": "map_000200_grass_0004",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 32,
+                "Item": {
+                  "tableId": "tbl_grass_2010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": 483.0,
+              "Y": -3378.0,
+              "Z": 165.0,
+              "W": 113.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_grass_0005",
+          "Value": {
+            "idx": 8,
+            "ID": "map_000200_grass_0005",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 30,
+                "Item": {
+                  "tableId": "tbl_grass_0010",
+                  "Num": 0
+                },
+                "Exp": 1
+              }
+            ],
+            "Pos": {
+              "X": -2399.0,
+              "Y": -1020.0,
+              "Z": 10.0,
+              "W": 55.0
+            }
+          }
+        },
+        {
+          "Key": "map_000200_fllower_0003",
+          "Value": {
+            "idx": 9,
+            "ID": "map_000200_fllower_0003",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 29,
+                "Item": {
+                  "tableId": "tbl_flower_1010",
+                  "Num": 0
+                },
+                "Exp": 2
+              }
+            ],
+            "Pos": {
+              "X": 3310.0,
+              "Y": -286.0,
+              "Z": 203.0,
+              "W": -205.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

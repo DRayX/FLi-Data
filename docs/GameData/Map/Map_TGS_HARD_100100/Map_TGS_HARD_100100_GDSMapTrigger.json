@@ -1,0 +1,535 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_TGS_HARD_100100_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "103499291",
+          "Value": {
+            "ID": 103499291,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map100100_workbench_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMiniGame_ItemCraftGame",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 28
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3353890768",
+          "Value": {
+            "ID": 3353890768,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3579699262",
+          "Value": {
+            "ID": 3579699262,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1843496795",
+          "Value": {
+            "ID": 1843496795,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_03",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4030119906",
+          "Value": {
+            "ID": 4030119906,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_04",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1217058951",
+          "Value": {
+            "ID": 1217058951,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_05",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1514108777",
+          "Value": {
+            "ID": 1514108777,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_06",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3800240140",
+          "Value": {
+            "ID": 3800240140,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_07",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3135242330",
+          "Value": {
+            "ID": 3135242330,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_08",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39610175",
+          "Value": {
+            "ID": 39610175,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_09",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3019778091",
+          "Value": {
+            "ID": 3019778091,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_10",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "188895054",
+          "Value": {
+            "ID": 188895054,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_11",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "435675296",
+          "Value": {
+            "ID": 435675296,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_12",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2706081733",
+          "Value": {
+            "ID": 2706081733,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_13",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1016905596",
+          "Value": {
+            "ID": 1016905596,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_14",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2216744985",
+          "Value": {
+            "ID": 2216744985,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_15",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2526377975",
+          "Value": {
+            "ID": 2526377975,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_16",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "774443154",
+          "Value": {
+            "ID": 774443154,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_100100_btn_action_17",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        180,
+        93,
+        164,
+        95,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        165,
+        0,
+        0,
+        0,
+        52,
+        0,
+        0,
+        0,
+        0,
+        52,
+        14,
+        0,
+        0,
+        0,
+        52,
+        43,
+        0,
+        0,
+        0,
+        52,
+        64,
+        0,
+        0,
+        0,
+        52,
+        85,
+        0,
+        0,
+        0,
+        52,
+        106,
+        0,
+        0,
+        0,
+        52,
+        127,
+        0,
+        0,
+        0,
+        52,
+        148,
+        0,
+        0,
+        0,
+        52,
+        169,
+        0,
+        0,
+        0,
+        52,
+        190,
+        0,
+        0,
+        0,
+        52,
+        211,
+        0,
+        0,
+        0,
+        52,
+        232,
+        0,
+        0,
+        0,
+        52,
+        253,
+        0,
+        0,
+        0,
+        52,
+        18,
+        1,
+        0,
+        0,
+        52,
+        39,
+        1,
+        0,
+        0,
+        52,
+        60,
+        1,
+        0,
+        0,
+        52,
+        81,
+        1,
+        0,
+        0,
+        52,
+        102,
+        1,
+        0,
+        0,
+        52,
+        123,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "recipe_104004\u0000flg_tgs_hard_item_craft_exec\u0000sysmes_map_100100_01\u0000sysmes_map_100100_02\u0000sysmes_map_100100_03\u0000sysmes_map_100100_04\u0000sysmes_map_100100_05\u0000sysmes_map_100100_06\u0000sysmes_map_100100_07\u0000sysmes_map_100100_08\u0000sysmes_map_100100_09\u0000sysmes_map_100100_10\u0000sysmes_map_100100_11\u0000sysmes_map_100100_12\u0000sysmes_map_100100_13\u0000sysmes_map_100100_11\u0000sysmes_map_100100_11\u0000sysmes_map_100100_11\u0000sysmes_map_100100_11\u0000"
+    }
+  }
+]

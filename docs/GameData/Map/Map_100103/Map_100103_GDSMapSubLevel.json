@@ -1,0 +1,303 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100103_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100103_p030040_wall_01",
+          "Value": {
+            "SubLevelID": "Map_100103_p030040_wall_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Wall/Map_100103_p030040_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_p030040_wall_02",
+          "Value": {
+            "SubLevelID": "Map_100103_p030040_wall_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Wall/Map_100103_p030040_wall"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_hidden",
+          "Value": {
+            "SubLevelID": "Map_100103_hidden",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Map_100103_hidden"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_hidden_online",
+          "Value": {
+            "SubLevelID": "Map_100103_hidden_online",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Map_100103_hidden"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100103_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Map_100103_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100103_runtime_placement_c03",
+          "Value": {
+            "SubLevelID": "Map_100103_runtime_placement_c03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Phase/Map_100103_runtime_placement_c03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_runtime_placement_c07",
+          "Value": {
+            "SubLevelID": "Map_100103_runtime_placement_c07",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Phase/Map_100103_runtime_placement_c07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_Chapter_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_mapobj",
+          "Value": {
+            "SubLevelID": "Map_100103_mapobj",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Map_100103_mapobj"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100103_flower01",
+          "Value": {
+            "SubLevelID": "Map_100103_flower01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Map_100103_flower01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100103_flower02",
+          "Value": {
+            "SubLevelID": "Map_100103_flower02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100103/Map_100103_flower02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Less_Than",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        116,
+        9,
+        0,
+        50,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        41,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        50,
+        0,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0,
+        52,
+        80,
+        0,
+        0,
+        0,
+        52,
+        91,
+        0,
+        0,
+        0,
+        52,
+        111,
+        0,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_check_InvisibleWall\u0000flg_check_InvisibleWall\u0000flg_p070070_01\u0000flg_p070070_01\u0000ev03_10800\u0000flg_event_common_01\u0000ev03_10800\u0000"
+    }
+  }
+]

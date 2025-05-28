@@ -1,0 +1,183 @@
+[
+  {
+    "Type": "GDSMapJumpFuncPointPlacement",
+    "Name": "Map_200007_GDSMapJumpFuncPointPlacement",
+    "Class": "UScriptClass'GDSMapJumpFuncPointPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "mjfp_Map_200007_to_Map_200000",
+          "Value": {
+            "ID": "mjfp_Map_200007_to_Map_200000",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_200007_to_Map_200010_enter",
+          "Value": {
+            "ID": "mjfp_Map_200007_to_Map_200010_enter",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 180.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_200007_to_Map_200010_exit",
+          "Value": {
+            "ID": "mjfp_Map_200007_to_Map_200010_exit",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_200007_to_Map_200010_enter_online",
+          "Value": {
+            "ID": "mjfp_Map_200007_to_Map_200010_enter_online",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 180.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_200007_to_Map_200010_exit_online",
+          "Value": {
+            "ID": "mjfp_Map_200007_to_Map_200010_exit_online",
+            "mapJumpFuncPointTypeDataId": "mft_way",
+            "mapJumpEventParamDataId": "mjep_way",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_True",
+                "arg": []
+              }
+            ],
+            "gameIconInfoArray": [],
+            "mapIconType": 0,
+            "CameraOffset": 0.0
+          }
+        },
+        {
+          "Key": "mjfp_Map_200000_to_area_20",
+          "Value": {
+            "ID": "mjfp_Map_200000_to_area_20",
+            "mapJumpFuncPointTypeDataId": "mft_way_no_exit_action",
+            "mapJumpEventParamDataId": "way_event_default",
+            "OnePlaceId": "None",
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ValidTriggerTypeArray": [
+              2
+            ],
+            "buttonActionGuideMenuId": "None",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "gameIconInfoArray": [
+              {
+                "Type": 57,
+                "placeType": "EGameIconPlaceType::CharaHead",
+                "textId": "name_Map_200000_032",
+                "Offset": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 230.0
+                },
+                "namePlateIconID": [
+                  "ICON_NAMEPLATE_DUNGEON_01"
+                ]
+              }
+            ],
+            "mapIconType": 0,
+            "CameraOffset": 270.0
+          }
+        }
+      ]
+    }
+  }
+]

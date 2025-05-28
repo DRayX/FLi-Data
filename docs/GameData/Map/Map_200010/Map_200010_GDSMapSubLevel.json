@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_200010_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_200010_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_200010_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200010/Map_200010_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200010_forest_01",
+          "Value": {
+            "SubLevelID": "Map_200010_forest_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200010/Area/Map_200010_01"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_200010_forest_02",
+          "Value": {
+            "SubLevelID": "Map_200010_forest_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "forest_11",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200010/Area/Map_200010_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_200010_forest_03",
+          "Value": {
+            "SubLevelID": "Map_200010_forest_03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "forest_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_200010/Area/Map_200010_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        174,
+        105,
+        0,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        238,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        12,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000forest_11\u0000forest_12\u0000"
+    }
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "Type": "GDSCommonSubLevelLoadGroup",
+    "Name": "GDSCommonSubLevelLoadGroup",
+    "Class": "UScriptClass'GDSCommonSubLevelLoadGroup'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "MAP_JUMP",
+          "Value": {
+            "GroupID": "MAP_JUMP",
+            "GroupList": [
+              {
+                "Key": "CSubLevel_Capture_RPG_MainChara",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_RPG_MainChara",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 0,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_Menu_Equip",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_Menu_Equip",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 5,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_Menu_PartyFormation",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_Menu_PartyFormation",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 10,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_Menu_PossessionSelect",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_Menu_PossessionSelect",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 15,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_Menu_AcitiviLibrary",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_Menu_AcitiviLibrary",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 20,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_RPG_MultiPlayer1",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_RPG_MultiPlayer1",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 25,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_RPG_MultiPlayer2",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_RPG_MultiPlayer2",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 30,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "Key": "CSubLevel_Capture_RPG_MultiPlayer3",
+                "Value": {
+                  "SubLevelID": "CSubLevel_Capture_RPG_MultiPlayer3",
+                  "Condition": [
+                    {
+                      "Cmd": "CondCmd_MapId_NotEqual",
+                      "arg": [
+                        {
+                          "m_offset": 35,
+                          "m_dataSize": 9
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Key": "TITLE_GRAPHIC_SETTING",
+          "Value": {
+            "GroupID": "TITLE_GRAPHIC_SETTING",
+            "GroupList": [
+              {
+                "Key": "TitleSubLevel_GraphicSetting_Map",
+                "Value": {
+                  "SubLevelID": "TitleSubLevel_GraphicSetting_Map",
+                  "Condition": []
+                }
+              },
+              {
+                "Key": "TitleSubLevel_GraphicSetting_Map_env",
+                "Value": {
+                  "SubLevelID": "TitleSubLevel_GraphicSetting_Map_env",
+                  "Condition": []
+                }
+              },
+              {
+                "Key": "TitleSubLevel_GraphicSetting_Map_mdl",
+                "Value": {
+                  "SubLevelID": "TitleSubLevel_GraphicSetting_Map_mdl",
+                  "Condition": []
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        201,
+        199,
+        0,
+        40,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        156,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        12,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        52,
+        52,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        72,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000Charamake\u0000Charamake\u0000Charamake\u0000Charamake\u0000Charamake\u0000Charamake\u0000Charamake\u0000Charamake\u0000"
+    }
+  }
+]

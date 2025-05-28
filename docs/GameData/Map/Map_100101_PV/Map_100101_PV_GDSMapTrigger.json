@@ -1,0 +1,430 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100101_PV_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "2806692071",
+          "Value": {
+            "ID": 2806692071,
+            "triggerType": "TG_MAP_JUMP_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2844346383",
+          "Value": {
+            "ID": 2844346383,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_p010100_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "288698218",
+          "Value": {
+            "ID": 288698218,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_p010100_02",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3883731072",
+          "Value": {
+            "ID": 3883731072,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_p010070_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 25
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 17
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2606464090",
+          "Value": {
+            "ID": 2606464090,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "trg_linn_rest_start_until_morning",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddMoneyWithNotify",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GameTimeSetWithRefresh",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_TalkNpcJustBefore",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1176048383",
+          "Value": {
+            "ID": 1176048383,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "trg_linn_rest_start_until_night",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddMoneyWithNotify",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GameTimeSetWithRefresh",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 13
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_TalkNpcJustBefore",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3771655581",
+          "Value": {
+            "ID": 3771655581,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "trg_linn_rest_end",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 13
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        0,
+        0,
+        0,
+        110,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        254,
+        127,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        52,
+        71,
+        0,
+        0,
+        0,
+        52,
+        89,
+        0,
+        0,
+        0,
+        52,
+        118,
+        0,
+        0,
+        0,
+        52,
+        136,
+        0,
+        0,
+        0,
+        52,
+        162,
+        0,
+        0,
+        0,
+        50,
+        246,
+        255,
+        255,
+        255,
+        52,
+        180,
+        0,
+        0,
+        0,
+        50,
+        7,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        197,
+        0,
+        0,
+        0,
+        50,
+        246,
+        255,
+        255,
+        255,
+        52,
+        211,
+        0,
+        0,
+        0,
+        50,
+        19,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        228,
+        0,
+        0,
+        0,
+        52,
+        242,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ev50_00100\u0000ev50_00100\u0000flg_check_veteran\u0000qm100101_chr900b00_010100_01\u0000flg_check_veteran\u0000qm100101_chr900b00_010100_01\u0000flg_check_stopper\u0000stopper_p100101_chr900b00\u0000flg_check_stopper\u0000ME_SLEEPING_TIME\u0000flg_linn_rest\u0000ME_SLEEPING_TIME\u0000flg_linn_rest\u0000flg_linn_rest\u0000"
+    }
+  }
+]

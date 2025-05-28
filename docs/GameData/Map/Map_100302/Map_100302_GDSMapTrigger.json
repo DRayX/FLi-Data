@@ -1,0 +1,322 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100302_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1704489157",
+          "Value": {
+            "ID": 1704489157,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_mapjump_to_map100303",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "967329410",
+          "Value": {
+            "ID": 967329410,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "sysmes_mjfp_100303",
+            "TargetSubID": "0",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1977027240",
+          "Value": {
+            "ID": 1977027240,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100300_quest_012",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4206206463",
+          "Value": {
+            "ID": 4206206463,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100300_quest_016",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3924664997",
+          "Value": {
+            "ID": 3924664997,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100300_quest_021",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1734518086",
+          "Value": {
+            "ID": 1734518086,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100300_quest_011",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4281863551",
+          "Value": {
+            "ID": 4281863551,
+            "triggerType": "TG_OBSTACLE_BUTTON",
+            "TargetID": "obstacle_Map_100302_lift_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_CommonOKWindow",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 18
+                  },
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        91,
+        130,
+        60,
+        75,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        21,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        85,
+        0,
+        0,
+        0,
+        52,
+        109,
+        0,
+        0,
+        0,
+        52,
+        133,
+        0,
+        0,
+        0,
+        52,
+        157,
+        0,
+        0,
+        0,
+        52,
+        181,
+        0,
+        0,
+        0,
+        52,
+        205,
+        0,
+        0,
+        0,
+        52,
+        229,
+        0,
+        0,
+        0,
+        52,
+        253,
+        0,
+        0,
+        0,
+        52,
+        21,
+        1,
+        0,
+        0,
+        52,
+        32,
+        1,
+        0,
+        0,
+        52,
+        51,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sysmes_mjfp_100303\u0000Map_100303\u0000PS_mapjump_from_100302\u0000mjfp_Map_100303_to_Map_100302\u0000flg_map100300_quest_012\u0000flg_map100300_quest_012\u0000flg_map100300_quest_016\u0000flg_map100300_quest_016\u0000flg_map100300_quest_021\u0000flg_map100300_quest_021\u0000flg_map100300_quest_011\u0000flg_map100300_quest_011\u0000hlp_010280\u0000cho_common_ok_0001\u0000unlock_stop\u0000"
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "Type": "GDSMapPickPoint",
+    "Name": "Map_100401_GDSMapPickPoint",
+    "Class": "UScriptClass'GDSMapPickPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "map_100401_pick_point_story_00",
+          "Value": {
+            "ID": "map_100401_pick_point_story_00",
+            "dataIdx": 0,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 50,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 328.9,
+              "Y": -891.5,
+              "Z": 17.3,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": -89.4,
+                "Y": -1443.0,
+                "Z": 134.6,
+                "W": 64.3
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 400.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_time_boss_00",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        212,
+        139,
+        0,
+        10,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        88,
+        2,
+        0,
+        0,
+        50,
+        192,
+        17,
+        1,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000iky01000770\u0000"
+    }
+  }
+]

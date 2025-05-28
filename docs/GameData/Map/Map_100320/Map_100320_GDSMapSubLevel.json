@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_100320_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100320_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_100320_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Phase/Map_100320_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100320_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100320_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Map_100320_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100320_forest_01",
+          "Value": {
+            "SubLevelID": "Map_100320_forest_01",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Area/Map_100320_01"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100320_forest_02",
+          "Value": {
+            "SubLevelID": "Map_100320_forest_02",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "forest_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Area/Map_100320_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100320_forest_03",
+          "Value": {
+            "SubLevelID": "Map_100320_forest_03",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "forest_03",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Area/Map_100320_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100320_forest_04",
+          "Value": {
+            "SubLevelID": "Map_100320_forest_04",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "forest_04",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Area/Map_100320_04"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100320_forest_05",
+          "Value": {
+            "SubLevelID": "Map_100320_forest_05",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "forest_05",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100320/Area/Map_100320_05"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_SubMapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        249,
+        115,
+        20,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        12,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000forest_02\u0000forest_03\u0000forest_04\u0000forest_05\u0000"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "Type": "GDSTBoxPlacement",
+    "Name": "PlantDungeon_GDSTBoxPlacement",
+    "Class": "UScriptClass'GDSTBoxPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbox_cmn",
+          "Value": {
+            "idx": 0,
+            "ID": "tbox_cmn",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 0,
+                "Item": {
+                  "tableId": "tbl_test_cmn_100",
+                  "Num": 1
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            }
+          }
+        },
+        {
+          "Key": "tbox_rare",
+          "Value": {
+            "idx": 1,
+            "ID": "tbox_rare",
+            "AreaID": "None",
+            "areaRank": 0,
+            "cond": [],
+            "isRepop": true,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_test_cmn_100",
+                  "Num": 1
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100506_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1205550206",
+          "Value": {
+            "ID": 1205550206,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100500_quest_015",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "379978841",
+          "Value": {
+            "ID": 379978841,
+            "triggerType": "TG_MAP_JUMP_BEGIN",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        238,
+        10,
+        1,
+        20,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        253,
+        127,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        50,
+        0,
+        0,
+        0,
+        52,
+        74,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_map100500_quest_015\u0000flg_map100500_quest_015\u0000flg_map100500_quest_002\u0000flg_map100500_quest_002\u0000"
+    }
+  }
+]

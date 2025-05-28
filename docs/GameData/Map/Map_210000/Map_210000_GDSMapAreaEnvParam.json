@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "GDSMapAreaEnvParam",
+    "Name": "Map_210000_GDSMapAreaEnvParam",
+    "Class": "UScriptClass'GDSMapAreaEnvParam'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "EnvAreaVal": 1,
+            "EnvData": [
+              {
+                "EnvWeather": 0,
+                "EnvParamAssetId": {
+                  "crc": 2544251770,
+                  "Name": "light_map210000_00"
+                },
+                "EnvPostprocessMatIdArray": [],
+                "EnvEffectDatas": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "EnvAreaVal": 2,
+            "EnvData": [
+              {
+                "EnvWeather": 0,
+                "EnvParamAssetId": {
+                  "crc": 790254623,
+                  "Name": "light_map210000_01"
+                },
+                "EnvPostprocessMatIdArray": [
+                  "hugeMapEnvArea_desert"
+                ],
+                "EnvEffectDatas": [
+                  {
+                    "effId": "eff_cam_000002_00"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

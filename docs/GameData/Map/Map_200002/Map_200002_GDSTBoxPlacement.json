@@ -1,0 +1,111 @@
+[
+  {
+    "Type": "GDSTBoxPlacement",
+    "Name": "Map_200002_GDSTBoxPlacement",
+    "Class": "UScriptClass'GDSTBoxPlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "map_200002_treasure_0001",
+          "Value": {
+            "idx": 0,
+            "ID": "map_200002_treasure_0001",
+            "AreaID": "map200000_area006",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_200002_treasure_0001",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -25756.3,
+              "Y": -7765.4,
+              "Z": 2.1,
+              "W": 41.0
+            }
+          }
+        },
+        {
+          "Key": "map_200002_treasure_0002",
+          "Value": {
+            "idx": 1,
+            "ID": "map_200002_treasure_0002",
+            "AreaID": "map200000_area006",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_200002_treasure_0002",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -15754.2,
+              "Y": -8240.1,
+              "Z": 152.1,
+              "W": 135.0
+            }
+          }
+        },
+        {
+          "Key": "map_200002_treasure_0003",
+          "Value": {
+            "idx": 2,
+            "ID": "map_200002_treasure_0003",
+            "AreaID": "map200000_area006",
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "isRepop": false,
+            "TBox": [
+              {
+                "Weight": 100,
+                "Type": 1,
+                "Item": {
+                  "tableId": "tbl_map_200002_treasure_0003",
+                  "Num": 0
+                },
+                "Exp": 0
+              }
+            ],
+            "Pos": {
+              "X": -6000.3,
+              "Y": -7800.8,
+              "Z": 1.9,
+              "W": 85.0
+            }
+          }
+        }
+      ]
+    }
+  }
+]

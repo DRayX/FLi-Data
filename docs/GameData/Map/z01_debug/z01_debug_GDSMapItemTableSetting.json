@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "GDSMapItemTableSetting",
+    "Name": "z01_debug_GDSMapItemTableSetting",
+    "Class": "UScriptClass'GDSMapItemTableSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbl_test_mapz01_debug_00",
+          "Value": {
+            "tableId": "tbl_test_mapz01_debug_00",
+            "tableData": [
+              {
+                "ItemId": "ics01000580",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 8,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              },
+              {
+                "ItemId": "imt01000510",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 2,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_test_mapz01_debug_01",
+          "Value": {
+            "tableId": "tbl_test_mapz01_debug_01",
+            "tableData": [
+              {
+                "ItemId": "ics01000580",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 8,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              },
+              {
+                "ItemId": "imt01000510",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 2,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

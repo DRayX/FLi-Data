@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "GDSMapFuncPoint",
+    "Name": "PlantDungeon_GDSMapFuncPoint",
+    "Class": "UScriptClass'GDSMapFuncPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "fp_ripening_alter",
+          "Value": {
+            "funcPointId": "fp_ripening_alter",
+            "OnePlaceId": "op_ripening_alter",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              1
+            ],
+            "GameIconInfo": {
+              "Type": 10,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 123,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonRipeningAlterEnableToChange",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "fp_ripening_alter_single",
+          "Value": {
+            "funcPointId": "fp_ripening_alter_single",
+            "OnePlaceId": "op_ripening_alter",
+            "FuncPointType": "EFuncPointType::None",
+            "ValidTriggerTypeArray": [
+              0
+            ],
+            "GameIconInfo": {
+              "Type": 30,
+              "placeType": "EGameIconPlaceType::CharaHead",
+              "textId": "None",
+              "Offset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 300.0
+              },
+              "namePlateIconID": []
+            },
+            "AreaID": "None",
+            "mapIconType": 0,
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Condition": [
+              {
+                "Cmd": "CondCmd_PlantDungeonRipeningAlterEnableToChange",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

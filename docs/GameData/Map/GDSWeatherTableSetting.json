@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "GDSWeatherTableSetting",
+    "Name": "GDSWeatherTableSetting",
+    "Class": "UScriptClass'GDSWeatherTableSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 282192464,
+            "Name": "RealTimeWeatherInfoUpdate"
+          },
+          "Value": {
+            "ID": {
+              "crc": 282192464,
+              "Name": "RealTimeWeatherInfoUpdate"
+            },
+            "WeatherInfo": [
+              {
+                "weightList": [
+                  90,
+                  10
+                ],
+                "ValidCondition": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": {
+            "crc": 1203837538,
+            "Name": "InGameWeatherInfoUpdate"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1203837538,
+              "Name": "InGameWeatherInfoUpdate"
+            },
+            "WeatherInfo": [
+              {
+                "weightList": [
+                  50,
+                  50
+                ],
+                "ValidCondition": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

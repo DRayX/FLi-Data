@@ -1,0 +1,338 @@
+[
+  {
+    "Type": "GDSLotTBoxItemTableGroupSetting",
+    "Name": "GDSLotTBoxItemTableGroupSetting",
+    "Class": "UScriptClass'GDSLotTBoxItemTableGroupSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbl_tamagemono",
+          "Value": {
+            "GroupID": "tbl_tamagemono",
+            "tableData": [
+              {
+                "tableId": "tbl_cmn_tamagemono_01",
+                "Rate": 100,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tableId": "tbl_cmn_tamagemono_02",
+                "Rate": 100,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tableId": "tbl_cmn_tamagemono_03",
+                "Rate": 100,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_Greater",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_01",
+          "Value": {
+            "GroupID": "tbl_grp_rare_01",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_01",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_02",
+          "Value": {
+            "GroupID": "tbl_grp_rare_02",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_02",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_03",
+          "Value": {
+            "GroupID": "tbl_grp_rare_03",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_03",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_04",
+          "Value": {
+            "GroupID": "tbl_grp_rare_04",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_04",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_05",
+          "Value": {
+            "GroupID": "tbl_grp_rare_05",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_05",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_06",
+          "Value": {
+            "GroupID": "tbl_grp_rare_06",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_06",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_rare_07",
+          "Value": {
+            "GroupID": "tbl_grp_rare_07",
+            "tableData": [
+              {
+                "tableId": "tbl_rare_07",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_01",
+          "Value": {
+            "GroupID": "tbl_grp_normal_01",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_01",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_02",
+          "Value": {
+            "GroupID": "tbl_grp_normal_02",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_02",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_03",
+          "Value": {
+            "GroupID": "tbl_grp_normal_03",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_03",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_04",
+          "Value": {
+            "GroupID": "tbl_grp_normal_04",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_04",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_05",
+          "Value": {
+            "GroupID": "tbl_grp_normal_05",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_05",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_06",
+          "Value": {
+            "GroupID": "tbl_grp_normal_06",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_06",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_normal_07",
+          "Value": {
+            "GroupID": "tbl_grp_normal_07",
+            "tableData": [
+              {
+                "tableId": "tbl_normal_07",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_sample_normal",
+          "Value": {
+            "GroupID": "tbl_grp_sample_normal",
+            "tableData": [
+              {
+                "tableId": "tbl_test_cmn_100",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_sample_rare",
+          "Value": {
+            "GroupID": "tbl_grp_sample_rare",
+            "tableData": [
+              {
+                "tableId": "tbl_test_cmn_100",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_grp_test_normal",
+          "Value": {
+            "GroupID": "tbl_grp_test_normal",
+            "tableData": [
+              {
+                "tableId": "tbl_cmn_tamagemono_03",
+                "Rate": 100,
+                "cond": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        71,
+        150,
+        25,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        58,
+        117,
+        0,
+        0,
+        50,
+        28,
+        157,
+        0,
+        0,
+        50,
+        38,
+        157,
+        0,
+        0,
+        50,
+        240,
+        195,
+        0,
+        0,
+        50,
+        250,
+        195,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

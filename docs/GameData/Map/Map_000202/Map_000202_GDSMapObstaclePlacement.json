@@ -1,0 +1,215 @@
+[
+  {
+    "Type": "GDSMapObstaclePlacement",
+    "Name": "Map_000202_GDSMapObstaclePlacement",
+    "Class": "UScriptClass'GDSMapObstaclePlacement'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "obstacle_Map_000202_reclaim_00",
+          "Value": {
+            "ID": "obstacle_Map_000202_reclaim_00",
+            "Type": "EObstacleType::DebrisRemoval",
+            "Pos": {
+              "X": 4990.9497,
+              "Y": -11994.607,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 2,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_reclaim_00.BP_reclaim_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000202_reclaim_01",
+          "Value": {
+            "ID": "obstacle_Map_000202_reclaim_01",
+            "Type": "EObstacleType::DebrisRemoval",
+            "Pos": {
+              "X": 23991.4,
+              "Y": -10388.3,
+              "Z": 3.8,
+              "W": 84.7
+            },
+            "releaseCond": {
+              "friendNum": 2,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_reclaim_00.BP_reclaim_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000202_removal_tree_00",
+          "Value": {
+            "ID": "obstacle_Map_000202_removal_tree_00",
+            "Type": "EObstacleType::LargeTreeRemoval",
+            "Pos": {
+              "X": 14192.381,
+              "Y": -18013.574,
+              "Z": 2.2,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::Lumberjack",
+              "LifeParam": 200
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_removal_tree_00.BP_removal_tree_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000202_removal_rock_00",
+          "Value": {
+            "ID": "obstacle_Map_000202_removal_rock_00",
+            "Type": "EObstacleType::BigRockRemoval",
+            "Pos": {
+              "X": 21991.8,
+              "Y": -18008.0,
+              "Z": 2.2,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::Miner",
+              "LifeParam": 200
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_removal_rock_00.BP_removal_rock_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000202_removal_veg_00",
+          "Value": {
+            "ID": "obstacle_Map_000202_removal_veg_00",
+            "Type": "EObstacleType::BossVegetableRemoval",
+            "Pos": {
+              "X": 24005.0,
+              "Y": -13704.0,
+              "Z": 3.1,
+              "W": 90.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [],
+              "lifeType": "ELifeType::Farmer",
+              "LifeParam": 200
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_removal_veg_00.BP_removal_veg_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "obstacle_Map_000202_lift_00",
+          "Value": {
+            "ID": "obstacle_Map_000202_lift_00",
+            "Type": "EObstacleType::Unlock",
+            "Pos": {
+              "X": 24008.7,
+              "Y": -20050.0,
+              "Z": 200.0,
+              "W": 0.0
+            },
+            "releaseCond": {
+              "friendNum": 0,
+              "itemInfoArray": [
+                {
+                  "ID": "imt01004460",
+                  "Num": 30
+                }
+              ],
+              "lifeType": "ELifeType::None",
+              "LifeParam": 0
+            },
+            "rewardItemInfo": {
+              "ID": "None",
+              "Num": 0
+            },
+            "mapIconHidden": false,
+            "refCraftObjId": "None",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/Obstacle/gimmick/BP_lift_00.BP_lift_00_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+]

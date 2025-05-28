@@ -1,0 +1,2461 @@
+[
+  {
+    "Type": "GDSMapEffectSetting",
+    "Name": "GDSMapEffectSetting",
+    "Class": "UScriptClass'GDSMapEffectSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 1261106821,
+            "Name": "Torch"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1261106821,
+              "Name": "Torch"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3933536955,
+            "Name": "Alta"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3933536955,
+              "Name": "Alta"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3539424888,
+            "Name": "Water"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3539424888,
+              "Name": "Water"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3867122122,
+            "Name": "Sunlight"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3867122122,
+              "Name": "Sunlight"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsWeatherType",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GameTimePeriod_IsDay",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 257778610,
+            "Name": "Streetlight"
+          },
+          "Value": {
+            "ID": {
+              "crc": 257778610,
+              "Name": "Streetlight"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GameTimePeriod_IsNight",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 82361749,
+            "Name": "Rain"
+          },
+          "Value": {
+            "ID": {
+              "crc": 82361749,
+              "Name": "Rain"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_IsWeatherType",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 776719480,
+            "Name": "Candle"
+          },
+          "Value": {
+            "ID": {
+              "crc": 776719480,
+              "Name": "Candle"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1515546875,
+            "Name": "Furnace"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1515546875,
+              "Name": "Furnace"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3533488392,
+            "Name": "Etc"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3533488392,
+              "Name": "Etc"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_UnCondition",
+                "arg": []
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1841958593,
+            "Name": "enemy_village_01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1841958593,
+              "Name": "enemy_village_01"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2139070767,
+            "Name": "enemy_village_02"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2139070767,
+              "Name": "enemy_village_02"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3351496266,
+            "Name": "enemy_village_03"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3351496266,
+              "Name": "enemy_village_03"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1511325427,
+            "Name": "enemy_village_04"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1511325427,
+              "Name": "enemy_village_04"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3802700182,
+            "Name": "enemy_village_05"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3802700182,
+              "Name": "enemy_village_05"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 4028446328,
+            "Name": "enemy_village_06"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4028446328,
+              "Name": "enemy_village_06"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1333755590,
+            "Name": "enemy_village_01_before"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1333755590,
+              "Name": "enemy_village_01_before"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2254468729,
+            "Name": "enemy_village_02_before"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2254468729,
+              "Name": "enemy_village_02_before"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2008708051,
+            "Name": "enemy_village_03_before"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2008708051,
+              "Name": "enemy_village_03_before"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3475988806,
+            "Name": "enemy_village_04_before"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3475988806,
+              "Name": "enemy_village_04_before"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1056269548,
+            "Name": "enemy_village_05_before"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1056269548,
+              "Name": "enemy_village_05_before"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 4159335507,
+            "Name": "enemy_village_06_before"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4159335507,
+              "Name": "enemy_village_06_before"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2902247557,
+            "Name": "tag_tower083_01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2902247557,
+              "Name": "tag_tower083_01"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2437381806,
+            "Name": "tag_tower075_02"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2437381806,
+              "Name": "tag_tower075_02"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3409709038,
+            "Name": "tag_tower067_03"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3409709038,
+              "Name": "tag_tower067_03"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2133035941,
+            "Name": "tag_tower064_04"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2133035941,
+              "Name": "tag_tower064_04"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1115532622,
+            "Name": "tag_tower035_05"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1115532622,
+              "Name": "tag_tower035_05"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2978784307,
+            "Name": "tag_tower045_06"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2978784307,
+              "Name": "tag_tower045_06"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 8028431,
+            "Name": "tag_tower048_07"
+          },
+          "Value": {
+            "ID": {
+              "crc": 8028431,
+              "Name": "tag_tower048_07"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1918016797,
+            "Name": "tag_tower029_08"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1918016797,
+              "Name": "tag_tower029_08"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2923961701,
+            "Name": "tag_tower008_09"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2923961701,
+              "Name": "tag_tower008_09"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 4121350742,
+            "Name": "tag_tower026_10"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4121350742,
+              "Name": "tag_tower026_10"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1695800730,
+            "Name": "tag_tower014_11"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1695800730,
+              "Name": "tag_tower014_11"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3624878014,
+            "Name": "tag_tower024_12"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3624878014,
+              "Name": "tag_tower024_12"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3521457946,
+            "Name": "tag_tower030_13"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3521457946,
+              "Name": "tag_tower030_13"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 52306081,
+            "Name": "tag_tower041_14"
+          },
+          "Value": {
+            "ID": {
+              "crc": 52306081,
+              "Name": "tag_tower041_14"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2456482614,
+            "Name": "tag_tower042_15"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2456482614,
+              "Name": "tag_tower042_15"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 25
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3569071501,
+            "Name": "tag_recipe_effect_before_01"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3569071501,
+              "Name": "tag_recipe_effect_before_01"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3322813027,
+            "Name": "tag_recipe_effect_before_02"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3322813027,
+              "Name": "tag_recipe_effect_before_02"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2125626630,
+            "Name": "tag_recipe_effect_before_03"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2125626630,
+              "Name": "tag_recipe_effect_before_03"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 3815065023,
+            "Name": "tag_recipe_effect_before_04"
+          },
+          "Value": {
+            "ID": {
+              "crc": 3815065023,
+              "Name": "tag_recipe_effect_before_04"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1540956890,
+            "Name": "tag_recipe_effect_before_05"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1540956890,
+              "Name": "tag_recipe_effect_before_05"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 1231850804,
+            "Name": "tag_recipe_effect_before_06"
+          },
+          "Value": {
+            "ID": {
+              "crc": 1231850804,
+              "Name": "tag_recipe_effect_before_06"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 4057000529,
+            "Name": "tag_recipe_effect_before_07"
+          },
+          "Value": {
+            "ID": {
+              "crc": 4057000529,
+              "Name": "tag_recipe_effect_before_07"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2847144455,
+            "Name": "tag_recipe_effect_before_08"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2847144455,
+              "Name": "tag_recipe_effect_before_08"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 286236002,
+            "Name": "tag_recipe_effect_before_09"
+          },
+          "Value": {
+            "ID": {
+              "crc": 286236002,
+              "Name": "tag_recipe_effect_before_09"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2695746166,
+            "Name": "tag_recipe_effect_before_10"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2695746166,
+              "Name": "tag_recipe_effect_before_10"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 403813651,
+            "Name": "tag_recipe_effect_before_11"
+          },
+          "Value": {
+            "ID": {
+              "crc": 403813651,
+              "Name": "tag_recipe_effect_before_11"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 178526973,
+            "Name": "tag_recipe_effect_before_12"
+          },
+          "Value": {
+            "ID": {
+              "crc": 178526973,
+              "Name": "tag_recipe_effect_before_12"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2987949464,
+            "Name": "tag_recipe_effect_before_13"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2987949464,
+              "Name": "tag_recipe_effect_before_13"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 802112801,
+            "Name": "tag_recipe_effect_before_14"
+          },
+          "Value": {
+            "ID": {
+              "crc": 802112801,
+              "Name": "tag_recipe_effect_before_14"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2540905028,
+            "Name": "tag_recipe_effect_before_15"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2540905028,
+              "Name": "tag_recipe_effect_before_15"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        },
+        {
+          "Key": {
+            "crc": 2244382122,
+            "Name": "tag_recipe_effect_before_16"
+          },
+          "Value": {
+            "ID": {
+              "crc": 2244382122,
+              "Name": "tag_recipe_effect_before_16"
+            },
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "effectId": {
+              "crc": 0,
+              "Name": "None"
+            },
+            "Location": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0
+            },
+            "Scale": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            }
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        75,
+        137,
+        183,
+        225,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        52,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        52,
+        107,
+        0,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        52,
+        149,
+        0,
+        0,
+        0,
+        52,
+        170,
+        0,
+        0,
+        0,
+        52,
+        191,
+        0,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        52,
+        233,
+        0,
+        0,
+        0,
+        52,
+        254,
+        0,
+        0,
+        0,
+        52,
+        24,
+        1,
+        0,
+        0,
+        52,
+        50,
+        1,
+        0,
+        0,
+        52,
+        76,
+        1,
+        0,
+        0,
+        52,
+        102,
+        1,
+        0,
+        0,
+        52,
+        128,
+        1,
+        0,
+        0,
+        52,
+        154,
+        1,
+        0,
+        0,
+        52,
+        180,
+        1,
+        0,
+        0,
+        52,
+        206,
+        1,
+        0,
+        0,
+        52,
+        232,
+        1,
+        0,
+        0,
+        52,
+        2,
+        2,
+        0,
+        0,
+        52,
+        28,
+        2,
+        0,
+        0,
+        52,
+        54,
+        2,
+        0,
+        0,
+        52,
+        80,
+        2,
+        0,
+        0,
+        52,
+        106,
+        2,
+        0,
+        0,
+        52,
+        132,
+        2,
+        0,
+        0,
+        52,
+        162,
+        2,
+        0,
+        0,
+        52,
+        192,
+        2,
+        0,
+        0,
+        52,
+        222,
+        2,
+        0,
+        0,
+        52,
+        252,
+        2,
+        0,
+        0,
+        52,
+        26,
+        3,
+        0,
+        0,
+        52,
+        56,
+        3,
+        0,
+        0,
+        52,
+        86,
+        3,
+        0,
+        0,
+        52,
+        116,
+        3,
+        0,
+        0,
+        52,
+        146,
+        3,
+        0,
+        0,
+        52,
+        176,
+        3,
+        0,
+        0,
+        52,
+        206,
+        3,
+        0,
+        0,
+        52,
+        236,
+        3,
+        0,
+        0,
+        52,
+        10,
+        4,
+        0,
+        0,
+        52,
+        40,
+        4,
+        0,
+        0,
+        52,
+        70,
+        4,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_enemy_village_01\u0000flg_enemy_village_02\u0000flg_enemy_village_03\u0000flg_enemy_village_04\u0000flg_enemy_village_05\u0000flg_enemy_village_06\u0000flg_enemy_village_01\u0000flg_enemy_village_02\u0000flg_enemy_village_03\u0000flg_enemy_village_04\u0000flg_enemy_village_05\u0000flg_enemy_village_06\u0000flg_travelpoint_200000_01\u0000flg_travelpoint_200000_02\u0000flg_travelpoint_200000_03\u0000flg_travelpoint_200000_04\u0000flg_travelpoint_200000_05\u0000flg_travelpoint_200000_06\u0000flg_travelpoint_200000_07\u0000flg_travelpoint_200000_08\u0000flg_travelpoint_200000_09\u0000flg_travelpoint_200000_10\u0000flg_travelpoint_200000_11\u0000flg_travelpoint_200000_12\u0000flg_travelpoint_200000_13\u0000flg_travelpoint_200000_14\u0000flg_travelpoint_200000_15\u0000irp_recipe_life10_iwp02000190\u0000irp_recipe_life10_iam01007000\u0000irp_recipe_life10_iwp03000190\u0000irp_recipe_life11_iwp05000190\u0000irp_recipe_life11_iwp04000190\u0000irp_recipe_life10_ilt02000110\u0000irp_recipe_life11_ilt01000110\u0000irp_recipe_life11_ilt03000110\u0000irp_recipe_life10_ilt04000110\u0000irp_recipe_life10_ilt08000110\u0000irp_recipe_life11_ilt06000110\u0000irp_recipe_life10_ilt07000110\u0000irp_recipe_life13_ilt11000110\u0000irp_recipe_life10_ilt10000110\u0000irp_recipe_life11_ilt09000110\u0000irp_recipe_life09_ics01003380\u0000"
+    }
+  }
+]

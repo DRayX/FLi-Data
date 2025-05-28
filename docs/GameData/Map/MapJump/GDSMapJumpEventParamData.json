@@ -1,0 +1,138 @@
+[
+  {
+    "Type": "GDSMapJumpEventParamData",
+    "Name": "GDSMapJumpEventParamData",
+    "Class": "UScriptClass'GDSMapJumpEventParamData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "mjep_outdoor_singledoor",
+          "Value": {
+            "ID": "mjep_outdoor_singledoor",
+            "enterEventParam": {
+              "prevFuncPointMotion": "anm_cft000300_00_doorIn",
+              "funcPointMotion": "anm_cft000300_00_doorOut",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "anm_cft000300_00_doorIn",
+              "postFuncPointMotion": "anm_cft000300_00_doorOut",
+              "charaMotion": "cmn_doorSingleIn"
+            }
+          }
+        },
+        {
+          "Key": "mjep_outdoor_doubledoor",
+          "Value": {
+            "ID": "mjep_outdoor_doubledoor",
+            "enterEventParam": {
+              "prevFuncPointMotion": "anm_cft000b01_00_doorIn",
+              "funcPointMotion": "anm_cft000b01_00_doorOut",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "anm_cft000b01_00_doorIn",
+              "postFuncPointMotion": "anm_cft000b01_00_doorOut",
+              "charaMotion": "cmn_doorDoubleIn"
+            }
+          }
+        },
+        {
+          "Key": "outdoor_door_event_param",
+          "Value": {
+            "ID": "outdoor_door_event_param",
+            "enterEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "anm_cft000300_00_doorOut",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "anm_cft000300_00_doorIn",
+              "postFuncPointMotion": "None",
+              "charaMotion": "cmn_doorSingleIn"
+            }
+          }
+        },
+        {
+          "Key": "way_event_default",
+          "Value": {
+            "ID": "way_event_default",
+            "enterEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            }
+          }
+        },
+        {
+          "Key": "mjep_way",
+          "Value": {
+            "ID": "mjep_way",
+            "enterEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            }
+          }
+        },
+        {
+          "Key": "mjep_plantdungeon_start",
+          "Value": {
+            "ID": "mjep_plantdungeon_start",
+            "enterEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            }
+          }
+        },
+        {
+          "Key": "mjep_plantdungeon_in",
+          "Value": {
+            "ID": "mjep_plantdungeon_in",
+            "enterEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            },
+            "exitEventParam": {
+              "prevFuncPointMotion": "None",
+              "funcPointMotion": "None",
+              "postFuncPointMotion": "None",
+              "charaMotion": "None"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

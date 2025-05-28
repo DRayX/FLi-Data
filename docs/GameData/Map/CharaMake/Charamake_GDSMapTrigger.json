@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Charamake_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3123032496",
+          "Value": {
+            "ID": 3123032496,
+            "triggerType": "TG_CHARAMAKE_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 24
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "43636437",
+          "Value": {
+            "ID": 43636437,
+            "triggerType": "TG_CHARAMAKE_END",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 24
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        27,
+        194,
+        30,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        27,
+        0,
+        0,
+        0,
+        52,
+        38,
+        0,
+        0,
+        0,
+        52,
+        50,
+        0,
+        0,
+        0,
+        52,
+        75,
+        0,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_guild_house_grade_up\u0000Map_500001\u0000PS_Boyle_00\u0000flg_guild_house_grade_up\u0000Map_500011\u0000PS_Boyle_01\u0000"
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[
+  {
+    "Type": "GDSMapMinimap",
+    "Name": "Map_TGS_2024_GDSMapMinimap",
+    "Class": "UScriptClass'GDSMapMinimap'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "minimap_Map_TGS_2024_detail",
+          "Value": {
+            "ID": "minimap_Map_TGS_2024_detail",
+            "areaNo": 1,
+            "textureType": 1,
+            "texPath": "Texture2D'/Game/Graphics/2D/UI/Map/Map_200000/Tex/tex_TGS_Map_200000_000000.tex_TGS_Map_200000_000000'",
+            "minX": -10000,
+            "maxX": 70000,
+            "minY": -60000,
+            "maxY": 20000,
+            "Scale": 0.5,
+            "displayRangeType": 2,
+            "scrollMinX": 384,
+            "scrollMaxX": 1664,
+            "scrollMinY": 128,
+            "scrollMaxY": 1920,
+            "scaleTypeInfo": {
+              "small": 1.5,
+              "Medium": 2.0,
+              "large": 3.0
+            },
+            "mapIconScale": 0.2,
+            "mapTextureSizeX": 2046,
+            "mapTextureSizeY": 2046,
+            "mapPartitionNumX": 0,
+            "mapPartitionNumY": 0
+          }
+        },
+        {
+          "Key": "minimap_Map_TGS_2024_all",
+          "Value": {
+            "ID": "minimap_Map_TGS_2024_all",
+            "areaNo": 1,
+            "textureType": 1,
+            "texPath": "Texture2D'/Game/Graphics/2D/UI/Map/Com/Tex/tex_map_020001.tex_map_020001'",
+            "minX": -136463,
+            "maxX": 153137,
+            "minY": -281412,
+            "maxY": 270588,
+            "Scale": 0.15,
+            "displayRangeType": 1,
+            "scrollMinX": 0,
+            "scrollMaxX": 2048,
+            "scrollMinY": 0,
+            "scrollMaxY": 2048,
+            "scaleTypeInfo": {
+              "small": 1.0,
+              "Medium": 1.5,
+              "large": 5.5
+            },
+            "mapIconScale": 0.5,
+            "mapTextureSizeX": 2760,
+            "mapTextureSizeY": 1448,
+            "mapPartitionNumX": 0,
+            "mapPartitionNumY": 0
+          }
+        },
+        {
+          "Key": "minimap_Map_TGS_2024_parts",
+          "Value": {
+            "ID": "minimap_Map_TGS_2024_parts",
+            "areaNo": 1,
+            "textureType": 2,
+            "texPath": "Texture2D'/Game/Graphics/2D/UI/Map/Map_200000/Tex/",
+            "minX": -100000,
+            "maxX": 100000,
+            "minY": -100000,
+            "maxY": 100000,
+            "Scale": 0.5,
+            "displayRangeType": 0,
+            "scrollMinX": 0,
+            "scrollMaxX": 2048,
+            "scrollMinY": 0,
+            "scrollMaxY": 2048,
+            "scaleTypeInfo": {
+              "small": 1.0,
+              "Medium": 1.5,
+              "large": 5.5
+            },
+            "mapIconScale": 0.5,
+            "mapTextureSizeX": 2046,
+            "mapTextureSizeY": 2046,
+            "mapPartitionNumX": 10,
+            "mapPartitionNumY": 10
+          }
+        }
+      ]
+    }
+  }
+]

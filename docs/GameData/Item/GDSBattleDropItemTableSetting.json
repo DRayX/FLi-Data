@@ -1,0 +1,418 @@
+[
+  {
+    "Type": "GDSBattleDropItemTableSetting",
+    "Name": "GDSBattleDropItemTableSetting",
+    "Class": "UScriptClass'GDSBattleDropItemTableSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbl_drop_enm",
+          "Value": {
+            "tableId": "tbl_drop_enm",
+            "Table": [
+              {
+                "Rate": 15,
+                "dropItemId": "di_hp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 15,
+                "dropItemId": "di_sp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 10,
+                "dropItemId": "di_tp_s",
+                "Min": 1,
+                "Max": 1
+              },
+              {
+                "Rate": 15,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_enm_silver",
+          "Value": {
+            "tableId": "tbl_drop_enm_silver",
+            "Table": [
+              {
+                "Rate": 30,
+                "dropItemId": "di_hp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "di_sp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "di_tp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_enm_boss",
+          "Value": {
+            "tableId": "tbl_drop_enm_boss",
+            "Table": [
+              {
+                "Rate": 50,
+                "dropItemId": "di_hp_s",
+                "Min": 2,
+                "Max": 3
+              },
+              {
+                "Rate": 50,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              },
+              {
+                "Rate": 50,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_enm_boss_battle",
+          "Value": {
+            "tableId": "tbl_drop_enm_boss_battle",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 1,
+                "Max": 1
+              },
+              {
+                "Rate": 20,
+                "dropItemId": "di_sp_s",
+                "Min": 0,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_enm_last",
+          "Value": {
+            "tableId": "tbl_drop_enm_last",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_hp_s",
+                "Min": 3,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_life99_01",
+          "Value": {
+            "tableId": "tbl_btl_life99_01",
+            "Table": [
+              {
+                "Rate": 50,
+                "dropItemId": "di_hp_s",
+                "Min": 1,
+                "Max": 2
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_pick",
+          "Value": {
+            "tableId": "tbl_drop_pick",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 0,
+                "Max": 1
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_pick_increase",
+          "Value": {
+            "tableId": "tbl_drop_pick_increase",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              },
+              {
+                "Rate": 10,
+                "dropItemId": "di_sp_s",
+                "Min": 0,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_pick_boss",
+          "Value": {
+            "tableId": "tbl_drop_pick_boss",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 0,
+                "Max": 2
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_drop_pick_EX",
+          "Value": {
+            "tableId": "tbl_drop_pick_EX",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGSz_0001",
+          "Value": {
+            "tableId": "tbl_btl_TGSz_0001",
+            "Table": [
+              {
+                "Rate": 15,
+                "dropItemId": "di_hp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 15,
+                "dropItemId": "di_sp_s",
+                "Min": 0,
+                "Max": 1
+              },
+              {
+                "Rate": 5,
+                "dropItemId": "di_tp_s",
+                "Min": 1,
+                "Max": 1
+              },
+              {
+                "Rate": 15,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGSb_0002",
+          "Value": {
+            "tableId": "tbl_btl_TGSb_0002",
+            "Table": [
+              {
+                "Rate": 30,
+                "dropItemId": "di_hp_s",
+                "Min": 2,
+                "Max": 3
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "di_sp_s",
+                "Min": 1,
+                "Max": 2
+              },
+              {
+                "Rate": 30,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGSz_0003",
+          "Value": {
+            "tableId": "tbl_btl_TGSz_0003",
+            "Table": [
+              {
+                "Rate": 30,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGSz_0004",
+          "Value": {
+            "tableId": "tbl_btl_TGSz_0004",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGSz_1000",
+          "Value": {
+            "tableId": "tbl_btl_TGSz_1000",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_hp_s",
+                "Min": 3,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_test_0000",
+          "Value": {
+            "tableId": "tbl_btl_test_0000",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_hp_s",
+                "Min": 1,
+                "Max": 3
+              },
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 1,
+                "Max": 3
+              },
+              {
+                "Rate": 100,
+                "dropItemId": "Money",
+                "Min": 1,
+                "Max": 3
+              },
+              {
+                "Rate": 100,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_test_0001",
+          "Value": {
+            "tableId": "tbl_btl_test_0001",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "Money",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_test_0002",
+          "Value": {
+            "tableId": "tbl_btl_test_0002",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "Exp",
+                "Min": 1,
+                "Max": 1
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGS2024_0001",
+          "Value": {
+            "tableId": "tbl_btl_TGS2024_0001",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_hp_s",
+                "Min": 2,
+                "Max": 3
+              },
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 2,
+                "Max": 3
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_btl_TGS2024_0002",
+          "Value": {
+            "tableId": "tbl_btl_TGS2024_0002",
+            "Table": [
+              {
+                "Rate": 100,
+                "dropItemId": "di_sp_s",
+                "Min": 3,
+                "Max": 4
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

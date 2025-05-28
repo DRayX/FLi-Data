@@ -1,0 +1,1063 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100320_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1675219974",
+          "Value": {
+            "ID": 1675219974,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_forest_01_E_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingStart",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "543157454",
+          "Value": {
+            "ID": 543157454,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_forest_01_E_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingEnd",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "138952759",
+          "Value": {
+            "ID": 138952759,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_forest_02_N_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingStart",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "552100013",
+          "Value": {
+            "ID": 552100013,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_forest_02_N_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingEnd",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2454289261",
+          "Value": {
+            "ID": 2454289261,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_forest_03_E_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingStart",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2779237889",
+          "Value": {
+            "ID": 2779237889,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_forest_03_E_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingEnd",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3246962635",
+          "Value": {
+            "ID": 3246962635,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_forest_04_N_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingStart",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1972437437",
+          "Value": {
+            "ID": 1972437437,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_forest_04_N_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingEnd",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1136502651",
+          "Value": {
+            "ID": 1136502651,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_forest_05_W_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingStart",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3577924845",
+          "Value": {
+            "ID": 3577924845,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_forest_05_W_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_HeadBangingEnd",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4022327751",
+          "Value": {
+            "ID": 4022327751,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_02_W_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_LostForestSuccess",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "82671968",
+          "Value": {
+            "ID": 82671968,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_03_S_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_LostForestSuccess",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2730602805",
+          "Value": {
+            "ID": 2730602805,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_04_W_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_LostForestSuccess",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1234375058",
+          "Value": {
+            "ID": 1234375058,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_05_S_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_LostForestSuccess",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3512789714",
+          "Value": {
+            "ID": 3512789714,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_01_E_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1999657440",
+          "Value": {
+            "ID": 1999657440,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_01_W_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "506906559",
+          "Value": {
+            "ID": 506906559,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_01_S_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1534295876",
+          "Value": {
+            "ID": 1534295876,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_01_N_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Less",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3609841408",
+          "Value": {
+            "ID": 3609841408,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_01_S_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "659218006",
+          "Value": {
+            "ID": 659218006,
+            "triggerType": "TG_MAP_ENTER_EVENT_END",
+            "TargetID": "mjfp_Map_100320_forest_01_S_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3179326916",
+          "Value": {
+            "ID": 3179326916,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_TempByteFlag_Greater",
+                "arg": [
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunGeneralTalk_HighPrio",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        155,
+        141,
+        0,
+        29,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        108,
+        1,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        107,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        149,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        170,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        191,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        52,
+        233,
+        0,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        252,
+        0,
+        0,
+        0,
+        52,
+        17,
+        1,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        36,
+        1,
+        0,
+        0,
+        52,
+        57,
+        1,
+        0,
+        0,
+        50,
+        184,
+        156,
+        0,
+        0,
+        52,
+        76,
+        1,
+        0,
+        0,
+        52,
+        97,
+        1,
+        0,
+        0,
+        50,
+        144,
+        156,
+        0,
+        0,
+        52,
+        116,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        144,
+        156,
+        0,
+        0,
+        52,
+        136,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        144,
+        156,
+        0,
+        0,
+        52,
+        156,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        144,
+        156,
+        0,
+        0,
+        52,
+        176,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        194,
+        156,
+        0,
+        0,
+        52,
+        196,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        204,
+        156,
+        0,
+        0,
+        52,
+        216,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        204,
+        156,
+        0,
+        0,
+        52,
+        236,
+        1,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        0,
+        2,
+        0,
+        0,
+        52,
+        11,
+        2,
+        0,
+        0,
+        52,
+        26,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000BGM_FLI28_heavymetal\u0000chara_emotion_note\u0000BGM_FLI28_heavymetal\u0000chara_emotion_note\u0000BGM_FLI28_heavymetal\u0000chara_emotion_note\u0000BGM_FLI28_heavymetal\u0000chara_emotion_note\u0000flg_Map100320_count\u0000flg_Map100320_count\u0000flg_Map100320_count\u0000flg_Map100320_count\u0000flg_Map100320_count\u0000flg_Map100320_count\u0000flg_Map100320_count\u0000Map_100320\u0000ev04_30250_001\u0000flg_Map100320_count\u0000"
+    }
+  }
+]

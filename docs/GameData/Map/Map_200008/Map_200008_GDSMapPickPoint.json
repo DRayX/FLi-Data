@@ -1,0 +1,1471 @@
+[
+  {
+    "Type": "GDSMapPickPoint",
+    "Name": "Map_200008_GDSMapPickPoint",
+    "Class": "UScriptClass'GDSMapPickPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_200008_deposit_0000",
+          "Value": {
+            "ID": "Map_200008_deposit_0000",
+            "dataIdx": 0,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_AreaRank_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_003",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -11610.0,
+              "Y": -12000.0,
+              "Z": 150.0,
+              "W": 120.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_1002",
+            "requestProhibited": true,
+            "isTimerRepop": true,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_0001",
+          "Value": {
+            "ID": "Map_200008_deposit_0001",
+            "dataIdx": 1,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -12087.2,
+              "Y": -12273.8,
+              "Z": 152.2,
+              "W": 47.3
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_0002",
+          "Value": {
+            "ID": "Map_200008_deposit_0002",
+            "dataIdx": 2,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1062.6,
+              "Y": -6836.5,
+              "Z": 152.1,
+              "W": -10.1
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_0003",
+          "Value": {
+            "ID": "Map_200008_deposit_0003",
+            "dataIdx": 3,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1427.3,
+              "Y": -6915.2,
+              "Z": 152.1,
+              "W": -99.1
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_0004",
+          "Value": {
+            "ID": "Map_200008_deposit_0004",
+            "dataIdx": 4,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1117.8,
+              "Y": -7183.6,
+              "Z": 152.1,
+              "W": 23.5
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_0005",
+          "Value": {
+            "ID": "Map_200008_deposit_0005",
+            "dataIdx": 5,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -13706.6,
+              "Y": -13372.8,
+              "Z": 152.2,
+              "W": 5.5
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_0006",
+          "Value": {
+            "ID": "Map_200008_deposit_0006",
+            "dataIdx": 6,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -13418.2,
+              "Y": -13755.1,
+              "Z": 152.1,
+              "W": 76.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_1001",
+          "Value": {
+            "ID": "Map_200008_deposit_1001",
+            "dataIdx": 7,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_03",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -12224.9,
+              "Y": -11625.9,
+              "Z": 152.2,
+              "W": 52.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_1002",
+          "Value": {
+            "ID": "Map_200008_deposit_1002",
+            "dataIdx": 8,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_03",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -13060.9,
+              "Y": -13020.3,
+              "Z": 2.2,
+              "W": 44.7
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_1003",
+          "Value": {
+            "ID": "Map_200008_deposit_1003",
+            "dataIdx": 9,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_03",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -12938.5,
+              "Y": -10669.3,
+              "Z": 2.2,
+              "W": -38.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2001",
+          "Value": {
+            "ID": "Map_200008_deposit_2001",
+            "dataIdx": 10,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -11112.5,
+              "Y": -12276.9,
+              "Z": 152.2,
+              "W": 143.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2002",
+          "Value": {
+            "ID": "Map_200008_deposit_2002",
+            "dataIdx": 11,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -11475.8,
+              "Y": -10888.3,
+              "Z": 2.2,
+              "W": 99.1
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2003",
+          "Value": {
+            "ID": "Map_200008_deposit_2003",
+            "dataIdx": 12,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -4523.0,
+              "Y": -5132.0,
+              "Z": 2.2,
+              "W": -126.1
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2004",
+          "Value": {
+            "ID": "Map_200008_deposit_2004",
+            "dataIdx": 13,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -4508.7,
+              "Y": -6458.9,
+              "Z": 2.2,
+              "W": 105.1
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2005",
+          "Value": {
+            "ID": "Map_200008_deposit_2005",
+            "dataIdx": 14,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 898.2,
+              "Y": -5502.4,
+              "Z": 2.1,
+              "W": 138.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2006",
+          "Value": {
+            "ID": "Map_200008_deposit_2006",
+            "dataIdx": 15,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1154.8,
+              "Y": -5291.9,
+              "Z": 1.9,
+              "W": 92.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_2007",
+          "Value": {
+            "ID": "Map_200008_deposit_2007",
+            "dataIdx": 16,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_01",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1226.8,
+              "Y": -5987.6,
+              "Z": 1.6,
+              "W": 32.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_3001",
+          "Value": {
+            "ID": "Map_200008_deposit_3001",
+            "dataIdx": 17,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_02",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -11463.0,
+              "Y": -10272.3,
+              "Z": 2.2,
+              "W": -153.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_04",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_3002",
+          "Value": {
+            "ID": "Map_200008_deposit_3002",
+            "dataIdx": 18,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_02",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1493.4,
+              "Y": -5356.7,
+              "Z": 1.6,
+              "W": 144.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_04",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_deposit_3003",
+          "Value": {
+            "ID": "Map_200008_deposit_3003",
+            "dataIdx": 19,
+            "Type": 2,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_0002_02",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -10348.7,
+              "Y": -12666.2,
+              "Z": 2.2,
+              "W": 137.9
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_area004_04",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_fish_0000",
+          "Value": {
+            "ID": "Map_200008_fish_0000",
+            "dataIdx": 0,
+            "Type": 3,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_AreaRank_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 17
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_003",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -12311.5,
+              "Y": -6025.1,
+              "Z": -390.0,
+              "W": 20.8
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 800.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_area004_boss_02",
+            "requestProhibited": true,
+            "isTimerRepop": true,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_fish_0001",
+          "Value": {
+            "ID": "Map_200008_fish_0001",
+            "dataIdx": 1,
+            "Type": 3,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_001",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1379.4,
+              "Y": -7428.3,
+              "Z": 102.1,
+              "W": -156.3
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 550.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_area004_cave_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_fish_0002",
+          "Value": {
+            "ID": "Map_200008_fish_0002",
+            "dataIdx": 2,
+            "Type": 3,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_001",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1332.8,
+              "Y": -6981.0,
+              "Z": 102.1,
+              "W": -93.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 500.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_area004_cave_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "Map_200008_fish_0003",
+          "Value": {
+            "ID": "Map_200008_fish_0003",
+            "dataIdx": 3,
+            "Type": 3,
+            "AreaID": "map200000_area004",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "area_rank_level_001",
+              "Level": 1,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 779.9,
+              "Y": -810.6,
+              "Z": -147.8,
+              "W": 125.6
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 500.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_area004_cave_03",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        246,
+        112,
+        0,
+        20,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        39,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        20,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000map200000_area004\u0000map200000_area004\u0000"
+    }
+  }
+]

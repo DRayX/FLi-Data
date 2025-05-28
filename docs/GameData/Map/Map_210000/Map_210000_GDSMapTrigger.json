@@ -1,0 +1,682 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_210000_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "2981167299",
+          "Value": {
+            "ID": 2981167299,
+            "triggerType": "TG_MAP_JUMP_ENTER",
+            "TargetID": "Map_210000",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump_MapJumpFuncPoint",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 29
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2734993197",
+          "Value": {
+            "ID": 2734993197,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_ev_in_castle_02",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_FadeOutWaitComplete",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetPosCtrlChara",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GroupGeneratorSetPop",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 27
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "465094728",
+          "Value": {
+            "ID": 465094728,
+            "triggerType": "TG_BTL_GENE_DEFEAT_ALL",
+            "TargetID": "grp_enmy_map210000_story_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvPreloadMapDuringEvent",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvPreloadMapDuringEvent",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 15
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvPreloadMapDuringEvent",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvPreloadMapDuringEvent",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2255483121",
+          "Value": {
+            "ID": 2255483121,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_ev_in_castle_04",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1054054292",
+          "Value": {
+            "ID": 1054054292,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "ev00_20300_000",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateFuncPoint",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        34,
+        17,
+        250,
+        210,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        75,
+        0,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        35,
+        0,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        52,
+        76,
+        0,
+        0,
+        0,
+        52,
+        87,
+        0,
+        0,
+        0,
+        52,
+        106,
+        0,
+        0,
+        0,
+        52,
+        117,
+        0,
+        0,
+        0,
+        52,
+        145,
+        0,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        52,
+        169,
+        0,
+        0,
+        0,
+        52,
+        180,
+        0,
+        0,
+        0,
+        52,
+        191,
+        0,
+        0,
+        0,
+        52,
+        202,
+        0,
+        0,
+        0,
+        52,
+        213,
+        0,
+        0,
+        0,
+        52,
+        224,
+        0,
+        0,
+        0,
+        52,
+        235,
+        0,
+        0,
+        0,
+        52,
+        246,
+        0,
+        0,
+        0,
+        52,
+        1,
+        1,
+        0,
+        0,
+        52,
+        12,
+        1,
+        0,
+        0,
+        52,
+        28,
+        1,
+        0,
+        0,
+        52,
+        39,
+        1,
+        0,
+        0,
+        52,
+        50,
+        1,
+        0,
+        0,
+        52,
+        61,
+        1,
+        0,
+        0,
+        52,
+        72,
+        1,
+        0,
+        0,
+        52,
+        83,
+        1,
+        0,
+        0,
+        52,
+        94,
+        1,
+        0,
+        0,
+        52,
+        105,
+        1,
+        0,
+        0,
+        52,
+        116,
+        1,
+        0,
+        0,
+        52,
+        135,
+        1,
+        0,
+        0,
+        52,
+        146,
+        1,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        52,
+        170,
+        1,
+        0,
+        0,
+        52,
+        181,
+        1,
+        0,
+        0,
+        52,
+        192,
+        1,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        52,
+        207,
+        1,
+        0,
+        0,
+        52,
+        218,
+        1,
+        0,
+        0,
+        52,
+        229,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ev00_10500\u0000Map_9c0000\u0000ev00_10500\u0000mjfp_Map_200000_to_Map_210000\u0000Map_200000\u0000ev00_11000\u0000PS_ev_in_castle_02\u0000ev00_11000\u0000grp_enmy_map210000_story_01\u0000flg_check_InvisibleWall\u0000ev00_11400\u0000Map_9a0000\u0000ev00_11100\u0000ev00_11100\u0000Map_9a0000\u0000Map_200000\u0000ev00_11200\u0000ev00_11200\u0000Map_200000\u0000PS_FT200000_001\u0000Map_970000\u0000ev00_11300\u0000ev00_11300\u0000Map_970000\u0000Map_210000\u0000ev00_11350\u0000ev00_11350\u0000Map_210000\u0000PS_ev_in_castle_03\u0000ev00_11400\u0000flg_check_InvisibleWall\u0000ev00_11400\u0000ev00_11500\u0000ev00_20300_000\u0000ev00_11400\u0000ev00_11500\u0000ev00_11500\u0000"
+    }
+  }
+]

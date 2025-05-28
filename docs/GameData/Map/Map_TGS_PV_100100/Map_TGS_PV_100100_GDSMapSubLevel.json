@@ -1,0 +1,324 @@
+[
+  {
+    "Type": "GDSMapSubLevel",
+    "Name": "Map_TGS_PV_100100_GDSMapSubLevel",
+    "Class": "UScriptClass'GDSMapSubLevel'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100100_env",
+          "Value": {
+            "SubLevelID": "Map_100100_env",
+            "SubLevelType": "EMapSublevelType::Environment",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_env"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_mod",
+          "Value": {
+            "SubLevelID": "Map_100100_mod",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_mod"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_mod_new",
+          "Value": {
+            "SubLevelID": "Map_100100_mod_new",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/New/Map_100100_Mod_New2"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_pick_rock",
+          "Value": {
+            "SubLevelID": "Map_100100_pick_rock",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_pick_rock"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_pick_tree",
+          "Value": {
+            "SubLevelID": "Map_100100_pick_tree",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_pick_tree"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_runtime_placement",
+          "Value": {
+            "SubLevelID": "Map_100100_runtime_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_runtime_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "Map_100100_mjfp_placement",
+          "Value": {
+            "SubLevelID": "Map_100100_mjfp_placement",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Map_100100_mjfp_placement"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "test_Map_area",
+          "Value": {
+            "SubLevelID": "test_Map_area",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_area"
+            },
+            "ValidConditions": []
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_01",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_01",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_01",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_01"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_02",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_02",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_02",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_02"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_03",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_03",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_03",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_03"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_04",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_04",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_04",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_04"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_05",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_05",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_05",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_05"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_06",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_06",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_06",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_06"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_07",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_07",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_07",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_07"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_08",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_08",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_08",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_08"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_09",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_09",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_09",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_09"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_10",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_10",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_10",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_10"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_11",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_11",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_11",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_11"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_Map_100100_room_12",
+          "Value": {
+            "SubLevelID": "test_Map_100100_room_12",
+            "SubLevelType": "EMapSublevelType::Room",
+            "mapSubId": "room_12",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Level/Map/Map_100100/Area/test_Map_100100_room_12"
+            },
+            "ValidConditions": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "Map_100100_Sound",
+          "Value": {
+            "SubLevelID": "Map_100100_Sound",
+            "SubLevelType": "EMapSublevelType::Common",
+            "mapSubId": "None",
+            "SubLevelInfo": {
+              "SubLevelPath": "/Game/Sound/env/Map_100100_Sound"
+            },
+            "ValidConditions": []
+          }
+        }
+      ]
+    }
+  }
+]

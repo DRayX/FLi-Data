@@ -1,0 +1,826 @@
+[
+  {
+    "Type": "GDSTamagemonoShrineData",
+    "Name": "GDSTamagemonoShrineData",
+    "Class": "UScriptClass'GDSTamagemonoShrineData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": {
+            "crc": 1464323629,
+            "Name": "shrine_01"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 1464323629,
+              "Name": "shrine_01"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area001",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_013",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 67830.2,
+                  "Y": -9220.4
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "None",
+            "clearCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalItemGetFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ],
+            "removedBarrierFlagName": "None",
+            "miniGameType": 0,
+            "shrineDetailTextId": "None",
+            "minigameTimeList": [],
+            "stageNum": 1,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 1173512643,
+            "Name": "shrine_02"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 1173512643,
+              "Name": "shrine_02"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area002",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_014",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 66035.2,
+                  "Y": -34250.4
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010010",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_02",
+            "miniGameType": 4,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_shine_floor",
+            "minigameTimeList": [],
+            "stageNum": 2,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 4249749158,
+            "Name": "shrine_03"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 4249749158,
+              "Name": "shrine_03"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area003",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_015",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 23848.951,
+                  "Y": -58025.4
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010070",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_03",
+            "miniGameType": 1,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_enemy",
+            "minigameTimeList": [
+              180.0,
+              180.0,
+              180.0
+            ],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 50
+          }
+        },
+        {
+          "Key": {
+            "crc": 1620655647,
+            "Name": "shrine_04"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 1620655647,
+              "Name": "shrine_04"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area003",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_016",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 25094.715,
+                  "Y": -16748.834
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010040",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_04",
+            "miniGameType": 2,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_pick",
+            "minigameTimeList": [
+              180.0,
+              180.0,
+              180.0
+            ],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "PickDestroyMiniGame_Shrine_004",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 650
+          }
+        },
+        {
+          "Key": {
+            "crc": 3626326394,
+            "Name": "shrine_05"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 3626326394,
+              "Name": "shrine_05"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area004",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_017",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 30609.076,
+                  "Y": 2261.849
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010270",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_05",
+            "miniGameType": 2,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_pick",
+            "minigameTimeList": [
+              180.0,
+              180.0,
+              180.0
+            ],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "PickDestroyMiniGame_Shrine_005",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 400
+          }
+        },
+        {
+          "Key": {
+            "crc": 3398497940,
+            "Name": "shrine_06"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 3398497940,
+              "Name": "shrine_06"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area004",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_018",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 35447.91,
+                  "Y": 22765.61
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010240",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_06",
+            "miniGameType": 1,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_enemy",
+            "minigameTimeList": [
+              180.0,
+              180.0,
+              180.0
+            ],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 50
+          }
+        },
+        {
+          "Key": {
+            "crc": 1915523569,
+            "Name": "shrine_07"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 1915523569,
+              "Name": "shrine_07"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area005",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_019",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -12125.568,
+                  "Y": -33840.9
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010080",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_07",
+            "miniGameType": 5,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_mushroom",
+            "minigameTimeList": [],
+            "stageNum": 3,
+            "mushRoomQuestionId": "Mushroom_shrine07",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 709853607,
+            "Name": "shrine_08"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 709853607,
+              "Name": "shrine_08"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area006",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_020",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -30971.627,
+                  "Y": 8326.767
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010120",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_08",
+            "miniGameType": 1,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_enemy",
+            "minigameTimeList": [
+              180.0,
+              180.0,
+              180.0
+            ],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 50
+          }
+        },
+        {
+          "Key": {
+            "crc": 2465457858,
+            "Name": "shrine_09"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 2465457858,
+              "Name": "shrine_09"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area009",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_021",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -77987.86,
+                  "Y": -40365.46
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010140",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_09",
+            "miniGameType": 3,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_object",
+            "minigameTimeList": [
+              60.0
+            ],
+            "stageNum": 1,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "DestroyObject_shrine09",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 592554454,
+            "Name": "shrine_10"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 592554454,
+              "Name": "shrine_10"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area008",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_022",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -33619.91,
+                  "Y": -82234.766
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010150",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_10",
+            "miniGameType": 3,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_object",
+            "minigameTimeList": [
+              60.0
+            ],
+            "stageNum": 1,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "DestroyObject_shrine10",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 2616053427,
+            "Name": "shrine_11"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 2616053427,
+              "Name": "shrine_11"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area010",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_023",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -63969.77,
+                  "Y": -39782.777
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010170",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_11",
+            "miniGameType": 3,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_object",
+            "minigameTimeList": [
+              60.0
+            ],
+            "stageNum": 1,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "DestroyObject_shrine11",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 2304270685,
+            "Name": "shrine_12"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 2304270685,
+              "Name": "shrine_12"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area011",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_024",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -67998.25,
+                  "Y": 27079.057
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010220",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_12",
+            "miniGameType": 4,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_shine_floor",
+            "minigameTimeList": [],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 837027384,
+            "Name": "shrine_13"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 837027384,
+              "Name": "shrine_13"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area012",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_025",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -28080.387,
+                  "Y": 24923.979
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010230",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_13",
+            "miniGameType": 2,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_pick",
+            "minigameTimeList": [
+              180.0,
+              180.0,
+              180.0
+            ],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "PickDestroyMiniGame_Shrine_013",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 400
+          }
+        },
+        {
+          "Key": {
+            "crc": 2889039489,
+            "Name": "shrine_14"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 2889039489,
+              "Name": "shrine_14"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area013",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_026",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -25513.377,
+                  "Y": 56366.54
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010290",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_14",
+            "miniGameType": 3,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_object",
+            "minigameTimeList": [
+              60.0
+            ],
+            "stageNum": 1,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "DestroyObject_shrine14",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 344938980,
+            "Name": "shrine_15"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 344938980,
+              "Name": "shrine_15"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area012",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_027",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -41779.656,
+                  "Y": 31203.043
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010330",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_15",
+            "miniGameType": 4,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_shine_floor",
+            "minigameTimeList": [],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 104527370,
+            "Name": "shrine_16"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 104527370,
+              "Name": "shrine_16"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area013",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_028",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -57549.336,
+                  "Y": 73632.945
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010350",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_16",
+            "miniGameType": 5,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_mushroom",
+            "minigameTimeList": [],
+            "stageNum": 2,
+            "mushRoomQuestionId": "Mushroom_shrine16",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 3196490095,
+            "Name": "shrine_17"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 3196490095,
+              "Name": "shrine_17"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area014",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_029",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 10468.679,
+                  "Y": 93056.51
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010390",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_17",
+            "miniGameType": 5,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_mushroom",
+            "minigameTimeList": [],
+            "stageNum": 2,
+            "mushRoomQuestionId": "Mushroom_shrine17",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 3873800505,
+            "Name": "shrine_18"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 3873800505,
+              "Name": "shrine_18"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area015",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_030",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": 1585.2368,
+                  "Y": 66009.17
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010430",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_18",
+            "miniGameType": 4,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_shine_floor",
+            "minigameTimeList": [],
+            "stageNum": 3,
+            "mushRoomQuestionId": "None",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 1582949980,
+            "Name": "shrine_19"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 1582949980,
+              "Name": "shrine_19"
+            },
+            "mapId": "Map_200000",
+            "AreaID": "map200000_area009",
+            "areaNo": 1,
+            "shrineNameId": "name_Map_200000_031",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -96215.445,
+                  "Y": -70490.914
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010450",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_19",
+            "miniGameType": 5,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_mushroom",
+            "minigameTimeList": [],
+            "stageNum": 3,
+            "mushRoomQuestionId": "Mushroom_shrine19",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        },
+        {
+          "Key": {
+            "crc": 2917051957,
+            "Name": "shrine_20"
+          },
+          "Value": {
+            "subMapId": {
+              "crc": 2917051957,
+              "Name": "shrine_20"
+            },
+            "mapId": "Map_200007",
+            "AreaID": "map200000_area007",
+            "areaNo": 2,
+            "shrineNameId": "name_Map_200000_032",
+            "MapIconInfo": [
+              {
+                "dispMapId": "Map_200007",
+                "mapIconPos": {
+                  "X": -6000.0,
+                  "Y": 17491.43
+                },
+                "iconDispCondition": []
+              },
+              {
+                "dispMapId": "Map_200000",
+                "mapIconPos": {
+                  "X": -37872.395,
+                  "Y": -61034.95
+                },
+                "iconDispCondition": []
+              }
+            ],
+            "ItemId": "ico05010490",
+            "clearCondition": [],
+            "removedBarrierFlagName": "flg_shrine_20",
+            "miniGameType": 5,
+            "shrineDetailTextId": "shrine_minigame_clear_condition_mushroom",
+            "minigameTimeList": [],
+            "stageNum": 3,
+            "mushRoomQuestionId": "Mushroom_shrine20",
+            "pickDestroyMiniGameId": "None",
+            "destroyObjParamId": "None",
+            "StageLevelNum": 0
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        219,
+        2,
+        96,
+        5,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        71,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ico05010340\u0000"
+    }
+  }
+]

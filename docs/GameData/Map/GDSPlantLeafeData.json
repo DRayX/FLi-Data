@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "GDSPlantLeafeData",
+    "Name": "GDSPlantLeafeData",
+    "Class": "UScriptClass'GDSPlantLeafeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "plant_leafe_red",
+          "Value": {
+            "ID": "plant_leafe_red",
+            "charaID": "chr903e00",
+            "npcID": "common_pull_out_leafe",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/PlantLeafe/BP_plant_leafe_red.BP_plant_leafe_red_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "/Game/Program/Map/PlantLeafe/BP_plant_leafe_red_release.BP_plant_leafe_red_release_C",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "plant_leafe_green",
+          "Value": {
+            "ID": "plant_leafe_green",
+            "charaID": "chr903e01",
+            "npcID": "common_pull_out_leafe",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/PlantLeafe/BP_plant_leafe_green.BP_plant_leafe_green_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "/Game/Program/Map/PlantLeafe/BP_plant_leafe_red_release.BP_plant_leafe_red_release_C",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "plant_leafe_blue",
+          "Value": {
+            "ID": "plant_leafe_blue",
+            "charaID": "chr903e02",
+            "npcID": "common_pull_out_leafe",
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/PlantLeafe/BP_plant_leafe_blue.BP_plant_leafe_blue_C",
+              "SubPathString": ""
+            },
+            "afterReleaseBpPath": {
+              "AssetPathName": "/Game/Program/Map/PlantLeafe/BP_plant_leafe_red_release.BP_plant_leafe_red_release_C",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+]

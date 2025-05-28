@@ -1,0 +1,208 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_100102_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1793389100",
+          "Value": {
+            "ID": 1793389100,
+            "triggerType": "TG_MAP_JUMP_BEGIN",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "519214551",
+          "Value": {
+            "ID": 519214551,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100100_quest_013",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2200284526",
+          "Value": {
+            "ID": 2200284526,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_map100100_quest_014",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "893599035",
+          "Value": {
+            "ID": 893599035,
+            "triggerType": "TG_OBSTACLE_BUTTON",
+            "TargetID": "obstacle_Map_100102_lift_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_CommonOKWindow",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 18
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        94,
+        28,
+        1,
+        45,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        11,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        50,
+        0,
+        0,
+        0,
+        52,
+        74,
+        0,
+        0,
+        0,
+        52,
+        98,
+        0,
+        0,
+        0,
+        52,
+        122,
+        0,
+        0,
+        0,
+        52,
+        146,
+        0,
+        0,
+        0,
+        52,
+        157,
+        0,
+        0,
+        0,
+        52,
+        176,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_map100100_quest_002\u0000flg_map100100_quest_002\u0000flg_map100100_quest_013\u0000flg_map100100_quest_013\u0000flg_map100100_quest_014\u0000flg_map100100_quest_014\u0000hlp_010280\u0000cho_common_ok_0001\u0000unlock_stop\u0000"
+    }
+  }
+]

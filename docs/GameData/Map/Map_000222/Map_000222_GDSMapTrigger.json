@@ -1,0 +1,139 @@
+[
+  {
+    "Type": "GDSMapTrigger",
+    "Name": "Map_000222_GDSMapTrigger",
+    "Class": "UScriptClass'GDSMapTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "4282661271",
+          "Value": {
+            "ID": 4282661271,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000222_btn_action_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3992032889",
+          "Value": {
+            "ID": 3992032889,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000222_btn_action_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1431171356",
+          "Value": {
+            "ID": 1431171356,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_000222_btn_action_03",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3975144652",
+          "Value": {
+            "ID": 3975144652,
+            "triggerType": "TG_OPEN_TBOX",
+            "TargetID": "map_000222_treasure_0000",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunGeneralTalk",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        230,
+        231,
+        27,
+        20,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sysmes_map_000222_00\u0000sysmes_map_000222_01\u0000sysmes_map_000222_02\u0000gtt_p60240_chr100400_00\u0000"
+    }
+  }
+]

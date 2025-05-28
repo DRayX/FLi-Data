@@ -1,0 +1,95 @@
+[
+  {
+    "Type": "GDSMapItemTableSetting",
+    "Name": "Map_000220_GDSMapItemTableSetting",
+    "Class": "UScriptClass'GDSMapItemTableSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tbl_map000220_hagram_01",
+          "Value": {
+            "tableId": "tbl_map000220_hagram_01",
+            "tableData": [
+              {
+                "ItemId": "iky01000360",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_map000220_treasure_01",
+          "Value": {
+            "tableId": "tbl_map000220_treasure_01",
+            "tableData": [
+              {
+                "ItemId": "ics01000580",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_map000220_treasure_02",
+          "Value": {
+            "tableId": "tbl_map000220_treasure_02",
+            "tableData": [
+              {
+                "ItemId": "ics01000660",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tbl_map000220_treasure_03",
+          "Value": {
+            "tableId": "tbl_map000220_treasure_03",
+            "tableData": [
+              {
+                "ItemId": "ics01000780",
+                "Value": 1,
+                "itemTitleType": 0,
+                "addStatusTable": "None",
+                "addSkillTable": "None",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_UnCondition",
+                    "arg": []
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

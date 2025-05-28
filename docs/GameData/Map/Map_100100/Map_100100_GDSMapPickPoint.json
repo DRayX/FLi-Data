@@ -1,0 +1,2880 @@
+[
+  {
+    "Type": "GDSMapPickPoint",
+    "Name": "Map_100100_GDSMapPickPoint",
+    "Class": "UScriptClass'GDSMapPickPoint'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "qsa_life06_pick_point_00",
+          "Value": {
+            "ID": "qsa_life06_pick_point_00",
+            "dataIdx": 0,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 5,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -4159.0,
+              "Y": -4908.0,
+              "Z": 34.0,
+              "W": -1.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_fish_life06_00",
+            "requestProhibited": true,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "qsa_life07_pick_point_3000",
+          "Value": {
+            "ID": "qsa_life07_pick_point_3000",
+            "dataIdx": 0,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": -30,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 4160.7,
+              "Y": -6920.6,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 3963.0,
+                "Y": -6598.5,
+                "Z": 119.9,
+                "W": -58.5
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_life07_01",
+            "requestProhibited": true,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "qsa_life07_pick_point_3001",
+          "Value": {
+            "ID": "qsa_life07_pick_point_3001",
+            "dataIdx": 1,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": -30,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 3205.5,
+              "Y": -5093.5,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 450.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_life07_01",
+            "requestProhibited": true,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "qsa_life07_pick_point_3002",
+          "Value": {
+            "ID": "qsa_life07_pick_point_3002",
+            "dataIdx": 2,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": -30,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 2702.8,
+              "Y": -6453.1,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 2491.1,
+                "Y": -6103.5,
+                "Z": 119.9,
+                "W": -56.2
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 200.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_life07_01",
+            "requestProhibited": true,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0000",
+          "Value": {
+            "ID": "map_100100_pick_point_0000",
+            "dataIdx": 1,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -360.0,
+              "Y": 4050.0,
+              "Z": 750.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0001",
+          "Value": {
+            "ID": "map_100100_pick_point_0001",
+            "dataIdx": 2,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 5354.0,
+              "Y": 2032.0,
+              "Z": 750.0,
+              "W": 15.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0002",
+          "Value": {
+            "ID": "map_100100_pick_point_0002",
+            "dataIdx": 3,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 5593.0,
+              "Y": 1634.0,
+              "Z": 750.0,
+              "W": 30.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0003",
+          "Value": {
+            "ID": "map_100100_pick_point_0003",
+            "dataIdx": 4,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1272.0,
+              "Y": 5154.0,
+              "Z": 600.0,
+              "W": 45.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0004",
+          "Value": {
+            "ID": "map_100100_pick_point_0004",
+            "dataIdx": 5,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1458.0,
+              "Y": 4450.0,
+              "Z": 600.0,
+              "W": 60.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0005",
+          "Value": {
+            "ID": "map_100100_pick_point_0005",
+            "dataIdx": 6,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1011.0,
+              "Y": 4715.0,
+              "Z": 600.0,
+              "W": 75.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0006",
+          "Value": {
+            "ID": "map_100100_pick_point_0006",
+            "dataIdx": 7,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 1267.0,
+              "Y": 2165.0,
+              "Z": 675.0,
+              "W": 90.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0007",
+          "Value": {
+            "ID": "map_100100_pick_point_0007",
+            "dataIdx": 8,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 2040.0,
+              "Y": 1922.0,
+              "Z": 675.0,
+              "W": 105.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0008",
+          "Value": {
+            "ID": "map_100100_pick_point_0008",
+            "dataIdx": 9,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 3265.0,
+              "Y": 2823.0,
+              "Z": 750.0,
+              "W": 120.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0009",
+          "Value": {
+            "ID": "map_100100_pick_point_0009",
+            "dataIdx": 10,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 3840.0,
+              "Y": 2644.0,
+              "Z": 750.0,
+              "W": 135.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0010",
+          "Value": {
+            "ID": "map_100100_pick_point_0010",
+            "dataIdx": 11,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -7564.0,
+              "Y": -2327.0,
+              "Z": 660.0,
+              "W": 15.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0011",
+          "Value": {
+            "ID": "map_100100_pick_point_0011",
+            "dataIdx": 12,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -6777.0,
+              "Y": -2773.0,
+              "Z": 660.0,
+              "W": 30.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0005_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0100",
+          "Value": {
+            "ID": "map_100100_pick_point_0100",
+            "dataIdx": 20,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 5784.0,
+              "Y": 443.0,
+              "Z": 19.0,
+              "W": 170.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0010",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0101",
+          "Value": {
+            "ID": "map_100100_pick_point_0101",
+            "dataIdx": 21,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 3788.0,
+              "Y": -3186.0,
+              "Z": 50.0,
+              "W": -150.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0010",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0102",
+          "Value": {
+            "ID": "map_100100_pick_point_0102",
+            "dataIdx": 22,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 4668.0,
+              "Y": -2215.0,
+              "Z": 150.0,
+              "W": -81.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0010",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0103",
+          "Value": {
+            "ID": "map_100100_pick_point_0103",
+            "dataIdx": 23,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -5215.0,
+              "Y": -4163.0,
+              "Z": 545.0,
+              "W": 180.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0010",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0104",
+          "Value": {
+            "ID": "map_100100_pick_point_0104",
+            "dataIdx": 24,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -2755.0,
+              "Y": -4170.0,
+              "Z": 450.0,
+              "W": 160.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0010",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0105",
+          "Value": {
+            "ID": "map_100100_pick_point_0105",
+            "dataIdx": 25,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 4614.0,
+              "Y": -985.0,
+              "Z": 300.0,
+              "W": -78.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0010",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0200",
+          "Value": {
+            "ID": "map_100100_pick_point_0200",
+            "dataIdx": 30,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 4615.0,
+              "Y": -2953.0,
+              "Z": 41.0,
+              "W": 220.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0003",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0201",
+          "Value": {
+            "ID": "map_100100_pick_point_0201",
+            "dataIdx": 31,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 7724.0,
+              "Y": 1804.0,
+              "Z": 352.0,
+              "W": 270.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0003",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0202",
+          "Value": {
+            "ID": "map_100100_pick_point_0202",
+            "dataIdx": 32,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -2294.0,
+              "Y": -4009.0,
+              "Z": 450.0,
+              "W": 180.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0003",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_0203",
+          "Value": {
+            "ID": "map_100100_pick_point_0203",
+            "dataIdx": 33,
+            "Type": 1,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -5582.0,
+              "Y": -4119.0,
+              "Z": 545.0,
+              "W": 140.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 180.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_wood_0003",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_1001",
+          "Value": {
+            "ID": "map_100100_pick_point_1001",
+            "dataIdx": 0,
+            "Type": 2,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1610.0,
+              "Y": 3323.0,
+              "Z": 1150.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_1002",
+          "Value": {
+            "ID": "map_100100_pick_point_1002",
+            "dataIdx": 1,
+            "Type": 2,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1181.0,
+              "Y": 3334.0,
+              "Z": 1000.0,
+              "W": 15.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_1003",
+          "Value": {
+            "ID": "map_100100_pick_point_1003",
+            "dataIdx": 2,
+            "Type": 2,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": -100,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1038.0,
+              "Y": 3731.0,
+              "Z": 1000.0,
+              "W": 30.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 150.0,
+              "BoxExtent": {
+                "X": 0.0,
+                "Y": 100.0,
+                "Z": 0.0
+              }
+            },
+            "GroupID": "grp_deposit_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 0
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3000",
+          "Value": {
+            "ID": "map_100100_pick_point_3000",
+            "dataIdx": 3,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 4160.7,
+              "Y": -6920.6,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 3963.0,
+                "Y": -6598.5,
+                "Z": 119.9,
+                "W": -58.5
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3001",
+          "Value": {
+            "ID": "map_100100_pick_point_3001",
+            "dataIdx": 4,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 3205.5,
+              "Y": -5093.5,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 450.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3002",
+          "Value": {
+            "ID": "map_100100_pick_point_3002",
+            "dataIdx": 5,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 2702.8,
+              "Y": -6453.1,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 2491.1,
+                "Y": -6103.5,
+                "Z": 119.9,
+                "W": -56.2
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3003",
+          "Value": {
+            "ID": "map_100100_pick_point_3003",
+            "dataIdx": 6,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -50.2,
+              "Y": -6383.3,
+              "Z": -77.8,
+              "W": -62.4
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": -261.3,
+                "Y": -5881.4,
+                "Z": -61.4,
+                "W": -67.6
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3004",
+          "Value": {
+            "ID": "map_100100_pick_point_3004",
+            "dataIdx": 7,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -2618.3,
+              "Y": -6402.5,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": -2462.4,
+                "Y": -5770.5,
+                "Z": -37.3,
+                "W": -103.5
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3005",
+          "Value": {
+            "ID": "map_100100_pick_point_3005",
+            "dataIdx": 8,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -6197.0,
+              "Y": -5278.3,
+              "Z": 50.0,
+              "W": 0.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": -5541.3,
+                "Y": -5028.3,
+                "Z": -40.6,
+                "W": -169.1
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3006",
+          "Value": {
+            "ID": "map_100100_pick_point_3006",
+            "dataIdx": 9,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 6553.6,
+              "Y": -3729.3,
+              "Z": -77.8,
+              "W": -34.1
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 5969.4,
+                "Y": -3306.1,
+                "Z": -53.4,
+                "W": -29.8
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3007",
+          "Value": {
+            "ID": "map_100100_pick_point_3007",
+            "dataIdx": 10,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 6695.5,
+              "Y": -979.7,
+              "Z": -77.9,
+              "W": 63.6
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": false,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 700.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3008",
+          "Value": {
+            "ID": "map_100100_pick_point_3008",
+            "dataIdx": 11,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 7810.8,
+              "Y": -784.4,
+              "Z": 50.0,
+              "W": -69.2
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 7621.8,
+                "Y": -267.1,
+                "Z": -36.3,
+                "W": -69.2
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3009",
+          "Value": {
+            "ID": "map_100100_pick_point_3009",
+            "dataIdx": 12,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 9085.1,
+              "Y": 875.3,
+              "Z": 50.0,
+              "W": 1.5
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 8627.0,
+                "Y": 863.3,
+                "Z": -42.1,
+                "W": -174.6
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3010",
+          "Value": {
+            "ID": "map_100100_pick_point_3010",
+            "dataIdx": 13,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 5,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 8958.0,
+              "Y": 2304.3,
+              "Z": 50.0,
+              "W": -42.4
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 8594.7,
+                "Y": 2657.1,
+                "Z": -40.2,
+                "W": -42.4
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3011",
+          "Value": {
+            "ID": "map_100100_pick_point_3011",
+            "dataIdx": 14,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 5,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 8967.4,
+              "Y": 4535.3,
+              "Z": 50.0,
+              "W": 42.0
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 8493.1,
+                "Y": 4118.4,
+                "Z": -44.3,
+                "W": 42.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3012",
+          "Value": {
+            "ID": "map_100100_pick_point_3012",
+            "dataIdx": 15,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 5,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 6919.9,
+              "Y": 5643.9,
+              "Z": 50.0,
+              "W": -92.5
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 6886.4,
+                "Y": 4889.0,
+                "Z": -40.1,
+                "W": 87.5
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3013",
+          "Value": {
+            "ID": "map_100100_pick_point_3013",
+            "dataIdx": 16,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -215.0,
+              "Y": 6409.8,
+              "Z": 50.0,
+              "W": 107.3
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": -97.6,
+                "Y": 5992.3,
+                "Z": -58.2,
+                "W": -141.6
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3014",
+          "Value": {
+            "ID": "map_100100_pick_point_3014",
+            "dataIdx": 17,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 4,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": -1091.5,
+              "Y": 5648.7,
+              "Z": 50.0,
+              "W": -42.5
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": -813.7,
+                "Y": 5418.7,
+                "Z": -68.4,
+                "W": -45.5
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 300.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_02",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3015",
+          "Value": {
+            "ID": "map_100100_pick_point_3015",
+            "dataIdx": 18,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 2,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 2081.8,
+              "Y": 4342.9,
+              "Z": 550.0,
+              "W": -8.5
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 2076.0,
+                "Y": 4311.0,
+                "Z": 550.0,
+                "W": 129.0
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 400.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        },
+        {
+          "Key": "map_100100_pick_point_3016",
+          "Value": {
+            "ID": "map_100100_pick_point_3016",
+            "dataIdx": 19,
+            "Type": 3,
+            "AreaID": "None",
+            "areaNo": 0,
+            "areaRank": 0,
+            "cond": [],
+            "ParamInfo": {
+              "AreaRankLevel": "None",
+              "Level": 3,
+              "baseParamCorrect": {
+                "HP": 0,
+                "offense": 0,
+                "defense": 0,
+                "criticalRateEvasion": 0,
+                "Exp": 0
+              }
+            },
+            "actorPos": {
+              "X": 2058.4,
+              "Y": 4694.0,
+              "Z": 550.0,
+              "W": 97.9
+            },
+            "rpgTargetInfo": {
+              "targetPos": {
+                "X": 2050.0,
+                "Y": 4670.0,
+                "Z": 550.0,
+                "W": -119.6
+              },
+              "offsetPos": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              },
+              "isOverride": true,
+              "isOverrideShape": true,
+              "shapeType": 0,
+              "Radius": 450.0,
+              "BoxExtent": {
+                "X": 90.0,
+                "Y": 90.0,
+                "Z": 160.0
+              }
+            },
+            "GroupID": "grp_fish_0000_01",
+            "requestProhibited": false,
+            "isTimerRepop": false,
+            "repopTime": -1.0,
+            "AOEScale": -1.0,
+            "respawnCount": 3
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        65,
+        208,
+        0,
+        75,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        88,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        35,
+        0,
+        0,
+        0,
+        50,
+        40,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        50,
+        20,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        50,
+        20,
+        0,
+        0,
+        0,
+        52,
+        47,
+        0,
+        0,
+        0,
+        50,
+        20,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        50,
+        25,
+        0,
+        0,
+        0,
+        52,
+        77,
+        0,
+        0,
+        0,
+        50,
+        25,
+        0,
+        0,
+        0,
+        52,
+        92,
+        0,
+        0,
+        0,
+        50,
+        25,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsa_life06_001\u0000qsa_life07_001\u0000qsa_life07_001\u0000qsa_life07_001\u0000qsa_life07_001\u0000qsa_life07_001\u0000qsa_life07_001\u0000"
+    }
+  }
+]
