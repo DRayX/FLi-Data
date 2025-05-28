@@ -1,0 +1,1015 @@
+[
+  {
+    "Type": "GDSCharaSpeed",
+    "Name": "GDSCharaSpeed",
+    "Class": "UScriptClass'GDSCharaSpeed'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "default",
+          "Value": {
+            "ID": "default",
+            "RPG_walkSpeed": 100.8,
+            "RPG_runSpeed": 524.0,
+            "RPG_dashSpeed": 1000.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 524.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "player",
+          "Value": {
+            "ID": "player",
+            "RPG_walkSpeed": 100.8,
+            "RPG_runSpeed": 524.0,
+            "RPG_dashSpeed": 800.0,
+            "RPG_swimSpeed": 300.0,
+            "RPG_swimDashSpeed": 450.0,
+            "BTL_runSpeed": 524.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "craftNPC",
+          "Value": {
+            "ID": "craftNPC",
+            "RPG_walkSpeed": 100.8,
+            "RPG_runSpeed": 400.0,
+            "RPG_dashSpeed": 1000.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 524.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 700.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "mobNPC",
+          "Value": {
+            "ID": "mobNPC",
+            "RPG_walkSpeed": 70.0,
+            "RPG_runSpeed": 366.8,
+            "RPG_dashSpeed": 650.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 458.5,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "hgrm",
+          "Value": {
+            "ID": "hgrm",
+            "RPG_walkSpeed": 88.2,
+            "RPG_runSpeed": 458.5,
+            "RPG_dashSpeed": 650.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 458.5,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "chr100400",
+          "Value": {
+            "ID": "chr100400",
+            "RPG_walkSpeed": 100.8,
+            "RPG_runSpeed": 628.8,
+            "RPG_dashSpeed": 960.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 524.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "chr100400_vehicle",
+          "Value": {
+            "ID": "chr100400_vehicle",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 1080.0,
+            "RPG_dashSpeed": 1560.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy",
+          "Value": {
+            "ID": "normalEnemy",
+            "RPG_walkSpeed": 60.0,
+            "RPG_runSpeed": 200.0,
+            "RPG_dashSpeed": 200.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 500.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy2",
+          "Value": {
+            "ID": "normalEnemy2",
+            "RPG_walkSpeed": 80.0,
+            "RPG_runSpeed": 225.0,
+            "RPG_dashSpeed": 225.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy3",
+          "Value": {
+            "ID": "normalEnemy3",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 300.0,
+            "RPG_dashSpeed": 300.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy4",
+          "Value": {
+            "ID": "normalEnemy4",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 600.0,
+            "RPG_dashSpeed": 600.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_FourLeg",
+          "Value": {
+            "ID": "normalEnemy_FourLeg",
+            "RPG_walkSpeed": 40.0,
+            "RPG_runSpeed": 175.0,
+            "RPG_dashSpeed": 175.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 500.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": true
+          }
+        },
+        {
+          "Key": "normalEnemy2_FourLeg",
+          "Value": {
+            "ID": "normalEnemy2_FourLeg",
+            "RPG_walkSpeed": 80.0,
+            "RPG_runSpeed": 225.0,
+            "RPG_dashSpeed": 225.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": true
+          }
+        },
+        {
+          "Key": "normalEnemy3_FourLeg",
+          "Value": {
+            "ID": "normalEnemy3_FourLeg",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 300.0,
+            "RPG_dashSpeed": 300.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": true
+          }
+        },
+        {
+          "Key": "normalEnemy4_FourLeg",
+          "Value": {
+            "ID": "normalEnemy4_FourLeg",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 600.0,
+            "RPG_dashSpeed": 600.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": true
+          }
+        },
+        {
+          "Key": "bossEnemy",
+          "Value": {
+            "ID": "bossEnemy",
+            "RPG_walkSpeed": 300.0,
+            "RPG_runSpeed": 300.0,
+            "RPG_dashSpeed": 300.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 500.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy2",
+          "Value": {
+            "ID": "bossEnemy2",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 400.0,
+            "RPG_dashSpeed": 400.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy3",
+          "Value": {
+            "ID": "bossEnemy3",
+            "RPG_walkSpeed": 500.0,
+            "RPG_runSpeed": 500.0,
+            "RPG_dashSpeed": 500.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": -1.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm128001",
+          "Value": {
+            "ID": "enm128001",
+            "RPG_walkSpeed": 700.0,
+            "RPG_runSpeed": 700.0,
+            "RPG_dashSpeed": 700.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "chr000200",
+          "Value": {
+            "ID": "chr000200",
+            "RPG_walkSpeed": 100.8,
+            "RPG_runSpeed": 524.0,
+            "RPG_dashSpeed": 1000.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 524.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 400.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "chr100503",
+          "Value": {
+            "ID": "chr100503",
+            "RPG_walkSpeed": 700.0,
+            "RPG_runSpeed": 900.0,
+            "RPG_dashSpeed": 900.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 500.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 400.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm105004",
+          "Value": {
+            "ID": "enm105004",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 700.0,
+            "RPG_dashSpeed": 700.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 450.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm10c000",
+          "Value": {
+            "ID": "enm10c000",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 600.0,
+            "RPG_dashSpeed": 600.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 400.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm124000",
+          "Value": {
+            "ID": "enm124000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 750.0,
+            "RPG_dashSpeed": 750.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm109000",
+          "Value": {
+            "ID": "enm109000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 650.0,
+            "RPG_dashSpeed": 650.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 400.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm117000",
+          "Value": {
+            "ID": "enm117000",
+            "RPG_walkSpeed": 140.0,
+            "RPG_runSpeed": 700.0,
+            "RPG_dashSpeed": 930.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm11b000",
+          "Value": {
+            "ID": "enm11b000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 600.0,
+            "RPG_dashSpeed": 600.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm10b000",
+          "Value": {
+            "ID": "enm10b000",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 800.0,
+            "RPG_dashSpeed": 800.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm10d000",
+          "Value": {
+            "ID": "enm10d000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 400.0,
+            "RPG_dashSpeed": 400.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm10d000_slv",
+          "Value": {
+            "ID": "enm10d000_slv",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 500.0,
+            "RPG_dashSpeed": 500.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 500.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm10e000",
+          "Value": {
+            "ID": "enm10e000",
+            "RPG_walkSpeed": 60.0,
+            "RPG_runSpeed": 100.0,
+            "RPG_dashSpeed": 100.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm10e000_gld",
+          "Value": {
+            "ID": "enm10e000_gld",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 200.0,
+            "RPG_dashSpeed": 200.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm101000",
+          "Value": {
+            "ID": "enm101000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 400.0,
+            "RPG_dashSpeed": 500.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm11a000",
+          "Value": {
+            "ID": "enm11a000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 400.0,
+            "RPG_dashSpeed": 400.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm102000",
+          "Value": {
+            "ID": "enm102000",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 480.0,
+            "RPG_dashSpeed": 480.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm102000_gld",
+          "Value": {
+            "ID": "enm102000_gld",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 580.0,
+            "RPG_dashSpeed": 580.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 450.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm103000",
+          "Value": {
+            "ID": "enm103000",
+            "RPG_walkSpeed": 140.0,
+            "RPG_runSpeed": 900.0,
+            "RPG_dashSpeed": 900.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 450.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm107000_slv",
+          "Value": {
+            "ID": "enm107000_slv",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 800.0,
+            "RPG_dashSpeed": 800.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 450.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "enm104000_slv",
+          "Value": {
+            "ID": "enm104000_slv",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 800.0,
+            "RPG_dashSpeed": 800.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 450.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemyFourLeg",
+          "Value": {
+            "ID": "bossEnemyFourLeg",
+            "RPG_walkSpeed": 300.0,
+            "RPG_runSpeed": 400.0,
+            "RPG_dashSpeed": 400.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 500.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 75.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_0",
+          "Value": {
+            "ID": "normalEnemy_0",
+            "RPG_walkSpeed": 90.0,
+            "RPG_runSpeed": 350.0,
+            "RPG_dashSpeed": 350.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_0_detour",
+          "Value": {
+            "ID": "normalEnemy_0_detour",
+            "RPG_walkSpeed": 90.0,
+            "RPG_runSpeed": 350.0,
+            "RPG_dashSpeed": 350.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_1",
+          "Value": {
+            "ID": "normalEnemy_1",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 450.0,
+            "RPG_dashSpeed": 450.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_1_detour",
+          "Value": {
+            "ID": "normalEnemy_1_detour",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 450.0,
+            "RPG_dashSpeed": 450.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_2",
+          "Value": {
+            "ID": "normalEnemy_2",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 550.0,
+            "RPG_dashSpeed": 550.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_2_detour",
+          "Value": {
+            "ID": "normalEnemy_2_detour",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 550.0,
+            "RPG_dashSpeed": 550.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_3",
+          "Value": {
+            "ID": "normalEnemy_3",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 700.0,
+            "RPG_dashSpeed": 700.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 500.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "normalEnemy_3_detour",
+          "Value": {
+            "ID": "normalEnemy_3_detour",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 700.0,
+            "RPG_dashSpeed": 700.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 350.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_0",
+          "Value": {
+            "ID": "bossEnemy_0",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 450.0,
+            "RPG_dashSpeed": 450.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_0_detour",
+          "Value": {
+            "ID": "bossEnemy_0_detour",
+            "RPG_walkSpeed": 100.0,
+            "RPG_runSpeed": 450.0,
+            "RPG_dashSpeed": 450.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_1",
+          "Value": {
+            "ID": "bossEnemy_1",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 550.0,
+            "RPG_dashSpeed": 550.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_1_detour",
+          "Value": {
+            "ID": "bossEnemy_1_detour",
+            "RPG_walkSpeed": 110.0,
+            "RPG_runSpeed": 550.0,
+            "RPG_dashSpeed": 550.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_2",
+          "Value": {
+            "ID": "bossEnemy_2",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 650.0,
+            "RPG_dashSpeed": 650.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_2_detour",
+          "Value": {
+            "ID": "bossEnemy_2_detour",
+            "RPG_walkSpeed": 120.0,
+            "RPG_runSpeed": 650.0,
+            "RPG_dashSpeed": 650.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_3",
+          "Value": {
+            "ID": "bossEnemy_3",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 800.0,
+            "RPG_dashSpeed": 800.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_3_detour",
+          "Value": {
+            "ID": "bossEnemy_3_detour",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 800.0,
+            "RPG_dashSpeed": 800.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_4",
+          "Value": {
+            "ID": "bossEnemy_4",
+            "RPG_walkSpeed": 140.0,
+            "RPG_runSpeed": 900.0,
+            "RPG_dashSpeed": 900.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "bossEnemy_4_detour",
+          "Value": {
+            "ID": "bossEnemy_4_detour",
+            "RPG_walkSpeed": 140.0,
+            "RPG_runSpeed": 900.0,
+            "RPG_dashSpeed": 900.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 300.0,
+            "NoStrafing": false
+          }
+        },
+        {
+          "Key": "vehicle_1",
+          "Value": {
+            "ID": "vehicle_1",
+            "RPG_walkSpeed": 130.0,
+            "RPG_runSpeed": 900.0,
+            "RPG_dashSpeed": 1300.0,
+            "RPG_swimSpeed": 0.0,
+            "RPG_swimDashSpeed": 0.0,
+            "BTL_runSpeed": 0.0,
+            "BTL_frontWalkSpeedRate": 1.0,
+            "BTL_backWalkSpeedRate": 1.0,
+            "BTL_sideWalkSpeedRate": 1.0,
+            "RotSpeed": 550.0,
+            "NoStrafing": true
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,5231 @@
+[
+  {
+    "Type": "GDSCharaModelChangeData",
+    "Name": "GDSCharaModelChangeData",
+    "Class": "UScriptClass'GDSCharaModelChangeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "para_chr000100",
+          "Value": {
+            "paramId": "para_chr000100",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000100_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000100_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000102_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000102_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000103_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000103_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000104_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000104_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000200",
+          "Value": {
+            "paramId": "para_chr000200",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000200_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000200_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000202_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000202_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 30,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 35,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000203_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000203_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 40,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 45,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000204_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000204_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 50,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 55,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000300",
+          "Value": {
+            "paramId": "para_chr000300",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000300_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000300_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000302_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000302_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 60,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 65,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000303_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000303_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 70,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 75,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000304_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000304_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 80,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 85,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000400",
+          "Value": {
+            "paramId": "para_chr000400",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000400_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000400_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000402_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000402_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 90,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 95,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000403_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000403_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 100,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 105,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000404_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000404_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 110,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 115,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000500",
+          "Value": {
+            "paramId": "para_chr000500",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000500_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000500_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000502_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000502_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 120,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 125,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000503_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000503_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 130,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 135,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000504_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000504_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 140,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 145,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000600",
+          "Value": {
+            "paramId": "para_chr000600",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000600_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000600_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000602_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000602_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 150,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 155,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000603_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000603_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 160,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 165,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000604_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000604_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 170,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 175,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000700",
+          "Value": {
+            "paramId": "para_chr000700",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000700_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000700_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000702_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000702_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 180,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 185,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000703_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000703_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 190,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 195,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000704_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000704_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 200,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 205,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000800",
+          "Value": {
+            "paramId": "para_chr000800",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000800_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000800_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000802_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000802_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 210,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 215,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000803_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000803_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 220,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 225,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000804_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000804_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 230,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 235,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000900",
+          "Value": {
+            "paramId": "para_chr000900",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000900_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000900_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000902_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000902_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 240,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 245,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000903_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000903_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 250,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 255,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000904_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000904_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 260,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 265,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000a00",
+          "Value": {
+            "paramId": "para_chr000a00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000a00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000A00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000a02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000A02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 270,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 275,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000a03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000A03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 280,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 285,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000a04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000A04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 290,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 295,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000b00",
+          "Value": {
+            "paramId": "para_chr000b00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000b00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000B00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000b02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000B02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 300,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 305,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000b03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000B03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 310,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 315,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000b04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000B04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 320,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 325,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000c00",
+          "Value": {
+            "paramId": "para_chr000c00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000c00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000C00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000c02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000C02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 330,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 335,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000c03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000C03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 340,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 345,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000c04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000C04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 350,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 355,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000d00",
+          "Value": {
+            "paramId": "para_chr000d00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000d00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000D00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000d02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000D02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 360,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 365,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000d03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000D03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 370,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 375,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000d04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000D04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 380,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 385,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000e00",
+          "Value": {
+            "paramId": "para_chr000e00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000e00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000E00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000e02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000E02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 390,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 395,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000e03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000E03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 400,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 405,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000e04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000E04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 410,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 415,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr000f00",
+          "Value": {
+            "paramId": "para_chr000f00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr000f00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR000F00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr000f02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR000F02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 420,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 425,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000f03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR000F03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 430,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 435,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr000f04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR000F04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 440,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 445,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001000",
+          "Value": {
+            "paramId": "para_chr001000",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001000_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001000_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001002_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001002_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 450,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 455,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001003_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001003_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 460,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 465,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001004_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001004_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 470,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 475,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001100",
+          "Value": {
+            "paramId": "para_chr001100",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001100_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001100_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001102_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001102_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 480,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 485,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001103_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001103_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 490,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 495,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001104_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001104_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 500,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 505,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001200",
+          "Value": {
+            "paramId": "para_chr001200",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001200_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001200_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001202_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001202_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 510,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 515,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001203_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001203_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 520,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 525,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001204_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001204_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 530,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 535,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001300",
+          "Value": {
+            "paramId": "para_chr001300",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001300_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001300_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001302_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001302_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 540,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 545,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001303_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001303_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 550,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 555,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001304_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001304_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 560,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 565,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001400",
+          "Value": {
+            "paramId": "para_chr001400",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001400_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001400_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001402_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001402_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 570,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 575,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001403_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001403_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 580,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 585,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001404_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001404_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 590,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 595,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001500",
+          "Value": {
+            "paramId": "para_chr001500",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001500_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001500_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001502_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001502_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 600,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 605,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001503_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001503_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 610,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 615,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001504_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001504_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 620,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 625,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001600",
+          "Value": {
+            "paramId": "para_chr001600",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001600_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001600_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001602_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001602_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 630,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 635,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001603_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001603_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 640,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 645,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001604_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001604_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 650,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 655,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001700",
+          "Value": {
+            "paramId": "para_chr001700",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001700_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001700_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001702_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001702_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 660,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 665,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001703_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001703_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 670,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 675,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001704_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001704_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 680,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 685,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001800",
+          "Value": {
+            "paramId": "para_chr001800",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001800_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001800_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001802_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001802_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 690,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 695,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001803_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001803_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 700,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 705,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001804_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001804_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 710,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 715,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001900",
+          "Value": {
+            "paramId": "para_chr001900",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001900_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001900_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001902_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001902_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 720,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 725,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001903_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001903_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 730,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 735,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001904_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001904_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 740,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 745,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001a00",
+          "Value": {
+            "paramId": "para_chr001a00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001a00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001A00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001a02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001A02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 750,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 755,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001a03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001A03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 760,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 765,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001a04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001A04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 770,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 775,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001b00",
+          "Value": {
+            "paramId": "para_chr001b00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001b00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001B00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001b02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001B02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 780,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 785,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001b03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001B03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 790,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 795,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001b04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001B04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 800,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 805,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001c00",
+          "Value": {
+            "paramId": "para_chr001c00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001c00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001C00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001c02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001C02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 810,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 815,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001c03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001C03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 820,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 825,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001c04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001C04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 830,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 835,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001d00",
+          "Value": {
+            "paramId": "para_chr001d00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001d00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001D00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001d02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001D02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 840,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 845,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001d03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001D03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 850,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 855,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001d04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001D04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 860,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 865,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001e00",
+          "Value": {
+            "paramId": "para_chr001e00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001e00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001E00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001e02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001E02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 870,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 875,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001e03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001E03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 880,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 885,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001e04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001E04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 890,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 895,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr001f00",
+          "Value": {
+            "paramId": "para_chr001f00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr001f00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR001F00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr001f02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR001F02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 900,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 905,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001f03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR001F03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 910,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 915,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr001f04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR001F04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 920,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 925,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002000",
+          "Value": {
+            "paramId": "para_chr002000",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002000_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002000_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002002_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002002_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 930,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 935,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002003_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002003_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 940,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 945,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002004_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002004_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 950,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 955,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002100",
+          "Value": {
+            "paramId": "para_chr002100",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002100_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002100_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002102_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002102_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 960,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 965,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002103_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002103_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 970,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 975,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002104_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002104_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 980,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 985,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002200",
+          "Value": {
+            "paramId": "para_chr002200",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002200_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002200_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002202_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002202_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 990,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 995,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002203_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002203_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1000,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1005,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002204_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002204_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1010,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1015,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002300",
+          "Value": {
+            "paramId": "para_chr002300",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002300_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002300_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002302_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002302_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1020,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1025,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002303_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002303_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1030,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1035,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002304_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002304_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1040,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1045,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002400",
+          "Value": {
+            "paramId": "para_chr002400",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002400_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002400_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002402_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002402_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1050,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1055,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002403_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002403_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1060,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1065,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002404_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002404_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1070,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1075,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002500",
+          "Value": {
+            "paramId": "para_chr002500",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002500_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002500_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002502_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002502_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1080,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1085,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002503_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002503_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1090,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1095,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002504_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002504_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1100,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1105,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002600",
+          "Value": {
+            "paramId": "para_chr002600",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002600_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002600_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002602_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002602_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1110,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1115,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002603_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002603_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1120,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1125,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002604_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002604_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1130,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1135,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002700",
+          "Value": {
+            "paramId": "para_chr002700",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002700_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002700_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002702_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002702_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1140,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1145,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002703_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002703_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1150,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1155,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002704_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002704_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1160,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1165,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002800",
+          "Value": {
+            "paramId": "para_chr002800",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002800_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002800_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002802_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002802_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1170,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1175,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002803_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002803_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1180,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1185,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002804_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002804_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1190,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1195,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002900",
+          "Value": {
+            "paramId": "para_chr002900",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002900_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002900_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002902_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002902_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1200,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1205,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002903_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002903_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1210,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1215,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002904_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002904_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1220,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1225,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002a00",
+          "Value": {
+            "paramId": "para_chr002a00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002a00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002a00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002a02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002a02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1230,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1235,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002a03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002a03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1240,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1245,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002a04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002a04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1250,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1255,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002b00",
+          "Value": {
+            "paramId": "para_chr002b00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002b00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002b00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002b02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002b02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1260,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1265,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002b03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002b03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1270,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1275,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002b04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002b04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1280,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1285,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002c00",
+          "Value": {
+            "paramId": "para_chr002c00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002c00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002c00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002c02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002c02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1290,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1295,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002c03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002c03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1300,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1305,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002c04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002c04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1310,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1315,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002d00",
+          "Value": {
+            "paramId": "para_chr002d00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002d00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002d00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002d02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002d02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1320,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1325,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002d03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002d03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1330,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1335,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002d04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002d04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1340,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1345,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002e00",
+          "Value": {
+            "paramId": "para_chr002e00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002e00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002e00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002e02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002e02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1350,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1355,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002e03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002e03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1360,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1365,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002e04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002e04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1370,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1375,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr002f00",
+          "Value": {
+            "paramId": "para_chr002f00",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr002f00_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR002f00_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr002f02_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR002f02_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1380,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1385,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002f03_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR002f03_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1390,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1395,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr002f04_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR002f04_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1400,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1405,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr003100",
+          "Value": {
+            "paramId": "para_chr003100",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr003100_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR003100_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr003102_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR003102_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1410,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1415,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr003103_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR003103_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1420,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1425,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr003104_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR003104_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1430,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1435,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr003200",
+          "Value": {
+            "paramId": "para_chr003200",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr003200_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR003200_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr003202_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR003202_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1440,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1445,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr003203_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR003203_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1450,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1455,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr003204_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR003204_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1460,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1465,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "para_chr003400",
+          "Value": {
+            "paramId": "para_chr003400",
+            "changeModelInfo": [
+              {
+                "modelID": "mdl_chr003400_00",
+                "textId": "reform_color_default",
+                "iconID": "ICON_CHR003400_00",
+                "cond": []
+              },
+              {
+                "modelID": "mdl_chr003402_00",
+                "textId": "reform_color_color_change_01",
+                "iconID": "ICON_CHR003402_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1470,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1475,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr003403_00",
+                "textId": "reform_color_color_change_02",
+                "iconID": "ICON_CHR003403_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1480,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1485,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "modelID": "mdl_chr003404_00",
+                "textId": "reform_color_color_change_03",
+                "iconID": "ICON_CHR003404_00",
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_IsHaveItem",
+                    "arg": [
+                      {
+                        "m_offset": 1490,
+                        "m_dataSize": 13
+                      },
+                      {
+                        "m_offset": 1495,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        50,
+        191,
+        104,
+        220,
+        5,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        16,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        30,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        58,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        72,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        100,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        114,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        142,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        156,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        170,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        184,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        198,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        226,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        240,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        254,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        12,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        26,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        40,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        54,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        68,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        82,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        96,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        110,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        124,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        138,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        152,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        166,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        180,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        194,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        208,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        222,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        236,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        250,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        8,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        22,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        36,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        50,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        64,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        78,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        92,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        106,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        120,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        134,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        148,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        162,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        176,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        190,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        204,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        218,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        232,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        246,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        4,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        18,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        32,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        46,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        60,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        74,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        88,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        102,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        116,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        130,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        144,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        158,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        172,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        186,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        200,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        214,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        228,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        242,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        0,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        14,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        28,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        42,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        56,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        70,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        84,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        98,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        112,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        126,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        140,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        154,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        168,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        182,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        196,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        210,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        224,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        238,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        252,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        10,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        24,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        38,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        52,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        66,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        80,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        94,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        108,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        122,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        136,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        150,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        164,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        178,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        192,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        206,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        220,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        234,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        248,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        6,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        20,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        34,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        48,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        62,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        76,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        90,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        104,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        118,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        132,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        146,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        160,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        174,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        188,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        202,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        216,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        230,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        244,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        2,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        16,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        30,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        44,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        58,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        72,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        86,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        100,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        114,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        128,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        142,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        156,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        170,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        184,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        198,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        212,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        226,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        240,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        254,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        12,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        26,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        40,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000iky_chr000102\u0000iky_chr000103\u0000iky_chr000104\u0000iky_chr000202\u0000iky_chr000203\u0000iky_chr000204\u0000iky_chr000302\u0000iky_chr000303\u0000iky_chr000304\u0000iky_chr000402\u0000iky_chr000403\u0000iky_chr000404\u0000iky_chr000502\u0000iky_chr000503\u0000iky_chr000504\u0000iky_chr000602\u0000iky_chr000603\u0000iky_chr000604\u0000iky_chr000702\u0000iky_chr000703\u0000iky_chr000704\u0000iky_chr000802\u0000iky_chr000803\u0000iky_chr000804\u0000iky_chr000902\u0000iky_chr000903\u0000iky_chr000904\u0000iky_chr000a02\u0000iky_chr000a03\u0000iky_chr000a04\u0000iky_chr000b02\u0000iky_chr000b03\u0000iky_chr000b04\u0000iky_chr000c02\u0000iky_chr000c03\u0000iky_chr000c04\u0000iky_chr000d02\u0000iky_chr000d03\u0000iky_chr000d04\u0000iky_chr000e02\u0000iky_chr000e03\u0000iky_chr000e04\u0000iky_chr000f02\u0000iky_chr000f03\u0000iky_chr000f04\u0000iky_chr001002\u0000iky_chr001003\u0000iky_chr001004\u0000iky_chr001102\u0000iky_chr001103\u0000iky_chr001104\u0000iky_chr001202\u0000iky_chr001203\u0000iky_chr001204\u0000iky_chr001302\u0000iky_chr001303\u0000iky_chr001304\u0000iky_chr001402\u0000iky_chr001403\u0000iky_chr001404\u0000iky_chr001502\u0000iky_chr001503\u0000iky_chr001504\u0000iky_chr001602\u0000iky_chr001603\u0000iky_chr001604\u0000iky_chr001702\u0000iky_chr001703\u0000iky_chr001704\u0000iky_chr001802\u0000iky_chr001803\u0000iky_chr001804\u0000iky_chr001902\u0000iky_chr001903\u0000iky_chr001904\u0000iky_chr001a02\u0000iky_chr001a03\u0000iky_chr001a04\u0000iky_chr001b02\u0000iky_chr001b03\u0000iky_chr001b04\u0000iky_chr001c02\u0000iky_chr001c03\u0000iky_chr001c04\u0000iky_chr001d02\u0000iky_chr001d03\u0000iky_chr001d04\u0000iky_chr001e02\u0000iky_chr001e03\u0000iky_chr001e04\u0000iky_chr001f02\u0000iky_chr001f03\u0000iky_chr001f04\u0000iky_chr002002\u0000iky_chr002003\u0000iky_chr002004\u0000iky_chr002102\u0000iky_chr002103\u0000iky_chr002104\u0000iky_chr002202\u0000iky_chr002203\u0000iky_chr002204\u0000iky_chr002302\u0000iky_chr002303\u0000iky_chr002304\u0000iky_chr002402\u0000iky_chr002403\u0000iky_chr002404\u0000iky_chr002502\u0000iky_chr002503\u0000iky_chr002504\u0000iky_chr002602\u0000iky_chr002603\u0000iky_chr002604\u0000iky_chr002702\u0000iky_chr002703\u0000iky_chr002704\u0000iky_chr002802\u0000iky_chr002803\u0000iky_chr002804\u0000iky_chr002902\u0000iky_chr002903\u0000iky_chr002904\u0000iky_chr002a02\u0000iky_chr002a03\u0000iky_chr002a04\u0000iky_chr002b02\u0000iky_chr002b03\u0000iky_chr002b04\u0000iky_chr002c02\u0000iky_chr002c03\u0000iky_chr002c04\u0000iky_chr002d02\u0000iky_chr002d03\u0000iky_chr002d04\u0000iky_chr002e02\u0000iky_chr002e03\u0000iky_chr002e04\u0000iky_chr002f02\u0000iky_chr002f03\u0000iky_chr002f04\u0000iky_chr003102\u0000iky_chr003103\u0000iky_chr003104\u0000iky_chr003202\u0000iky_chr003203\u0000iky_chr003204\u0000iky_chr003402\u0000iky_chr003403\u0000iky_chr003404\u0000"
+    }
+  }
+]

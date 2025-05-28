@@ -1,3 +1,6 @@
+function isString(value) {
+    return typeof value === 'string' || value instanceof String;
+}
 async function loadData(path, func) {
     const result = new Map();
     const response = await fetch(path);
@@ -6,7 +9,8 @@ async function loadData(path, func) {
         const map = data[0].Properties?.m_dataMap;
         if (map) {
             for (let entry of map) {
-                result.set(entry.Key, await func(entry.Value));
+                const key = isString(entry.Key) ? entry.Key : entry.Key.Name;
+                result.set(key, await func(entry.Value));
             }
         }
     }
@@ -24,7 +28,7 @@ class TextData extends BaseData {
     static async load(path, text_field, lang_field) {
         return loadData(path, async (data) => {
             let text = new TextData(data);
-            text.text = data[text_field][0][lang_field];
+            text.text = data[text_field].length ? data[text_field][0][lang_field] : null;
             return text;
         });
     }
@@ -81,6 +85,7 @@ class ItemTableGroupSetting extends BaseData {
         super(...arguments);
         this.pick_params = [];
         this.vegetable_params = [];
+        this.enemies = [];
     }
     static async load(path, tables) {
         return await loadData(path, async (data) => {
@@ -179,12 +184,66 @@ class MapPickPoint extends BaseData {
         });
     }
 }
+class CharaData extends BaseData {
+    constructor() {
+        super(...arguments);
+        this.params = [];
+    }
+    static async load(path, names) {
+        return loadData(path, async (data) => {
+            const chara = new CharaData(data);
+            chara.name = getProperty(names, data.nameId);
+            return chara;
+        });
+    }
+}
+class CharaParameter extends BaseData {
+    constructor() {
+        super(...arguments);
+        this.enemies = [];
+    }
+    static async load(path, charas) {
+        return loadData(path, async (data) => {
+            const param = new CharaParameter(data);
+            param.chara = getProperty(charas, data.charaID);
+            if (param.chara) {
+                param.chara.params.push(param);
+            }
+            return param;
+        });
+    }
+}
+class EnemyPlacementConfig extends BaseData {
+    constructor(data, group, params, drops) {
+        super(data);
+        this.group = group;
+        this.param = getProperty(params, data.paramId.Name);
+        if (this.param) {
+            this.param.enemies.push(this);
+        }
+        this.drop = getProperty(drops, data.Drop.itemData.tableGroupId);
+        if (this.drop) {
+            this.drop.enemies.push(this);
+        }
+    }
+}
+class EnemyGroupConfig extends BaseData {
+    static async load(path, map, params, drops) {
+        return await loadData(path, async (data) => {
+            const group = new EnemyGroupConfig(data);
+            group.map = map;
+            group.enemies = data.Enemy.map(item => new EnemyPlacementConfig(item, group, params, drops));
+            return group;
+        });
+    }
+}
 class MapData extends BaseData {
-    static async load(path, names, groups) {
+    static async load(path, names, pick_groups, enemy_params, drops) {
         return loadData(path, async (data) => {
             const map = new MapData(data);
             map.name = getProperty(names, data.mapName);
-            map.pick_points = await MapPickPoint.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapPickPoint.json`, map, groups);
+            map.pick_points = await MapPickPoint.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapPickPoint.json`, map, pick_groups);
+            map.enemies = await EnemyGroupConfig.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapEnemyPlacementConfig.json`, map, enemy_params, drops);
             return map;
         });
     }
@@ -221,8 +280,11 @@ class GameData {
         data.vegetable_params = await VegetableParamData.load('GameData/Map/GDSVegetableParamData.json', data.battle_item_groups);
         data.pick_params = await PickParamData.load('GameData/Map/GDSPickParamData.json', data.common_pick_params, data.fishing_params, data.vegetable_params);
         data.pick_groups = await PickPointGroup.load('GameData/Map/GDSPickPointGroup.json', data.pick_params);
+        data.chara_names = await TextData.load('GameData/Chara/GDSCharaText_Noun.json', 'textInfo', `nounSingularForm_${lang}`);
+        data.chara_data = await CharaData.load('GameData/Chara/GDSCharaData.json', data.chara_names);
+        data.enemy_params = await CharaParameter.load('GameData/Chara/GDSCharaParameterEnemy.json', data.chara_data);
         data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
-        data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups);
+        data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups);
         return data;
     }
 }

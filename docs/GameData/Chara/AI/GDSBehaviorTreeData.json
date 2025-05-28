@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "GDSBehaviorTreeData",
+    "Name": "GDSBehaviorTreeData",
+    "Class": "UScriptClass'GDSBehaviorTreeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Patrol",
+          "Value": {
+            "ID": "Patrol",
+            "Type": 1,
+            "Path": {
+              "AssetPathName": "/Game/Program/AI/BT_NpcPatrol.BT_NpcPatrol",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "Npc",
+          "Value": {
+            "ID": "Npc",
+            "Type": 7,
+            "Path": {
+              "AssetPathName": "/Game/Program/AI/Npc/BT_Npc.BT_Npc",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "PartyChara",
+          "Value": {
+            "ID": "PartyChara",
+            "Type": 8,
+            "Path": {
+              "AssetPathName": "/Game/Program/AI/Party/BT_Party.BT_Party",
+              "SubPathString": ""
+            }
+          }
+        },
+        {
+          "Key": "FollowerChara",
+          "Value": {
+            "ID": "FollowerChara",
+            "Type": 11,
+            "Path": {
+              "AssetPathName": "/Game/Program/AI/FollowerChara/BT_FollowerChara.BT_FollowerChara",
+              "SubPathString": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+]

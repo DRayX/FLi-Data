@@ -1,3 +1,7 @@
+function isString(value: any): boolean {
+  return typeof value === 'string' || value instanceof String;
+}
+
 async function loadData<T>(path: string, func: (data: any) => Promise<T>): Promise<Map<string, T>> {
   const result = new Map();
   const response = await fetch(path);
@@ -6,7 +10,8 @@ async function loadData<T>(path: string, func: (data: any) => Promise<T>): Promi
     const map = data[0].Properties?.m_dataMap;
     if (map) {
       for (let entry of map) {
-        result.set(entry.Key, await func(entry.Value));
+        const key = isString(entry.Key) ? entry.Key : entry.Key.Name;
+        result.set(key, await func(entry.Value));
       }
     }
   }
@@ -26,12 +31,12 @@ class BaseData {
 }
 
 class TextData extends BaseData {
-  text: string;
+  text: string | null;
 
   static async load(path: string, text_field: string, lang_field: string): Promise<Map<string, TextData>> {
     return loadData(path, async data => {
       let text = new TextData(data);
-      text.text = data[text_field][0][lang_field];
+      text.text = data[text_field].length ? data[text_field][0][lang_field] : null;
       return text;
     });
   }
@@ -97,6 +102,7 @@ class ItemTableGroupSetting extends BaseData {
   data: Array<ItemTableGroupData>;
   pick_params: Array<CommonPickParamData> = [];
   vegetable_params: Array<VegetableParamData> = [];
+  enemies: Array<EnemyPlacementConfig> = [];
 
   static async load(path: string, tables: Map<string, ItemTableSetting>): Promise<Map<string, ItemTableGroupSetting>> {
     return await loadData(path, async data => {
@@ -211,15 +217,90 @@ class MapPickPoint extends BaseData {
   }
 }
 
+class CharaData extends BaseData {
+  name: TextData | null;
+  params: Array<CharaParameter> = [];
+
+  static async load(path: string, names: Map<string, TextData>): Promise<Map<string, CharaData>> {
+    return loadData(path, async data => {
+      const chara = new CharaData(data);
+      chara.name = getProperty(names, data.nameId);
+      return chara;
+    });
+  }
+}
+
+class CharaParameter extends BaseData {
+  chara: CharaData | null;
+  enemies: Array<EnemyPlacementConfig> = [];
+
+  static async load(path: string, charas: Map<string, CharaData>): Promise<Map<string, CharaParameter>> {
+    return loadData(path, async data => {
+      const param = new CharaParameter(data);
+      param.chara = getProperty(charas, data.charaID);
+      if (param.chara) {
+        param.chara.params.push(param);
+      }
+      return param;
+    });
+  }
+}
+
+class EnemyPlacementConfig extends BaseData {
+  group: EnemyGroupConfig;
+  param: CharaParameter | null;
+  drop: ItemTableGroupSetting | null;
+
+  constructor(data: any, group: EnemyGroupConfig, params: Map<string, CharaParameter>, drops: Map<string, ItemTableGroupSetting>) {
+    super(data);
+    this.group = group;
+    this.param = getProperty(params, data.paramId.Name);
+    if (this.param) {
+      this.param.enemies.push(this);
+    }
+    this.drop = getProperty(drops, data.Drop.itemData.tableGroupId);
+    if (this.drop) {
+      this.drop.enemies.push(this);
+    }
+  }
+}
+
+class EnemyGroupConfig extends BaseData {
+  map: MapData;
+  enemies: Array<EnemyPlacementConfig>;
+
+  static async load(
+      path: string,
+      map: MapData,
+      params: Map<string, CharaParameter>,
+      drops: Map<string, ItemTableGroupSetting>,
+  ): Promise<Map<string, EnemyGroupConfig>> {
+    return await loadData(path, async data => {
+      const group = new EnemyGroupConfig(data);
+      group.map = map;
+      group.enemies = data.Enemy.map(item => new EnemyPlacementConfig(item, group, params, drops));
+      return group;
+    });
+  }
+}
+
 class MapData extends BaseData {
   name: TextData | null;
   pick_points: Map<string, MapPickPoint>;
+  enemies: Map<string, EnemyGroupConfig>;
 
-  static async load(path: string, names: Map<string, TextData>, groups: Map<string, PickPointGroup>): Promise<Map<string, MapData>> {
+  static async load(
+      path: string,
+      names: Map<string, TextData>,
+      pick_groups: Map<string, PickPointGroup>,
+      enemy_params: Map<string, CharaParameter>,
+      drops: Map<string, ItemTableGroupSetting>,
+  ): Promise<Map<string, MapData>> {
     return loadData(path, async data => {
       const map = new MapData(data);
       map.name = getProperty(names, data.mapName);
-      map.pick_points = await MapPickPoint.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapPickPoint.json`, map, groups);
+      map.pick_points = await MapPickPoint.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapPickPoint.json`, map, pick_groups);
+      map.enemies = await EnemyGroupConfig.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapEnemyPlacementConfig.json`, map, enemy_params, drops);
       return map;
     });
   }
@@ -251,6 +332,9 @@ class GameData {
   vegetable_params: Map<string, VegetableParamData>;
   pick_params: Map<string, PickParamData>;
   pick_groups: Map<string, PickPointGroup>;
+  chara_names: Map<string, TextData>;
+  chara_data: Map<string, CharaData>;
+  enemy_params: Map<string, CharaParameter>;
   map_names: Map<string, TextData>;
   map_data: Map<string, MapData>;
 
@@ -272,8 +356,11 @@ class GameData {
     data.vegetable_params = await VegetableParamData.load('GameData/Map/GDSVegetableParamData.json', data.battle_item_groups);
     data.pick_params = await PickParamData.load('GameData/Map/GDSPickParamData.json', data.common_pick_params, data.fishing_params, data.vegetable_params);
     data.pick_groups = await PickPointGroup.load('GameData/Map/GDSPickPointGroup.json', data.pick_params);
+    data.chara_names = await TextData.load('GameData/Chara/GDSCharaText_Noun.json', 'textInfo', `nounSingularForm_${lang}`);
+    data.chara_data = await CharaData.load('GameData/Chara/GDSCharaData.json', data.chara_names);
+    data.enemy_params = await CharaParameter.load('GameData/Chara/GDSCharaParameterEnemy.json', data.chara_data);
     data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
-    data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups);
+    data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups);
     return data;
   }
 }
