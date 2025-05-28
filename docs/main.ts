@@ -46,6 +46,8 @@ class ItemData extends BaseData {
   name: TextData | null;
   desc: TextData | null;
   tables: Array<ItemTableDetail> = [];
+  material_for: Array<RecipeItemInfo> = [];
+  created_by: Array<RecipeData> = [];
 
   static async load(path: string, names: Map<string, TextData>, descs: Map<string, TextData>): Promise<Map<string, ItemData>> {
     return await loadData(path, async data => {
@@ -306,6 +308,37 @@ class MapData extends BaseData {
   }
 }
 
+class RecipeItemInfo extends BaseData {
+  recipe: RecipeData;
+  item: ItemData | null;
+
+  constructor(data: any, recipe: RecipeData, items: Map<string, ItemData>) {
+    super(data);
+    this.recipe = recipe;
+    this.item = getProperty(items, data.ItemId);
+    if (this.item) {
+      this.item.material_for.push(this);
+    }
+  }
+}
+
+class RecipeData extends BaseData {
+  item: ItemData | null;
+  item_list: Array<RecipeItemInfo>;
+
+  static async load(path: string, items: Map<string, ItemData>): Promise<Map<string, RecipeData>> {
+    return await loadData(path, async data => {
+      const recipe = new RecipeData(data);
+      recipe.item = getProperty(items, data.ItemId);
+      if (recipe.item) {
+        recipe.item.created_by.push(recipe);
+      }
+      recipe.item_list = data.itemList.map(item => new RecipeItemInfo(item, recipe, items));
+      return recipe;
+    });
+  }
+}
+
 const ITEM_CATEGORIES = [
     'Armor',
     'Consume',
@@ -337,6 +370,7 @@ class GameData {
   enemy_params: Map<string, CharaParameter>;
   map_names: Map<string, TextData>;
   map_data: Map<string, MapData>;
+  recipe_data: Map<string, RecipeData>;
 
   static async load(lang: string = 'en') {
     const data = new GameData();
@@ -361,6 +395,7 @@ class GameData {
     data.enemy_params = await CharaParameter.load('GameData/Chara/GDSCharaParameterEnemy.json', data.chara_data);
     data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
     data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups);
+    data.recipe_data = await RecipeData.load('GameData/Recipe/GDSRecipeData.json', data.all_items);
     return data;
   }
 }

@@ -1,0 +1,1311 @@
+[
+  {
+    "Type": "GDSItemCraftMenuLifeTypeSetting",
+    "Name": "GDSItemCraftMenuLifeTypeSetting",
+    "Class": "UScriptClass'GDSItemCraftMenuLifeTypeSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "10",
+          "Value": {
+            "lifeType": 10,
+            "recipeFlg": "flg_recipe_get_cook",
+            "friendFlg": "flg_friend_get_cook",
+            "rebuildCondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "materialCondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "randomRecipeLevel1CondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel2CondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "skipCondCmdList": [
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 30,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 35,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 40,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 45,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 50,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 55,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 60,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 65,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "lifeType": 11,
+            "recipeFlg": "flg_recipe_get_blacksmith",
+            "friendFlg": "flg_friend_get_blacksmith",
+            "rebuildCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "materialCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel1CondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "randomRecipeLevel2CondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "skipCondCmdList": [
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 90,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 95,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 100,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 105,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 110,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 115,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 120,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 125,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 130,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 135,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "lifeType": 12,
+            "recipeFlg": "flg_recipe_get_carpenter",
+            "friendFlg": "flg_friend_get_carpenter",
+            "rebuildCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "materialCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel1CondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "randomRecipeLevel2CondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "skipCondCmdList": [
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 160,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 165,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 170,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 175,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 180,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 185,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 190,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 195,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 200,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 205,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "lifeType": 13,
+            "recipeFlg": "flg_recipe_get_needleworker",
+            "friendFlg": "flg_friend_get_needleworker",
+            "rebuildCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "materialCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel1CondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "randomRecipeLevel2CondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "skipCondCmdList": [
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 230,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 235,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 240,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 245,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 250,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 255,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 260,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 265,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 270,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 275,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "lifeType": 14,
+            "recipeFlg": "flg_recipe_get_alchemist",
+            "friendFlg": "flg_friend_get_alchemist",
+            "rebuildCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "materialCondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel1CondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel2CondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "skipCondCmdList": [
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 320,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 325,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 330,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 335,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 340,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 345,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 350,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 355,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 360,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 365,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "lifeType": 15,
+            "recipeFlg": "flg_recipe_get_artist",
+            "friendFlg": "flg_friend_get_artist",
+            "rebuildCondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "materialCondCmdList": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "randomRecipeLevel1CondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 370,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 375,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "randomRecipeLevel2CondCmdList": [
+              {
+                "Cmd": "CondCmd_IsGainedSkillPanel",
+                "arg": [
+                  {
+                    "m_offset": 380,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 385,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "skipCondCmdList": [
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 390,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 395,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 400,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 405,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 410,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 415,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 420,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 425,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "condCmdList": [
+                  {
+                    "Cmd": "CondCmd_IsGainedSkillPanel",
+                    "arg": [
+                      {
+                        "m_offset": 430,
+                        "m_dataSize": 11
+                      },
+                      {
+                        "m_offset": 435,
+                        "m_dataSize": 16
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        164,
+        105,
+        184,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        14,
+        0,
+        0,
+        0,
+        52,
+        31,
+        0,
+        0,
+        0,
+        52,
+        43,
+        0,
+        0,
+        0,
+        52,
+        60,
+        0,
+        0,
+        0,
+        52,
+        72,
+        0,
+        0,
+        0,
+        52,
+        89,
+        0,
+        0,
+        0,
+        52,
+        101,
+        0,
+        0,
+        0,
+        52,
+        118,
+        0,
+        0,
+        0,
+        52,
+        130,
+        0,
+        0,
+        0,
+        52,
+        147,
+        0,
+        0,
+        0,
+        52,
+        159,
+        0,
+        0,
+        0,
+        52,
+        176,
+        0,
+        0,
+        0,
+        52,
+        188,
+        0,
+        0,
+        0,
+        52,
+        205,
+        0,
+        0,
+        0,
+        52,
+        217,
+        0,
+        0,
+        0,
+        52,
+        234,
+        0,
+        0,
+        0,
+        52,
+        246,
+        0,
+        0,
+        0,
+        52,
+        7,
+        1,
+        0,
+        0,
+        52,
+        19,
+        1,
+        0,
+        0,
+        52,
+        36,
+        1,
+        0,
+        0,
+        52,
+        48,
+        1,
+        0,
+        0,
+        52,
+        65,
+        1,
+        0,
+        0,
+        52,
+        77,
+        1,
+        0,
+        0,
+        52,
+        94,
+        1,
+        0,
+        0,
+        52,
+        106,
+        1,
+        0,
+        0,
+        52,
+        123,
+        1,
+        0,
+        0,
+        52,
+        135,
+        1,
+        0,
+        0,
+        52,
+        152,
+        1,
+        0,
+        0,
+        52,
+        164,
+        1,
+        0,
+        0,
+        52,
+        181,
+        1,
+        0,
+        0,
+        52,
+        193,
+        1,
+        0,
+        0,
+        52,
+        210,
+        1,
+        0,
+        0,
+        52,
+        222,
+        1,
+        0,
+        0,
+        52,
+        239,
+        1,
+        0,
+        0,
+        52,
+        251,
+        1,
+        0,
+        0,
+        52,
+        12,
+        2,
+        0,
+        0,
+        52,
+        24,
+        2,
+        0,
+        0,
+        52,
+        41,
+        2,
+        0,
+        0,
+        52,
+        53,
+        2,
+        0,
+        0,
+        52,
+        70,
+        2,
+        0,
+        0,
+        52,
+        82,
+        2,
+        0,
+        0,
+        52,
+        99,
+        2,
+        0,
+        0,
+        52,
+        111,
+        2,
+        0,
+        0,
+        52,
+        128,
+        2,
+        0,
+        0,
+        52,
+        140,
+        2,
+        0,
+        0,
+        52,
+        157,
+        2,
+        0,
+        0,
+        52,
+        169,
+        2,
+        0,
+        0,
+        52,
+        186,
+        2,
+        0,
+        0,
+        52,
+        198,
+        2,
+        0,
+        0,
+        52,
+        215,
+        2,
+        0,
+        0,
+        52,
+        227,
+        2,
+        0,
+        0,
+        52,
+        244,
+        2,
+        0,
+        0,
+        52,
+        0,
+        3,
+        0,
+        0,
+        52,
+        17,
+        3,
+        0,
+        0,
+        52,
+        29,
+        3,
+        0,
+        0,
+        52,
+        46,
+        3,
+        0,
+        0,
+        52,
+        58,
+        3,
+        0,
+        0,
+        52,
+        75,
+        3,
+        0,
+        0,
+        52,
+        87,
+        3,
+        0,
+        0,
+        52,
+        104,
+        3,
+        0,
+        0,
+        52,
+        116,
+        3,
+        0,
+        0,
+        52,
+        133,
+        3,
+        0,
+        0,
+        52,
+        145,
+        3,
+        0,
+        0,
+        52,
+        162,
+        3,
+        0,
+        0,
+        52,
+        174,
+        3,
+        0,
+        0,
+        52,
+        191,
+        3,
+        0,
+        0,
+        52,
+        203,
+        3,
+        0,
+        0,
+        52,
+        220,
+        3,
+        0,
+        0,
+        52,
+        232,
+        3,
+        0,
+        0,
+        52,
+        249,
+        3,
+        0,
+        0,
+        52,
+        5,
+        4,
+        0,
+        0,
+        52,
+        22,
+        4,
+        0,
+        0,
+        52,
+        34,
+        4,
+        0,
+        0,
+        52,
+        51,
+        4,
+        0,
+        0,
+        52,
+        63,
+        4,
+        0,
+        0,
+        52,
+        80,
+        4,
+        0,
+        0,
+        52,
+        92,
+        4,
+        0,
+        0,
+        52,
+        109,
+        4,
+        0,
+        0,
+        52,
+        121,
+        4,
+        0,
+        0,
+        52,
+        138,
+        4,
+        0,
+        0,
+        52,
+        150,
+        4,
+        0,
+        0,
+        52,
+        167,
+        4,
+        0,
+        0,
+        52,
+        179,
+        4,
+        0,
+        0,
+        52,
+        196,
+        4,
+        0,
+        0,
+        52,
+        208,
+        4,
+        0,
+        0,
+        52,
+        225,
+        4,
+        0,
+        0,
+        52,
+        237,
+        4,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000sb_life0009\u0000sp_life0009_0050\u0000sb_life0009\u0000sp_life0009_0051\u0000sb_life0009\u0000sp_life0009_0052\u0000sb_life0009\u0000sp_life0009_0053\u0000sb_life0009\u0000sp_life0009_0054\u0000sb_life0009\u0000sp_life0009_0055\u0000sb_life0009\u0000sp_life0009_0056\u0000sb_life0010\u0000sp_life0010_0050\u0000sb_life0010\u0000sp_life0010_0051\u0000sb_life0010\u0000sp_life0010_0052\u0000sb_life0010\u0000sp_life0010_0053\u0000sb_life0010\u0000sp_life0010_0054\u0000sb_life0010\u0000sp_life0010_0055\u0000sb_life0010\u0000sp_life0010_0056\u0000sb_life0011\u0000sp_life0011_0050\u0000sb_life0011\u0000sp_life0011_0051\u0000sb_life0011\u0000sp_life0011_0052\u0000sb_life0011\u0000sp_life0011_0053\u0000sb_life0011\u0000sp_life0011_0054\u0000sb_life0011\u0000sp_life0011_0055\u0000sb_life0011\u0000sp_life0011_0056\u0000sb_life0012\u0000sp_life0012_0050\u0000sb_life0012\u0000sp_life0012_0051\u0000sb_life0012\u0000sp_life0012_0052\u0000sb_life0012\u0000sp_life0012_0053\u0000sb_life0012\u0000sp_life0012_0054\u0000sb_life0012\u0000sp_life0012_0055\u0000sb_life0012\u0000sp_life0012_0056\u0000sb_life0013\u0000sp_life0013_0050\u0000sb_life0013\u0000sp_life0013_0051\u0000sb_life0013\u0000sp_life0013_0048\u0000sb_life0013\u0000sp_life0013_0049\u0000sb_life0013\u0000sp_life0013_0052\u0000sb_life0013\u0000sp_life0013_0053\u0000sb_life0013\u0000sp_life0013_0054\u0000sb_life0013\u0000sp_life0013_0055\u0000sb_life0013\u0000sp_life0013_0056\u0000sb_life0014\u0000sp_life0014_0050\u0000sb_life0014\u0000sp_life0014_0051\u0000sb_life0014\u0000sp_life0014_0052\u0000sb_life0014\u0000sp_life0014_0053\u0000sb_life0014\u0000sp_life0014_0054\u0000sb_life0014\u0000sp_life0014_0055\u0000sb_life0014\u0000sp_life0014_0056\u0000"
+    }
+  }
+]

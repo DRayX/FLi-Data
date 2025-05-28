@@ -37,6 +37,8 @@ class ItemData extends BaseData {
     constructor() {
         super(...arguments);
         this.tables = [];
+        this.material_for = [];
+        this.created_by = [];
     }
     static async load(path, names, descs) {
         return await loadData(path, async (data) => {
@@ -248,6 +250,29 @@ class MapData extends BaseData {
         });
     }
 }
+class RecipeItemInfo extends BaseData {
+    constructor(data, recipe, items) {
+        super(data);
+        this.recipe = recipe;
+        this.item = getProperty(items, data.ItemId);
+        if (this.item) {
+            this.item.material_for.push(this);
+        }
+    }
+}
+class RecipeData extends BaseData {
+    static async load(path, items) {
+        return await loadData(path, async (data) => {
+            const recipe = new RecipeData(data);
+            recipe.item = getProperty(items, data.ItemId);
+            if (recipe.item) {
+                recipe.item.created_by.push(recipe);
+            }
+            recipe.item_list = data.itemList.map(item => new RecipeItemInfo(item, recipe, items));
+            return recipe;
+        });
+    }
+}
 const ITEM_CATEGORIES = [
     'Armor',
     'Consume',
@@ -285,6 +310,7 @@ class GameData {
         data.enemy_params = await CharaParameter.load('GameData/Chara/GDSCharaParameterEnemy.json', data.chara_data);
         data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
         data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups);
+        data.recipe_data = await RecipeData.load('GameData/Recipe/GDSRecipeData.json', data.all_items);
         return data;
     }
 }
