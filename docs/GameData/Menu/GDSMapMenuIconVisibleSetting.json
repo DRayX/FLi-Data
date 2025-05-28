@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "GDSMapMenuIconVisibleSetting",
+    "Name": "GDSMapMenuIconVisibleSetting",
+    "Class": "UScriptClass'GDSMapMenuIconVisibleSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "multi_player_icon",
+          "Value": {
+            "ID": "multi_player_icon",
+            "visibleSettingIdList": [
+              {
+                "mapId": "Map_200007",
+                "ID": "mjfp_Map_200007_to_Map_200000",
+                "TargetID": "mjfp_Map_200007_to_Map_200010_exit_online",
+                "Visible": false
+              },
+              {
+                "mapId": "Map_200007",
+                "ID": "mjfp_Map_200007_to_Map_200010_enter_online",
+                "TargetID": "mjfp_Map_200007_to_Map_200010_exit_online",
+                "Visible": false
+              },
+              {
+                "mapId": "Map_200007",
+                "ID": "mjfp_Map_200007_to_Map_200010_exit_online",
+                "TargetID": "mjfp_Map_200007_to_Map_200000",
+                "Visible": false
+              },
+              {
+                "mapId": "Map_200007",
+                "ID": "mjfp_Map_200007_to_Map_200010_exit_online",
+                "TargetID": "mjfp_Map_200007_to_Map_200010_enter_online",
+                "Visible": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

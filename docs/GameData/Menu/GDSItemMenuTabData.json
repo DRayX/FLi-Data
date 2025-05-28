@@ -1,0 +1,1606 @@
+[
+  {
+    "Type": "GDSItemMenuTabData",
+    "Name": "GDSItemMenuTabData",
+    "Class": "UScriptClass'GDSItemMenuTabData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tab_item_00",
+          "Value": {
+            "ID": "tab_item_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_01",
+          "Value": {
+            "ID": "tab_item_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_02",
+          "Value": {
+            "ID": "tab_item_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_03",
+          "Value": {
+            "ID": "tab_item_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_04",
+          "Value": {
+            "ID": "tab_item_04",
+            "nameId": "item_category_name_used",
+            "iconID": "ICON_TAB_ITEM_03",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 2,
+            "Category": [
+              60
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_05",
+          "Value": {
+            "ID": "tab_item_05",
+            "nameId": "item_category_name_material",
+            "iconID": "ICON_TAB_ITEM_04",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 16,
+            "Category": [
+              90
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_06",
+          "Value": {
+            "ID": "tab_item_06",
+            "nameId": "item_category_name_furniture",
+            "iconID": "ICON_TAB_ITEM_05",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 103,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_07",
+          "Value": {
+            "ID": "tab_item_07",
+            "nameId": "item_category_name_possessed",
+            "iconID": "ICON_TAB_ITEM_06",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 130,
+            "Category": [
+              70,
+              130
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tab_item_08",
+          "Value": {
+            "ID": "tab_item_08",
+            "nameId": "item_category_name_important",
+            "iconID": "ICON_TAB_ITEM_07",
+            "MenuType": 10,
+            "Focusable": true,
+            "AggregateType": 18,
+            "Category": [
+              100
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_00",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_01",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_02",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_03",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_04",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_04",
+            "nameId": "item_category_name_used",
+            "iconID": "ICON_TAB_ITEM_03",
+            "MenuType": 15,
+            "Focusable": true,
+            "AggregateType": 2,
+            "Category": [
+              60
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_05",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_05",
+            "nameId": "item_category_name_material",
+            "iconID": "ICON_TAB_ITEM_04",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 16,
+            "Category": [
+              90
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_06",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_06",
+            "nameId": "item_category_name_furniture",
+            "iconID": "ICON_TAB_ITEM_05",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 103,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_07",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_07",
+            "nameId": "item_category_name_possessed",
+            "iconID": "ICON_TAB_ITEM_06",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 130,
+            "Category": [
+              70,
+              130
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tab_item_tutorial_bag_08",
+          "Value": {
+            "ID": "tab_item_tutorial_bag_08",
+            "nameId": "item_category_name_important",
+            "iconID": "ICON_TAB_ITEM_07",
+            "MenuType": 15,
+            "Focusable": false,
+            "AggregateType": 18,
+            "Category": [
+              100
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_00",
+          "Value": {
+            "ID": "tab_item_rebuild_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 20,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_01",
+          "Value": {
+            "ID": "tab_item_rebuild_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 20,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_02",
+          "Value": {
+            "ID": "tab_item_rebuild_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 20,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_03",
+          "Value": {
+            "ID": "tab_item_rebuild_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 20,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_blacksmith_00",
+          "Value": {
+            "ID": "tab_item_rebuild_blacksmith_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 21,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_blacksmith_01",
+          "Value": {
+            "ID": "tab_item_rebuild_blacksmith_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 21,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_blacksmith_02",
+          "Value": {
+            "ID": "tab_item_rebuild_blacksmith_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 21,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_blacksmith_03",
+          "Value": {
+            "ID": "tab_item_rebuild_blacksmith_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 21,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_carpenter_00",
+          "Value": {
+            "ID": "tab_item_rebuild_carpenter_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 22,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_carpenter_01",
+          "Value": {
+            "ID": "tab_item_rebuild_carpenter_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 22,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_needleworker_00",
+          "Value": {
+            "ID": "tab_item_rebuild_needleworker_00",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 23,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_alchemist_00",
+          "Value": {
+            "ID": "tab_item_rebuild_alchemist_00",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 24,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_rebuild_alchemist_02",
+          "Value": {
+            "ID": "tab_item_rebuild_alchemist_02",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 24,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_00",
+          "Value": {
+            "ID": "tab_item_preset_npc_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_01",
+          "Value": {
+            "ID": "tab_item_preset_npc_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_02",
+          "Value": {
+            "ID": "tab_item_preset_npc_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_03",
+          "Value": {
+            "ID": "tab_item_preset_npc_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_04",
+          "Value": {
+            "ID": "tab_item_preset_npc_04",
+            "nameId": "item_category_name_used",
+            "iconID": "ICON_TAB_ITEM_03",
+            "MenuType": 30,
+            "Focusable": true,
+            "AggregateType": 2,
+            "Category": [
+              60
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_05",
+          "Value": {
+            "ID": "tab_item_preset_npc_05",
+            "nameId": "item_category_name_material",
+            "iconID": "ICON_TAB_ITEM_04",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 16,
+            "Category": [
+              90
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_06",
+          "Value": {
+            "ID": "tab_item_preset_npc_06",
+            "nameId": "item_category_name_furniture",
+            "iconID": "ICON_TAB_ITEM_05",
+            "MenuType": 30,
+            "Focusable": true,
+            "AggregateType": 103,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_07",
+          "Value": {
+            "ID": "tab_item_preset_npc_07",
+            "nameId": "item_category_name_possessed",
+            "iconID": "ICON_TAB_ITEM_06",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 13,
+            "Category": [
+              70
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tab_item_preset_npc_08",
+          "Value": {
+            "ID": "tab_item_preset_npc_08",
+            "nameId": "item_category_name_important",
+            "iconID": "ICON_TAB_ITEM_07",
+            "MenuType": 30,
+            "Focusable": false,
+            "AggregateType": 18,
+            "Category": [
+              100
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_00",
+          "Value": {
+            "ID": "tab_item_preset_multi_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_01",
+          "Value": {
+            "ID": "tab_item_preset_multi_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_02",
+          "Value": {
+            "ID": "tab_item_preset_multi_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_03",
+          "Value": {
+            "ID": "tab_item_preset_multi_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_04",
+          "Value": {
+            "ID": "tab_item_preset_multi_04",
+            "nameId": "item_category_name_used",
+            "iconID": "ICON_TAB_ITEM_03",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 2,
+            "Category": [
+              60
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_05",
+          "Value": {
+            "ID": "tab_item_preset_multi_05",
+            "nameId": "item_category_name_material",
+            "iconID": "ICON_TAB_ITEM_04",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 16,
+            "Category": [
+              90
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_06",
+          "Value": {
+            "ID": "tab_item_preset_multi_06",
+            "nameId": "item_category_name_furniture",
+            "iconID": "ICON_TAB_ITEM_05",
+            "MenuType": 31,
+            "Focusable": true,
+            "AggregateType": 103,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_07",
+          "Value": {
+            "ID": "tab_item_preset_multi_07",
+            "nameId": "item_category_name_possessed",
+            "iconID": "ICON_TAB_ITEM_06",
+            "MenuType": 31,
+            "Focusable": false,
+            "AggregateType": 13,
+            "Category": [
+              70
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tab_item_preset_multi_08",
+          "Value": {
+            "ID": "tab_item_preset_multi_08",
+            "nameId": "item_category_name_important",
+            "iconID": "ICON_TAB_ITEM_07",
+            "MenuType": 31,
+            "Focusable": false,
+            "AggregateType": 18,
+            "Category": [
+              100
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_out_00",
+          "Value": {
+            "ID": "tab_craft_out_00",
+            "nameId": "craft_category_name_furniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_00",
+            "MenuType": 40,
+            "Focusable": true,
+            "AggregateType": 6,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_out_01",
+          "Value": {
+            "ID": "tab_craft_out_01",
+            "nameId": "craft_category_name_smallfurniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_01",
+            "MenuType": 40,
+            "Focusable": true,
+            "AggregateType": 7,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_out_02",
+          "Value": {
+            "ID": "tab_craft_out_02",
+            "nameId": "craft_category_name_outfurniture",
+            "iconID": "ICON_TAB_CRAFT_OUT_00",
+            "MenuType": 40,
+            "Focusable": true,
+            "AggregateType": 9,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_out_03",
+          "Value": {
+            "ID": "tab_craft_out_03",
+            "nameId": "craft_category_name_building",
+            "iconID": "ICON_TAB_CRAFT_OUT_01",
+            "MenuType": 40,
+            "Focusable": true,
+            "AggregateType": 120,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_out_04",
+          "Value": {
+            "ID": "tab_craft_out_04",
+            "nameId": "craft_category_name_possessed",
+            "iconID": "ICON_TAB_CRAFT_OUT_02",
+            "MenuType": 40,
+            "Focusable": true,
+            "AggregateType": 13,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_in_00",
+          "Value": {
+            "ID": "tab_craft_in_00",
+            "nameId": "craft_category_name_furniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_00",
+            "MenuType": 41,
+            "Focusable": true,
+            "AggregateType": 6,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_in_01",
+          "Value": {
+            "ID": "tab_craft_in_01",
+            "nameId": "craft_category_name_smallfurniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_01",
+            "MenuType": 41,
+            "Focusable": true,
+            "AggregateType": 7,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_in_02",
+          "Value": {
+            "ID": "tab_craft_in_02",
+            "nameId": "craft_category_name_wallhanging",
+            "iconID": "ICON_TAB_CRAFT_IN_00",
+            "MenuType": 41,
+            "Focusable": false,
+            "AggregateType": 10,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_in_03",
+          "Value": {
+            "ID": "tab_craft_in_03",
+            "nameId": "craft_category_name_wall",
+            "iconID": "ICON_TAB_CRAFT_IN_01",
+            "MenuType": 41,
+            "Focusable": true,
+            "AggregateType": 11,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_in_04",
+          "Value": {
+            "ID": "tab_craft_in_04",
+            "nameId": "craft_category_name_floor",
+            "iconID": "ICON_TAB_CRAFT_IN_02",
+            "MenuType": 41,
+            "Focusable": true,
+            "AggregateType": 12,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_floor_00",
+          "Value": {
+            "ID": "tab_craft_mode_in_floor_00",
+            "nameId": "craft_category_name_furniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_00",
+            "MenuType": 42,
+            "Focusable": true,
+            "AggregateType": 6,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_floor_01",
+          "Value": {
+            "ID": "tab_craft_mode_in_floor_01",
+            "nameId": "craft_category_name_smallfurniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_01",
+            "MenuType": 42,
+            "Focusable": true,
+            "AggregateType": 7,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_floor_02",
+          "Value": {
+            "ID": "tab_craft_mode_in_floor_02",
+            "nameId": "craft_category_name_wallhanging",
+            "iconID": "ICON_TAB_CRAFT_IN_00",
+            "MenuType": 42,
+            "Focusable": false,
+            "AggregateType": 10,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_floor_03",
+          "Value": {
+            "ID": "tab_craft_mode_in_floor_03",
+            "nameId": "craft_category_name_wall",
+            "iconID": "ICON_TAB_CRAFT_IN_01",
+            "MenuType": 42,
+            "Focusable": true,
+            "AggregateType": 11,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_floor_04",
+          "Value": {
+            "ID": "tab_craft_mode_in_floor_04",
+            "nameId": "craft_category_name_floor",
+            "iconID": "ICON_TAB_CRAFT_IN_02",
+            "MenuType": 42,
+            "Focusable": true,
+            "AggregateType": 12,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_wall_00",
+          "Value": {
+            "ID": "tab_craft_mode_in_wall_00",
+            "nameId": "craft_category_name_furniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_00",
+            "MenuType": 43,
+            "Focusable": false,
+            "AggregateType": 6,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_wall_01",
+          "Value": {
+            "ID": "tab_craft_mode_in_wall_01",
+            "nameId": "craft_category_name_smallfurniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_01",
+            "MenuType": 43,
+            "Focusable": false,
+            "AggregateType": 7,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_wall_02",
+          "Value": {
+            "ID": "tab_craft_mode_in_wall_02",
+            "nameId": "craft_category_name_wallhanging",
+            "iconID": "ICON_TAB_CRAFT_IN_00",
+            "MenuType": 43,
+            "Focusable": true,
+            "AggregateType": 10,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_wall_03",
+          "Value": {
+            "ID": "tab_craft_mode_in_wall_03",
+            "nameId": "craft_category_name_wall",
+            "iconID": "ICON_TAB_CRAFT_IN_01",
+            "MenuType": 43,
+            "Focusable": true,
+            "AggregateType": 11,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_craft_mode_in_wall_04",
+          "Value": {
+            "ID": "tab_craft_mode_in_wall_04",
+            "nameId": "craft_category_name_floor",
+            "iconID": "ICON_TAB_CRAFT_IN_02",
+            "MenuType": 43,
+            "Focusable": false,
+            "AggregateType": 12,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_gallery_floor_00",
+          "Value": {
+            "ID": "tab_gallery_floor_00",
+            "nameId": "craft_category_name_furniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_00",
+            "MenuType": 50,
+            "Focusable": true,
+            "AggregateType": 6,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_gallery_floor_01",
+          "Value": {
+            "ID": "tab_gallery_floor_01",
+            "nameId": "craft_category_name_smallfurniture",
+            "iconID": "ICON_TAB_CRAFT_COMMON_01",
+            "MenuType": 50,
+            "Focusable": true,
+            "AggregateType": 7,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_gallery_wall_00",
+          "Value": {
+            "ID": "tab_gallery_wall_00",
+            "nameId": "craft_category_name_wallhanging",
+            "iconID": "ICON_TAB_CRAFT_IN_00",
+            "MenuType": 51,
+            "Focusable": true,
+            "AggregateType": 10,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_00",
+          "Value": {
+            "ID": "tab_shop_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_01",
+          "Value": {
+            "ID": "tab_shop_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_02",
+          "Value": {
+            "ID": "tab_shop_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_03",
+          "Value": {
+            "ID": "tab_shop_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_04",
+          "Value": {
+            "ID": "tab_shop_04",
+            "nameId": "item_category_name_used",
+            "iconID": "ICON_TAB_ITEM_03",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 2,
+            "Category": [
+              60
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_05",
+          "Value": {
+            "ID": "tab_shop_05",
+            "nameId": "item_category_name_material",
+            "iconID": "ICON_TAB_ITEM_04",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 16,
+            "Category": [
+              90
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_06",
+          "Value": {
+            "ID": "tab_shop_06",
+            "nameId": "item_category_name_furniture",
+            "iconID": "ICON_TAB_ITEM_05",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 103,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_07",
+          "Value": {
+            "ID": "tab_shop_07",
+            "nameId": "recipe_screen_title",
+            "iconID": "ICON_TAB_SHOP_01",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 17,
+            "Category": [
+              95
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_08",
+          "Value": {
+            "ID": "tab_shop_08",
+            "nameId": "shop_list_title_pleasure_box",
+            "iconID": "ICON_TAB_ITEM_07",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 18,
+            "Category": [
+              100
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_09",
+          "Value": {
+            "ID": "tab_shop_09",
+            "nameId": "item_category_name_plantdungeon_inventory",
+            "iconID": "ICON_TAB_SECONDHAND_SHOP_01",
+            "MenuType": 60,
+            "Focusable": true,
+            "AggregateType": 21,
+            "Category": [
+              120
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_00",
+          "Value": {
+            "ID": "tab_shop_overflow_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 61,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_01",
+          "Value": {
+            "ID": "tab_shop_overflow_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 61,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_02",
+          "Value": {
+            "ID": "tab_shop_overflow_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 61,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_03",
+          "Value": {
+            "ID": "tab_shop_overflow_03",
+            "nameId": "item_category_name_armor",
+            "iconID": "ICON_TAB_ITEM_02",
+            "MenuType": 61,
+            "Focusable": true,
+            "AggregateType": 5,
+            "Category": [
+              40,
+              50
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_04",
+          "Value": {
+            "ID": "tab_shop_overflow_04",
+            "nameId": "item_category_name_used",
+            "iconID": "ICON_TAB_ITEM_03",
+            "MenuType": 61,
+            "Focusable": false,
+            "AggregateType": 2,
+            "Category": [
+              60
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_05",
+          "Value": {
+            "ID": "tab_shop_overflow_05",
+            "nameId": "item_category_name_material",
+            "iconID": "ICON_TAB_ITEM_04",
+            "MenuType": 61,
+            "Focusable": false,
+            "AggregateType": 16,
+            "Category": [
+              90
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_06",
+          "Value": {
+            "ID": "tab_shop_overflow_06",
+            "nameId": "item_category_name_furniture",
+            "iconID": "ICON_TAB_ITEM_05",
+            "MenuType": 61,
+            "Focusable": false,
+            "AggregateType": 103,
+            "Category": [
+              70
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_shop_overflow_07",
+          "Value": {
+            "ID": "tab_shop_overflow_07",
+            "nameId": "item_category_name_plantdungeon_inventory",
+            "iconID": "ICON_TAB_SECONDHAND_SHOP_01",
+            "MenuType": 61,
+            "Focusable": true,
+            "AggregateType": 21,
+            "Category": [
+              120
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tab_ripening_altar_fill_up_equip_00",
+          "Value": {
+            "ID": "tab_ripening_altar_fill_up_equip_00",
+            "nameId": "item_category_name_weapon",
+            "iconID": "ICON_TAB_ITEM_00",
+            "MenuType": 70,
+            "Focusable": true,
+            "AggregateType": 3,
+            "Category": [
+              10
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_ripening_altar_fill_up_equip_01",
+          "Value": {
+            "ID": "tab_ripening_altar_fill_up_equip_01",
+            "nameId": "item_category_name_life",
+            "iconID": "ICON_TAB_ITEM_01",
+            "MenuType": 70,
+            "Focusable": true,
+            "AggregateType": 15,
+            "Category": [
+              20
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_ripening_altar_fill_up_equip_02",
+          "Value": {
+            "ID": "tab_ripening_altar_fill_up_equip_02",
+            "nameId": "item_category_name_shield",
+            "iconID": "ICON_TAB_EQUIP_01",
+            "MenuType": 70,
+            "Focusable": true,
+            "AggregateType": 4,
+            "Category": [
+              30
+            ],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_map_01",
+          "Value": {
+            "ID": "tab_map_01",
+            "nameId": "map_list_label_request_quest",
+            "iconID": "ICON_TAB_QUEST_02",
+            "MenuType": 80,
+            "Focusable": true,
+            "AggregateType": 0,
+            "Category": [],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_map_02",
+          "Value": {
+            "ID": "tab_map_02",
+            "nameId": "map_tab_present",
+            "iconID": "ICON_TAB_HONEGON_02",
+            "MenuType": 80,
+            "Focusable": true,
+            "AggregateType": 0,
+            "Category": [],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_map_03",
+          "Value": {
+            "ID": "tab_map_03",
+            "nameId": "map_tab_past",
+            "iconID": "ICON_TAB_HONEGON_01",
+            "MenuType": 80,
+            "Focusable": true,
+            "AggregateType": 0,
+            "Category": [],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_map_04",
+          "Value": {
+            "ID": "tab_map_04",
+            "nameId": "map_tab_huge_map",
+            "iconID": "ICON_TAB_HONEGON_03",
+            "MenuType": 80,
+            "Focusable": true,
+            "AggregateType": 0,
+            "Category": [],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_map_05",
+          "Value": {
+            "ID": "tab_map_05",
+            "nameId": "map_list_label_map_set_pin",
+            "iconID": "ICON_TAB_MAPPIN_00",
+            "MenuType": 80,
+            "Focusable": true,
+            "AggregateType": 0,
+            "Category": [],
+            "Condition": []
+          }
+        },
+        {
+          "Key": "tab_map_06",
+          "Value": {
+            "ID": "tab_map_06",
+            "nameId": "map_list_label_map_hierarchy",
+            "iconID": "ICON_MAP370000",
+            "MenuType": 80,
+            "Focusable": true,
+            "AggregateType": 0,
+            "Category": [],
+            "Condition": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        149,
+        124,
+        0,
+        30,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        145,
+        1,
+        0,
+        0,
+        50,
+        172,
+        78,
+        0,
+        0,
+        50,
+        172,
+        78,
+        0,
+        0,
+        50,
+        172,
+        78,
+        0,
+        0,
+        50,
+        172,
+        78,
+        0,
+        0,
+        50,
+        100,
+        195,
+        0,
+        0,
+        50,
+        100,
+        195,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

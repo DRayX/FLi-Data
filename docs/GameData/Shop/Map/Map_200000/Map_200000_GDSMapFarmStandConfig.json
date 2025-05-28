@@ -1,0 +1,654 @@
+[
+  {
+    "Type": "GDSMapFarmStandConfig",
+    "Name": "Map_200000_GDSMapFarmStandConfig",
+    "Class": "UScriptClass'GDSMapFarmStandConfig'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "map200000_FarmStand_00",
+          "Value": {
+            "ID": "map200000_FarmStand_00",
+            "AreaID": "map200000_area002",
+            "Pos": {
+              "X": 72276.9,
+              "Y": -11843.9,
+              "Z": 200.0,
+              "W": -30.7
+            },
+            "pickup": {
+              "Rate": 30,
+              "Items": [
+                {
+                  "series": 240,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 241,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 242,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 243,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 244,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 245,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                },
+                {
+                  "series": 246,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                }
+              ]
+            },
+            "NPC": [
+              {
+                "order": 1,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_00",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_01",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_07",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_00",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_01",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_08",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              }
+            ],
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/FarmStand/BP_FarmStand_00.BP_FarmStand_00_C",
+              "SubPathString": ""
+            },
+            "letterId": "sis_map_200000_letter_00"
+          }
+        },
+        {
+          "Key": "map200000_FarmStand_01",
+          "Value": {
+            "ID": "map200000_FarmStand_01",
+            "AreaID": "map200000_area006",
+            "Pos": {
+              "X": 5873.4,
+              "Y": 5041.1,
+              "Z": 300.0,
+              "W": 127.7
+            },
+            "pickup": {
+              "Rate": 30,
+              "Items": [
+                {
+                  "series": 240,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 241,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 242,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 243,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 244,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 245,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                },
+                {
+                  "series": 246,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                }
+              ]
+            },
+            "NPC": [
+              {
+                "order": 1,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_02",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_03",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_08",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_02",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_04",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_09",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              }
+            ],
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/FarmStand/BP_FarmStand_00.BP_FarmStand_00_C",
+              "SubPathString": ""
+            },
+            "letterId": "sis_map_200000_letter_00"
+          }
+        },
+        {
+          "Key": "map200000_FarmStand_02",
+          "Value": {
+            "ID": "map200000_FarmStand_02",
+            "AreaID": "map200000_area015",
+            "Pos": {
+              "X": -14032.5,
+              "Y": 41199.0,
+              "Z": 1700.0,
+              "W": 130.5
+            },
+            "pickup": {
+              "Rate": 30,
+              "Items": [
+                {
+                  "series": 240,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 241,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 242,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 243,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 244,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 245,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                },
+                {
+                  "series": 246,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                }
+              ]
+            },
+            "NPC": [
+              {
+                "order": 1,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_03",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_04",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_09",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_03",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_01",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_07",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              }
+            ],
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/FarmStand/BP_FarmStand_00.BP_FarmStand_00_C",
+              "SubPathString": ""
+            },
+            "letterId": "sis_map_200000_letter_00"
+          }
+        },
+        {
+          "Key": "map200000_FarmStand_03",
+          "Value": {
+            "ID": "map200000_FarmStand_03",
+            "AreaID": "map200000_area008",
+            "Pos": {
+              "X": -57270.7,
+              "Y": -64916.4,
+              "Z": 500.0,
+              "W": 119.1
+            },
+            "pickup": {
+              "Rate": 30,
+              "Items": [
+                {
+                  "series": 240,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 241,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 242,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 243,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 244,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 245,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                },
+                {
+                  "series": 246,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                }
+              ]
+            },
+            "NPC": [
+              {
+                "order": 1,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_04",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_02",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_07",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_04",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_05",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_08",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              }
+            ],
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/FarmStand/BP_FarmStand_00.BP_FarmStand_00_C",
+              "SubPathString": ""
+            },
+            "letterId": "sis_map_200000_letter_00"
+          }
+        },
+        {
+          "Key": "map200000_FarmStand_04",
+          "Value": {
+            "ID": "map200000_FarmStand_04",
+            "AreaID": "map200000_area012",
+            "Pos": {
+              "X": -35982.8,
+              "Y": 42317.4,
+              "Z": 100.0,
+              "W": 20.8
+            },
+            "pickup": {
+              "Rate": 30,
+              "Items": [
+                {
+                  "series": 240,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 241,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 242,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 243,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 244,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 245,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                },
+                {
+                  "series": 246,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                }
+              ]
+            },
+            "NPC": [
+              {
+                "order": 1,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_05",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_06",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_08",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_05",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_03",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_09",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              }
+            ],
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/FarmStand/BP_FarmStand_00.BP_FarmStand_00_C",
+              "SubPathString": ""
+            },
+            "letterId": "sis_map_200000_letter_00"
+          }
+        },
+        {
+          "Key": "map200000_FarmStand_05",
+          "Value": {
+            "ID": "map200000_FarmStand_05",
+            "AreaID": "map200000_area010",
+            "Pos": {
+              "X": -54158.4,
+              "Y": -36799.9,
+              "Z": 3902.2,
+              "W": 126.0
+            },
+            "pickup": {
+              "Rate": 30,
+              "Items": [
+                {
+                  "series": 240,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 241,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 242,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 243,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 244,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 7
+                },
+                {
+                  "series": 245,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                },
+                {
+                  "series": 246,
+                  "Ratio": 2.0,
+                  "cond": [],
+                  "Weight": 1
+                }
+              ]
+            },
+            "NPC": [
+              {
+                "order": 1,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_06",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_01",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_09",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              },
+              {
+                "order": 2,
+                "npcList": [
+                  {
+                    "npcID": "Map_200000_Customer_06",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_00",
+                    "cond": [],
+                    "Weight": 1
+                  },
+                  {
+                    "npcID": "Map_200000_Customer_07",
+                    "cond": [],
+                    "Weight": 1
+                  }
+                ]
+              }
+            ],
+            "bpPath": {
+              "AssetPathName": "/Game/Program/Map/FarmStand/BP_FarmStand_00.BP_FarmStand_00_C",
+              "SubPathString": ""
+            },
+            "letterId": "sis_map_200000_letter_00"
+          }
+        }
+      ]
+    }
+  }
+]

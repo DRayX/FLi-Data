@@ -1,0 +1,5610 @@
+[
+  {
+    "Type": "GDSOperationGuideData",
+    "Name": "GDSOperationGuideData",
+    "Class": "UScriptClass'GDSOperationGuideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "operation_guide_common_no_button",
+          "Value": {
+            "ID": "operation_guide_common_no_button",
+            "presetType": 10,
+            "footerType": 0,
+            "buttonGuideInfoList": []
+          }
+        },
+        {
+          "Key": "operation_guide_common_back_only",
+          "Value": {
+            "ID": "operation_guide_common_back_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_common_close_only",
+          "Value": {
+            "ID": "operation_guide_common_close_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_common_decide_only",
+          "Value": {
+            "ID": "operation_guide_common_decide_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_common_decide_back",
+          "Value": {
+            "ID": "operation_guide_common_decide_back",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_common_decide_close",
+          "Value": {
+            "ID": "operation_guide_common_decide_close",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu",
+          "Value": {
+            "ID": "operation_guide_main_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save_shortcut",
+                "iconTextId": "gaiji_key_menu_r_up_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_menu_rearrange",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_title",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu_multi",
+          "Value": {
+            "ID": "operation_guide_main_menu_multi",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save_shortcut",
+                "iconTextId": "gaiji_key_menu_r_up_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_menu_rearrange",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu_decide_only",
+          "Value": {
+            "ID": "operation_guide_main_menu_decide_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu_save_disable",
+          "Value": {
+            "ID": "operation_guide_main_menu_save_disable",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_title",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_menu_rearrange",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu_save_disable_multi",
+          "Value": {
+            "ID": "operation_guide_main_menu_save_disable_multi",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_menu_rearrange",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu_save_disable_xbos_multi",
+          "Value": {
+            "ID": "operation_guide_main_menu_save_disable_xbos_multi",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_menu_member_select",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_menu_rearrange",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_main_menu_swap",
+          "Value": {
+            "ID": "operation_guide_main_menu_swap",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_menu_rearrange_default",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_equip",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_equip",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_equip_decide_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_equip_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_equip_decide_none_equipped",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_equip_decide_none_equipped",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_consume",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_consume",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_consume_decide_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_consume_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_craft",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_craft",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_craft_decide_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_craft_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_important",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_important",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_important_decide_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_important_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_important_detail_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_important_detail_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_important_decide_detail_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_important_decide_detail_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_possession",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_possession",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_possession_decide_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_possession_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_other",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_other",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_other_decide_none",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_other_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_consume_tutorial_item_bag",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_consume_tutorial_item_bag",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_consume_select_character",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_consume_select_character",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_consume_select_not_character",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_consume_select_not_character",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_inventory_menu_empty",
+          "Value": {
+            "ID": "operation_guide_inventory_menu_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_daily_progress_animation_playing",
+          "Value": {
+            "ID": "operation_guide_activity_daily_progress_animation_playing",
+            "presetType": 214,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_skip",
+                "iconTextId": "gaiji_key_menu_r_up_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_back_only",
+          "Value": {
+            "ID": "operation_guide_activity_back_only",
+            "presetType": 210,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_achievement",
+          "Value": {
+            "ID": "operation_guide_activity_achievement",
+            "presetType": 211,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_recieve",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_achievement_notReceive",
+          "Value": {
+            "ID": "operation_guide_activity_achievement_notReceive",
+            "presetType": 215,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_guild_reward_list",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_picture_book",
+          "Value": {
+            "ID": "operation_guide_activity_picture_book",
+            "presetType": 212,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_picture_book_open_window",
+          "Value": {
+            "ID": "operation_guide_activity_picture_book_open_window",
+            "presetType": 216,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_help",
+          "Value": {
+            "ID": "operation_guide_activity_help",
+            "presetType": 213,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_library_other_list",
+          "Value": {
+            "ID": "operation_guide_activity_library_other_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_library_character_list",
+          "Value": {
+            "ID": "operation_guide_activity_library_character_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_illust_show",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_chara_info",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_library_rotate_only",
+          "Value": {
+            "ID": "operation_guide_activity_library_rotate_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_illust_show",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_library_play",
+          "Value": {
+            "ID": "operation_guide_activity_library_play",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_illust_show",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_play",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_library_stop",
+          "Value": {
+            "ID": "operation_guide_activity_library_stop",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_illust_show",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_stop",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_library_decide",
+          "Value": {
+            "ID": "operation_guide_activity_library_decide",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_model_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_illust_show",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_menu",
+          "Value": {
+            "ID": "operation_guide_craft_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_unlock_menu",
+          "Value": {
+            "ID": "operation_guide_craft_unlock_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_unlock",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_regist_menu",
+          "Value": {
+            "ID": "operation_guide_craft_regist_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_gallery_menu",
+          "Value": {
+            "ID": "operation_guide_craft_gallery_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_put_away",
+                "iconTextId": "gaiji_key_menu_r_up_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_menu",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_item_list_open",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_bulid_menu",
+          "Value": {
+            "ID": "operation_guide_craft_bulid_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_camera_move_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_collect_celestia",
+                "iconTextId": "gaiji_key_menu_change_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_logging_stop",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_bulid_menu_invalid_build",
+          "Value": {
+            "ID": "operation_guide_craft_bulid_menu_invalid_build",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_camera_move_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_logging_stop",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_bulid_select_tile_menu",
+          "Value": {
+            "ID": "operation_guide_craft_bulid_select_tile_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_menu_side",
+          "Value": {
+            "ID": "operation_guide_craft_menu_side",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_create",
+                "iconTextId": "gaiji_key_menu_enter_default"
+              },
+              {
+                "textId": "button_guide_text_rubble_remove",
+                "iconTextId": "gaiji_key_menu_r_left_default"
+              },
+              {
+                "textId": "button_guide_text_collect",
+                "iconTextId": "gaiji_key_menu_r_up_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_switch",
+          "Value": {
+            "ID": "operation_guide_craft_switch",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_guide_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_wall",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_wall",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_wall_hold",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_wall_hold",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_trigger_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_wall_hold_inventory",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_wall_hold_inventory",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_cancel",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_floor",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_floor",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_camera_move_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_floor_hold",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_floor_hold",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_camera_move_keyboard_space"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_indoor_floor_hold_inventory",
+          "Value": {
+            "ID": "operation_guide_craft_indoor_floor_hold_inventory",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_move",
+                "iconTextId": "gaiji_key_menu_analog_l_silhouette"
+              },
+              {
+                "textId": "button_guide_text_camera_move",
+                "iconTextId": "gaiji_key_menu_camera_move_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_cancel",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_top",
+          "Value": {
+            "ID": "operation_guide_equip_menu_top",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_decide_none",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_empty",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_npc",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_decide_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_decide_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_empty_npc",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_empty_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_edit",
+          "Value": {
+            "ID": "operation_guide_equip_menu_edit",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_edit_decide_none",
+          "Value": {
+            "ID": "operation_guide_equip_menu_edit_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_edit_submenu",
+          "Value": {
+            "ID": "operation_guide_equip_menu_edit_submenu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_menu",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_myset",
+          "Value": {
+            "ID": "operation_guide_equip_menu_myset",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equipment_skill",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_myset_empty",
+          "Value": {
+            "ID": "operation_guide_equip_menu_myset_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_myset_none",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_myset_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_decide_myset_none",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_decide_myset_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_empty_myset_none",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_empty_myset_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_myset_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_myset_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_decide_myset_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_decide_myset_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_equip_recommand",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_menu_slot_empty_myset_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_menu_slot_empty_myset_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_top",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_top",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_decide_none",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_empty",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_npc",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_decide_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_decide_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_empty_npc",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_empty_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_myset",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_edit",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_edit",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_edit_nomake",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_edit_nomake",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_edit_decide_none",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_edit_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_edit_submenu",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_edit_submenu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_menu",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_edit_submenu_nomake",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_edit_submenu_nomake",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_menu",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_myset",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_myset",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_myset_none",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_myset_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_decide_myset_none",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_decide_myset_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_empty_myset_none",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_empty_myset_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_myset_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_myset_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_decide_myset_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_decide_myset_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_equip_view_menu_slot_empty_myset_none_npc",
+          "Value": {
+            "ID": "operation_guide_equip_view_menu_slot_empty_myset_none_npc",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_buy",
+          "Value": {
+            "ID": "operation_guide_shop_menu_buy",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_buy_detail_none",
+          "Value": {
+            "ID": "operation_guide_shop_menu_buy_detail_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_sell_in_bulk",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_detail_none",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_detail_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_sell_in_bulk",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_plantdungeon_branch",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_plantdungeon_branch",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_sell_in_bulk",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_routemap_confirmation",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_in_bulk",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_in_bulk",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_in_bulk_detail_none",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_in_bulk_detail_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_in_bulk_plantdungeon_branch",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_in_bulk_plantdungeon_branch",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_routemap_confirmation",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_in_bulk_favorite_none",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_in_bulk_favorite_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_sell_in_bulk_detail_and_favorite_none",
+          "Value": {
+            "ID": "operation_guide_shop_menu_sell_in_bulk_detail_and_favorite_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_sell",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_item_box",
+          "Value": {
+            "ID": "operation_guide_shop_menu_item_box",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_rebuild",
+          "Value": {
+            "ID": "operation_guide_shop_menu_rebuild",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "shop_exchange_dialog_confirm_button",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_shop_menu_rebuild_detail_none",
+          "Value": {
+            "ID": "operation_guide_shop_menu_rebuild_detail_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "shop_exchange_dialog_confirm_button",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_costume_rankup",
+          "Value": {
+            "ID": "operation_guide_costume_rankup",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_resident_menu",
+          "Value": {
+            "ID": "operation_guide_resident_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_resident_menu_decide_none",
+          "Value": {
+            "ID": "operation_guide_resident_menu_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_residence_menu",
+          "Value": {
+            "ID": "operation_guide_residence_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_residence_menu_decide_none",
+          "Value": {
+            "ID": "operation_guide_residence_menu_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_life_guild_menu_license_show",
+          "Value": {
+            "ID": "operation_guide_life_guild_menu_license_show",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_license_show_hide",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_life_guild_menu_license_hide",
+          "Value": {
+            "ID": "operation_guide_life_guild_menu_license_hide",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_license_show_hide",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_life_select_menu_license_show",
+          "Value": {
+            "ID": "operation_guide_life_select_menu_license_show",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_lifemaster_gotoplace",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_license_show_hide",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_life_select_menu_license_hide",
+          "Value": {
+            "ID": "operation_guide_life_select_menu_license_hide",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_lifemaster_gotoplace",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_license_show_hide",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_life_select_menu_license_dont_have",
+          "Value": {
+            "ID": "operation_guide_life_select_menu_license_dont_have",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_life_select_menu_unemployed",
+          "Value": {
+            "ID": "operation_guide_life_select_menu_unemployed",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_character_menu_top",
+          "Value": {
+            "ID": "operation_guide_character_menu_top",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_skill_list",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_character_menu_color_select",
+          "Value": {
+            "ID": "operation_guide_character_menu_color_select",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_character_menu_empty",
+          "Value": {
+            "ID": "operation_guide_character_menu_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_npc_life_quest_menu",
+          "Value": {
+            "ID": "operation_guide_npc_life_quest_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "party_formation_menu_top",
+          "Value": {
+            "ID": "party_formation_menu_top",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "party_formation_menu_edit",
+          "Value": {
+            "ID": "party_formation_menu_edit",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "party_formation_menu_edit_decide_none",
+          "Value": {
+            "ID": "party_formation_menu_edit_decide_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_charamake_menu_default",
+          "Value": {
+            "ID": "operation_guide_charamake_menu_default",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_complete",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_selected",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_charamake_menu_top",
+          "Value": {
+            "ID": "operation_guide_charamake_menu_top",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_complete",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_selected",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_charamake_curtain",
+          "Value": {
+            "ID": "operation_guide_charamake_curtain",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_next",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu",
+          "Value": {
+            "ID": "operation_guide_option_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_blocklist",
+          "Value": {
+            "ID": "operation_guide_option_menu_blocklist",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_blocklist",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_communication",
+          "Value": {
+            "ID": "operation_guide_option_menu_communication",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_communication_empty",
+          "Value": {
+            "ID": "operation_guide_option_menu_communication_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_communication_list_open",
+          "Value": {
+            "ID": "operation_guide_option_menu_communication_list_open",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_key_config_default",
+          "Value": {
+            "ID": "operation_guide_option_menu_key_config_default",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_save",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_key_config_ani_key_wait",
+          "Value": {
+            "ID": "operation_guide_option_menu_key_config_ani_key_wait",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": []
+          }
+        },
+        {
+          "Key": "operation_guide_option_menu_key_config_controll_select",
+          "Value": {
+            "ID": "operation_guide_option_menu_key_config_controll_select",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "interlock_delivery_menu",
+          "Value": {
+            "ID": "interlock_delivery_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_kb",
+            "presetType": 106,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_online_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_online_kb",
+            "presetType": 107,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_plant_dungeon_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_plant_dungeon_kb",
+            "presetType": 108,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_quest_list_hide_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_quest_list_hide_kb",
+            "presetType": 109,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap_kb",
+            "presetType": 110,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap_list_hide_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap_list_hide_kb",
+            "presetType": 111,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap_select_area_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap_select_area_kb",
+            "presetType": 112,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_huge_worldmap_select_area_kb",
+          "Value": {
+            "ID": "operation_guide_mapmenu_huge_worldmap_select_area_kb",
+            "presetType": 113,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_arearank_change",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap",
+            "presetType": 114,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_online",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_online",
+            "presetType": 116,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_plant_dungeon",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_plant_dungeon",
+            "presetType": 118,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fieldmap_quest_list_hide",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fieldmap_quest_list_hide",
+            "presetType": 115,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_return",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap",
+            "presetType": 119,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap_list_hide",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap_list_hide",
+            "presetType": 123,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_map_change",
+                "iconTextId": "gaiji_key_menu_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap_select_area",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap_select_area",
+            "presetType": 120,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_huge_worldmap_select_area",
+          "Value": {
+            "ID": "operation_guide_mapmenu_huge_worldmap_select_area",
+            "presetType": 121,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_cursor_speed",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_arearank_change",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_worldmap_select_rank",
+          "Value": {
+            "ID": "operation_guide_mapmenu_worldmap_select_rank",
+            "presetType": 122,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_fasttravel",
+          "Value": {
+            "ID": "operation_guide_mapmenu_fasttravel",
+            "presetType": 124,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_pin_list",
+          "Value": {
+            "ID": "operation_guide_mapmenu_pin_list",
+            "presetType": 125,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_hierarchy_list",
+          "Value": {
+            "ID": "operation_guide_mapmenu_hierarchy_list",
+            "presetType": 126,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_quest_list",
+          "Value": {
+            "ID": "operation_guide_mapmenu_quest_list",
+            "presetType": 127,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_quest_list_add_pin",
+          "Value": {
+            "ID": "operation_guide_mapmenu_quest_list_add_pin",
+            "presetType": 128,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "map_set_pin",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mapmenu_quest_list_delete_pin",
+          "Value": {
+            "ID": "operation_guide_mapmenu_quest_list_delete_pin",
+            "presetType": 129,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "map_delete_pin",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_favorite",
+          "Value": {
+            "ID": "operation_guide_item_create_favorite",
+            "presetType": 130,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_favorite_none",
+          "Value": {
+            "ID": "operation_guide_item_create_favorite_none",
+            "presetType": 131,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_tutorial",
+          "Value": {
+            "ID": "operation_guide_item_create_tutorial",
+            "presetType": 135,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_setting",
+          "Value": {
+            "ID": "operation_guide_item_create_setting",
+            "presetType": 132,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_setting_remove",
+          "Value": {
+            "ID": "operation_guide_item_create_setting_remove",
+            "presetType": 133,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_craft_recipe_list",
+          "Value": {
+            "ID": "operation_guide_item_craft_recipe_list",
+            "presetType": 134,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_character_select",
+          "Value": {
+            "ID": "operation_guide_item_create_character_select",
+            "presetType": 136,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_equip",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_create_character_select_remove",
+          "Value": {
+            "ID": "operation_guide_item_create_character_select_remove",
+            "presetType": 137,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_equip",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_remove",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_craft_rebuild_skill_select",
+          "Value": {
+            "ID": "operation_guide_item_craft_rebuild_skill_select",
+            "presetType": 138,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_craft_rebuild_skill_reflection",
+          "Value": {
+            "ID": "operation_guide_item_craft_rebuild_skill_reflection",
+            "presetType": 139,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_list_phase_end",
+          "Value": {
+            "ID": "operation_guide_quest_list_phase_end",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_list_purpose_point",
+          "Value": {
+            "ID": "operation_guide_quest_list_purpose_point",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_purpose_point_confirm",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_purpose_point_off",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_list",
+          "Value": {
+            "ID": "operation_guide_quest_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_purpose_point_confirm",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_purpose_point_config",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_list_purpose_point_request",
+          "Value": {
+            "ID": "operation_guide_quest_list_purpose_point_request",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_give_up",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_purpose_point_confirm",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_purpose_point_off",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_list_request",
+          "Value": {
+            "ID": "operation_guide_quest_list_request",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_give_up",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_purpose_point_confirm",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_purpose_point_config",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_life_trial_window",
+          "Value": {
+            "ID": "operation_guide_quest_life_trial_window",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_story_quest_putpose_point",
+          "Value": {
+            "ID": "operation_guide_story_quest_putpose_point",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_purpose_point_confirm",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_story_quest_life_button_focus",
+          "Value": {
+            "ID": "operation_guide_story_quest_life_button_focus",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_request_item_select",
+          "Value": {
+            "ID": "operation_guide_quest_request_item_select",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_quest_request_item_select_empty",
+          "Value": {
+            "ID": "operation_guide_quest_request_item_select_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_life_select",
+          "Value": {
+            "ID": "operation_guide_skillboard_life_select",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_list_normal",
+          "Value": {
+            "ID": "operation_guide_skillboard_list_normal",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_learn_all",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_board_scale",
+                "iconTextId": "gaiji_key_menu_scale_change"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_list_batch",
+          "Value": {
+            "ID": "operation_guide_skillboard_list_batch",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_unlock",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_board_scale",
+                "iconTextId": "gaiji_key_menu_scale_change"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_board_normal",
+          "Value": {
+            "ID": "operation_guide_skillboard_board_normal",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_learn_all",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_board_scale",
+                "iconTextId": "gaiji_key_menu_scale_change"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_board_batch",
+          "Value": {
+            "ID": "operation_guide_skillboard_board_batch",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_unlock",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_board_scale",
+                "iconTextId": "gaiji_key_menu_scale_change"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_board_decide_none_normal",
+          "Value": {
+            "ID": "operation_guide_skillboard_board_decide_none_normal",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_learn_all",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_board_scale",
+                "iconTextId": "gaiji_key_menu_scale_change"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_skillboard_board_decide_none_batch",
+          "Value": {
+            "ID": "operation_guide_skillboard_board_decide_none_batch",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_help_guide",
+                "iconTextId": "gaiji_key_menu_l_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_unlock",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_board_scale",
+                "iconTextId": "gaiji_key_menu_scale_change"
+              },
+              {
+                "textId": "button_guide_text_quest_list_open_close",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "possession_select_menu",
+          "Value": {
+            "ID": "possession_select_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "possession_select_menu_close_only",
+          "Value": {
+            "ID": "possession_select_menu_close_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "appraisalItem_item_list",
+          "Value": {
+            "ID": "appraisalItem_item_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "help_window_menu",
+          "Value": {
+            "ID": "help_window_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_next",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "help_window_menu_close_only",
+          "Value": {
+            "ID": "help_window_menu_close_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "filter_window_menu",
+          "Value": {
+            "ID": "filter_window_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_mode_select",
+          "Value": {
+            "ID": "multi_mode_select",
+            "presetType": 190,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_create",
+          "Value": {
+            "ID": "multi_room_create",
+            "presetType": 191,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_create_edit",
+          "Value": {
+            "ID": "multi_room_create_edit",
+            "presetType": 197,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_search_easy",
+          "Value": {
+            "ID": "multi_room_search_easy",
+            "presetType": 192,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_search",
+          "Value": {
+            "ID": "multi_room_search",
+            "presetType": 193,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_search_result",
+          "Value": {
+            "ID": "multi_room_search_result",
+            "presetType": 194,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_search_cond_change",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_list_update",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_setting_window",
+          "Value": {
+            "ID": "multi_room_setting_window",
+            "presetType": 196,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_room_setting_window_comment",
+          "Value": {
+            "ID": "multi_room_setting_window_comment",
+            "presetType": 196,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_reset",
+                "iconTextId": "gaiji_key_menu_select_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "multi_present_log",
+          "Value": {
+            "ID": "multi_present_log",
+            "presetType": 195,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_menu",
+          "Value": {
+            "ID": "infrastructure_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_menu_tutorial_npc_house",
+          "Value": {
+            "ID": "infrastructure_menu_tutorial_npc_house",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_removal_menu",
+          "Value": {
+            "ID": "infrastructure_removal_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_removal_menu_close_only",
+          "Value": {
+            "ID": "infrastructure_removal_menu_close_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_reform_house_select_menu",
+          "Value": {
+            "ID": "infrastructure_reform_house_select_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_reform_house_select_menu_close_only",
+          "Value": {
+            "ID": "infrastructure_reform_house_select_menu_close_only",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "infrastructure_reform_house_menu",
+          "Value": {
+            "ID": "infrastructure_reform_house_menu",
+            "presetType": 226,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_complete",
+                "iconTextId": "gaiji_key_menu_start_silhouette_color"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_select",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_player_knock_out_window_menu",
+          "Value": {
+            "ID": "operation_guide_player_knock_out_window_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_player_knock_out_friend_help_menu",
+          "Value": {
+            "ID": "operation_guide_player_knock_out_friend_help_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "life_checked_window_menu",
+          "Value": {
+            "ID": "life_checked_window_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mount_default",
+          "Value": {
+            "ID": "operation_guide_mount_default",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mount_riding",
+          "Value": {
+            "ID": "operation_guide_mount_riding",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mount_hidden",
+          "Value": {
+            "ID": "operation_guide_mount_hidden",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ui_show_hide",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_rotation",
+                "iconTextId": "gaiji_key_menu_model_rotate_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mount_empty",
+          "Value": {
+            "ID": "operation_guide_mount_empty",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_farm_stand_menu",
+          "Value": {
+            "ID": "operation_guide_farm_stand_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              },
+              {
+                "textId": "button_guide_text_collect_vegetables",
+                "iconTextId": "gaiji_key_menu_r_left_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_farm_stand_item_list_menu",
+          "Value": {
+            "ID": "operation_guide_farm_stand_item_list_menu",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_move_rpg",
+          "Value": {
+            "ID": "operation_guide_move_rpg",
+            "presetType": 240,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_move",
+                "iconTextId": "gaiji_key_menu_analog_l_default"
+              },
+              {
+                "textId": "button_guide_text_dash",
+                "iconTextId": "gaiji_key_btl_dash_default"
+              },
+              {
+                "textId": "button_guide_text_jump",
+                "iconTextId": "gaiji_key_btl_jump"
+              },
+              {
+                "textId": "button_guide_text_check_talk",
+                "iconTextId": "gaiji_key_target_action_default"
+              },
+              {
+                "textId": "button_guide_text_camera_control",
+                "iconTextId": "gaiji_key_menu_camera_move_keyboard_space"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_battle_rpg",
+          "Value": {
+            "ID": "operation_guide_battle_rpg",
+            "presetType": 241,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_attack",
+                "iconTextId": "gaiji_key_btl_attack_default"
+              },
+              {
+                "textId": "button_guide_text_strong_attack",
+                "iconTextId": "gaiji_key_btl_strong_attack_keyboard"
+              },
+              {
+                "textId": "button_guide_text_unique_attack",
+                "iconTextId": "gaiji_key_btl_unique_default"
+              },
+              {
+                "textId": "button_guide_text_rolling",
+                "iconTextId": "gaiji_key_btl_avoid"
+              },
+              {
+                "textId": "button_guide_text_weapon_put_away",
+                "iconTextId": "gaiji_key_btl_weapon_sheathr_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_map_rpg",
+          "Value": {
+            "ID": "operation_guide_map_rpg",
+            "presetType": 242,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_menu_open",
+                "iconTextId": "gaiji_key_open_main_menu"
+              },
+              {
+                "textId": "button_guide_text_map_open",
+                "iconTextId": "gaiji_key_open_map_menu"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_battle_02_rpg",
+          "Value": {
+            "ID": "operation_guide_battle_02_rpg",
+            "presetType": 243,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_charge_attack",
+                "iconTextId": "gaiji_key_btl_strong_attack_keyboard"
+              },
+              {
+                "textId": "button_guide_text_tension_skill",
+                "iconTextId": "gaiji_key_btl_tension_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_boss_battle",
+          "Value": {
+            "ID": "operation_guide_boss_battle",
+            "presetType": 251,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_attack",
+                "iconTextId": "gaiji_key_btl_attack_default"
+              },
+              {
+                "textId": "button_guide_text_rolling",
+                "iconTextId": "gaiji_key_btl_avoid"
+              },
+              {
+                "textId": "button_guide_text_rock_on",
+                "iconTextId": "gaiji_key_btl_target_lock_default"
+              },
+              {
+                "textId": "button_guide_text_guard",
+                "iconTextId": "gaiji_key_btl_unique_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_cross_key_rpg",
+          "Value": {
+            "ID": "operation_guide_cross_key_rpg",
+            "presetType": 252,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_license",
+                "iconTextId": "gaiji_key_open_license_menu"
+              },
+              {
+                "textId": "button_guide_text_status",
+                "iconTextId": "gaiji_key_btl_buff_debuff"
+              },
+              {
+                "textId": "button_guide_text_chat",
+                "iconTextId": "gaiji_key_open_text_chat"
+              },
+              {
+                "textId": "button_guide_text_zoom",
+                "iconTextId": "gaiji_key_camera_zoom"
+              },
+              {
+                "textId": "button_guide_text_greeting",
+                "iconTextId": "gaiji_key_open_greeting"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_cross_key_060050",
+          "Value": {
+            "ID": "operation_guide_cross_key_060050",
+            "presetType": 7,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_status",
+                "iconTextId": "gaiji_key_btl_buff_debuff"
+              },
+              {
+                "textId": "button_guide_text_zoom",
+                "iconTextId": "gaiji_key_camera_zoom"
+              },
+              {
+                "textId": "button_guide_text_greeting",
+                "iconTextId": "gaiji_key_open_greeting"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_item_bag_rpg",
+          "Value": {
+            "ID": "operation_guide_item_bag_rpg",
+            "presetType": 253,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_itembag",
+                "iconTextId": "gaiji_key_btl_item_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft",
+          "Value": {
+            "ID": "operation_guide_craft",
+            "presetType": 36,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_craft_openlist",
+                "iconTextId": "gaiji_key_rpg_open_craft_menu_default"
+              },
+              {
+                "textId": "button_guide_text_craftcollect",
+                "iconTextId": "gaiji_key_craft_obj_take_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_on_placement",
+          "Value": {
+            "ID": "operation_guide_craft_on_placement",
+            "presetType": 38,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_craft_on_openlist",
+                "iconTextId": "gaiji_key_craft_handheld_obj_place_default"
+              },
+              {
+                "textId": "button_guide_text_craftcollect",
+                "iconTextId": "gaiji_key_craft_obj_take_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_craft_mode",
+          "Value": {
+            "ID": "operation_guide_craft_mode",
+            "presetType": 39,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_craftmenu",
+                "iconTextId": "gaiji_key_craft_layout_mode_start_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_cross_key_rpg_swim",
+          "Value": {
+            "ID": "operation_guide_cross_key_rpg_swim",
+            "presetType": 255,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_move",
+                "iconTextId": "gaiji_key_menu_analog_l_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_cross_key_rpg_vehicle",
+          "Value": {
+            "ID": "operation_guide_cross_key_rpg_vehicle",
+            "presetType": 1,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_vehicle_get_off",
+                "iconTextId": "gaiji_key_ride_off_vehicle_default"
+              },
+              {
+                "textId": "button_guide_text_check_talk",
+                "iconTextId": "gaiji_key_target_action_default"
+              },
+              {
+                "textId": "button_guide_text_jump",
+                "iconTextId": "gaiji_key_btl_jump"
+              },
+              {
+                "textId": "button_guide_text_dash",
+                "iconTextId": "gaiji_key_btl_dash_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_jump",
+          "Value": {
+            "ID": "operation_guide_jump",
+            "presetType": 3,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_jump",
+                "iconTextId": "gaiji_key_btl_jump"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_jump_climb",
+          "Value": {
+            "ID": "operation_guide_jump_climb",
+            "presetType": 4,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_jump_climb",
+                "iconTextId": "gaiji_key_btl_jump"
+              },
+              {
+                "textId": "button_guide_text_jump_climb_cancel",
+                "iconTextId": "gaiji_key_climb_cancel"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_dash",
+          "Value": {
+            "ID": "operation_guide_dash",
+            "presetType": 5,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_dash",
+                "iconTextId": "gaiji_key_btl_dash_default"
+              },
+              {
+                "textId": "button_guide_text_attack",
+                "iconTextId": "gaiji_key_btl_attack_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_logging_rpg",
+          "Value": {
+            "ID": "operation_guide_logging_rpg",
+            "presetType": 244,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_logging_move",
+                "iconTextId": "gaiji_key_mg_collect_move_default"
+              },
+              {
+                "textId": "button_guide_text_logging_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_attack_default"
+              },
+              {
+                "textId": "button_guide_text_logging_strong_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_strong_attack_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_logging_stop",
+                "iconTextId": "gaiji_key_mg_collect_back_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_mining_rpg",
+          "Value": {
+            "ID": "operation_guide_mining_rpg",
+            "presetType": 245,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_mining_move",
+                "iconTextId": "gaiji_key_mg_collect_move_default"
+              },
+              {
+                "textId": "button_guide_text_mining_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_attack_default"
+              },
+              {
+                "textId": "button_guide_text_mining_strong_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_strong_attack_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_mining_stop",
+                "iconTextId": "gaiji_key_mg_collect_back_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_fishing_rpg",
+          "Value": {
+            "ID": "operation_guide_fishing_rpg",
+            "presetType": 246,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_fishing_start",
+                "iconTextId": "gaiji_key_mg_collect_btn_fish_hook"
+              },
+              {
+                "textId": "button_guide_text_fishing_stop",
+                "iconTextId": "gaiji_key_mg_collect_back_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_fishing_rpg2",
+          "Value": {
+            "ID": "operation_guide_fishing_rpg2",
+            "presetType": 247,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_fishing_move",
+                "iconTextId": "gaiji_key_mg_collect_handle"
+              },
+              {
+                "textId": "button_guide_text_fishing_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_attack_default"
+              },
+              {
+                "textId": "button_guide_text_fishing_strong_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_strong_attack_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_fishing_stop",
+                "iconTextId": "gaiji_key_mg_collect_back_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_harvesting_rpg",
+          "Value": {
+            "ID": "operation_guide_harvesting_rpg",
+            "presetType": 248,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_harvesting_move",
+                "iconTextId": "gaiji_key_mg_collect_move_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_attack_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_strong_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_strong_attack_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_harvesting_stop",
+                "iconTextId": "gaiji_key_mg_collect_back_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_harvesting_tutorial_minigame_rpg",
+          "Value": {
+            "ID": "operation_guide_harvesting_tutorial_minigame_rpg",
+            "presetType": 6,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_harvesting_move",
+                "iconTextId": "gaiji_key_mg_collect_move_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_attack_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_strong_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_strong_attack_keyboard_space"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_harvesting_boss_rpg",
+          "Value": {
+            "ID": "operation_guide_harvesting_boss_rpg",
+            "presetType": 249,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_harvesting_move",
+                "iconTextId": "gaiji_key_mg_collect_move_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_attack_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_strong_attack",
+                "iconTextId": "gaiji_key_mg_collect_btn_strong_attack_keyboard_space"
+              },
+              {
+                "textId": "button_guide_text_harvesting_stop",
+                "iconTextId": "gaiji_key_mg_collect_back_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_harvesting_seed_rpg",
+          "Value": {
+            "ID": "operation_guide_harvesting_seed_rpg",
+            "presetType": 250,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_harvesting_move",
+                "iconTextId": "gaiji_key_menu_analog_l_default"
+              },
+              {
+                "textId": "button_guide_text_harvesting_seed",
+                "iconTextId": "gaiji_key_target_action_default"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_board_guild_quest",
+          "Value": {
+            "ID": "operation_guide_board_guild_quest",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_board_reward_list",
+          "Value": {
+            "ID": "operation_guide_board_reward_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_board_guild_quest_rank_up",
+          "Value": {
+            "ID": "operation_guide_board_guild_quest_rank_up",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_plant_dungeon_wartering_select",
+          "Value": {
+            "ID": "operation_guide_plant_dungeon_wartering_select",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_plant_dungeon_detail",
+          "Value": {
+            "ID": "operation_guide_plant_dungeon_detail",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_close",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_plant_dungeon_inventory",
+          "Value": {
+            "ID": "operation_guide_plant_dungeon_inventory",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_routemap_confirmation",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_plant_dungeon_inventory_vintage_select",
+          "Value": {
+            "ID": "operation_guide_plant_dungeon_inventory_vintage_select",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_routemap_confirmation",
+                "iconTextId": "gaiji_key_menu_start_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_plant_dungeon_inventory_item_none",
+          "Value": {
+            "ID": "operation_guide_plant_dungeon_inventory_item_none",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_ripening_alter_fillup_equip",
+          "Value": {
+            "ID": "operation_guide_ripening_alter_fillup_equip",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ripening_altar_skill",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_favorite",
+                "iconTextId": "gaiji_key_menu_right_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_ui_show",
+                "iconTextId": "gaiji_key_menu_r_push_center_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_ripening_altar_fillup_material",
+          "Value": {
+            "ID": "operation_guide_ripening_altar_fillup_material",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_ripening_altar_skill",
+                "iconTextId": "gaiji_key_menu_left_trigger_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_guide_help_list",
+          "Value": {
+            "ID": "operation_guide_activity_guide_help_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              },
+              {
+                "textId": "button_guide_text_decide",
+                "iconTextId": "gaiji_key_menu_enter_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_guide_tips_list",
+          "Value": {
+            "ID": "operation_guide_activity_guide_tips_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_activity_guide_empty_list",
+          "Value": {
+            "ID": "operation_guide_activity_guide_empty_list",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_license",
+          "Value": {
+            "ID": "operation_guide_license",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_talk_log",
+          "Value": {
+            "ID": "operation_guide_talk_log",
+            "presetType": 0,
+            "footerType": 0,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_move_top",
+                "iconTextId": "gaiji_key_menu_change_left_silhouette"
+              },
+              {
+                "textId": "button_guide_text_move_bottom",
+                "iconTextId": "gaiji_key_menu_change_right_silhouette"
+              },
+              {
+                "textId": "button_guide_text_back",
+                "iconTextId": "gaiji_key_menu_back_silhouette"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "operation_guide_TGS2024",
+          "Value": {
+            "ID": "operation_guide_TGS2024",
+            "presetType": 2,
+            "footerType": 2,
+            "buttonGuideInfoList": [
+              {
+                "textId": "button_guide_text_vehicle_get_on",
+                "iconTextId": "gaiji_key_menu_change_left_default"
+              },
+              {
+                "textId": "button_guide_text_license",
+                "iconTextId": "gaiji_key_open_license_menu"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

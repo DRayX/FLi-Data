@@ -48,6 +48,7 @@ class ItemData extends BaseData {
   tables: Array<ItemTableDetail> = [];
   material_for: Array<RecipeItemInfo> = [];
   created_by: Array<RecipeData> = [];
+  shops: Array<ShopItemInfo> = [];
 
   static async load(path: string, names: Map<string, TextData>, descs: Map<string, TextData>): Promise<Map<string, ItemData>> {
     return await loadData(path, async data => {
@@ -248,6 +249,63 @@ class CharaParameter extends BaseData {
   }
 }
 
+class ShopItemInfo extends BaseData {
+  shop: ShopData;
+  item: ItemData | null;
+
+  constructor(data: any, shop: ShopData, items: Map<string, ItemData>) {
+    super(data);
+    this.shop = shop;
+    this.item = getProperty(items, data.ItemId);
+    if (this.item) {
+      this.item.shops.push(this);
+    }
+  }
+}
+
+class ShopData extends BaseData {
+  name: TextData | null;
+  items: Array<ShopItemInfo>;
+  maps: Array<MapShopConfigInfo> = [];
+
+  static async load(path: string, text: Map<string, TextData>, items: Map<string, ItemData>): Promise<Map<string, ShopData>> {
+    return await loadData(path, async data => {
+      const shop = new ShopData(data);
+      shop.name = getProperty(text, data.signInfo.buyShopNameIdArray[0]);
+      shop.items = data.itemInfoList.map(item => new ShopItemInfo(item, shop, items));
+      return shop;
+    });
+  }
+}
+
+class MapShopConfigInfo extends BaseData {
+  map: MapShopConfig;
+  shop: ShopData | null;
+
+  constructor(data: any, map: MapShopConfig, shops: Map<string, ShopData>) {
+    super(data);
+    this.map = map;
+    this.shop = getProperty(shops, data.shopId);
+    if (this.shop) {
+      this.shop.maps.push(this);
+    }
+  }
+}
+
+class MapShopConfig extends BaseData {
+  map: MapData;
+  info: Array<MapShopConfigInfo>;
+
+  static async load(path: string, map: MapData, shops: Map<string, ShopData>): Promise<Map<string, MapShopConfig>> {
+    return loadData(path, async data => {
+      const shop = new MapShopConfig(data);
+      shop.map = map;
+      shop.info = data.shopInfoArray.map(item => new MapShopConfigInfo(item, shop, shops));
+      return shop;
+    });
+  }
+}
+
 class EnemyPlacementConfig extends BaseData {
   group: EnemyGroupConfig;
   param: CharaParameter | null;
@@ -290,6 +348,7 @@ class MapData extends BaseData {
   name: TextData | null;
   pick_points: Map<string, MapPickPoint>;
   enemies: Map<string, EnemyGroupConfig>;
+  shops: Map<string, MapShopConfig>;
 
   static async load(
       path: string,
@@ -297,12 +356,14 @@ class MapData extends BaseData {
       pick_groups: Map<string, PickPointGroup>,
       enemy_params: Map<string, CharaParameter>,
       drops: Map<string, ItemTableGroupSetting>,
+      shops: Map<string, ShopData>,
   ): Promise<Map<string, MapData>> {
     return loadData(path, async data => {
       const map = new MapData(data);
       map.name = getProperty(names, data.mapName);
       map.pick_points = await MapPickPoint.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapPickPoint.json`, map, pick_groups);
       map.enemies = await EnemyGroupConfig.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapEnemyPlacementConfig.json`, map, enemy_params, drops);
+      map.shops = await MapShopConfig.load(`GameData/Shop/Map/${data.mapId}/${data.mapId}_GDSMapShopConfig.json`, map, shops);
       return map;
     });
   }
@@ -368,6 +429,8 @@ class GameData {
   chara_names: Map<string, TextData>;
   chara_data: Map<string, CharaData>;
   enemy_params: Map<string, CharaParameter>;
+  menu_text: Map<string, TextData>;
+  shop_data: Map<string, ShopData>;
   map_names: Map<string, TextData>;
   map_data: Map<string, MapData>;
   recipe_data: Map<string, RecipeData>;
@@ -393,8 +456,10 @@ class GameData {
     data.chara_names = await TextData.load('GameData/Chara/GDSCharaText_Noun.json', 'textInfo', `nounSingularForm_${lang}`);
     data.chara_data = await CharaData.load('GameData/Chara/GDSCharaData.json', data.chara_names);
     data.enemy_params = await CharaParameter.load('GameData/Chara/GDSCharaParameterEnemy.json', data.chara_data);
+    data.menu_text = await TextData.load('GameData/Menu/GDSMenuText.json', 'textInfo', `text_${lang}`);
+    data.shop_data = await ShopData.load('GameData/Shop/GDSShopData.json', data.menu_text, data.all_items);
     data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
-    data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups);
+    data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups, data.shop_data);
     data.recipe_data = await RecipeData.load('GameData/Recipe/GDSRecipeData.json', data.all_items);
     return data;
   }

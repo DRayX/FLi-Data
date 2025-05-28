@@ -1,0 +1,403 @@
+[
+  {
+    "Type": "GDSMainMenuData",
+    "Name": "GDSMainMenuData",
+    "Class": "UScriptClass'GDSMainMenuData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "main_menu_item",
+          "Value": {
+            "ID": "main_menu_item",
+            "TitleNameID": "main_menu_icon_item_text",
+            "guideTextId": "main_menu_icon_item_text",
+            "iconID": "ICON_MAIN_MENU_00",
+            "sameOpenMenu": true,
+            "openMenuId": "inventory_menu",
+            "limitId": "INVENTORY_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_inventory",
+            "newBitFlagId": "flg_add_menu_inventory",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_equip_ability",
+          "Value": {
+            "ID": "main_menu_equip_ability",
+            "TitleNameID": "main_menu_icon_equip_text",
+            "guideTextId": "main_menu_icon_equip_text",
+            "iconID": "ICON_MAIN_MENU_04",
+            "sameOpenMenu": true,
+            "openMenuId": "equip_ability_menu",
+            "limitId": "ABILITY_EQUIP_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_equip_ability",
+            "newBitFlagId": "flg_add_menu_equip_ability",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_equip_view",
+          "Value": {
+            "ID": "main_menu_equip_view",
+            "TitleNameID": "equip_view_screen_title",
+            "guideTextId": "equip_view_screen_title",
+            "iconID": "ICON_MAIN_MENU_17",
+            "sameOpenMenu": true,
+            "openMenuId": "equip_view_menu",
+            "limitId": "VIEW_EQUIP_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_equip_view",
+            "newBitFlagId": "flg_add_menu_equip_view",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_skillborard",
+          "Value": {
+            "ID": "main_menu_skillborard",
+            "TitleNameID": "main_menu_icon_skillboard_text",
+            "guideTextId": "main_menu_icon_skillboard_text",
+            "iconID": "ICON_MAIN_MENU_13",
+            "sameOpenMenu": true,
+            "openMenuId": "skillboard_menu",
+            "limitId": "SKILL_BOARD_MENU",
+            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU_LOBBY",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_skill_board",
+            "newBitFlagId": "flg_add_menu_skill_board",
+            "updateBitFlagId": "flg_update_memu_skill_board"
+          }
+        },
+        {
+          "Key": "main_menu_chara",
+          "Value": {
+            "ID": "main_menu_chara",
+            "TitleNameID": "main_menu_icon_character_text",
+            "guideTextId": "main_menu_icon_character_text",
+            "iconID": "ICON_MAIN_MENU_01",
+            "sameOpenMenu": true,
+            "openMenuId": "character_menu",
+            "limitId": "CHARACTER_MENU_TOP",
+            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_character",
+            "newBitFlagId": "flg_add_menu_character",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_quest",
+          "Value": {
+            "ID": "main_menu_quest",
+            "TitleNameID": "main_menu_icon_quest_text",
+            "guideTextId": "main_menu_icon_quest_text",
+            "iconID": "ICON_MAIN_MENU_02",
+            "sameOpenMenu": true,
+            "openMenuId": "quest_list_menu",
+            "limitId": "QUEST_LIST_MENU",
+            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_quest",
+            "newBitFlagId": "flg_add_menu_quest",
+            "updateBitFlagId": "flg_update_memu_quest"
+          }
+        },
+        {
+          "Key": "main_menu_library",
+          "Value": {
+            "ID": "main_menu_library",
+            "TitleNameID": "main_menu_icon_library_text",
+            "guideTextId": "main_menu_icon_library_text",
+            "iconID": "ICON_MAIN_MENU_05",
+            "sameOpenMenu": true,
+            "openMenuId": "activity_menu",
+            "limitId": "ACTIVITY_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_activity",
+            "newBitFlagId": "flg_add_menu_activity",
+            "updateBitFlagId": "flg_update_memu_activity"
+          }
+        },
+        {
+          "Key": "main_menu_license",
+          "Value": {
+            "ID": "main_menu_license",
+            "TitleNameID": "main_menu_icon_license_text",
+            "guideTextId": "main_menu_icon_license_text",
+            "iconID": "ICON_MAIN_MENU_11",
+            "sameOpenMenu": true,
+            "openMenuId": "life_select_menu",
+            "limitId": "LICENSE_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_license",
+            "newBitFlagId": "flg_add_menu_license",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_recipe",
+          "Value": {
+            "ID": "main_menu_recipe",
+            "TitleNameID": "main_menu_icon_recipe_text",
+            "guideTextId": "main_menu_icon_recipe_text",
+            "iconID": "ICON_MAIN_MENU_06",
+            "sameOpenMenu": false,
+            "openMenuId": "item_craft_memu",
+            "limitId": "RECIPE_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_recipe",
+            "newBitFlagId": "flg_add_menu_recipe",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_hugemap",
+          "Value": {
+            "ID": "main_menu_hugemap",
+            "TitleNameID": "main_menu_icon_hugemap_1_text",
+            "guideTextId": "main_menu_icon_hugemap_1_text",
+            "iconID": "ICON_MAIN_MENU_16",
+            "sameOpenMenu": false,
+            "openMenuId": "general_window_menu",
+            "limitId": "GO_HUGE_MAP",
+            "hideLimitId": "GO_HUGE_MAP_SHOW",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_huge_map",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_map",
+          "Value": {
+            "ID": "main_menu_map",
+            "TitleNameID": "main_menu_icon_map_text",
+            "guideTextId": "main_menu_icon_map_text",
+            "iconID": "ICON_MAIN_MENU_03",
+            "sameOpenMenu": true,
+            "openMenuId": "map_menu",
+            "limitId": "MAP_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_map",
+            "newBitFlagId": "flg_add_menu_map",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_mount",
+          "Value": {
+            "ID": "main_menu_mount",
+            "TitleNameID": "main_menu_icon_mount_text",
+            "guideTextId": "main_menu_icon_mount_text",
+            "iconID": "ICON_MAIN_MENU_09",
+            "sameOpenMenu": true,
+            "openMenuId": "mount_menu",
+            "limitId": "MOUNT_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_mount",
+            "newBitFlagId": "flg_add_menu_mount",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_save",
+          "Value": {
+            "ID": "main_menu_save",
+            "TitleNameID": "main_menu_icon_save_text",
+            "guideTextId": "main_menu_icon_save_text",
+            "iconID": "ICON_MAIN_MENU_07",
+            "sameOpenMenu": true,
+            "openMenuId": "save_menu",
+            "limitId": "SAVE_MENU",
+            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_save",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_dungeon_retire",
+          "Value": {
+            "ID": "main_menu_dungeon_retire",
+            "TitleNameID": "main_menu_icon_plantdungeon_retire_text",
+            "guideTextId": "main_menu_icon_plantdungeon_retire_text",
+            "iconID": "ICON_MAIN_MENU_21",
+            "sameOpenMenu": false,
+            "openMenuId": "general_window_menu",
+            "limitId": "DUNGEON_RETIRE",
+            "hideLimitId": "DUNGEON_RETIRE_SHOW",
+            "lastAddEnabled": true,
+            "openBitFlagId": "flg_open_menu_my_home",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_plantdungeon_inventory",
+          "Value": {
+            "ID": "main_menu_plantdungeon_inventory",
+            "TitleNameID": "main_menu_icon_plantdungeon_inventory_text",
+            "guideTextId": "main_menu_icon_plantdungeon_inventory_text",
+            "iconID": "ICON_MAIN_MENU_15",
+            "sameOpenMenu": true,
+            "openMenuId": "plant_dungeon_inventory_menu",
+            "limitId": "PLANT_DUNGEON_INVENTORY_MENU",
+            "hideLimitId": "PLANT_DUNGEON_INVENTORY_MENU_SHOW",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_plant_dungeon_inventory",
+            "newBitFlagId": "flg_add_menu_plant_dungeon_inventory",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_delivery",
+          "Value": {
+            "ID": "main_menu_delivery",
+            "TitleNameID": "main_menu_icon_delivery_text",
+            "guideTextId": "main_menu_icon_delivery_text",
+            "iconID": "ICON_MAIN_MENU_12",
+            "sameOpenMenu": true,
+            "openMenuId": "delivery_menu",
+            "limitId": "DELIVERY_MENU",
+            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_delivery",
+            "newBitFlagId": "flg_add_menu_delivery",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_guide",
+          "Value": {
+            "ID": "main_menu_guide",
+            "TitleNameID": "activity_menu_category_help_guide",
+            "guideTextId": "activity_menu_category_help_guide",
+            "iconID": "ICON_MAIN_MENU_14",
+            "sameOpenMenu": true,
+            "openMenuId": "guide_menu",
+            "limitId": "GUIDE_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_guide",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_talk_log",
+          "Value": {
+            "ID": "main_menu_talk_log",
+            "TitleNameID": "main_menu_icon_text_log_text",
+            "guideTextId": "button_guide_text_log",
+            "iconID": "ICON_MAIN_MENU_18",
+            "sameOpenMenu": true,
+            "openMenuId": "talk_log_main_menu",
+            "limitId": "TALK_LOG_MENU",
+            "hideLimitId": "TALK_LOG_MENU_SHOW",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_talk_log",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_play_history",
+          "Value": {
+            "ID": "main_menu_play_history",
+            "TitleNameID": "text_log_screen_playlog",
+            "guideTextId": "text_log_screen_playlog",
+            "iconID": "ICON_MAIN_MENU_19",
+            "sameOpenMenu": true,
+            "openMenuId": "multi_play_history_menu",
+            "limitId": "MULTI_PLAY_HISTORY_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_play_history",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_option",
+          "Value": {
+            "ID": "main_menu_option",
+            "TitleNameID": "main_menu_icon_option_text",
+            "guideTextId": "main_menu_icon_option_text",
+            "iconID": "ICON_MAIN_MENU_08",
+            "sameOpenMenu": true,
+            "openMenuId": "option_menu",
+            "limitId": "OPTION_MENU",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_option",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_end_multi",
+          "Value": {
+            "ID": "main_menu_end_multi",
+            "TitleNameID": "main_menu_icon_end_multi_text",
+            "guideTextId": "main_menu_icon_end_multi_text",
+            "iconID": "ICON_MAIN_MENU_22",
+            "sameOpenMenu": false,
+            "openMenuId": "general_window_menu",
+            "limitId": "MULTI_PLAY_END_MENU",
+            "hideLimitId": "MULTI_PLAY_END_MENU_SHOW",
+            "lastAddEnabled": true,
+            "openBitFlagId": "flg_open_menu_end_multi",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_end_multi_host",
+          "Value": {
+            "ID": "main_menu_end_multi_host",
+            "TitleNameID": "main_menu_icon_multi_host_dissolution_text",
+            "guideTextId": "main_menu_icon_multi_host_dissolution_text",
+            "iconID": "ICON_MAIN_MENU_22",
+            "sameOpenMenu": false,
+            "openMenuId": "general_window_menu",
+            "limitId": "MULTI_PLAY_END_MENU_HOST",
+            "hideLimitId": "MULTI_PLAY_END_MENU_HOST_SHOW",
+            "lastAddEnabled": true,
+            "openBitFlagId": "flg_open_menu_end_multi",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_return_base",
+          "Value": {
+            "ID": "main_menu_return_base",
+            "TitleNameID": "main_menu_icon_multi_finish_text",
+            "guideTextId": "main_menu_icon_multi_finish_text",
+            "iconID": "ICON_MAIN_MENU_23",
+            "sameOpenMenu": false,
+            "openMenuId": "general_window_menu",
+            "limitId": "RETURN_BASE_MENU",
+            "hideLimitId": "RETURN_BASE_MENU_SHOW",
+            "lastAddEnabled": true,
+            "openBitFlagId": "flg_open_menu_return_base",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        }
+      ]
+    }
+  }
+]

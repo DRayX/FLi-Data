@@ -1,0 +1,1160 @@
+[
+  {
+    "Type": "GDSOptionMenuData",
+    "Name": "GDSOptionMenuData",
+    "Class": "UScriptClass'GDSOptionMenuData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "option_vibration",
+          "Value": {
+            "ID": "option_vibration",
+            "optionSettingType": 0,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_vibration_ps",
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_Platform_Equal",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 3
+                      },
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "textId": "option_category_vibration_xbox",
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_Platform_Equal",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "textId": "option_category_vibration",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_vibration_ps",
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_Platform_Equal",
+                    "arg": [
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 3
+                      },
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "textId": "option_detail_vibration_xbox",
+                "Conditions": [
+                  {
+                    "Cmd": "CondCmd_Platform_Equal",
+                    "arg": [
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 3
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "textId": "option_detail_vibration",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_hud",
+          "Value": {
+            "ID": "option_hud",
+            "optionSettingType": 1,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_hud",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_hud",
+                "Conditions": []
+              }
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsMenuOpened_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_sound_master",
+          "Value": {
+            "ID": "option_sound_master",
+            "optionSettingType": 2,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_sound_master",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_volume_0",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_1",
+                "Value": 1,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_2",
+                "Value": 2,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_3",
+                "Value": 3,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_4",
+                "Value": 4,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_5",
+                "Value": 5,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_sound_master",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_sound_bgm",
+          "Value": {
+            "ID": "option_sound_bgm",
+            "optionSettingType": 3,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_sound_bgm",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_volume_0",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_1",
+                "Value": 1,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_2",
+                "Value": 2,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_3",
+                "Value": 3,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_4",
+                "Value": 4,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_5",
+                "Value": 5,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_sound_bgm",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_sound_se",
+          "Value": {
+            "ID": "option_sound_se",
+            "optionSettingType": 4,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_sound_se",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_volume_0",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_1",
+                "Value": 1,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_2",
+                "Value": 2,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_3",
+                "Value": 3,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_4",
+                "Value": 4,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_5",
+                "Value": 5,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_sound_se",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_sound_voice",
+          "Value": {
+            "ID": "option_sound_voice",
+            "optionSettingType": 5,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_sound_voice",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_volume_0",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_1",
+                "Value": 1,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_2",
+                "Value": 2,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_3",
+                "Value": 3,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_4",
+                "Value": 4,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_5",
+                "Value": 5,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_sound_voice",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_camera_center",
+          "Value": {
+            "ID": "option_camera_center",
+            "optionSettingType": 14,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_camera_center",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_fixed",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_auto",
+                "Value": 6,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_camera_center",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_camera_horizontal",
+          "Value": {
+            "ID": "option_camera_horizontal",
+            "optionSettingType": 6,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_camera_horizontal",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": true
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_camera_horizontal",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_camera_vertical",
+          "Value": {
+            "ID": "option_camera_vertical",
+            "optionSettingType": 7,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_camera_vertical",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": true
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_camera_vertical",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_camera_speed",
+          "Value": {
+            "ID": "option_camera_speed",
+            "optionSettingType": 8,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_camera_speed",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_volume_1",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_2",
+                "Value": 1,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_3",
+                "Value": 2,
+                "initValue": true
+              },
+              {
+                "textId": "option_button_volume_4",
+                "Value": 3,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_volume_5",
+                "Value": 4,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_camera_speed",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_minimap",
+          "Value": {
+            "ID": "option_minimap",
+            "optionSettingType": 10,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_minimap",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_minimap",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_teammate_effect",
+          "Value": {
+            "ID": "option_teammate_effect",
+            "optionSettingType": 11,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_teammate_effect",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_teammate_effect",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_cross_play",
+          "Value": {
+            "ID": "option_cross_play",
+            "optionSettingType": 12,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_crossplay",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_crossplay",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_enable_operation_2p",
+          "Value": {
+            "ID": "option_enable_operation_2p",
+            "optionSettingType": 18,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_enable_operation_2p",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_enable_operation_2p",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              },
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_language",
+          "Value": {
+            "ID": "option_language",
+            "optionSettingType": 16,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_language",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_language_jp",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_us",
+                "Value": 1,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_fr",
+                "Value": 2,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_it",
+                "Value": 7,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_de",
+                "Value": 6,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_es",
+                "Value": 3,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_hant",
+                "Value": 16,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_hans",
+                "Value": 17,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_kr",
+                "Value": 18,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_language",
+                "Conditions": []
+              }
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsMenuOpened_False",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 13
+                  }
+                ]
+              }
+            ],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_voice_language",
+          "Value": {
+            "ID": "option_voice_language",
+            "optionSettingType": 17,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_voice_language",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_language_jp",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_language_us",
+                "Value": 1,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_voice_language",
+                "Conditions": []
+              }
+            ],
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsMenuOpened_False",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 13
+                  }
+                ]
+              }
+            ],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_textdisplay_speed",
+          "Value": {
+            "ID": "option_textdisplay_speed",
+            "optionSettingType": 20,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_textdisplay_speed",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_textdisplay_slow",
+                "Value": 70,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_textdisplay_middle",
+                "Value": 35,
+                "initValue": true
+              },
+              {
+                "textId": "option_button_textdisplay_fast",
+                "Value": 10,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_textdisplay_speed",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_message_sound",
+          "Value": {
+            "ID": "option_message_sound",
+            "optionSettingType": 43,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_textdisplay_se",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_textdisplay_se",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_autoskip_speed",
+          "Value": {
+            "ID": "option_autoskip_speed",
+            "optionSettingType": 19,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_autoskip_speed",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_textdisplay_slow",
+                "Value": 4,
+                "initValue": false
+              },
+              {
+                "textId": "option_button_textdisplay_middle",
+                "Value": 2,
+                "initValue": true
+              },
+              {
+                "textId": "option_button_textdisplay_fast",
+                "Value": 1,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_autoskip_speed",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_eos_id",
+          "Value": {
+            "ID": "option_eos_id",
+            "optionSettingType": 38,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_eos",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 4,
+            "settingItems": [
+              {
+                "textId": "option_button_window_open",
+                "Value": 0,
+                "initValue": false
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_eos",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_eos_account",
+          "Value": {
+            "ID": "option_eos_account",
+            "optionSettingType": 40,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_epicgames_account",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 6,
+            "settingItems": [
+              {
+                "textId": "option_button_epicgames_account",
+                "Value": 0,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_epicgames_account",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_eos_tems_of_use",
+          "Value": {
+            "ID": "option_eos_tems_of_use",
+            "optionSettingType": 41,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_epicgames_account_terms",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 7,
+            "settingItems": [
+              {
+                "textId": "option_button_epicgames_account_terms",
+                "Value": 0,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_epicgames_account_terms",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_eos_privacy_policy",
+          "Value": {
+            "ID": "option_eos_privacy_policy",
+            "optionSettingType": 42,
+            "categoryTextIdArray": [
+              {
+                "textId": "option_category_epicgames_account_privacypolicy",
+                "Conditions": []
+              }
+            ],
+            "settingWindowType": 8,
+            "settingItems": [
+              {
+                "textId": "option_button_epicgames_account_terms",
+                "Value": 0,
+                "initValue": true
+              }
+            ],
+            "detailTextIdArray": [
+              {
+                "textId": "option_detail_epicgames_account_privacypolicy",
+                "Conditions": []
+              }
+            ],
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        75,
+        125,
+        0,
+        70,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        210,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        6,
+        0,
+        0,
+        0,
+        52,
+        10,
+        0,
+        0,
+        0,
+        52,
+        14,
+        0,
+        0,
+        0,
+        52,
+        18,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        37,
+        0,
+        0,
+        0,
+        50,
+        116,
+        39,
+        0,
+        0,
+        52,
+        41,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        69,
+        0,
+        0,
+        0,
+        52,
+        73,
+        0,
+        0,
+        0,
+        52,
+        77,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000PS4\u0000PS5\u0000XSX\u0000PS4\u0000PS5\u0000XSX\u0000title_menu\u0000XSX\u0000main_menu_top\u0000main_menu_top\u0000XSX\u0000XSX\u0000XSX\u0000"
+    }
+  }
+]

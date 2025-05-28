@@ -39,6 +39,7 @@ class ItemData extends BaseData {
         this.tables = [];
         this.material_for = [];
         this.created_by = [];
+        this.shops = [];
     }
     static async load(path, names, descs) {
         return await loadData(path, async (data) => {
@@ -215,6 +216,50 @@ class CharaParameter extends BaseData {
         });
     }
 }
+class ShopItemInfo extends BaseData {
+    constructor(data, shop, items) {
+        super(data);
+        this.shop = shop;
+        this.item = getProperty(items, data.ItemId);
+        if (this.item) {
+            this.item.shops.push(this);
+        }
+    }
+}
+class ShopData extends BaseData {
+    constructor() {
+        super(...arguments);
+        this.maps = [];
+    }
+    static async load(path, text, items) {
+        return await loadData(path, async (data) => {
+            const shop = new ShopData(data);
+            shop.name = getProperty(text, data.signInfo.buyShopNameIdArray[0]);
+            shop.items = data.itemInfoList.map(item => new ShopItemInfo(item, shop, items));
+            return shop;
+        });
+    }
+}
+class MapShopConfigInfo extends BaseData {
+    constructor(data, map, shops) {
+        super(data);
+        this.map = map;
+        this.shop = getProperty(shops, data.shopId);
+        if (this.shop) {
+            this.shop.maps.push(this);
+        }
+    }
+}
+class MapShopConfig extends BaseData {
+    static async load(path, map, shops) {
+        return loadData(path, async (data) => {
+            const shop = new MapShopConfig(data);
+            shop.map = map;
+            shop.info = data.shopInfoArray.map(item => new MapShopConfigInfo(item, shop, shops));
+            return shop;
+        });
+    }
+}
 class EnemyPlacementConfig extends BaseData {
     constructor(data, group, params, drops) {
         super(data);
@@ -240,12 +285,13 @@ class EnemyGroupConfig extends BaseData {
     }
 }
 class MapData extends BaseData {
-    static async load(path, names, pick_groups, enemy_params, drops) {
+    static async load(path, names, pick_groups, enemy_params, drops, shops) {
         return loadData(path, async (data) => {
             const map = new MapData(data);
             map.name = getProperty(names, data.mapName);
             map.pick_points = await MapPickPoint.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapPickPoint.json`, map, pick_groups);
             map.enemies = await EnemyGroupConfig.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapEnemyPlacementConfig.json`, map, enemy_params, drops);
+            map.shops = await MapShopConfig.load(`GameData/Shop/Map/${data.mapId}/${data.mapId}_GDSMapShopConfig.json`, map, shops);
             return map;
         });
     }
@@ -308,8 +354,10 @@ class GameData {
         data.chara_names = await TextData.load('GameData/Chara/GDSCharaText_Noun.json', 'textInfo', `nounSingularForm_${lang}`);
         data.chara_data = await CharaData.load('GameData/Chara/GDSCharaData.json', data.chara_names);
         data.enemy_params = await CharaParameter.load('GameData/Chara/GDSCharaParameterEnemy.json', data.chara_data);
+        data.menu_text = await TextData.load('GameData/Menu/GDSMenuText.json', 'textInfo', `text_${lang}`);
+        data.shop_data = await ShopData.load('GameData/Shop/GDSShopData.json', data.menu_text, data.all_items);
         data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
-        data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups);
+        data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups, data.shop_data);
         data.recipe_data = await RecipeData.load('GameData/Recipe/GDSRecipeData.json', data.all_items);
         return data;
     }

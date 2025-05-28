@@ -1,0 +1,36 @@
+[
+  {
+    "Type": "GDSEventPictureOpenCloseType",
+    "Name": "GDSEventPictureOpenCloseType",
+    "Class": "UScriptClass'GDSEventPictureOpenCloseType'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Default",
+          "Value": {
+            "ID": "Default",
+            "openType": 0,
+            "closeType": 0
+          }
+        },
+        {
+          "Key": "Immediate",
+          "Value": {
+            "ID": "Immediate",
+            "openType": 0,
+            "closeType": 1
+          }
+        },
+        {
+          "Key": "Skip",
+          "Value": {
+            "ID": "Skip",
+            "openType": 1,
+            "closeType": 0
+          }
+        }
+      ]
+    }
+  }
+]

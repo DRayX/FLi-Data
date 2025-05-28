@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "GDSTest_NPCTalkText",
+    "Name": "GDSTest_NPCTalkText",
+    "Class": "UScriptClass'GDSTest_NPCTalkText'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "test_tlk0030000_001",
+          "Value": {
+            "uniqId": "test_tlk0030000_001",
+            "talkInfo": [
+              {
+                "talkerNameId": "name_c0030000",
+                "talkerIconId": "test_faceicon_c0030000_01",
+                "Text": "テスト会話A"
+              },
+              {
+                "talkerNameId": "name_c0030000",
+                "talkerIconId": "test_faceicon_c0030000_01",
+                "Text": "連続テスト会話A"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_tlk0030000_timechange_night",
+          "Value": {
+            "uniqId": "test_tlk0030000_timechange_night",
+            "talkInfo": [
+              {
+                "talkerNameId": "name_c0030000",
+                "talkerIconId": "test_faceicon_c0030000_01",
+                "Text": "現在の時刻は　21時よ。"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "test_tlk0030000_timechange_day",
+          "Value": {
+            "uniqId": "test_tlk0030000_timechange_day",
+            "talkInfo": [
+              {
+                "talkerNameId": "name_c0030000",
+                "talkerIconId": "test_faceicon_c0030000_01",
+                "Text": "現在の時刻は　13時よ。"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

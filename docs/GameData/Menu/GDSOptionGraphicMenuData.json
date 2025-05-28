@@ -1,0 +1,934 @@
+[
+  {
+    "Type": "GDSOptionGraphicMenuData",
+    "Name": "GDSOptionGraphicMenuData",
+    "Class": "UScriptClass'GDSOptionGraphicMenuData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "option_screen_mode",
+          "Value": {
+            "ID": "option_screen_mode",
+            "optionSettingType": 21,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_window",
+            "settingWindowType": 2,
+            "settingItems": [],
+            "DetailTextID": "option_detail_window",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 6
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_screen_resolution",
+          "Value": {
+            "ID": "option_screen_resolution",
+            "optionSettingType": 22,
+            "isChildSetting": false,
+            "categoryTextId": "option_button_resolution",
+            "settingWindowType": 1,
+            "settingItems": [],
+            "DetailTextID": "option_detail_resolution",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 6
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_vertical_sync",
+          "Value": {
+            "ID": "option_vertical_sync",
+            "optionSettingType": 23,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_vsync",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_vsync",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 6
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_frame_rate_limit",
+          "Value": {
+            "ID": "option_frame_rate_limit",
+            "optionSettingType": 24,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_framerate",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_framerate_0",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_framerate_1",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_framerate_2",
+                "Value": 3,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_unlimited",
+                "Value": 4,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_framerate",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 6
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_motion_blur",
+          "Value": {
+            "ID": "option_motion_blur",
+            "optionSettingType": 25,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_motion_blur",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_motion_blur",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_game_mode",
+          "Value": {
+            "ID": "option_game_mode",
+            "optionSettingType": 26,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_game_mode",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_game_mode_01",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_game_mode_00",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_game_mode",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 6
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 3
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_overall_graphics",
+          "Value": {
+            "ID": "option_overall_graphics",
+            "optionSettingType": 27,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_graphic_level",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_low",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_middle",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_high",
+                "Value": 2,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_custom",
+                "Value": 3,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_graphic_level",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_shadow_quality",
+          "Value": {
+            "ID": "option_shadow_quality",
+            "optionSettingType": 28,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_shadow_quality",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_low",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_middle",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_high",
+                "Value": 2,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_shadow_quality",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_anti_aliasing",
+          "Value": {
+            "ID": "option_anti_aliasing",
+            "optionSettingType": 29,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_antialiasing",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_antialiasing_FXAA",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_antialiasing_TAA",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_antialiasing",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_gi",
+          "Value": {
+            "ID": "option_gi",
+            "optionSettingType": 30,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_global_illumination",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_global_illumination",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_ambient_occlusion",
+          "Value": {
+            "ID": "option_ambient_occlusion",
+            "optionSettingType": 31,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_ambient_occlusion",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_ambient_occlusion",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_screen_space_reflection",
+          "Value": {
+            "ID": "option_screen_space_reflection",
+            "optionSettingType": 32,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_screen_space_reflection",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_screen_space_reflection",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_depth_of_field",
+          "Value": {
+            "ID": "option_depth_of_field",
+            "optionSettingType": 33,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_post_processing",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_post_processing",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_object_limit",
+          "Value": {
+            "ID": "option_object_limit",
+            "optionSettingType": 34,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_drawing_distance",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_low",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_middle",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_high",
+                "Value": 2,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_drawing_distance",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_high_quality_object",
+          "Value": {
+            "ID": "option_high_quality_object",
+            "optionSettingType": 35,
+            "isChildSetting": true,
+            "categoryTextId": "option_category_object_quality",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_low",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_middle",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_high",
+                "Value": 2,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_object_quality",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_HDR",
+          "Value": {
+            "ID": "option_HDR",
+            "optionSettingType": 36,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_hdr",
+            "settingWindowType": 0,
+            "settingItems": [
+              {
+                "textId": "option_button_off",
+                "Value": 0,
+                "initValue": [],
+                "childrenInfo": []
+              },
+              {
+                "textId": "option_button_on",
+                "Value": 1,
+                "initValue": [],
+                "childrenInfo": []
+              }
+            ],
+            "DetailTextID": "option_detail_hdr",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_brightness",
+          "Value": {
+            "ID": "option_brightness",
+            "optionSettingType": 37,
+            "isChildSetting": false,
+            "categoryTextId": "option_category_brightness",
+            "settingWindowType": 3,
+            "settingItems": [],
+            "DetailTextID": "option_detail_brightness",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "hiddonCondition": []
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        198,
+        239,
+        0,
+        150,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        93,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        9,
+        0,
+        0,
+        0,
+        52,
+        13,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        52,
+        21,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        36,
+        0,
+        0,
+        0,
+        52,
+        40,
+        0,
+        0,
+        0,
+        52,
+        47,
+        0,
+        0,
+        0,
+        52,
+        51,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        59,
+        0,
+        0,
+        0,
+        52,
+        66,
+        0,
+        0,
+        0,
+        52,
+        70,
+        0,
+        0,
+        0,
+        52,
+        74,
+        0,
+        0,
+        0,
+        52,
+        78,
+        0,
+        0,
+        0,
+        52,
+        85,
+        0,
+        0,
+        0,
+        52,
+        92,
+        0,
+        0,
+        0,
+        52,
+        96,
+        0,
+        0,
+        0,
+        52,
+        104,
+        0,
+        0,
+        0,
+        52,
+        112,
+        0,
+        0,
+        0,
+        52,
+        120,
+        0,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        52,
+        136,
+        0,
+        0,
+        0,
+        52,
+        144,
+        0,
+        0,
+        0,
+        52,
+        152,
+        0,
+        0,
+        0,
+        52,
+        160,
+        0,
+        0,
+        0,
+        52,
+        168,
+        0,
+        0,
+        0,
+        52,
+        176,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000Switch\u0000PS4\u0000PS5\u0000XSX\u0000Switch\u0000PS4\u0000PS5\u0000XSX\u0000Switch\u0000PS4\u0000PS5\u0000XSX\u0000Switch\u0000PS4\u0000PS5\u0000XSX\u0000Switch\u0000Switch\u0000PS4\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Windows\u0000Switch\u0000"
+    }
+  }
+]

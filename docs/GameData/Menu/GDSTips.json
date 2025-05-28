@@ -1,0 +1,1704 @@
+[
+  {
+    "Type": "GDSTips",
+    "Name": "GDSTips",
+    "Class": "UScriptClass'GDSTips'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "tips_10000",
+          "Value": {
+            "ID": "tips_10000",
+            "titleTextID": "tips_title_text_100000",
+            "DetailTextID": "tips_detail_text_100000",
+            "Flag": "flg_tips_10000",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10001",
+          "Value": {
+            "ID": "tips_10001",
+            "titleTextID": "tips_title_text_100001",
+            "DetailTextID": "tips_detail_text_100001",
+            "Flag": "flg_tips_10001",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10002",
+          "Value": {
+            "ID": "tips_10002",
+            "titleTextID": "tips_title_text_100002",
+            "DetailTextID": "tips_detail_text_100002",
+            "Flag": "flg_tips_10002",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10003",
+          "Value": {
+            "ID": "tips_10003",
+            "titleTextID": "tips_title_text_100003",
+            "DetailTextID": "tips_detail_text_100003",
+            "Flag": "flg_tips_10003",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10004",
+          "Value": {
+            "ID": "tips_10004",
+            "titleTextID": "tips_title_text_100004",
+            "DetailTextID": "tips_detail_text_100004",
+            "Flag": "flg_tips_10004",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10005",
+          "Value": {
+            "ID": "tips_10005",
+            "titleTextID": "tips_title_text_100005",
+            "DetailTextID": "tips_detail_text_100005",
+            "Flag": "flg_tips_10005",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10006",
+          "Value": {
+            "ID": "tips_10006",
+            "titleTextID": "tips_title_text_100006",
+            "DetailTextID": "tips_detail_text_100006",
+            "Flag": "flg_tips_10006",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10007",
+          "Value": {
+            "ID": "tips_10007",
+            "titleTextID": "tips_title_text_100007",
+            "DetailTextID": "tips_detail_text_100007",
+            "Flag": "flg_tips_10007",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10008",
+          "Value": {
+            "ID": "tips_10008",
+            "titleTextID": "tips_title_text_100008",
+            "DetailTextID": "tips_detail_text_100008",
+            "Flag": "flg_tips_10008",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10009",
+          "Value": {
+            "ID": "tips_10009",
+            "titleTextID": "tips_title_text_100009",
+            "DetailTextID": "tips_detail_text_100009",
+            "Flag": "flg_tips_10009",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10010",
+          "Value": {
+            "ID": "tips_10010",
+            "titleTextID": "tips_title_text_100010",
+            "DetailTextID": "tips_detail_text_100010",
+            "Flag": "flg_tips_10010",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10011",
+          "Value": {
+            "ID": "tips_10011",
+            "titleTextID": "tips_title_text_100011",
+            "DetailTextID": "tips_detail_text_100011",
+            "Flag": "flg_tips_10011",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10012",
+          "Value": {
+            "ID": "tips_10012",
+            "titleTextID": "tips_title_text_100012",
+            "DetailTextID": "tips_detail_text_100012",
+            "Flag": "flg_tips_10012",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10013",
+          "Value": {
+            "ID": "tips_10013",
+            "titleTextID": "tips_title_text_100013",
+            "DetailTextID": "tips_detail_text_100013",
+            "Flag": "flg_tips_10013",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10014",
+          "Value": {
+            "ID": "tips_10014",
+            "titleTextID": "tips_title_text_100014",
+            "DetailTextID": "tips_detail_text_100014",
+            "Flag": "flg_tips_10014",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10015",
+          "Value": {
+            "ID": "tips_10015",
+            "titleTextID": "tips_title_text_100015",
+            "DetailTextID": "tips_detail_text_100015",
+            "Flag": "flg_tips_10015",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10016",
+          "Value": {
+            "ID": "tips_10016",
+            "titleTextID": "tips_title_text_100016",
+            "DetailTextID": "tips_detail_text_100016",
+            "Flag": "flg_tips_10016",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10017",
+          "Value": {
+            "ID": "tips_10017",
+            "titleTextID": "tips_title_text_100017",
+            "DetailTextID": "tips_detail_text_100017",
+            "Flag": "flg_tips_10017",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10018",
+          "Value": {
+            "ID": "tips_10018",
+            "titleTextID": "tips_title_text_100018",
+            "DetailTextID": "tips_detail_text_100018",
+            "Flag": "flg_tips_10018",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10019",
+          "Value": {
+            "ID": "tips_10019",
+            "titleTextID": "tips_title_text_100019",
+            "DetailTextID": "tips_detail_text_100019",
+            "Flag": "flg_tips_10019",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10020",
+          "Value": {
+            "ID": "tips_10020",
+            "titleTextID": "tips_title_text_100020",
+            "DetailTextID": "tips_detail_text_100020",
+            "Flag": "flg_tips_10020",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10021",
+          "Value": {
+            "ID": "tips_10021",
+            "titleTextID": "tips_title_text_100021",
+            "DetailTextID": "tips_detail_text_100021",
+            "Flag": "flg_tips_10021",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10022",
+          "Value": {
+            "ID": "tips_10022",
+            "titleTextID": "tips_title_text_100022",
+            "DetailTextID": "tips_detail_text_100022",
+            "Flag": "flg_tips_10022",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10023",
+          "Value": {
+            "ID": "tips_10023",
+            "titleTextID": "tips_title_text_100023",
+            "DetailTextID": "tips_detail_text_100023",
+            "Flag": "flg_tips_10023",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10024",
+          "Value": {
+            "ID": "tips_10024",
+            "titleTextID": "tips_title_text_100024",
+            "DetailTextID": "tips_detail_text_100024",
+            "Flag": "flg_tips_10024",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10025",
+          "Value": {
+            "ID": "tips_10025",
+            "titleTextID": "tips_title_text_100025",
+            "DetailTextID": "tips_detail_text_100025",
+            "Flag": "flg_tips_10025",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10026",
+          "Value": {
+            "ID": "tips_10026",
+            "titleTextID": "tips_title_text_100026",
+            "DetailTextID": "tips_detail_text_100026",
+            "Flag": "flg_tips_10026",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10027",
+          "Value": {
+            "ID": "tips_10027",
+            "titleTextID": "tips_title_text_100027",
+            "DetailTextID": "tips_detail_text_100027",
+            "Flag": "flg_tips_10027",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10028",
+          "Value": {
+            "ID": "tips_10028",
+            "titleTextID": "tips_title_text_100028",
+            "DetailTextID": "tips_detail_text_100028",
+            "Flag": "flg_tips_10028",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10030",
+          "Value": {
+            "ID": "tips_10030",
+            "titleTextID": "tips_title_text_100030",
+            "DetailTextID": "tips_detail_text_100030",
+            "Flag": "flg_tips_10030",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10031",
+          "Value": {
+            "ID": "tips_10031",
+            "titleTextID": "tips_title_text_100031",
+            "DetailTextID": "tips_detail_text_100031",
+            "Flag": "flg_tips_10031",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10033",
+          "Value": {
+            "ID": "tips_10033",
+            "titleTextID": "tips_title_text_100033",
+            "DetailTextID": "tips_detail_text_100033",
+            "Flag": "flg_tips_10033",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10034",
+          "Value": {
+            "ID": "tips_10034",
+            "titleTextID": "tips_title_text_100034",
+            "DetailTextID": "tips_detail_text_100034",
+            "Flag": "flg_tips_10034",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 320,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 325,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 330,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10035",
+          "Value": {
+            "ID": "tips_10035",
+            "titleTextID": "tips_title_text_100035",
+            "DetailTextID": "tips_detail_text_100035",
+            "Flag": "flg_tips_10035",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 335,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 340,
+                    "m_dataSize": 18
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsTrialMode_False",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10036",
+          "Value": {
+            "ID": "tips_10036",
+            "titleTextID": "tips_title_text_100036",
+            "DetailTextID": "tips_detail_text_100036",
+            "Flag": "flg_tips_10036",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 345,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 350,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10037",
+          "Value": {
+            "ID": "tips_10037",
+            "titleTextID": "tips_title_text_100037",
+            "DetailTextID": "tips_detail_text_100037",
+            "Flag": "flg_tips_10037",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 355,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 360,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10038",
+          "Value": {
+            "ID": "tips_10038",
+            "titleTextID": "tips_title_text_100038",
+            "DetailTextID": "tips_detail_text_100038",
+            "Flag": "flg_tips_10038",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 365,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 370,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10039",
+          "Value": {
+            "ID": "tips_10039",
+            "titleTextID": "tips_title_text_100039",
+            "DetailTextID": "tips_detail_text_100039",
+            "Flag": "flg_tips_10039",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 375,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 380,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10040",
+          "Value": {
+            "ID": "tips_10040",
+            "titleTextID": "tips_title_text_100040",
+            "DetailTextID": "tips_detail_text_100040",
+            "Flag": "flg_tips_10040",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 385,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 390,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "tips_10041",
+          "Value": {
+            "ID": "tips_10041",
+            "titleTextID": "tips_title_text_100041",
+            "DetailTextID": "tips_detail_text_100041",
+            "Flag": "flg_tips_10041",
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 395,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 400,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        59,
+        113,
+        0,
+        149,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        162,
+        1,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        21,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        40,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        59,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        78,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        97,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        116,
+        0,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        52,
+        135,
+        0,
+        0,
+        0,
+        50,
+        76,
+        39,
+        0,
+        0,
+        52,
+        154,
+        0,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        173,
+        0,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        192,
+        0,
+        0,
+        0,
+        50,
+        76,
+        39,
+        0,
+        0,
+        52,
+        211,
+        0,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        230,
+        0,
+        0,
+        0,
+        50,
+        202,
+        78,
+        0,
+        0,
+        52,
+        249,
+        0,
+        0,
+        0,
+        50,
+        104,
+        156,
+        0,
+        0,
+        52,
+        12,
+        1,
+        0,
+        0,
+        50,
+        128,
+        117,
+        0,
+        0,
+        52,
+        31,
+        1,
+        0,
+        0,
+        50,
+        130,
+        195,
+        0,
+        0,
+        52,
+        50,
+        1,
+        0,
+        0,
+        50,
+        166,
+        234,
+        0,
+        0,
+        52,
+        69,
+        1,
+        0,
+        0,
+        50,
+        46,
+        39,
+        0,
+        0,
+        52,
+        88,
+        1,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        107,
+        1,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        126,
+        1,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        145,
+        1,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        164,
+        1,
+        0,
+        0,
+        50,
+        46,
+        39,
+        0,
+        0,
+        52,
+        183,
+        1,
+        0,
+        0,
+        50,
+        126,
+        39,
+        0,
+        0,
+        52,
+        202,
+        1,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        221,
+        1,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        240,
+        1,
+        0,
+        0,
+        50,
+        212,
+        78,
+        0,
+        0,
+        52,
+        3,
+        2,
+        0,
+        0,
+        50,
+        208,
+        117,
+        0,
+        0,
+        52,
+        22,
+        2,
+        0,
+        0,
+        50,
+        208,
+        117,
+        0,
+        0,
+        52,
+        41,
+        2,
+        0,
+        0,
+        50,
+        100,
+        195,
+        0,
+        0,
+        52,
+        60,
+        2,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        79,
+        2,
+        0,
+        0,
+        52,
+        98,
+        2,
+        0,
+        0,
+        50,
+        255,
+        0,
+        0,
+        0,
+        52,
+        113,
+        2,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        132,
+        2,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        52,
+        151,
+        2,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        52,
+        170,
+        2,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        52,
+        189,
+        2,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        52,
+        208,
+        2,
+        0,
+        0,
+        50,
+        182,
+        78,
+        0,
+        0,
+        52,
+        227,
+        2,
+        0,
+        0,
+        52,
+        246,
+        2,
+        0,
+        0,
+        52,
+        1,
+        3,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000qsa_life01_001\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000flg_StaffRoll_play\u0000ev40_00200\u0000flg_StaffRoll_play\u0000"
+    }
+  }
+]

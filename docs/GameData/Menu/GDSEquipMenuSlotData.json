@@ -1,0 +1,298 @@
+[
+  {
+    "Type": "GDSEquipMenuSlotData",
+    "Name": "GDSEquipMenuSlotData",
+    "Class": "UScriptClass'GDSEquipMenuSlotData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "equip_menu_slot_weapon",
+          "Value": {
+            "ID": "equip_menu_slot_weapon",
+            "textId": "equip_category_weapon",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_00",
+            "tabIconId": "ICON_TAB_EQUIP_00",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_00",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_00"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_shield",
+          "Value": {
+            "ID": "equip_menu_slot_shield",
+            "textId": "equip_category_shield",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_01",
+            "tabIconId": "ICON_TAB_EQUIP_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_01",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_01"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_head",
+          "Value": {
+            "ID": "equip_menu_slot_head",
+            "textId": "equip_category_head",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_02",
+            "tabIconId": "ICON_TAB_EQUIP_02",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_02",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_02"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_tops",
+          "Value": {
+            "ID": "equip_menu_slot_tops",
+            "textId": "equip_category_tops",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_03",
+            "tabIconId": "ICON_TAB_EQUIP_03",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_03",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_03"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_bottoms",
+          "Value": {
+            "ID": "equip_menu_slot_bottoms",
+            "textId": "equip_category_bottoms",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_04",
+            "tabIconId": "ICON_TAB_EQUIP_04",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_04",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_04"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_arm",
+          "Value": {
+            "ID": "equip_menu_slot_arm",
+            "textId": "equip_category_arm",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_05",
+            "tabIconId": "ICON_TAB_EQUIP_05",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_05",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_05"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_foot",
+          "Value": {
+            "ID": "equip_menu_slot_foot",
+            "textId": "equip_category_leg",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_06",
+            "tabIconId": "ICON_TAB_EQUIP_06",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_06",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_06"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_mantle",
+          "Value": {
+            "ID": "equip_menu_slot_mantle",
+            "textId": "equip_category_cloak",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_07",
+            "tabIconId": "ICON_TAB_EQUIP_07",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_07",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_07"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_glasses",
+          "Value": {
+            "ID": "equip_menu_slot_glasses",
+            "textId": "equip_category_glasses",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_08",
+            "tabIconId": "ICON_TAB_EQUIP_08",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_08",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_08"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_accessory",
+          "Value": {
+            "ID": "equip_menu_slot_accessory",
+            "textId": "equip_category_accessories",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_09",
+            "tabIconId": "ICON_TAB_EQUIP_09",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_09",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_09"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_pickel",
+          "Value": {
+            "ID": "equip_menu_slot_pickel",
+            "textId": "equip_category_life_pickel",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_20",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_20",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_20"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_axe",
+          "Value": {
+            "ID": "equip_menu_slot_axe",
+            "textId": "equip_category_life_axe",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_21",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_21",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_21"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_rod",
+          "Value": {
+            "ID": "equip_menu_slot_rod",
+            "textId": "equip_category_life_rod",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_22",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_22",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_22"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_hoe",
+          "Value": {
+            "ID": "equip_menu_slot_hoe",
+            "textId": "equip_category_life_hoe",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_23",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_23",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_23"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_pan",
+          "Value": {
+            "ID": "equip_menu_slot_pan",
+            "textId": "equip_category_life_pan",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_30",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_30",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_30"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_hammer",
+          "Value": {
+            "ID": "equip_menu_slot_hammer",
+            "textId": "equip_category_life_hammer",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_31",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_31",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_31"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_saw",
+          "Value": {
+            "ID": "equip_menu_slot_saw",
+            "textId": "equip_category_life_saw",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_32",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_32",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_32"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_needle",
+          "Value": {
+            "ID": "equip_menu_slot_needle",
+            "textId": "equip_category_life_needle",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_33",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_33",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_33"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_flask",
+          "Value": {
+            "ID": "equip_menu_slot_flask",
+            "textId": "equip_category_life_flask",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_34",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_34",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_34"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_pen",
+          "Value": {
+            "ID": "equip_menu_slot_pen",
+            "textId": "equip_category_life_pen",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_35",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_35",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_35"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_tools",
+          "Value": {
+            "ID": "equip_menu_slot_tools",
+            "textId": "equip_category_weapon",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_10",
+            "tabIconId": "ICON_TAB_ITEM_01",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_10",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_10"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_stick",
+          "Value": {
+            "ID": "equip_menu_slot_stick",
+            "textId": "filter_weapon_branch",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_00",
+            "tabIconId": "ICON_TAB_EQUIP_00",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_00",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_00"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_sword",
+          "Value": {
+            "ID": "equip_menu_slot_sword",
+            "textId": "filter_weapon_sword",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_00",
+            "tabIconId": "ICON_TAB_EQUIP_00",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_00",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_00"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_blade",
+          "Value": {
+            "ID": "equip_menu_slot_blade",
+            "textId": "filter_weapon_greatsword",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_00",
+            "tabIconId": "ICON_TAB_EQUIP_00",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_00",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_00"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_bow",
+          "Value": {
+            "ID": "equip_menu_slot_bow",
+            "textId": "filter_weapon_bow",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_00",
+            "tabIconId": "ICON_TAB_EQUIP_00",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_11",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_11"
+          }
+        },
+        {
+          "Key": "equip_menu_slot_staff",
+          "Value": {
+            "ID": "equip_menu_slot_staff",
+            "textId": "filter_weapon_staff",
+            "emptyIconId": "ICON_TAB_EQUIP_EMPTY_00",
+            "tabIconId": "ICON_TAB_EQUIP_00",
+            "equipMysetIconId": "ICON_TAB_EQUIP_MYSET_12",
+            "viewMysetIconId": "ICON_TAB_EQUIP_MYSET_12"
+          }
+        }
+      ]
+    }
+  }
+]

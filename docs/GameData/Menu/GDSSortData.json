@@ -1,0 +1,2374 @@
+[
+  {
+    "Type": "GDSSortData",
+    "Name": "GDSSortData",
+    "Class": "UScriptClass'GDSSortData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "sort_default",
+          "Value": {
+            "ID": "sort_default",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": true,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 7,
+                "isInitType": false,
+                "Text": "sort_type_text_aa"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 9,
+                "isInitType": false,
+                "Text": "sort_type_text_hp"
+              },
+              {
+                "sortType": 10,
+                "isInitType": false,
+                "Text": "sort_type_text_sp"
+              },
+              {
+                "sortType": 11,
+                "isInitType": false,
+                "Text": "sort_type_text_attack"
+              },
+              {
+                "sortType": 12,
+                "isInitType": false,
+                "Text": "sort_type_text_ma"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 15,
+                "isInitType": false,
+                "Text": "sort_type_text_ice_ax"
+              },
+              {
+                "sortType": 16,
+                "isInitType": false,
+                "Text": "sort_type_text_axe"
+              },
+              {
+                "sortType": 17,
+                "isInitType": false,
+                "Text": "sort_type_text_fishing_rod"
+              },
+              {
+                "sortType": 18,
+                "isInitType": false,
+                "Text": "sort_type_text_farmer"
+              },
+              {
+                "sortType": 20,
+                "isInitType": false,
+                "Text": "sort_type_text_hammer"
+              },
+              {
+                "sortType": 22,
+                "isInitType": false,
+                "Text": "sort_type_text_needle"
+              },
+              {
+                "sortType": 21,
+                "isInitType": false,
+                "Text": "sort_type_text_saw"
+              },
+              {
+                "sortType": 19,
+                "isInitType": false,
+                "Text": "sort_type_text_frying_pan"
+              },
+              {
+                "sortType": 23,
+                "isInitType": false,
+                "Text": "sort_type_text_flask"
+              },
+              {
+                "sortType": 24,
+                "isInitType": false,
+                "Text": "sort_type_text_pencil"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_weapon",
+          "Value": {
+            "ID": "sort_inventory_weapon",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": false,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 7,
+                "isInitType": false,
+                "Text": "sort_type_text_aa"
+              },
+              {
+                "sortType": 11,
+                "isInitType": false,
+                "Text": "sort_type_text_attack"
+              },
+              {
+                "sortType": 12,
+                "isInitType": false,
+                "Text": "sort_type_text_ma"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_life",
+          "Value": {
+            "ID": "sort_inventory_life",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": false,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 15,
+                "isInitType": false,
+                "Text": "sort_type_text_ice_ax"
+              },
+              {
+                "sortType": 16,
+                "isInitType": false,
+                "Text": "sort_type_text_axe"
+              },
+              {
+                "sortType": 17,
+                "isInitType": false,
+                "Text": "sort_type_text_fishing_rod"
+              },
+              {
+                "sortType": 18,
+                "isInitType": false,
+                "Text": "sort_type_text_farmer"
+              },
+              {
+                "sortType": 20,
+                "isInitType": false,
+                "Text": "sort_type_text_hammer"
+              },
+              {
+                "sortType": 22,
+                "isInitType": false,
+                "Text": "sort_type_text_needle"
+              },
+              {
+                "sortType": 21,
+                "isInitType": false,
+                "Text": "sort_type_text_saw"
+              },
+              {
+                "sortType": 19,
+                "isInitType": false,
+                "Text": "sort_type_text_frying_pan"
+              },
+              {
+                "sortType": 23,
+                "isInitType": false,
+                "Text": "sort_type_text_flask"
+              },
+              {
+                "sortType": 24,
+                "isInitType": false,
+                "Text": "sort_type_text_pencil"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_shield",
+          "Value": {
+            "ID": "sort_inventory_shield",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": false,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_armor",
+          "Value": {
+            "ID": "sort_inventory_armor",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": false,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_used",
+          "Value": {
+            "ID": "sort_inventory_used",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_material",
+          "Value": {
+            "ID": "sort_inventory_material",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_object",
+          "Value": {
+            "ID": "sort_inventory_object",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_possessed",
+          "Value": {
+            "ID": "sort_inventory_possessed",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 35,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_inventory_important",
+          "Value": {
+            "ID": "sort_inventory_important",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_furniture",
+          "Value": {
+            "ID": "sort_craft_furniture",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 34,
+                "isInitType": false,
+                "Text": "sort_type_text_size"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_Small_furniture",
+          "Value": {
+            "ID": "sort_craft_Small_furniture",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 34,
+                "isInitType": false,
+                "Text": "sort_type_text_size"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_outdoor_furniture",
+          "Value": {
+            "ID": "sort_craft_outdoor_furniture",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 34,
+                "isInitType": false,
+                "Text": "sort_type_text_size"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_facility",
+          "Value": {
+            "ID": "sort_craft_facility",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_possessed",
+          "Value": {
+            "ID": "sort_craft_possessed",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 34,
+                "isInitType": false,
+                "Text": "sort_type_text_size"
+              },
+              {
+                "sortType": 35,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_wall_furniture",
+          "Value": {
+            "ID": "sort_craft_wall_furniture",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 34,
+                "isInitType": false,
+                "Text": "sort_type_text_size"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_wallpaper",
+          "Value": {
+            "ID": "sort_craft_wallpaper",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_Floor",
+          "Value": {
+            "ID": "sort_craft_Floor",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_weapon",
+          "Value": {
+            "ID": "sort_shop_buy_weapon",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 7,
+                "isInitType": false,
+                "Text": "sort_type_text_aa"
+              },
+              {
+                "sortType": 11,
+                "isInitType": false,
+                "Text": "sort_type_text_attack"
+              },
+              {
+                "sortType": 12,
+                "isInitType": false,
+                "Text": "sort_type_text_ma"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_life",
+          "Value": {
+            "ID": "sort_shop_buy_life",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 15,
+                "isInitType": false,
+                "Text": "sort_type_text_ice_ax"
+              },
+              {
+                "sortType": 16,
+                "isInitType": false,
+                "Text": "sort_type_text_axe"
+              },
+              {
+                "sortType": 17,
+                "isInitType": false,
+                "Text": "sort_type_text_fishing_rod"
+              },
+              {
+                "sortType": 18,
+                "isInitType": false,
+                "Text": "sort_type_text_farmer"
+              },
+              {
+                "sortType": 20,
+                "isInitType": false,
+                "Text": "sort_type_text_hammer"
+              },
+              {
+                "sortType": 22,
+                "isInitType": false,
+                "Text": "sort_type_text_needle"
+              },
+              {
+                "sortType": 21,
+                "isInitType": false,
+                "Text": "sort_type_text_saw"
+              },
+              {
+                "sortType": 19,
+                "isInitType": false,
+                "Text": "sort_type_text_frying_pan"
+              },
+              {
+                "sortType": 23,
+                "isInitType": false,
+                "Text": "sort_type_text_flask"
+              },
+              {
+                "sortType": 24,
+                "isInitType": false,
+                "Text": "sort_type_text_pencil"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_shield",
+          "Value": {
+            "ID": "sort_shop_buy_shield",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_armor",
+          "Value": {
+            "ID": "sort_shop_buy_armor",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_used",
+          "Value": {
+            "ID": "sort_shop_buy_used",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_material",
+          "Value": {
+            "ID": "sort_shop_buy_material",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_object",
+          "Value": {
+            "ID": "sort_shop_buy_object",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_recipe",
+          "Value": {
+            "ID": "sort_shop_buy_recipe",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_buy_important",
+          "Value": {
+            "ID": "sort_shop_buy_important",
+            "sortInfoArray": [
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_weapon",
+          "Value": {
+            "ID": "sort_shop_sell_weapon",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 7,
+                "isInitType": false,
+                "Text": "sort_type_text_aa"
+              },
+              {
+                "sortType": 11,
+                "isInitType": false,
+                "Text": "sort_type_text_attack"
+              },
+              {
+                "sortType": 12,
+                "isInitType": false,
+                "Text": "sort_type_text_ma"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_life",
+          "Value": {
+            "ID": "sort_shop_sell_life",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 15,
+                "isInitType": false,
+                "Text": "sort_type_text_ice_ax"
+              },
+              {
+                "sortType": 16,
+                "isInitType": false,
+                "Text": "sort_type_text_axe"
+              },
+              {
+                "sortType": 17,
+                "isInitType": false,
+                "Text": "sort_type_text_fishing_rod"
+              },
+              {
+                "sortType": 18,
+                "isInitType": false,
+                "Text": "sort_type_text_farmer"
+              },
+              {
+                "sortType": 20,
+                "isInitType": false,
+                "Text": "sort_type_text_hammer"
+              },
+              {
+                "sortType": 22,
+                "isInitType": false,
+                "Text": "sort_type_text_needle"
+              },
+              {
+                "sortType": 21,
+                "isInitType": false,
+                "Text": "sort_type_text_saw"
+              },
+              {
+                "sortType": 19,
+                "isInitType": false,
+                "Text": "sort_type_text_frying_pan"
+              },
+              {
+                "sortType": 23,
+                "isInitType": false,
+                "Text": "sort_type_text_flask"
+              },
+              {
+                "sortType": 24,
+                "isInitType": false,
+                "Text": "sort_type_text_pencil"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_shield",
+          "Value": {
+            "ID": "sort_shop_sell_shield",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_armor",
+          "Value": {
+            "ID": "sort_shop_sell_armor",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_used",
+          "Value": {
+            "ID": "sort_shop_sell_used",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_material",
+          "Value": {
+            "ID": "sort_shop_sell_material",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_shop_sell_object",
+          "Value": {
+            "ID": "sort_shop_sell_object",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": true,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 28,
+                "isInitType": false,
+                "Text": "sort_type_text_price"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              },
+              {
+                "sortType": 50,
+                "isInitType": false,
+                "Text": "sort_type_text_inventory_count"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_equip_weapon",
+          "Value": {
+            "ID": "sort_equip_weapon",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": true,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 7,
+                "isInitType": false,
+                "Text": "sort_type_text_aa"
+              },
+              {
+                "sortType": 11,
+                "isInitType": false,
+                "Text": "sort_type_text_attack"
+              },
+              {
+                "sortType": 12,
+                "isInitType": false,
+                "Text": "sort_type_text_ma"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_equip_life",
+          "Value": {
+            "ID": "sort_equip_life",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": true,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 15,
+                "isInitType": false,
+                "Text": "sort_type_text_ice_ax"
+              },
+              {
+                "sortType": 16,
+                "isInitType": false,
+                "Text": "sort_type_text_axe"
+              },
+              {
+                "sortType": 17,
+                "isInitType": false,
+                "Text": "sort_type_text_fishing_rod"
+              },
+              {
+                "sortType": 18,
+                "isInitType": false,
+                "Text": "sort_type_text_farmer"
+              },
+              {
+                "sortType": 20,
+                "isInitType": false,
+                "Text": "sort_type_text_hammer"
+              },
+              {
+                "sortType": 22,
+                "isInitType": false,
+                "Text": "sort_type_text_needle"
+              },
+              {
+                "sortType": 21,
+                "isInitType": false,
+                "Text": "sort_type_text_saw"
+              },
+              {
+                "sortType": 19,
+                "isInitType": false,
+                "Text": "sort_type_text_frying_pan"
+              },
+              {
+                "sortType": 23,
+                "isInitType": false,
+                "Text": "sort_type_text_flask"
+              },
+              {
+                "sortType": 24,
+                "isInitType": false,
+                "Text": "sort_type_text_pencil"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_equip_shield",
+          "Value": {
+            "ID": "sort_equip_shield",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": true,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 27,
+                "isInitType": false,
+                "Text": "sort_type_text_years_of_ripening"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_equip_armor",
+          "Value": {
+            "ID": "sort_equip_armor",
+            "sortInfoArray": [
+              {
+                "sortType": 1,
+                "isInitType": true,
+                "Text": "sort_type_text_equipment"
+              },
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 3,
+                "isInitType": false,
+                "Text": "sort_type_text_favorite"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 6,
+                "isInitType": false,
+                "Text": "sort_type_text_quality"
+              },
+              {
+                "sortType": 8,
+                "isInitType": false,
+                "Text": "sort_type_text_ar"
+              },
+              {
+                "sortType": 13,
+                "isInitType": false,
+                "Text": "sort_type_text_defense"
+              },
+              {
+                "sortType": 14,
+                "isInitType": false,
+                "Text": "sort_type_text_md"
+              },
+              {
+                "sortType": 25,
+                "isInitType": false,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_party_formation",
+          "Value": {
+            "ID": "sort_party_formation",
+            "sortInfoArray": [
+              {
+                "sortType": 30,
+                "isInitType": true,
+                "Text": "sort_type_text_level"
+              },
+              {
+                "sortType": 29,
+                "isInitType": false,
+                "Text": "sort_type_text_join"
+              },
+              {
+                "sortType": 31,
+                "isInitType": false,
+                "Text": "sort_type_text_life"
+              },
+              {
+                "sortType": 32,
+                "isInitType": false,
+                "Text": "sort_type_text_friendship"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_weapon",
+          "Value": {
+            "ID": "sort_craft_recipe_weapon",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_life",
+          "Value": {
+            "ID": "sort_craft_recipe_life",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_shield",
+          "Value": {
+            "ID": "sort_craft_recipe_shield",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_armor",
+          "Value": {
+            "ID": "sort_craft_recipe_armor",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_medicine",
+          "Value": {
+            "ID": "sort_craft_recipe_medicine",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_food",
+          "Value": {
+            "ID": "sort_craft_recipe_food",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_objects",
+          "Value": {
+            "ID": "sort_craft_recipe_objects",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_material",
+          "Value": {
+            "ID": "sort_craft_recipe_material",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_craft_recipe_favorite",
+          "Value": {
+            "ID": "sort_craft_recipe_favorite",
+            "sortInfoArray": [
+              {
+                "sortType": 2,
+                "isInitType": false,
+                "Text": "sort_type_text_new"
+              },
+              {
+                "sortType": 4,
+                "isInitType": false,
+                "Text": "sort_type_text_rank"
+              },
+              {
+                "sortType": 5,
+                "isInitType": false,
+                "Text": "sort_type_text_rarity"
+              },
+              {
+                "sortType": 30,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_lv"
+              },
+              {
+                "sortType": 33,
+                "isInitType": false,
+                "Text": "sort_type_text_itemcraft_power"
+              },
+              {
+                "sortType": 25,
+                "isInitType": true,
+                "Text": "sort_type_text_category"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "sort_resident_character",
+          "Value": {
+            "ID": "sort_resident_character",
+            "sortInfoArray": [
+              {
+                "sortType": 29,
+                "isInitType": true,
+                "Text": "sort_type_text_join"
+              },
+              {
+                "sortType": 53,
+                "isInitType": false,
+                "Text": "sort_type_text_battle_life"
+              },
+              {
+                "sortType": 54,
+                "isInitType": false,
+                "Text": "sort_type_text_gatherer_life"
+              },
+              {
+                "sortType": 55,
+                "isInitType": false,
+                "Text": "sort_type_text_create_life"
+              },
+              {
+                "sortType": 32,
+                "isInitType": false,
+                "Text": "sort_type_text_friendship"
+              },
+              {
+                "sortType": 26,
+                "isInitType": false,
+                "Text": "sort_type_text_name"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

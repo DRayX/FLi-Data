@@ -1,0 +1,55 @@
+[
+  {
+    "Type": "GDSMapMenuPurposeInfoOverwriteSetting",
+    "Name": "GDSMapMenuPurposeInfoOverwriteSetting",
+    "Class": "UScriptClass'GDSMapMenuPurposeInfoOverwriteSetting'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "Map_100500",
+          "Value": {
+            "mapId": "Map_100500",
+            "overwriteSettings": [
+              {
+                "mapId": "Map_100502",
+                "funcPointId": "mjfp_Map_100502_01_to_Map_100500",
+                "mapAreaId": "map100500_town"
+              },
+              {
+                "mapId": "Map_100502",
+                "funcPointId": "mjfp_Map_100502_02_to_Map_100500",
+                "mapAreaId": "map100500_town2"
+              },
+              {
+                "mapId": "Map_100502",
+                "funcPointId": "mjfp_Map_100502_03_to_Map_100500",
+                "mapAreaId": "map100500_adventure"
+              },
+              {
+                "mapId": "Map_100503",
+                "funcPointId": "mjfp_Map_100503_to_Map_100502",
+                "mapAreaId": "map100500_town"
+              },
+              {
+                "mapId": "Map_100504",
+                "funcPointId": "mjfp_Map_100504_to_Map_100503",
+                "mapAreaId": "map100500_town"
+              },
+              {
+                "mapId": "Map_100505",
+                "funcPointId": "mjfp_Map_100505_to_Map_100504",
+                "mapAreaId": "map100500_town"
+              },
+              {
+                "mapId": "Map_100506",
+                "funcPointId": "mjfp_Map_100506_to_Map_100505",
+                "mapAreaId": "map100500_town"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

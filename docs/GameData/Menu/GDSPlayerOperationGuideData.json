@@ -1,0 +1,632 @@
+[
+  {
+    "Type": "GDSPlayerOperationGuideData",
+    "Name": "GDSPlayerOperationGuideData",
+    "Class": "UScriptClass'GDSPlayerOperationGuideData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "240",
+          "Value": {
+            "presetType": 240,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "241",
+          "Value": {
+            "presetType": 241,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "253",
+          "Value": {
+            "presetType": 253,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 18
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "38",
+          "Value": {
+            "presetType": 38,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsCraftHandheld",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "presetType": 36,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "39",
+          "Value": {
+            "presetType": 39,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "242",
+          "Value": {
+            "presetType": 242,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_Less",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 7
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_SubMapId_NotEqual",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "243",
+          "Value": {
+            "presetType": 243,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "251",
+          "Value": {
+            "presetType": 251,
+            "ConditionArray": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        118,
+        221,
+        144,
+        200,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        254,
+        127,
+        0,
+        0,
+        50,
+        36,
+        39,
+        0,
+        0,
+        50,
+        46,
+        39,
+        0,
+        0,
+        50,
+        56,
+        39,
+        0,
+        0,
+        50,
+        66,
+        39,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        50,
+        158,
+        117,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        50,
+        158,
+        117,
+        0,
+        0,
+        52,
+        53,
+        0,
+        0,
+        0,
+        50,
+        178,
+        117,
+        0,
+        0,
+        52,
+        64,
+        0,
+        0,
+        0,
+        50,
+        190,
+        187,
+        13,
+        0,
+        52,
+        75,
+        0,
+        0,
+        0,
+        52,
+        87,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        100,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        113,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        126,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        139,
+        0,
+        0,
+        0,
+        52,
+        147,
+        0,
+        0,
+        0,
+        52,
+        155,
+        0,
+        0,
+        0,
+        52,
+        163,
+        0,
+        0,
+        0,
+        52,
+        171,
+        0,
+        0,
+        0,
+        52,
+        179,
+        0,
+        0,
+        0,
+        52,
+        187,
+        0,
+        0,
+        0,
+        52,
+        195,
+        0,
+        0,
+        0,
+        52,
+        203,
+        0,
+        0,
+        0,
+        52,
+        211,
+        0,
+        0,
+        0,
+        52,
+        219,
+        0,
+        0,
+        0,
+        52,
+        227,
+        0,
+        0,
+        0,
+        52,
+        235,
+        0,
+        0,
+        0,
+        52,
+        247,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        4,
+        1,
+        0,
+        0,
+        50,
+        205,
+        187,
+        13,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_tutorial_ItemBag\u0000trg_guide_item_bag\u0000Map_000100\u0000Map_000100\u0000Map_000100\u0000tgs_hlp_040\u0000qsb900030_01\u0000qsb900030_02\u0000qsb900030_03\u0000qsb900030_04\u0000room_01\u0000room_02\u0000room_03\u0000room_04\u0000room_05\u0000room_06\u0000room_07\u0000room_08\u0000room_09\u0000room_10\u0000room_11\u0000room_12\u0000tgs_hlp_050\u0000qsb900030_01\u0000Map_100100\u0000"
+    }
+  }
+]

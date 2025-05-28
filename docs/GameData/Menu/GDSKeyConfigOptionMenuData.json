@@ -1,0 +1,3081 @@
+[
+  {
+    "Type": "GDSKeyConfigOptionMenuData",
+    "Name": "GDSKeyConfigOptionMenuData",
+    "Class": "UScriptClass'GDSKeyConfigOptionMenuData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "option_decide",
+          "Value": {
+            "categoryID": "option_decide",
+            "keySameGroup": 1,
+            "keySamePossibleGroups": [],
+            "ID": 113,
+            "PCDefaultKey": 96,
+            "invalidKeyBoardValueArray": [],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedKeyBoard": true,
+            "gamePadKeySamePossibleGroups": [
+              0,
+              4,
+              5,
+              6,
+              9,
+              11,
+              16
+            ],
+            "ControllerId": 13,
+            "decideConfig": true,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_decide",
+            "DetailTextID": "option_detail_keyconfig_decide",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_cancel",
+          "Value": {
+            "categoryID": "option_cancel",
+            "keySameGroup": 2,
+            "keySamePossibleGroups": [],
+            "ID": 114,
+            "PCDefaultKey": 98,
+            "invalidKeyBoardValueArray": [],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedKeyBoard": true,
+            "gamePadKeySamePossibleGroups": [
+              0,
+              4,
+              5,
+              6,
+              9,
+              11,
+              16
+            ],
+            "ControllerId": 14,
+            "decideConfig": true,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_cancel",
+            "DetailTextID": "option_detail_keyconfig_cancel",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_front",
+          "Value": {
+            "categoryID": "option_front",
+            "keySameGroup": 0,
+            "keySamePossibleGroups": [],
+            "ID": 115,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              96,
+              98,
+              69,
+              71,
+              72,
+              73,
+              74,
+              75,
+              36,
+              37,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_logging_move_front",
+            "DetailTextID": "option_detail_keyconfig_logging_move_front",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_back",
+          "Value": {
+            "categoryID": "option_back",
+            "keySameGroup": 0,
+            "keySamePossibleGroups": [],
+            "ID": 116,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              96,
+              98,
+              69,
+              71,
+              72,
+              73,
+              74,
+              75,
+              36,
+              37,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_logging_move_back",
+            "DetailTextID": "option_detail_keyconfig_logging_move_back",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_right",
+          "Value": {
+            "categoryID": "option_right",
+            "keySameGroup": 0,
+            "keySamePossibleGroups": [],
+            "ID": 118,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              96,
+              98,
+              69,
+              71,
+              72,
+              73,
+              74,
+              75,
+              36,
+              37,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_logging_move_right",
+            "DetailTextID": "option_detail_keyconfig_logging_move_right",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_left",
+          "Value": {
+            "categoryID": "option_left",
+            "keySameGroup": 0,
+            "keySamePossibleGroups": [],
+            "ID": 117,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              96,
+              98,
+              69,
+              71,
+              72,
+              73,
+              74,
+              75,
+              36,
+              37,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_logging_move_left",
+            "DetailTextID": "option_detail_keyconfig_logging_move_left",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_camera_move",
+          "Value": {
+            "categoryID": "option_camera_move",
+            "keySameGroup": 0,
+            "keySamePossibleGroups": [
+              2
+            ],
+            "ID": 142,
+            "PCDefaultKey": 98,
+            "invalidKeyBoardValueArray": [
+              96,
+              69,
+              71,
+              72,
+              73,
+              74,
+              75,
+              37,
+              48,
+              32,
+              49,
+              35,
+              58,
+              60
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_camera_control",
+            "DetailTextID": "option_detail_keyconfig_camera_control",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_aciton",
+          "Value": {
+            "categoryID": "option_aciton",
+            "keySameGroup": 3,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 119,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              14,
+              15
+            ],
+            "ControllerId": 16,
+            "decideConfig": true,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_check",
+            "DetailTextID": "option_detail_keyconfig_check",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_jump",
+          "Value": {
+            "categoryID": "option_jump",
+            "keySameGroup": 4,
+            "keySamePossibleGroups": [
+              1,
+              2
+            ],
+            "ID": 105,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98,
+              32,
+              35
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              14,
+              15
+            ],
+            "ControllerId": 5,
+            "decideConfig": true,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_jump",
+            "DetailTextID": "option_detail_keyconfig_jump",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_dash",
+          "Value": {
+            "categoryID": "option_dash",
+            "keySameGroup": 16,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              8,
+              12,
+              13
+            ],
+            "ID": 107,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_dash",
+            "DetailTextID": "option_detail_keyconfig_dash",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_draw",
+          "Value": {
+            "categoryID": "option_draw",
+            "keySameGroup": 7,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14
+            ],
+            "ID": 145,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_ready_weapon",
+            "DetailTextID": "option_detail_keyconfig_ready_weapon",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_mount",
+          "Value": {
+            "categoryID": "option_mount",
+            "keySameGroup": 5,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 120,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_vehicle_get_on",
+            "DetailTextID": "option_detail_keyconfig_vehicle_get_on",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_attack",
+          "Value": {
+            "categoryID": "option_attack",
+            "keySameGroup": 9,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 101,
+            "PCDefaultKey": 96,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              3,
+              8,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ControllerId": 1,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 1,
+            "categoryTextId": "option_category_keyconfig_attack",
+            "DetailTextID": "option_detail_keyconfig_attack",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_strong_attack",
+          "Value": {
+            "categoryID": "option_strong_attack",
+            "keySameGroup": 9,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 102,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              11,
+              13,
+              14,
+              15
+            ],
+            "ControllerId": 2,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 1,
+            "categoryTextId": "option_category_keyconfig_strong_attack",
+            "DetailTextID": "option_detail_keyconfig_strong_attack",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_special_attack",
+          "Value": {
+            "categoryID": "option_special_attack",
+            "keySameGroup": 9,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 103,
+            "PCDefaultKey": 98,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_unique_attack",
+            "DetailTextID": "option_detail_keyconfig_unique_attack",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_mode_change_up",
+          "Value": {
+            "categoryID": "option_mode_change_up",
+            "keySameGroup": 9,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 143,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_mode_change_up",
+            "DetailTextID": "option_detail_keyconfig_mode_change_up",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_mode_change_down",
+          "Value": {
+            "categoryID": "option_mode_change_down",
+            "keySameGroup": 9,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 144,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_mode_change_down",
+            "DetailTextID": "option_detail_keyconfig_mode_change_down",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_tension",
+          "Value": {
+            "categoryID": "option_tension",
+            "keySameGroup": 9,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 124,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_tension_skill",
+            "DetailTextID": "option_detail_keyconfig_tension_skill",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_rolling",
+          "Value": {
+            "categoryID": "option_rolling",
+            "keySameGroup": 8,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "ID": 104,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              14,
+              15
+            ],
+            "ControllerId": 16,
+            "decideConfig": true,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_rolling",
+            "DetailTextID": "option_detail_keyconfig_rolling",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_lock_on",
+          "Value": {
+            "categoryID": "option_lock_on",
+            "keySameGroup": 10,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 106,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              11,
+              14,
+              15
+            ],
+            "ControllerId": 6,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 2,
+            "categoryTextId": "option_category_keyconfig_rock_on",
+            "DetailTextID": "option_detail_keyconfig_rock_on",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_lock_target_left",
+          "Value": {
+            "categoryID": "option_lock_target_left",
+            "keySameGroup": 10,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 137,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_rock_on_left",
+            "DetailTextID": "option_detail_keyconfig_rock_on_left",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_lock_target_right",
+          "Value": {
+            "categoryID": "option_lock_target_right",
+            "keySameGroup": 10,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              11,
+              12,
+              13,
+              14,
+              15
+            ],
+            "ID": 138,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_rock_on_right",
+            "DetailTextID": "option_detail_keyconfig_rock_on_right",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_collect_attack",
+          "Value": {
+            "categoryID": "option_collect_attack",
+            "keySameGroup": 12,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              14,
+              15,
+              16
+            ],
+            "ID": 133,
+            "PCDefaultKey": 96,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              32,
+              35
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              14,
+              15
+            ],
+            "ControllerId": 16,
+            "decideConfig": true,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_attack_2",
+            "DetailTextID": "option_detail_keyconfig_attack_2",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_collect_strong_attack",
+          "Value": {
+            "categoryID": "option_collect_strong_attack",
+            "keySameGroup": 13,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              14,
+              15,
+              16
+            ],
+            "ID": 134,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              32,
+              35
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              9,
+              11,
+              14,
+              15,
+              16
+            ],
+            "ControllerId": 17,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 1,
+            "categoryTextId": "option_category_keyconfig_strong_attack_2",
+            "DetailTextID": "option_detail_keyconfig_strong_attack_2",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_collect_special_attack",
+          "Value": {
+            "categoryID": "option_collect_special_attack",
+            "keySameGroup": 13,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              14,
+              15,
+              16
+            ],
+            "ID": 135,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              32,
+              35
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              0,
+              1,
+              2,
+              4,
+              5,
+              6,
+              9,
+              11,
+              14,
+              15,
+              16
+            ],
+            "ControllerId": 18,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 1,
+            "categoryTextId": "option_category_keyconfig_unique_attack_2",
+            "DetailTextID": "option_detail_keyconfig_unique_attack_2",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_collect_tension",
+          "Value": {
+            "categoryID": "option_collect_tension",
+            "keySameGroup": 13,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              14,
+              15,
+              16
+            ],
+            "ID": 136,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              32,
+              35
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_tension_skill_2",
+            "DetailTextID": "option_detail_keyconfig_tension_skill_2",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_collect_instruction",
+          "Value": {
+            "categoryID": "option_collect_instruction",
+            "keySameGroup": 15,
+            "keySamePossibleGroups": [
+              1,
+              3,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14
+            ],
+            "ID": 139,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 320,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 325,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_instruction",
+            "DetailTextID": "option_detail_keyconfig_instruction",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 330,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 335,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_quest_nav",
+          "Value": {
+            "categoryID": "option_quest_nav",
+            "keySameGroup": 15,
+            "keySamePossibleGroups": [
+              1,
+              3,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14
+            ],
+            "ID": 140,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 340,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 345,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_purpose_point_setting",
+            "DetailTextID": "option_detail_keyconfig_purpose_point_setting",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 350,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 355,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_hold_object",
+          "Value": {
+            "categoryID": "option_hold_object",
+            "keySameGroup": 11,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              8,
+              9,
+              10,
+              12,
+              13,
+              14
+            ],
+            "ID": 126,
+            "PCDefaultKey": 96,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              71,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_hold_object",
+            "DetailTextID": "option_detail_keyconfig_hold_object",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 360,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 365,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_collect",
+          "Value": {
+            "categoryID": "option_collect",
+            "keySameGroup": 11,
+            "keySamePossibleGroups": [
+              8,
+              9,
+              10,
+              12,
+              13,
+              14
+            ],
+            "ID": 132,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              71,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_collect_craft",
+            "DetailTextID": "option_detail_keyconfig_collect_craft",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 370,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 375,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_craft_menu",
+          "Value": {
+            "categoryID": "option_craft_menu",
+            "keySameGroup": 11,
+            "keySamePossibleGroups": [
+              8,
+              9,
+              10,
+              12,
+              13,
+              14
+            ],
+            "ID": 127,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              71,
+              48,
+              49,
+              58,
+              60
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_open_craft_menu",
+            "DetailTextID": "option_detail_keyconfig_open_craft_menu",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 380,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 385,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_indoor_menu",
+          "Value": {
+            "categoryID": "option_indoor_menu",
+            "keySameGroup": 11,
+            "keySamePossibleGroups": [
+              8,
+              9,
+              10,
+              12,
+              13,
+              14
+            ],
+            "ID": 128,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              71,
+              48,
+              49,
+              58,
+              60,
+              69
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 390,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 395,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_open_hagram_craft_mode",
+            "DetailTextID": "option_detail_keyconfig_open_hagram_craft_mode",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 400,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 405,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_main_menu",
+          "Value": {
+            "categoryID": "option_main_menu",
+            "keySameGroup": 5,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 121,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_open_main_menu",
+            "DetailTextID": "option_detail_keyconfig_open_main_menu",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 410,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 415,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_item_slot",
+          "Value": {
+            "categoryID": "option_item_slot",
+            "keySameGroup": 6,
+            "keySamePossibleGroups": [
+              12,
+              13
+            ],
+            "ID": 109,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98,
+              69,
+              71,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 420,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 425,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              13,
+              14,
+              15
+            ],
+            "ControllerId": 9,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 2,
+            "categoryTextId": "option_category_keyconfig_itembag",
+            "DetailTextID": "option_detail_keyconfig_itembag",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_map_menu",
+          "Value": {
+            "categoryID": "option_map_menu",
+            "keySameGroup": 5,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 122,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_open_map",
+            "DetailTextID": "option_detail_keyconfig_open_map",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 430,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 435,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_licence_menu",
+          "Value": {
+            "categoryID": "option_licence_menu",
+            "keySameGroup": 5,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 123,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_open_license_menu",
+            "DetailTextID": "option_detail_keyconfig_open_license_menu",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 440,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 445,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "option_communication",
+          "Value": {
+            "categoryID": "option_communication",
+            "keySameGroup": 6,
+            "keySamePossibleGroups": [
+              12,
+              13
+            ],
+            "ID": 110,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98,
+              69,
+              71,
+              36,
+              37,
+              48,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 450,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 455,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              13,
+              14,
+              15
+            ],
+            "ControllerId": 10,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 2,
+            "categoryTextId": "option_category_keyconfig_greetings",
+            "DetailTextID": "option_detail_keyconfig_greetings",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_chat",
+          "Value": {
+            "categoryID": "option_chat",
+            "keySameGroup": 5,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 108,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 460,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 465,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [
+              1,
+              2,
+              13,
+              14,
+              15
+            ],
+            "ControllerId": 8,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_chat",
+            "DetailTextID": "option_detail_keyconfig_chat",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_status",
+          "Value": {
+            "categoryID": "option_status",
+            "keySameGroup": 4,
+            "keySamePossibleGroups": [
+              1,
+              2
+            ],
+            "ID": 111,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98,
+              32,
+              35
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 470,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 475,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_status",
+            "DetailTextID": "option_detail_keyconfig_status",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_camera_zoom",
+          "Value": {
+            "categoryID": "option_camera_zoom",
+            "keySameGroup": 5,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              12,
+              13
+            ],
+            "ID": 112,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 480,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 485,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_zoom",
+            "DetailTextID": "option_detail_keyconfig_zoom",
+            "Condition": [],
+            "hiddonCondition": []
+          }
+        },
+        {
+          "Key": "option_multi_status_change",
+          "Value": {
+            "categoryID": "option_multi_status_change",
+            "keySameGroup": 14,
+            "keySamePossibleGroups": [
+              1,
+              2,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              15
+            ],
+            "ID": 141,
+            "PCDefaultKey": 0,
+            "invalidKeyBoardValueArray": [
+              72,
+              73,
+              74,
+              75,
+              96,
+              98
+            ],
+            "keyBoardCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 490,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 495,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ],
+            "isDimmedKeyBoard": false,
+            "gamePadKeySamePossibleGroups": [],
+            "ControllerId": 0,
+            "decideConfig": false,
+            "ControllerDefault": 0,
+            "controllerCondition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "isDimmedGamepad": false,
+            "KeyConfigGroup": 0,
+            "categoryTextId": "option_category_keyconfig_multi_status_change",
+            "DetailTextID": "option_detail_keyconfig_multi_status_change",
+            "Condition": [],
+            "hiddonCondition": [
+              {
+                "Cmd": "CondCmd_Platform_Equal",
+                "arg": [
+                  {
+                    "m_offset": 500,
+                    "m_dataSize": 7
+                  },
+                  {
+                    "m_offset": 505,
+                    "m_dataSize": 6
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        131,
+        110,
+        0,
+        254,
+        1,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        60,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        10,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        52,
+        25,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        40,
+        0,
+        0,
+        0,
+        52,
+        47,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        70,
+        0,
+        0,
+        0,
+        52,
+        77,
+        0,
+        0,
+        0,
+        52,
+        85,
+        0,
+        0,
+        0,
+        52,
+        92,
+        0,
+        0,
+        0,
+        52,
+        100,
+        0,
+        0,
+        0,
+        52,
+        107,
+        0,
+        0,
+        0,
+        52,
+        115,
+        0,
+        0,
+        0,
+        52,
+        122,
+        0,
+        0,
+        0,
+        52,
+        130,
+        0,
+        0,
+        0,
+        52,
+        137,
+        0,
+        0,
+        0,
+        52,
+        145,
+        0,
+        0,
+        0,
+        52,
+        152,
+        0,
+        0,
+        0,
+        52,
+        160,
+        0,
+        0,
+        0,
+        52,
+        167,
+        0,
+        0,
+        0,
+        52,
+        175,
+        0,
+        0,
+        0,
+        52,
+        182,
+        0,
+        0,
+        0,
+        52,
+        190,
+        0,
+        0,
+        0,
+        52,
+        197,
+        0,
+        0,
+        0,
+        52,
+        205,
+        0,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        52,
+        220,
+        0,
+        0,
+        0,
+        52,
+        227,
+        0,
+        0,
+        0,
+        52,
+        235,
+        0,
+        0,
+        0,
+        52,
+        242,
+        0,
+        0,
+        0,
+        52,
+        250,
+        0,
+        0,
+        0,
+        52,
+        1,
+        1,
+        0,
+        0,
+        52,
+        9,
+        1,
+        0,
+        0,
+        52,
+        16,
+        1,
+        0,
+        0,
+        52,
+        24,
+        1,
+        0,
+        0,
+        52,
+        31,
+        1,
+        0,
+        0,
+        52,
+        39,
+        1,
+        0,
+        0,
+        52,
+        46,
+        1,
+        0,
+        0,
+        52,
+        54,
+        1,
+        0,
+        0,
+        52,
+        61,
+        1,
+        0,
+        0,
+        52,
+        69,
+        1,
+        0,
+        0,
+        52,
+        76,
+        1,
+        0,
+        0,
+        52,
+        84,
+        1,
+        0,
+        0,
+        52,
+        91,
+        1,
+        0,
+        0,
+        52,
+        99,
+        1,
+        0,
+        0,
+        52,
+        106,
+        1,
+        0,
+        0,
+        52,
+        114,
+        1,
+        0,
+        0,
+        52,
+        121,
+        1,
+        0,
+        0,
+        52,
+        129,
+        1,
+        0,
+        0,
+        52,
+        136,
+        1,
+        0,
+        0,
+        52,
+        144,
+        1,
+        0,
+        0,
+        52,
+        151,
+        1,
+        0,
+        0,
+        52,
+        159,
+        1,
+        0,
+        0,
+        52,
+        166,
+        1,
+        0,
+        0,
+        52,
+        174,
+        1,
+        0,
+        0,
+        52,
+        181,
+        1,
+        0,
+        0,
+        52,
+        189,
+        1,
+        0,
+        0,
+        52,
+        196,
+        1,
+        0,
+        0,
+        52,
+        204,
+        1,
+        0,
+        0,
+        52,
+        211,
+        1,
+        0,
+        0,
+        52,
+        219,
+        1,
+        0,
+        0,
+        52,
+        226,
+        1,
+        0,
+        0,
+        52,
+        234,
+        1,
+        0,
+        0,
+        52,
+        241,
+        1,
+        0,
+        0,
+        52,
+        249,
+        1,
+        0,
+        0,
+        52,
+        0,
+        2,
+        0,
+        0,
+        52,
+        8,
+        2,
+        0,
+        0,
+        52,
+        15,
+        2,
+        0,
+        0,
+        52,
+        23,
+        2,
+        0,
+        0,
+        52,
+        30,
+        2,
+        0,
+        0,
+        52,
+        38,
+        2,
+        0,
+        0,
+        52,
+        45,
+        2,
+        0,
+        0,
+        52,
+        53,
+        2,
+        0,
+        0,
+        52,
+        60,
+        2,
+        0,
+        0,
+        52,
+        68,
+        2,
+        0,
+        0,
+        52,
+        75,
+        2,
+        0,
+        0,
+        52,
+        83,
+        2,
+        0,
+        0,
+        52,
+        90,
+        2,
+        0,
+        0,
+        52,
+        98,
+        2,
+        0,
+        0,
+        52,
+        105,
+        2,
+        0,
+        0,
+        52,
+        113,
+        2,
+        0,
+        0,
+        52,
+        120,
+        2,
+        0,
+        0,
+        52,
+        128,
+        2,
+        0,
+        0,
+        52,
+        135,
+        2,
+        0,
+        0,
+        52,
+        143,
+        2,
+        0,
+        0,
+        52,
+        150,
+        2,
+        0,
+        0,
+        52,
+        158,
+        2,
+        0,
+        0,
+        52,
+        165,
+        2,
+        0,
+        0,
+        52,
+        173,
+        2,
+        0,
+        0,
+        52,
+        180,
+        2,
+        0,
+        0,
+        52,
+        188,
+        2,
+        0,
+        0,
+        52,
+        195,
+        2,
+        0,
+        0,
+        52,
+        203,
+        2,
+        0,
+        0,
+        52,
+        210,
+        2,
+        0,
+        0,
+        52,
+        218,
+        2,
+        0,
+        0,
+        52,
+        225,
+        2,
+        0,
+        0,
+        52,
+        233,
+        2,
+        0,
+        0,
+        52,
+        240,
+        2,
+        0,
+        0,
+        52,
+        248,
+        2,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000Windows\u0000WinGDK\u0000"
+    }
+  }
+]
