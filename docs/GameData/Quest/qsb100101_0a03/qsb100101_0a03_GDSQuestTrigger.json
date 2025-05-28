@@ -1,0 +1,184 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb100101_0a03_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3382797755",
+          "Value": {
+            "ID": 3382797755,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb100101_0a01_chr901400",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3675572821",
+          "Value": {
+            "ID": 3675572821,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb100101_0a01_chr901400",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1671998768",
+          "Value": {
+            "ID": 1671998768,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb100101_0a01_chr901400",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestInfoCheck",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        230,
+        191,
+        64,
+        45,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        47,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        77,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb100101_0a03\u0000qsb100101_0a03\u0000qsb100101_0a03\u0000qsb100101_0a03\u0000qsb100101_0a03\u0000qsb100101_0a03\u0000"
+    }
+  }
+]

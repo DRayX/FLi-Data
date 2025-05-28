@@ -49,6 +49,7 @@ class ItemData extends BaseData {
   material_for: Array<RecipeItemInfo> = [];
   created_by: Array<RecipeData> = [];
   shops: Array<ShopItemInfo> = [];
+  request_rewards: Array<RequestQuestConfig> = [];
 
   static async load(path: string, names: Map<string, TextData>, descs: Map<string, TextData>): Promise<Map<string, ItemData>> {
     return await loadData(path, async data => {
@@ -349,6 +350,7 @@ class MapData extends BaseData {
   pick_points: Map<string, MapPickPoint>;
   enemies: Map<string, EnemyGroupConfig>;
   shops: Map<string, MapShopConfig>;
+  requests: Array<RequestQuestConfig> = [];
 
   static async load(
       path: string,
@@ -365,6 +367,36 @@ class MapData extends BaseData {
       map.enemies = await EnemyGroupConfig.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapEnemyPlacementConfig.json`, map, enemy_params, drops);
       map.shops = await MapShopConfig.load(`GameData/Shop/Map/${data.mapId}/${data.mapId}_GDSMapShopConfig.json`, map, shops);
       return map;
+    });
+  }
+}
+
+class RequestQuestConfig extends BaseData {
+  title: TextData | null;
+  reward: ItemData | null;
+  requester: TextData | null;
+  map: MapData | null;
+
+  static async load(
+      path: string,
+      titles: Map<string, TextData>,
+      items: Map<string, ItemData>,
+      names: Map<string, TextData>,
+      maps: Map<string, MapData>,
+  ): Promise<Map<string, RequestQuestConfig>> {
+    return loadData(path, async data => {
+      const quest = new RequestQuestConfig(data);
+      quest.title = getProperty(titles, data.TitleId);
+      quest.reward = getProperty(items, data.reward.ItemId);
+      if (quest.reward) {
+        quest.reward.request_rewards.push(quest);
+      }
+      quest.requester = getProperty(names, data.requester.nameId);
+      quest.map = getProperty(maps, data.requester.mapId);
+      if (quest.map) {
+        quest.map.requests.push(quest);
+      }
+      return quest;
     });
   }
 }
@@ -434,6 +466,8 @@ class GameData {
   map_names: Map<string, TextData>;
   map_data: Map<string, MapData>;
   recipe_data: Map<string, RecipeData>;
+  quest_titles: Map<string, TextData>;
+  request_quests: Map<string, RequestQuestConfig>;
 
   static async load(lang: string = 'en') {
     const data = new GameData();
@@ -461,6 +495,8 @@ class GameData {
     data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
     data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups, data.shop_data);
     data.recipe_data = await RecipeData.load('GameData/Recipe/GDSRecipeData.json', data.all_items);
+    data.quest_titles = await TextData.load('GameData/Quest/GDSQuestTitleText.json', 'Text', `nounSingularForm_${lang}`);
+    data.request_quests = await RequestQuestConfig.load('GameData/Quest/GDSRequestQuestConfig.json', data.quest_titles, data.all_items, data.chara_names, data.map_data);
     return data;
   }
 }

@@ -1,0 +1,161 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qse000100_random_03_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3276756943",
+          "Value": {
+            "ID": 3276756943,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "<REQUESTER>",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsFellowNPCTalkQuest",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 19
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 19
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateFriendNpcQuestTalk",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3522885665",
+          "Value": {
+            "ID": 3522885665,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "<REQUESTER>",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 19
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        40,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        52,
+        102,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qse000100_random_03\u0000qse000100_random_03\u0000qse000100_random_03\u0000qse000100_random_03\u0000qse000100_random_03\u0000qse000100_random_03\u0000"
+    }
+  }
+]

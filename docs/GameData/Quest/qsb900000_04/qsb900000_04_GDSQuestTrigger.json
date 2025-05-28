@@ -1,0 +1,175 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb900000_04_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "646021835",
+          "Value": {
+            "ID": 646021835,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "map_100100_chr900300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2357742144",
+          "Value": {
+            "ID": 2357742144,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "map_100100_chr900300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "875834661",
+          "Value": {
+            "ID": 875834661,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestRetry",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        40,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        15,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        52,
+        41,
+        0,
+        0,
+        0,
+        52,
+        54,
+        0,
+        0,
+        0,
+        50,
+        255,
+        0,
+        0,
+        0,
+        52,
+        67,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb900000_04\u0000qsb900000_04\u0000qsb900000_04\u0000qsb900000_04\u0000qsb900000_04\u0000qsb900000_04\u0000"
+    }
+  }
+]

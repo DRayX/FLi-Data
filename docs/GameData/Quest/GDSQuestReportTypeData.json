@@ -1,0 +1,924 @@
+[
+  {
+    "Type": "GDSQuestReportTypeData",
+    "Name": "GDSQuestReportTypeData",
+    "Class": "UScriptClass'GDSQuestReportTypeData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1",
+          "Value": {
+            "ID": 1,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_00",
+            "isEmblemBase": true,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_target_enemy",
+            "targetNoneTextId": "quest_detail_target_all_enemy",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_enemy_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_00",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_00"
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "ID": 2,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_00",
+            "isEmblemBase": true,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_target_enemy",
+            "targetNoneTextId": "quest_detail_target_all_enemy",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_enemy_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_00",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_00"
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "ID": 3,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_00",
+            "isEmblemBase": true,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_target_skill",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_skill_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_00",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_00"
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "ID": 4,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_00",
+            "isEmblemBase": true,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_target_skill",
+            "targetNoneTextId": "quest_detail_target_all_enemy",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_04",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_04"
+          }
+        },
+        {
+          "Key": "5",
+          "Value": {
+            "ID": 5,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_00",
+            "isEmblemBase": true,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_target_skill",
+            "targetNoneTextId": "quest_detail_target_all_enemy",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_use_skill",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_04",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_04"
+          }
+        },
+        {
+          "Key": "6",
+          "Value": {
+            "ID": 6,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": true,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "7",
+          "Value": {
+            "ID": 7,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_03",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "8",
+          "Value": {
+            "ID": 8,
+            "isQualitySettingEnabled": true,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_03",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_craft",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_CRAFT_99",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "9",
+          "Value": {
+            "ID": 9,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "10",
+          "Value": {
+            "ID": 10,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "11",
+          "Value": {
+            "ID": 11,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "65",
+          "Value": {
+            "ID": 65,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "12",
+          "Value": {
+            "ID": 12,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "quest_detail_target_all_miner",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "13",
+          "Value": {
+            "ID": 13,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "14",
+          "Value": {
+            "ID": 14,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_lumberjack",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "15",
+          "Value": {
+            "ID": 15,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_lumberjack",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "16",
+          "Value": {
+            "ID": 16,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_lumberjack",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "66",
+          "Value": {
+            "ID": 66,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "17",
+          "Value": {
+            "ID": 17,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "18",
+          "Value": {
+            "ID": 18,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "19",
+          "Value": {
+            "ID": 19,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_fisherman",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "20",
+          "Value": {
+            "ID": 20,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "quest_detail_target_all_fisherman",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "21",
+          "Value": {
+            "ID": 21,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "22",
+          "Value": {
+            "ID": 22,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_grow_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_09",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_09"
+          }
+        },
+        {
+          "Key": "23",
+          "Value": {
+            "ID": 23,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "24",
+          "Value": {
+            "ID": 24,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_farmer",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_05",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_05"
+          }
+        },
+        {
+          "Key": "25",
+          "Value": {
+            "ID": 25,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_num_time",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_10",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_10"
+          }
+        },
+        {
+          "Key": "64",
+          "Value": {
+            "ID": 64,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "quest_detail_target_all_farmer",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_10",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_10"
+          }
+        },
+        {
+          "Key": "26",
+          "Value": {
+            "ID": 26,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "None",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_09",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_09"
+          }
+        },
+        {
+          "Key": "27",
+          "Value": {
+            "ID": 27,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target_craft",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "28",
+          "Value": {
+            "ID": 28,
+            "isQualitySettingEnabled": true,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target_craft",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "29",
+          "Value": {
+            "ID": 29,
+            "isQualitySettingEnabled": true,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_craft",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "30",
+          "Value": {
+            "ID": 30,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target_material",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "31",
+          "Value": {
+            "ID": 31,
+            "isQualitySettingEnabled": true,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_target_material",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "32",
+          "Value": {
+            "ID": 32,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_craft",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "33",
+          "Value": {
+            "ID": 33,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": true,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_label_num_time",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_label_num_time",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        },
+        {
+          "Key": "34",
+          "Value": {
+            "ID": 34,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "None",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "None",
+            "targetLabelTextId": "None",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "None",
+            "targetNumIconId": "None",
+            "targetNumOutlineIconId": "None"
+          }
+        },
+        {
+          "Key": "35",
+          "Value": {
+            "ID": 35,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_04",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "quest_detail_target_plantdungeon",
+            "targetNoneIconId": "ICON_MULTI_SEARCH_60",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_PLANTDUNGEON_00",
+            "targetNumLabelId": "quest_detail_label_clear_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_03",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_03"
+          }
+        },
+        {
+          "Key": "36",
+          "Value": {
+            "ID": 36,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_04",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "quest_detail_label_target",
+            "targetNoneTextId": "quest_detail_target_plantdungeon",
+            "targetNoneIconId": "ICON_MULTI_SEARCH_60",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_PLANTDUNGEON_10",
+            "targetNumLabelId": "quest_detail_label_clear_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_03",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_03"
+          }
+        },
+        {
+          "Key": "62",
+          "Value": {
+            "ID": 62,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_04",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "None",
+            "targetLabelTextId": "quest_detail_other",
+            "targetNoneTextId": "quest_detail_target_talk",
+            "targetNoneIconId": "ICON_CHR904400_00",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_DUNGEON_00",
+            "targetNumLabelId": "None",
+            "targetNumIconId": "None",
+            "targetNumOutlineIconId": "None"
+          }
+        },
+        {
+          "Key": "76",
+          "Value": {
+            "ID": 76,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_03",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_subjugation",
+            "targetLabelTextId": "None",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "None",
+            "targetNumLabelId": "None",
+            "targetNumIconId": "None",
+            "targetNumOutlineIconId": "None"
+          }
+        },
+        {
+          "Key": "77",
+          "Value": {
+            "ID": 77,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_03",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "100",
+          "Value": {
+            "ID": 100,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_miner",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "101",
+          "Value": {
+            "ID": 101,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_lumberjack",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "102",
+          "Value": {
+            "ID": 102,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_fisherman",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "103",
+          "Value": {
+            "ID": 103,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_farmer",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "104",
+          "Value": {
+            "ID": 104,
+            "isQualitySettingEnabled": false,
+            "isHabitatSettingEnabled": true,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_01",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_item",
+            "targetNoneTextId": "quest_detail_target_all_pick_item",
+            "targetNoneIconId": "ICON_STATUS_50",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_pick_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_01",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_01"
+          }
+        },
+        {
+          "Key": "107",
+          "Value": {
+            "ID": 107,
+            "isQualitySettingEnabled": true,
+            "isHabitatSettingEnabled": false,
+            "isSpecificActionSettingEnable": false,
+            "headerQuestTypeIconId": "ICON_QUEST_LIFE_02",
+            "isEmblemBase": false,
+            "headerClearGuideTextId": "quest_detail_header_clear_guide_item",
+            "targetLabelTextId": "quest_detail_target_craft",
+            "targetNoneTextId": "None",
+            "targetNoneIconId": "None",
+            "targetBGIconId": "ICON_QUEST_DETAIL_BG_COMMON_00",
+            "targetNumLabelId": "quest_detail_target_item_craft_num",
+            "targetNumIconId": "ICON_QUEST_CATEGORY_SILHOUETTE_02",
+            "targetNumOutlineIconId": "ICON_QUEST_CATEGORY_OUTLINE_02"
+          }
+        }
+      ]
+    }
+  }
+]

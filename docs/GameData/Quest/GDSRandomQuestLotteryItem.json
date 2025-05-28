@@ -1,0 +1,994 @@
+[
+  {
+    "Type": "GDSRandomQuestLotteryItem",
+    "Name": "GDSRandomQuestLotteryItem",
+    "Class": "UScriptClass'GDSRandomQuestLotteryItem'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "lottery_qse_common_item",
+          "Value": {
+            "ID": "lottery_qse_common_item",
+            "lot": [
+              {
+                "Level": 5,
+                "ItemId": "imt01002810",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "lottery_qsb_npc_request_101",
+          "Value": {
+            "ID": "lottery_qsb_npc_request_101",
+            "lot": [
+              {
+                "Level": 10,
+                "ItemId": "imt01003070",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01003100",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01003180",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01001150",
+                "Num": 5,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01001580",
+                "Num": 5,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01000560",
+                "Num": 2,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "ics01000580",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "ics01002540",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01001500",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01002230",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01001820",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01000010",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01000410",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01000100",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 10,
+                "ItemId": "imt01000050",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "lottery_qsb_npc_request_201",
+          "Value": {
+            "ID": "lottery_qsb_npc_request_201",
+            "lot": [
+              {
+                "Level": 20,
+                "ItemId": "ics01000130",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01003220",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01003090",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "ics01000030",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01003460",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01002160",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01001160",
+                "Num": 5,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01001590",
+                "Num": 5,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01000580",
+                "Num": 2,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01002510",
+                "Num": 5,
+                "Rate": 2,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 20,
+                "ItemId": "ics01001680",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "ics01001360",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01001510",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01001830",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01002250",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "ics01000660",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01000020",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "ics01000060",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01000420",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01000170",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 20,
+                "ItemId": "imt01000060",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "lottery_qsb_npc_request_301",
+          "Value": {
+            "ID": "lottery_qsb_npc_request_301",
+            "lot": [
+              {
+                "Level": 30,
+                "ItemId": "imt01003360",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01003370",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01003190",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01003450",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01003490",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01003330",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01001170",
+                "Num": 5,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01001600",
+                "Num": 5,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01000770",
+                "Num": 2,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01000930",
+                "Num": 2,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01002550",
+                "Num": 5,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 30,
+                "ItemId": "ics01001620",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "ics01001500",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01001520",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01001840",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01002260",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "ics01000600",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01004050",
+                "Num": 3,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01004070",
+                "Num": 3,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01000030",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01000430",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01002070",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 30,
+                "ItemId": "imt01003410",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "lottery_qsb_npc_request_401",
+          "Value": {
+            "ID": "lottery_qsb_npc_request_401",
+            "lot": [
+              {
+                "Level": 40,
+                "ItemId": "imt01003520",
+                "Num": 3,
+                "Rate": 4,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01003230",
+                "Num": 3,
+                "Rate": 4,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01003080",
+                "Num": 2,
+                "Rate": 4,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01002130",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01003250",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01002480",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01001180",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01001610",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01004520",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01004530",
+                "Num": 2,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01002590",
+                "Num": 5,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01002670",
+                "Num": 5,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 40,
+                "ItemId": "ics01002780",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "ics01001480",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01001530",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01001850",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01002270",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "ics01000680",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01004060",
+                "Num": 3,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 30,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01004080",
+                "Num": 3,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 35,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01000040",
+                "Num": 3,
+                "Rate": 5,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01000440",
+                "Num": 3,
+                "Rate": 5,
+                "cond": []
+              },
+              {
+                "Level": 40,
+                "ItemId": "imt01000080",
+                "Num": 2,
+                "Rate": 5,
+                "cond": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "lottery_qsb_npc_request_501",
+          "Value": {
+            "ID": "lottery_qsb_npc_request_501",
+            "lot": [
+              {
+                "Level": 50,
+                "ItemId": "imt01003200",
+                "Num": 3,
+                "Rate": 4,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01003340",
+                "Num": 3,
+                "Rate": 4,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01002120",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "ics01000080",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01003270",
+                "Num": 3,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01001190",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01001630",
+                "Num": 5,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01000910",
+                "Num": 2,
+                "Rate": 3,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01000670",
+                "Num": 2,
+                "Rate": 2,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01002630",
+                "Num": 5,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 40,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01002710",
+                "Num": 5,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 45,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 50,
+                "ItemId": "ics01001520",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "ics01002800",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01001540",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01001870",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01002290",
+                "Num": 3,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "ics01000800",
+                "Num": 2,
+                "Rate": 1,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01004090",
+                "Num": 3,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 50,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01004100",
+                "Num": 3,
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                    "arg": [
+                      {
+                        "m_offset": 55,
+                        "m_dataSize": 21
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01000180",
+                "Num": 3,
+                "Rate": 5,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01000190",
+                "Num": 3,
+                "Rate": 5,
+                "cond": []
+              },
+              {
+                "Level": 50,
+                "ItemId": "imt01000090",
+                "Num": 3,
+                "Rate": 5,
+                "cond": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        247,
+        188,
+        222,
+        60,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        46,
+        0,
+        0,
+        0,
+        52,
+        68,
+        0,
+        0,
+        0,
+        52,
+        90,
+        0,
+        0,
+        0,
+        52,
+        112,
+        0,
+        0,
+        0,
+        52,
+        134,
+        0,
+        0,
+        0,
+        52,
+        156,
+        0,
+        0,
+        0,
+        52,
+        178,
+        0,
+        0,
+        0,
+        52,
+        200,
+        0,
+        0,
+        0,
+        52,
+        222,
+        0,
+        0,
+        0,
+        52,
+        244,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000flg_lifechange_life08\u0000flg_lifechange_life08\u0000flg_lifechange_life14\u0000flg_lifechange_life14\u0000flg_lifechange_life08\u0000flg_lifechange_life08\u0000flg_lifechange_life14\u0000flg_lifechange_life14\u0000flg_lifechange_life08\u0000flg_lifechange_life08\u0000flg_lifechange_life14\u0000flg_lifechange_life14\u0000"
+    }
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb910030_01_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3220139776",
+          "Value": {
+            "ID": 3220139776,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tgs_map_100100_hard_chr000200_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept_Silent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_RequestQuestStartTelop",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetLife",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "763047943",
+          "Value": {
+            "ID": 763047943,
+            "triggerType": "TG_QUEST_COUNTER_COND_CLEAR",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1070505961",
+          "Value": {
+            "ID": 1070505961,
+            "triggerType": "TG_MENU_END",
+            "TargetID": "got_window_menu",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd_Silent",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_RequestQuestClearTelop",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        60,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        15,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        52,
+        40,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        64,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        77,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        89,
+        0,
+        0,
+        0,
+        52,
+        102,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb910030_01\u0000qsb910030_01\u0000tgs_hlp_050\u0000para_avt000000\u0000life0001\u0000qsb910030_01\u0000iky01000290\u0000qsb910030_01\u0000qsb910030_01\u0000"
+    }
+  }
+]

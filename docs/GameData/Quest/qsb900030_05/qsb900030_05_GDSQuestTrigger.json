@@ -1,0 +1,617 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb900030_05_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1106648037",
+          "Value": {
+            "ID": 1106648037,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tgs_map_100100_chr000d00_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept_Silent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetLife",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetLicenseRank",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetLv",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_RequestQuestStartTelop",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2371623803",
+          "Value": {
+            "ID": 2371623803,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_p900025_11",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "903904286",
+          "Value": {
+            "ID": 903904286,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tgs_map_100100_chr000d00_11",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "64167064",
+          "Value": {
+            "ID": 64167064,
+            "triggerType": "TG_QUEST_COUNTER_COND_CLEAR",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3144645629",
+          "Value": {
+            "ID": 3144645629,
+            "triggerType": "TG_RETURN_RPG",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd_Silent",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMapJump",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 10
+                  },
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2849690643",
+          "Value": {
+            "ID": 2849690643,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RunNpcTalk",
+                "arg": [
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "291943286",
+          "Value": {
+            "ID": 291943286,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tgs_map_100100_chr100100_05",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 11
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd_Silent",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_RequestQuestClearTelop",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        190,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        15,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        52,
+        40,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        64,
+        0,
+        0,
+        0,
+        52,
+        79,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        52,
+        88,
+        0,
+        0,
+        0,
+        52,
+        103,
+        0,
+        0,
+        0,
+        50,
+        10,
+        0,
+        0,
+        0,
+        52,
+        112,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        125,
+        0,
+        0,
+        0,
+        52,
+        149,
+        0,
+        0,
+        0,
+        52,
+        170,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        183,
+        0,
+        0,
+        0,
+        52,
+        207,
+        0,
+        0,
+        0,
+        52,
+        218,
+        0,
+        0,
+        0,
+        52,
+        231,
+        0,
+        0,
+        0,
+        52,
+        244,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        185,
+        187,
+        13,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        9,
+        1,
+        0,
+        0,
+        52,
+        22,
+        1,
+        0,
+        0,
+        52,
+        35,
+        1,
+        0,
+        0,
+        52,
+        56,
+        1,
+        0,
+        0,
+        52,
+        67,
+        1,
+        0,
+        0,
+        50,
+        190,
+        187,
+        13,
+        0,
+        52,
+        80,
+        1,
+        0,
+        0,
+        52,
+        93,
+        1,
+        0,
+        0,
+        52,
+        114,
+        1,
+        0,
+        0,
+        52,
+        127,
+        1,
+        0,
+        0,
+        52,
+        139,
+        1,
+        0,
+        0,
+        52,
+        152,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb900030_05\u0000qsb900030_05\u0000tgs_hlp_080\u0000para_avt000000\u0000life0009\u0000para_avt000000\u0000life0009\u0000para_avt000000\u0000life0009\u0000qsb900030_05\u0000flg_tgs_p900025_02_talk\u0000map_100100_chr000d00\u0000qsb900030_05\u0000flg_tgs_p900025_02_talk\u0000Map_100100\u0000PS_900025_02\u0000qsb900030_05\u0000cnt_get_key_item_num\u0000qsb900030_05\u0000qm_900025_01\u0000flg_tgs_map_menu_end\u0000Map_100100\u0000PS_900030_01\u0000qsb900030_05\u0000map_100100_chr100100\u0000qsb900030_05\u0000tgs_hlp_040\u0000qsb900030_05\u0000tgs_hlp_040\u0000"
+    }
+  }
+]

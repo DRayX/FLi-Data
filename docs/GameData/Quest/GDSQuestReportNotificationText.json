@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "GDSQuestReportNotificationText",
+    "Name": "GDSQuestReportNotificationText",
+    "Class": "UScriptClass'GDSQuestReportNotificationText'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "notification_repayment",
+          "Value": {
+            "ID": "notification_repayment",
+            "Text": [
+              {
+                "subID": 0,
+                "Text": "[目標/もくひょう]の１００００リッチたまった！　アンおばちゃんに[返/かえ]しに[行/い]こう！",
+                "text_en": "You've collected 10,000 Dosh! Go to Auntie Anne and pay off your debt!",
+                "text_fr": "L'objectif des 10 000 rêvah est atteint ! Va rembourser Annie.",
+                "text_it": "Hai raggiunto 10.000 Lyr! Vai da zia Anna per ripagarla!",
+                "text_de": "Du hast 10.000 Gulden zusammen! Geh schnell zu Tante Anne damit!",
+                "text_es": "¡Has reunido los 10 000 revis! Ve a saldar tu deuda con la tía Ana.",
+                "text_czh": "攒够了10000金币！快去还给安阿姨吧！",
+                "text_tzh": "存到目標的10000金幣了！快去還給安嬸吧！",
+                "text_ko": "목표인 10000리치를 모았다! 안 아주머니에게 갚으러 가자!"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "notification_qsa_life",
+          "Value": {
+            "ID": "notification_qsa_life",
+            "Text": [
+              {
+                "subID": 0,
+                "Text": "[CRPGNOTI_G][試練/しれん]『<QUEST_NAME>』を[達成/たっせい]しました[C]",
+                "text_en": "[CRPGNOTI_G]Challenge \"<QUEST_NAME>\" completed[C]",
+                "text_fr": "[CRPGNOTI_G]Épreuve « <QUEST_NAME> » terminée[C]",
+                "text_it": "[CRPGNOTI_G]Hai completato la prova \"<QUEST_NAME>\"[C]",
+                "text_de": "[CRPGNOTI_G]Herausforderung erfüllt: \"<QUEST_NAME>\".[C]",
+                "text_es": "[CRPGNOTI_G]Has completado el desafío «<QUEST_NAME>».[C]",
+                "text_czh": "[CRPGNOTI_G]完成了试炼：<QUEST_NAME>[C]",
+                "text_tzh": "[CRPGNOTI_G]已達成試煉「<QUEST_NAME>」[C]",
+                "text_ko": "[CRPGNOTI_G]시련 『<QUEST_NAME>』<IF_PATCHIM QUEST_NAME>을<ELSE_PATCHIM>를<ENDIF_PATCHIM> 달성했습니다[C]"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "qn_qsb_common",
+          "Value": {
+            "ID": "qn_qsb_common",
+            "Text": [
+              {
+                "subID": 0,
+                "Text": "『[CPN]<QUEST_NAME>[C]』　をたっせいした！",
+                "text_en": "You've completed \"[CPN]<QUEST_NAME>[C]\"",
+                "text_fr": "Tu as terminé la quête [CPN]<QUEST_NAME>[C] !",
+                "text_it": "Hai completato la missione \"[CPN]<QUEST_NAME>[C]\"!",
+                "text_de": "Auftrag abgeschlossen: [CPN]<QUEST_NAME>[C]!",
+                "text_es": "¡Has completado «[CPN]<QUEST_NAME>[C]»!",
+                "text_czh": "完成了任务：[CPN]<QUEST_NAME>[C]！",
+                "text_tzh": "達成「[CPN]<QUEST_NAME>[C]」了！",
+                "text_ko": "『[CPN]<QUEST_NAME>[C]』 달성!"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "notification_quest",
+          "Value": {
+            "ID": "notification_quest",
+            "Text": [
+              {
+                "subID": 0,
+                "Text": "[CRPGNOTI_G]クエスト『<QUEST_NAME>』を[達成/たっせい]しました[C]",
+                "text_en": "[CRPGNOTI_G]Quest \"<QUEST_NAME>\" completed[C]",
+                "text_fr": "[CRPGNOTI_G]Quête « <QUEST_NAME> » terminée[C]",
+                "text_it": "[CRPGNOTI_G]Hai completato la missione \"<QUEST_NAME>\"[C]",
+                "text_de": "[CRPGNOTI_G]Auftrag erfüllt: \"<QUEST_NAME>\".[C]",
+                "text_es": "[CRPGNOTI_G]Has completado la misión «<QUEST_NAME>».[C]",
+                "text_czh": "[CRPGNOTI_G]完成了任务：<QUEST_NAME>[C]",
+                "text_tzh": "[CRPGNOTI_G]已達成任務「<QUEST_NAME>」[C]",
+                "text_ko": "[CRPGNOTI_G]퀘스트 『<QUEST_NAME>』<IF_PATCHIM QUEST_NAME>을<ELSE_PATCHIM>를<ENDIF_PATCHIM> 달성했습니다[C]"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "notification_qsd_map",
+          "Value": {
+            "ID": "notification_qsd_map",
+            "Text": [
+              {
+                "subID": 0,
+                "Text": "[CRPGNOTI_G][掲示板/けいじばん]『<QUEST_NAME>』を[達成/たっせい]しました[C]",
+                "text_en": "[CRPGNOTI_G]Guild Quest \"<QUEST_NAME>\" completed[C]",
+                "text_fr": "[CRPGNOTI_G]Accomplissement « <QUEST_NAME> » terminé[C]",
+                "text_it": "[CRPGNOTI_G]Hai completato la missione <QUEST_NAME> sulla bacheca[C]",
+                "text_de": "[CRPGNOTI_G]Herausforderung von der Anschlagtafel erfüllt: \"<QUEST_NAME>\".[C]",
+                "text_es": "[CRPGNOTI_G]Has completado la misión del tablón «<QUEST_NAME>».[C]",
+                "text_czh": "[CRPGNOTI_G]完成了公告栏任务：<QUEST_NAME>[C]",
+                "text_tzh": "[CRPGNOTI_G]已達成公布欄「<QUEST_NAME>」[C]",
+                "text_ko": "[CRPGNOTI_G]게시판 『<QUEST_NAME>』<IF_PATCHIM QUEST_NAME>을<ELSE_PATCHIM>를<ENDIF_PATCHIM> 달성했습니다[C]"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1322 @@
+[
+  {
+    "Type": "GDSGuildRankData",
+    "Name": "GDSGuildRankData",
+    "Class": "UScriptClass'GDSGuildRankData'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "0",
+          "Value": {
+            "ID": 0,
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "headerIconID": [
+              {
+                "iconID": "ICON_QUEST_DETAIL_BOARD_0_00",
+                "ItemId": "obj_icf01010012"
+              },
+              {
+                "iconID": "ICON_QUEST_DETAIL_BOARD_0_01",
+                "ItemId": "obj_icf01010021"
+              }
+            ],
+            "rankInfo": [
+              {
+                "Level": 2,
+                "NeedEXP": 20,
+                "reward": [
+                  {
+                    "rewardTextID": "iky01000420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 100,
+                    "HighlightReward": true
+                  }
+                ]
+              },
+              {
+                "Level": 3,
+                "NeedEXP": 50,
+                "reward": [
+                  {
+                    "rewardTextID": "iky01000420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 100,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_04",
+                    "globalByteFlagID": "cnt_buildable_house_islanders",
+                    "rewardIconID": "shp00000010",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "icf02020010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  }
+                ]
+              },
+              {
+                "Level": 4,
+                "NeedEXP": 50,
+                "reward": [
+                  {
+                    "rewardTextID": "icf03020010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "iky01000420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 100,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_04",
+                    "globalByteFlagID": "cnt_buildable_house_islanders",
+                    "rewardIconID": "shp00000010",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_05",
+                    "globalByteFlagID": "cnt_buildable_vegetable_field",
+                    "rewardIconID": "shp00000020",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 5,
+                "NeedEXP": 80,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01040090",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "iky01000420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 100,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_04",
+                    "globalByteFlagID": "cnt_buildable_house_islanders",
+                    "rewardIconID": "shp00000010",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_05",
+                    "globalByteFlagID": "cnt_buildable_vegetable_field",
+                    "rewardIconID": "shp00000020",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 6,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "text_guild_reward_03",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "shp00000000",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "iky01000420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 100,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_04",
+                    "globalByteFlagID": "cnt_buildable_house_islanders",
+                    "rewardIconID": "shp00000010",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_05",
+                    "globalByteFlagID": "cnt_buildable_vegetable_field",
+                    "rewardIconID": "shp00000020",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 7,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "text_guild_reward_03",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "shp00000000",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "iky01000420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 100,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_05",
+                    "globalByteFlagID": "cnt_buildable_vegetable_field",
+                    "rewardIconID": "shp00000020",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 8,
+                "NeedEXP": 150,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01020070",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "icf01020080",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "icf03040010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "icf02040010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 9,
+                "NeedEXP": 200,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01020071",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "icf01020081",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_03",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "shp00000000",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 10,
+                "NeedEXP": 250,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01040060",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "icf03040020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "icf02040020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "text_guild_reward_03",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "shp00000000",
+                    "itemNum": 0,
+                    "HighlightReward": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1",
+          "Value": {
+            "ID": 1,
+            "cond": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "headerIconID": [
+              {
+                "iconID": "ICON_QUEST_DETAIL_BOARD_1_00",
+                "ItemId": "None"
+              }
+            ],
+            "rankInfo": [
+              {
+                "Level": 2,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "irp_life11_ico01030030",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01030020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01090020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060390",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060280",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico03010920",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico02010560",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico03010630",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 3,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01020031",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico01091150",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico01091160",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico01091170",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico01090050",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01020030",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01020040",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060070",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091440",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico03010810",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico03010820",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 4,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "icf02010010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico03010580",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04010010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091130",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050030",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050120",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico02010110",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01080160",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico02020110",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico03010780",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life09_ico01091480",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 5,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "icf03010010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050130",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060410",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01070160",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060420",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091260",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091280",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico02020120",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091510",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2",
+          "Value": {
+            "ID": 2,
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "headerIconID": [
+              {
+                "iconID": "ICON_QUEST_DETAIL_BOARD_1_01",
+                "ItemId": "None"
+              }
+            ],
+            "rankInfo": [
+              {
+                "Level": 2,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "irp_life11_ico01030290",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01030300",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico04040100",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091230",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01091235",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 3,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01021090",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060220",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060360",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life10_ico01091236",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life10_ico01091237",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 4,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "icf02050010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050430",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico02010610",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091563",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 5,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "icf03050010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico04060020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01080140",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico02010710",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3",
+          "Value": {
+            "ID": 3,
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "headerIconID": [
+              {
+                "iconID": "ICON_QUEST_DETAIL_BOARD_1_02",
+                "ItemId": "None"
+              }
+            ],
+            "rankInfo": [
+              {
+                "Level": 2,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "irp_life12_ico01060130",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060140",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 3,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01020050",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01040140",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01030350",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01020280",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01090280",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 4,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "icf02030010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico04040110",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01020310",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050440",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091600",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 5,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "icf03030010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico02010470",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091590",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091610",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091620",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091630",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01080110",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01070110",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4",
+          "Value": {
+            "ID": 4,
+            "cond": [
+              {
+                "Cmd": "CondCmd_Phase_Greater",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "headerIconID": [
+              {
+                "iconID": "ICON_QUEST_DETAIL_BOARD_1_03",
+                "ItemId": "None"
+              }
+            ],
+            "rankInfo": [
+              {
+                "Level": 2,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "irp_life11_ico01020080",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060110",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060120",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01070030",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01020090",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01030090",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01030100",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 3,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "icf01021010",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico04040040",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01080030",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01070031",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01080031",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01090750",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04010020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico03010170",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico02010060",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 4,
+                "NeedEXP": 90,
+                "reward": [
+                  {
+                    "rewardTextID": "icf02020020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050170",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050180",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico04050190",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01090700",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01090680",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01090270",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              },
+              {
+                "Level": 5,
+                "NeedEXP": 100,
+                "reward": [
+                  {
+                    "rewardTextID": "icf03020020",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 0,
+                    "HighlightReward": true
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico02010070",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life11_ico01090740",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico03010180",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life12_ico01060100",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life10_ico01091460",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01030450",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01020410",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01091570",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  },
+                  {
+                    "rewardTextID": "irp_life14_ico01090660",
+                    "globalByteFlagID": "None",
+                    "rewardIconID": "None",
+                    "itemNum": 1,
+                    "HighlightReward": false
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        144,
+        19,
+        108,
+        25,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        35,
+        2,
+        0,
+        0,
+        50,
+        188,
+        117,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        124,
+        156,
+        0,
+        0,
+        50,
+        140,
+        195,
+        0,
+        0,
+        50,
+        206,
+        234,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000ev40_01500\u0000"
+    }
+  }
+]

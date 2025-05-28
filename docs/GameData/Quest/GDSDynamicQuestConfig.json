@@ -1,0 +1,647 @@
+[
+  {
+    "Type": "GDSDynamicQuestConfig",
+    "Name": "GDSDynamicQuestConfig",
+    "Class": "UScriptClass'GDSDynamicQuestConfig'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "qse000100_random_01",
+          "Value": {
+            "Level": 5,
+            "lifeId": "None",
+            "reward": {
+              "Money": 0,
+              "ItemId": "None",
+              "Num": 0
+            },
+            "requester": {
+              "nameId": "None",
+              "iconID": "None",
+              "mapId": "None",
+              "mapName": "None",
+              "mapRegionType": 0,
+              "mapLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              }
+            },
+            "ArenaRank": 0,
+            "isDisableMenuList": false,
+            "ID": "qse000100_random_01",
+            "No": 1,
+            "SortNo": 1,
+            "Type": "EQuestType::Random",
+            "TitleId": "title_qse000100_random",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "PhaseList": [
+              {
+                "Progress": 1,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 2,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [
+                  {
+                    "Cmd": "CondCmd_CheckQuestReportCondition",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 19
+                      }
+                    ]
+                  }
+                ],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 254,
+                "DetailId": "dtl_qsb_common_201",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 255,
+                "DetailId": "None",
+                "DetailNoReport": "None",
+                "PurposeId": "None",
+                "Condition": [],
+                "PurposePoint": []
+              }
+            ],
+            "ResetExeCmd": [],
+            "reportType": "EQuestReportType::None",
+            "ReportData": {
+              "TargetID": "None",
+              "lifeId": "None",
+              "ItemId": "None",
+              "itemQuality": 0,
+              "Num": 0,
+              "counterFlg": "cnt_qse000100_random_01",
+              "countAlways": false,
+              "mapId": "None",
+              "companion": "None"
+            },
+            "ReportNotification": {
+              "Icon": 4,
+              "complete": "qn_qsb_common"
+            }
+          }
+        },
+        {
+          "Key": "qse000100_random_02",
+          "Value": {
+            "Level": 5,
+            "lifeId": "None",
+            "reward": {
+              "Money": 0,
+              "ItemId": "None",
+              "Num": 0
+            },
+            "requester": {
+              "nameId": "None",
+              "iconID": "None",
+              "mapId": "None",
+              "mapName": "None",
+              "mapRegionType": 0,
+              "mapLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              }
+            },
+            "ArenaRank": 0,
+            "isDisableMenuList": false,
+            "ID": "qse000100_random_02",
+            "No": 1,
+            "SortNo": 1,
+            "Type": "EQuestType::Random",
+            "TitleId": "title_qse000100_random",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "PhaseList": [
+              {
+                "Progress": 1,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 2,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [
+                  {
+                    "Cmd": "CondCmd_CheckQuestReportCondition",
+                    "arg": [
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 19
+                      }
+                    ]
+                  }
+                ],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 254,
+                "DetailId": "dtl_qsb_common_201",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 255,
+                "DetailId": "None",
+                "DetailNoReport": "None",
+                "PurposeId": "None",
+                "Condition": [],
+                "PurposePoint": []
+              }
+            ],
+            "ResetExeCmd": [],
+            "reportType": "EQuestReportType::None",
+            "ReportData": {
+              "TargetID": "None",
+              "lifeId": "None",
+              "ItemId": "None",
+              "itemQuality": 0,
+              "Num": 0,
+              "counterFlg": "cnt_qse000100_random_02",
+              "countAlways": false,
+              "mapId": "None",
+              "companion": "None"
+            },
+            "ReportNotification": {
+              "Icon": 4,
+              "complete": "qn_qsb_common"
+            }
+          }
+        },
+        {
+          "Key": "qse000100_random_03",
+          "Value": {
+            "Level": 5,
+            "lifeId": "None",
+            "reward": {
+              "Money": 0,
+              "ItemId": "None",
+              "Num": 0
+            },
+            "requester": {
+              "nameId": "None",
+              "iconID": "None",
+              "mapId": "None",
+              "mapName": "None",
+              "mapRegionType": 0,
+              "mapLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              }
+            },
+            "ArenaRank": 0,
+            "isDisableMenuList": false,
+            "ID": "qse000100_random_03",
+            "No": 1,
+            "SortNo": 1,
+            "Type": "EQuestType::Random",
+            "TitleId": "title_qse000100_random",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "PhaseList": [
+              {
+                "Progress": 1,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 2,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [
+                  {
+                    "Cmd": "CondCmd_CheckQuestReportCondition",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 19
+                      }
+                    ]
+                  }
+                ],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 254,
+                "DetailId": "dtl_qsb_common_201",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 255,
+                "DetailId": "None",
+                "DetailNoReport": "None",
+                "PurposeId": "None",
+                "Condition": [],
+                "PurposePoint": []
+              }
+            ],
+            "ResetExeCmd": [],
+            "reportType": "EQuestReportType::None",
+            "ReportData": {
+              "TargetID": "None",
+              "lifeId": "None",
+              "ItemId": "None",
+              "itemQuality": 0,
+              "Num": 0,
+              "counterFlg": "cnt_qse000100_random_03",
+              "countAlways": false,
+              "mapId": "None",
+              "companion": "None"
+            },
+            "ReportNotification": {
+              "Icon": 4,
+              "complete": "qn_qsb_common"
+            }
+          }
+        },
+        {
+          "Key": "qse000100_random_04",
+          "Value": {
+            "Level": 5,
+            "lifeId": "None",
+            "reward": {
+              "Money": 0,
+              "ItemId": "None",
+              "Num": 0
+            },
+            "requester": {
+              "nameId": "None",
+              "iconID": "None",
+              "mapId": "None",
+              "mapName": "None",
+              "mapRegionType": 0,
+              "mapLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              }
+            },
+            "ArenaRank": 0,
+            "isDisableMenuList": false,
+            "ID": "qse000100_random_04",
+            "No": 1,
+            "SortNo": 1,
+            "Type": "EQuestType::Random",
+            "TitleId": "title_qse000100_random",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "PhaseList": [
+              {
+                "Progress": 1,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 2,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [
+                  {
+                    "Cmd": "CondCmd_CheckQuestReportCondition",
+                    "arg": [
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 19
+                      }
+                    ]
+                  }
+                ],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 254,
+                "DetailId": "dtl_qsb_common_201",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 255,
+                "DetailId": "None",
+                "DetailNoReport": "None",
+                "PurposeId": "None",
+                "Condition": [],
+                "PurposePoint": []
+              }
+            ],
+            "ResetExeCmd": [],
+            "reportType": "EQuestReportType::None",
+            "ReportData": {
+              "TargetID": "None",
+              "lifeId": "None",
+              "ItemId": "None",
+              "itemQuality": 0,
+              "Num": 0,
+              "counterFlg": "cnt_qse000100_random_04",
+              "countAlways": false,
+              "mapId": "None",
+              "companion": "None"
+            },
+            "ReportNotification": {
+              "Icon": 4,
+              "complete": "qn_qsb_common"
+            }
+          }
+        },
+        {
+          "Key": "qse000100_random_05",
+          "Value": {
+            "Level": 5,
+            "lifeId": "None",
+            "reward": {
+              "Money": 0,
+              "ItemId": "None",
+              "Num": 0
+            },
+            "requester": {
+              "nameId": "None",
+              "iconID": "None",
+              "mapId": "None",
+              "mapName": "None",
+              "mapRegionType": 0,
+              "mapLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              }
+            },
+            "ArenaRank": 0,
+            "isDisableMenuList": false,
+            "ID": "qse000100_random_05",
+            "No": 1,
+            "SortNo": 1,
+            "Type": "EQuestType::Random",
+            "TitleId": "title_qse000100_random",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "PhaseList": [
+              {
+                "Progress": 1,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 2,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [
+                  {
+                    "Cmd": "CondCmd_CheckQuestReportCondition",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 19
+                      }
+                    ]
+                  }
+                ],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 254,
+                "DetailId": "dtl_qsb_common_201",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 255,
+                "DetailId": "None",
+                "DetailNoReport": "None",
+                "PurposeId": "None",
+                "Condition": [],
+                "PurposePoint": []
+              }
+            ],
+            "ResetExeCmd": [],
+            "reportType": "EQuestReportType::None",
+            "ReportData": {
+              "TargetID": "None",
+              "lifeId": "None",
+              "ItemId": "None",
+              "itemQuality": 0,
+              "Num": 0,
+              "counterFlg": "cnt_qse000100_random_05",
+              "countAlways": false,
+              "mapId": "None",
+              "companion": "None"
+            },
+            "ReportNotification": {
+              "Icon": 4,
+              "complete": "qn_qsb_common"
+            }
+          }
+        },
+        {
+          "Key": "qse000100_random_06",
+          "Value": {
+            "Level": 5,
+            "lifeId": "None",
+            "reward": {
+              "Money": 0,
+              "ItemId": "None",
+              "Num": 0
+            },
+            "requester": {
+              "nameId": "None",
+              "iconID": "None",
+              "mapId": "None",
+              "mapName": "None",
+              "mapRegionType": 0,
+              "mapLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0
+              }
+            },
+            "ArenaRank": 0,
+            "isDisableMenuList": false,
+            "ID": "qse000100_random_06",
+            "No": 1,
+            "SortNo": 1,
+            "Type": "EQuestType::Random",
+            "TitleId": "title_qse000100_random",
+            "Condition": [
+              {
+                "Cmd": "CondCmd_None",
+                "arg": []
+              }
+            ],
+            "PhaseList": [
+              {
+                "Progress": 1,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 2,
+                "DetailId": "dtl_qsb_common_102",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [
+                  {
+                    "Cmd": "CondCmd_CheckQuestReportCondition",
+                    "arg": [
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 19
+                      }
+                    ]
+                  }
+                ],
+                "PurposePoint": []
+              },
+              {
+                "Progress": 254,
+                "DetailId": "dtl_qsb_common_201",
+                "DetailNoReport": "dtl_qsb_common_102",
+                "PurposeId": "pps_qsb_common_102",
+                "Condition": [],
+                "PurposePoint": []
+              }
+            ],
+            "ResetExeCmd": [],
+            "reportType": "EQuestReportType::None",
+            "ReportData": {
+              "TargetID": "None",
+              "lifeId": "None",
+              "ItemId": "None",
+              "itemQuality": 0,
+              "Num": 0,
+              "counterFlg": "cnt_qse000100_random_06",
+              "countAlways": false,
+              "mapId": "None",
+              "companion": "None"
+            },
+            "ReportNotification": {
+              "Icon": 4,
+              "complete": "qn_qsb_common"
+            }
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        250,
+        127,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        52,
+        102,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qse000100_random_01\u0000qse000100_random_02\u0000qse000100_random_03\u0000qse000100_random_04\u0000qse000100_random_05\u0000qse000100_random_06\u0000"
+    }
+  }
+]

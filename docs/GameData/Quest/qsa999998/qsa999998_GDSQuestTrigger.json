@@ -1,0 +1,258 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsa999998_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "955929493",
+          "Value": {
+            "ID": 955929493,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qsa999998_chr900300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 9
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2152084720",
+          "Value": {
+            "ID": 2152084720,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qsa999998_chr900300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 9
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAchieve",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2465438494",
+          "Value": {
+            "ID": 2465438494,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qsa999998_chr900300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_LifeQuestReport",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "709885051",
+          "Value": {
+            "ID": 709885051,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qsa999998_chr900300",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 9
+                  },
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestRetry",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        65,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        12,
+        0,
+        0,
+        0,
+        52,
+        22,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        42,
+        0,
+        0,
+        0,
+        52,
+        52,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        72,
+        0,
+        0,
+        0,
+        50,
+        255,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        52,
+        92,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsa999998\u0000z01_debug\u0000qsa999998\u0000qsa999998\u0000z01_debug\u0000qsa999998\u0000qsa999998\u0000qsa999998\u0000z01_debug\u0000qsa999998\u0000"
+    }
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb999999_01_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3539202278",
+          "Value": {
+            "ID": 3539202278,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb999999_chr900901_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1783601027",
+          "Value": {
+            "ID": 1783601027,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb999999_chr900902_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        25,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        15,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        52,
+        41,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb999999_01\u0000qsb999999_01\u0000qsb999999_01\u0000qsb999999_01\u0000"
+    }
+  }
+]

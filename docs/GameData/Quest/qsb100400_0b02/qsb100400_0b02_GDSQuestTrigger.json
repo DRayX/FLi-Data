@@ -1,0 +1,304 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb100400_0b02_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "674189437",
+          "Value": {
+            "ID": 674189437,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100400_area_01_chr100700",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_TempByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 34
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "983236499",
+          "Value": {
+            "ID": 983236499,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100400_area_01_chr100700",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_TempByteFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 34
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2183567606",
+          "Value": {
+            "ID": 2183567606,
+            "triggerType": "TG_EVENT_END",
+            "TargetID": "ExeRequestQuestEnd",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 15
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_WaitTime",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 15
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItem",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        139,
+        30,
+        1,
+        95,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        230,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        52,
+        0,
+        0,
+        0,
+        52,
+        67,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        117,
+        0,
+        0,
+        0,
+        52,
+        132,
+        0,
+        0,
+        0,
+        50,
+        255,
+        0,
+        0,
+        0,
+        52,
+        147,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        9,
+        0,
+        0,
+        0,
+        52,
+        163,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        175,
+        0,
+        0,
+        0,
+        52,
+        191,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb100400_0b02\u0000flg_chr100700_request_branch_state\u0000qsb100400_0b02\u0000qsb100400_0b02\u0000flg_chr100700_request_branch_state\u0000qsb100400_0b02\u0000qsb100400_0b02\u0000flg_icf01021093\u0000icf01021093\u0000flg_icf01021093\u0000icf01021093\u0000"
+    }
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb00001_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "2224862657",
+          "Value": {
+            "ID": 2224862657,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "sub_chr900b00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2519276079",
+          "Value": {
+            "ID": 2519276079,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "sub_chr900b00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 8
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 8
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        25,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        11,
+        0,
+        0,
+        0,
+        52,
+        20,
+        0,
+        0,
+        0,
+        52,
+        29,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb00001\u0000qsb00001\u0000qsb00001\u0000qsb00001\u0000"
+    }
+  }
+]

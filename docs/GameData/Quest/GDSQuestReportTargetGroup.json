@@ -1,0 +1,585 @@
+[
+  {
+    "Type": "GDSQuestReportTargetGroup",
+    "Name": "GDSQuestReportTargetGroup",
+    "Class": "UScriptClass'GDSQuestReportTargetGroup'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "cmd_b02_charge_attackA",
+          "Value": {
+            "GroupID": "cmd_b02_charge_attackA",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b02_charge_attackA_01"
+              },
+              {
+                "TargetID": "cmd_b02_charge_attackA_02"
+              },
+              {
+                "TargetID": "cmd_b02_charge_attackA_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b02_charge_attackB",
+          "Value": {
+            "GroupID": "cmd_b02_charge_attackB",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b02_charge_attackB_01"
+              },
+              {
+                "TargetID": "cmd_b02_charge_attackB_02"
+              },
+              {
+                "TargetID": "cmd_b02_charge_attackB_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b01_charge_attackA",
+          "Value": {
+            "GroupID": "cmd_b01_charge_attackA",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b01_charge_attackA_01"
+              },
+              {
+                "TargetID": "cmd_b01_charge_attackA_02"
+              },
+              {
+                "TargetID": "cmd_b01_charge_attackA_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b01_charge_attackB",
+          "Value": {
+            "GroupID": "cmd_b01_charge_attackB",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b01_charge_attackB_01"
+              },
+              {
+                "TargetID": "cmd_b01_charge_attackB_02"
+              },
+              {
+                "TargetID": "cmd_b01_charge_attackB_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackA_normal",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackA_normal",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackA_normal_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_normal_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_normal_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackA_poison",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackA_poison",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackA_poison_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_poison_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_poison_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackA_sleep",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackA_sleep",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackA_sleep_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_sleep_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_sleep_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackA_paralyze",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackA_paralyze",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackA_paralyze_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_paralyze_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackA_paralyze_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackB_normal",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackB_normal",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackB_normal_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_normal_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_normal_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackB_poison",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackB_poison",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackB_poison_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_poison_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_poison_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackB_sleep",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackB_sleep",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackB_sleep_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_sleep_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_sleep_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_charge_attackB_paralyze",
+          "Value": {
+            "GroupID": "cmd_b03_charge_attackB_paralyze",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_charge_attackB_paralyze_01"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_paralyze_02"
+              },
+              {
+                "TargetID": "cmd_b03_charge_attackB_paralyze_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b03_unique",
+          "Value": {
+            "GroupID": "cmd_b03_unique",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b03_uniqueA_01"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_charge_attackA_damage",
+          "Value": {
+            "GroupID": "cmd_b04_charge_attackA_damage",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_charge_attackA_damage_01"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackA_damage_02"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackA_damage_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_charge_attackA_defense",
+          "Value": {
+            "GroupID": "cmd_b04_charge_attackA_defense",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_charge_attackA_defense_01"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackA_defense_02"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackA_defense_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_charge_attackA_heal",
+          "Value": {
+            "GroupID": "cmd_b04_charge_attackA_heal",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_charge_attackA_heal_01"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackA_heal_02"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackA_heal_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_charge_attackB_damage",
+          "Value": {
+            "GroupID": "cmd_b04_charge_attackB_damage",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_charge_attackB_damage_01"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackB_damage_02"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackB_damage_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_charge_attackB_defense",
+          "Value": {
+            "GroupID": "cmd_b04_charge_attackB_defense",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_charge_attackB_defense_01"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackB_defense_02"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackB_defense_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_charge_attackB_heal",
+          "Value": {
+            "GroupID": "cmd_b04_charge_attackB_heal",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_charge_attackB_heal_01"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackB_heal_02"
+              },
+              {
+                "TargetID": "cmd_b04_charge_attackB_heal_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "cmd_b04_unique",
+          "Value": {
+            "GroupID": "cmd_b04_unique",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "cmd_b04_uniqueA_01"
+              },
+              {
+                "TargetID": "cmd_b04_uniqueC_01"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "mining_chargeA",
+          "Value": {
+            "GroupID": "mining_chargeA",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "mining_chargeA_01"
+              },
+              {
+                "TargetID": "mining_chargeA_02"
+              },
+              {
+                "TargetID": "mining_chargeA_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "mining_chargeB",
+          "Value": {
+            "GroupID": "mining_chargeB",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "mining_chargeB_01"
+              },
+              {
+                "TargetID": "mining_chargeB_02"
+              },
+              {
+                "TargetID": "mining_chargeB_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "felling_chargeA",
+          "Value": {
+            "GroupID": "felling_chargeA",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "felling_chargeA_01"
+              },
+              {
+                "TargetID": "felling_chargeA_02"
+              },
+              {
+                "TargetID": "felling_chargeA_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "felling_chargeB",
+          "Value": {
+            "GroupID": "felling_chargeB",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "felling_chargeB_01"
+              },
+              {
+                "TargetID": "felling_chargeB_02"
+              },
+              {
+                "TargetID": "felling_chargeB_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "fishing_chargeA",
+          "Value": {
+            "GroupID": "fishing_chargeA",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "fishing_chargeA_01"
+              },
+              {
+                "TargetID": "fishing_chargeA_02"
+              },
+              {
+                "TargetID": "fishing_chargeA_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "fishing_chargeB",
+          "Value": {
+            "GroupID": "fishing_chargeB",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "fishing_chargeB_01"
+              },
+              {
+                "TargetID": "fishing_chargeB_02"
+              },
+              {
+                "TargetID": "fishing_chargeB_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "harvesting_normal_chargeA",
+          "Value": {
+            "GroupID": "harvesting_normal_chargeA",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "harvesting_normal_chargeA_01"
+              },
+              {
+                "TargetID": "harvesting_normal_chargeA_02"
+              },
+              {
+                "TargetID": "harvesting_normal_chargeA_03"
+              },
+              {
+                "TargetID": "harvesting_boss_chargeA_01"
+              },
+              {
+                "TargetID": "harvesting_boss_chargeA_02"
+              },
+              {
+                "TargetID": "harvesting_boss_chargeA_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "harvesting_normal_chargeB",
+          "Value": {
+            "GroupID": "harvesting_normal_chargeB",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "harvesting_normal_chargeB_01"
+              },
+              {
+                "TargetID": "harvesting_normal_chargeB_02"
+              },
+              {
+                "TargetID": "harvesting_normal_chargeB_03"
+              },
+              {
+                "TargetID": "harvesting_boss_chargeB_01"
+              },
+              {
+                "TargetID": "harvesting_boss_chargeB_02"
+              },
+              {
+                "TargetID": "harvesting_boss_chargeB_03"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "harvesting_tention1",
+          "Value": {
+            "GroupID": "harvesting_tention1",
+            "isNoOverwrite": true,
+            "targetGroup": [
+              {
+                "TargetID": "harvesting_normal_tention1"
+              },
+              {
+                "TargetID": "harvesting_boss_tention1"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "harvesting_tention2",
+          "Value": {
+            "GroupID": "harvesting_tention2",
+            "isNoOverwrite": true,
+            "targetGroup": [
+              {
+                "TargetID": "harvesting_normal_tention2"
+              },
+              {
+                "TargetID": "harvesting_boss_tention2"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "prm_pick_wood_0005",
+          "Value": {
+            "GroupID": "prm_pick_wood_0005",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "prm_pick_wood_0005"
+              },
+              {
+                "TargetID": "prm_pick_wood_0005_02"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "prm_pick_deposit_0000",
+          "Value": {
+            "GroupID": "prm_pick_deposit_0000",
+            "isNoOverwrite": false,
+            "targetGroup": [
+              {
+                "TargetID": "prm_pick_deposit_0000"
+              },
+              {
+                "TargetID": "prm_pick_deposit_0000_02"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

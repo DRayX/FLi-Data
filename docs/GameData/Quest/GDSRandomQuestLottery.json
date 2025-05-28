@@ -1,0 +1,352 @@
+[
+  {
+    "Type": "GDSRandomQuestLottery",
+    "Name": "GDSRandomQuestLottery",
+    "Class": "UScriptClass'GDSRandomQuestLottery'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "lottery_qse_common",
+          "Value": {
+            "ID": "lottery_qse_common",
+            "questId": "qse000100_random_01",
+            "lot": [
+              {
+                "questId": "qse_common_01",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_Less_Than",
+                    "arg": [
+                      {
+                        "m_offset": 0,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qse_common_02",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_Less_Than",
+                    "arg": [
+                      {
+                        "m_offset": 5,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_request_101",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 10,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 15,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_quality_101",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 20,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 25,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_request_201",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 30,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 35,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_quality_201",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 40,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 45,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_request_301",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 50,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 55,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_quality_301",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 60,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 65,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_request_401",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 70,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 75,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_quality_401",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_GreaterAndLess",
+                    "arg": [
+                      {
+                        "m_offset": 80,
+                        "m_dataSize": 4
+                      },
+                      {
+                        "m_offset": 85,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_request_501",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_Greater",
+                    "arg": [
+                      {
+                        "m_offset": 90,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "questId": "qsb_npc_quality_501",
+                "Rate": 1,
+                "cond": [
+                  {
+                    "Cmd": "CondCmd_Phase_Greater",
+                    "arg": [
+                      {
+                        "m_offset": 95,
+                        "m_dataSize": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        157,
+        32,
+        100,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        50,
+        58,
+        117,
+        0,
+        0,
+        50,
+        58,
+        117,
+        0,
+        0,
+        50,
+        158,
+        117,
+        0,
+        0,
+        50,
+        58,
+        157,
+        0,
+        0,
+        50,
+        158,
+        117,
+        0,
+        0,
+        50,
+        58,
+        157,
+        0,
+        0,
+        50,
+        58,
+        157,
+        0,
+        0,
+        50,
+        106,
+        234,
+        0,
+        0,
+        50,
+        58,
+        157,
+        0,
+        0,
+        50,
+        106,
+        234,
+        0,
+        0,
+        50,
+        106,
+        234,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        50,
+        106,
+        234,
+        0,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        50,
+        252,
+        17,
+        1,
+        0,
+        50,
+        122,
+        17,
+        1,
+        0,
+        50,
+        252,
+        17,
+        1,
+        0,
+        50,
+        252,
+        17,
+        1,
+        0,
+        50,
+        252,
+        17,
+        1,
+        0
+      ],
+      "m_autoStr": "＊\u0000"
+    }
+  }
+]

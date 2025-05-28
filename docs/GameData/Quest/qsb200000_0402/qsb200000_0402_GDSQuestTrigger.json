@@ -1,0 +1,295 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb200000_0402_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1337610836",
+          "Value": {
+            "ID": 1337610836,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb200000_0401_enm108003",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1561329082",
+          "Value": {
+            "ID": 1561329082,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb200000_0401_enm108003",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3853753055",
+          "Value": {
+            "ID": 3853753055,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "qsb200000_0401_enm108003",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestInfoCheck",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3920253340",
+          "Value": {
+            "ID": 3920253340,
+            "triggerType": "TG_RETURN_RPG",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_GroupGeneratorSetPop",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 37
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 28
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        142,
+        134,
+        0,
+        80,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        194,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        52,
+        61,
+        0,
+        0,
+        0,
+        52,
+        76,
+        0,
+        0,
+        0,
+        52,
+        91,
+        0,
+        0,
+        0,
+        52,
+        120,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        135,
+        0,
+        0,
+        0,
+        52,
+        150,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        165,
+        0,
+        0,
+        0,
+        52,
+        194,
+        0,
+        0,
+        0,
+        52,
+        232,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb200000_0402\u0000qsb200000_0402\u0000flg_village_quest_04_enm_pop\u0000qsb200000_0402\u0000qsb200000_0402\u0000flg_village_quest_04_enm_pop\u0000qsb200000_0402\u0000qsb200000_0402\u0000qsb200000_0402\u0000flg_village_quest_04_enm_pop\u0000grp_enmy_map200000_village04_chief_02\u0000flg_village_quest_04_enm_pop\u0000"
+    }
+  }
+]

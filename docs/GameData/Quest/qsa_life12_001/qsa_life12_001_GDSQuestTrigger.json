@@ -1,0 +1,3335 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsa_life12_001_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "3615790596",
+          "Value": {
+            "ID": 3615790596,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "Map_100100_room_02_chr903200",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3292043743",
+          "Value": {
+            "ID": 3292043743,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100100_room_11_chr902800",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetCurrentLife",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2089090746",
+          "Value": {
+            "ID": 2089090746,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_LifeQuestStartTelop",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_QuestEnd_Silent",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetNavi_QuestId",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2737728429",
+          "Value": {
+            "ID": 2737728429,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_Phase_Not_Equal",
+                "arg": [
+                  {
+                    "m_offset": 110,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 115,
+                    "m_dataSize": 27
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2979775555",
+          "Value": {
+            "ID": 2979775555,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "sysmes_life_skip_confirm_01",
+            "TargetSubID": "1",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 120,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 125,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 130,
+                    "m_dataSize": 27
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1721385794",
+          "Value": {
+            "ID": 1721385794,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "sysmes_life_skip_confirm_02",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 135,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 140,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetCurrentLife",
+                "arg": [
+                  {
+                    "m_offset": 145,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 150,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 155,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 160,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 165,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2466928382",
+          "Value": {
+            "ID": 2466928382,
+            "triggerType": "TG_EXTALK_CHOICE",
+            "TargetID": "sysmes_life_skip_confirm_01",
+            "TargetSubID": "0",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 170,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 175,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 180,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_LifeQuestStartTelop",
+                "arg": [
+                  {
+                    "m_offset": 185,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 190,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 195,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_QuestEnd_Silent",
+                "arg": [
+                  {
+                    "m_offset": 200,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetNavi_QuestId",
+                "arg": [
+                  {
+                    "m_offset": 205,
+                    "m_dataSize": 14
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "968974762",
+          "Value": {
+            "ID": 968974762,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100100_room_11_chr900501_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 210,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 215,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetCurrentLife",
+                "arg": [
+                  {
+                    "m_offset": 220,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 225,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 230,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2172454607",
+          "Value": {
+            "ID": 2172454607,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 235,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 240,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 245,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 250,
+                    "m_dataSize": 28
+                  },
+                  {
+                    "m_offset": 255,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 260,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 265,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 270,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 275,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2744316415",
+          "Value": {
+            "ID": 2744316415,
+            "triggerType": "TG_GET_ITEM_CRAFT",
+            "TargetID": "imt01002230",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 280,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 285,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 290,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 295,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2488009165",
+          "Value": {
+            "ID": 2488009165,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100100_room_11_chr900501_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 300,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 305,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHaveItem",
+                "arg": [
+                  {
+                    "m_offset": 310,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 315,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 320,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 325,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 330,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 335,
+                    "m_dataSize": 30
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3018561622",
+          "Value": {
+            "ID": 3018561622,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FT_destination_life",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 340,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 345,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 350,
+                    "m_dataSize": 30
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 355,
+                    "m_dataSize": 30
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateFuncPoint",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdatePurpose",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "756938268",
+          "Value": {
+            "ID": 756938268,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100101_life12_chr900102_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 360,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 365,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 370,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 375,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 380,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 385,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4077852454",
+          "Value": {
+            "ID": 4077852454,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100100_chr900200_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 390,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 395,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 400,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1270050883",
+          "Value": {
+            "ID": 1270050883,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 405,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 410,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 415,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 420,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 425,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 430,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 435,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3962696054",
+          "Value": {
+            "ID": 3962696054,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100100_room_11_chr900102_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 440,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 445,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetCurrentLife",
+                "arg": [
+                  {
+                    "m_offset": 450,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 455,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 460,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1418565139",
+          "Value": {
+            "ID": 1418565139,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 465,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 470,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 475,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 480,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 485,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 490,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 495,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 500,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 505,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3597207216",
+          "Value": {
+            "ID": 3597207216,
+            "triggerType": "TG_GET_ITEM_CRAFT",
+            "TargetID": "iky01000490",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 510,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 515,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetQuestPhase",
+                "arg": [
+                  {
+                    "m_offset": 520,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 525,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "225794021",
+          "Value": {
+            "ID": 225794021,
+            "triggerType": "TG_NPC_TALK",
+            "TargetID": "Map_100100_room_11_chr900102_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 530,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 535,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHaveItem",
+                "arg": [
+                  {
+                    "m_offset": 540,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 545,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlayPurposeEffect",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetCurrentLife",
+                "arg": [
+                  {
+                    "m_offset": 550,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 555,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvRunEvent",
+                "arg": [
+                  {
+                    "m_offset": 560,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 565,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 570,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItemWithNotify",
+                "arg": [
+                  {
+                    "m_offset": 575,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 580,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItem",
+                "arg": [
+                  {
+                    "m_offset": 585,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 590,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteRecipe",
+                "arg": [
+                  {
+                    "m_offset": 595,
+                    "m_dataSize": 31
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3049861248",
+          "Value": {
+            "ID": 3049861248,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 600,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 605,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 610,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 615,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 620,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 625,
+                    "m_dataSize": 21
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 630,
+                    "m_dataSize": 26
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 635,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetEquipWithSkillWithLog",
+                "arg": [
+                  {
+                    "m_offset": 640,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 645,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 650,
+                    "m_dataSize": 22
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1038762711",
+          "Value": {
+            "ID": 1038762711,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 655,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 660,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ReserveMenuWaitOpened",
+                "arg": [
+                  {
+                    "m_offset": 665,
+                    "m_dataSize": 18
+                  },
+                  {
+                    "m_offset": 670,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 675,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 680,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2809962350",
+          "Value": {
+            "ID": 2809962350,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 685,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 690,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 695,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_PlaySE",
+                "arg": [
+                  {
+                    "m_offset": 700,
+                    "m_dataSize": 9
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_LifeQuestClearTelop",
+                "arg": [
+                  {
+                    "m_offset": 705,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateRpgObjectAll",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_LifeQuestReport_Silent",
+                "arg": [
+                  {
+                    "m_offset": 710,
+                    "m_dataSize": 14
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 715,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetNavi_Phase",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_AddMoneyWithNotify",
+                "arg": [
+                  {
+                    "m_offset": 720,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 725,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 730,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 735,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 740,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 745,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 750,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 755,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 760,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 765,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 770,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 775,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 780,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 785,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 790,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 795,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 800,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 805,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 810,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 815,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 820,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 825,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 830,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 835,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 840,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 845,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 850,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 855,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 860,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 865,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 870,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 875,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 880,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 885,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 890,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 895,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 900,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "153592614",
+          "Value": {
+            "ID": 153592614,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 905,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 910,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 915,
+                    "m_dataSize": 16
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 920,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_LifeQuestReport",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2498796447",
+          "Value": {
+            "ID": 2498796447,
+            "triggerType": "TG_RETURN_RPG_FREE",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetTempBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 925,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_AvatarLife_Equal",
+                "arg": [
+                  {
+                    "m_offset": 930,
+                    "m_dataSize": 8
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 935,
+                    "m_dataSize": 21
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 940,
+                    "m_dataSize": 26
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetExTalkEvent",
+                "arg": [
+                  {
+                    "m_offset": 945,
+                    "m_dataSize": 26
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_AddMoneyWithNotify",
+                "arg": [
+                  {
+                    "m_offset": 950,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 955,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetNavi_Phase",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 960,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetTempBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 965,
+                    "m_dataSize": 16
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetEquipWithSkillWithLog",
+                "arg": [
+                  {
+                    "m_offset": 970,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 975,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 980,
+                    "m_dataSize": 22
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 985,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 990,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 995,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1000,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1005,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1010,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1015,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1020,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1025,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1030,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1035,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1040,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1045,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1050,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1055,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1060,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1065,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1070,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1075,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1080,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1085,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1090,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1095,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1100,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItem",
+                "arg": [
+                  {
+                    "m_offset": 1105,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1110,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 1115,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1120,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 1125,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1130,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 1135,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1140,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 1145,
+                    "m_dataSize": 22
+                  },
+                  {
+                    "m_offset": 1150,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 1155,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 1160,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_MarkAsReadHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 1165,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_MarkAsReadHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 1170,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_MarkAsReadHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 1175,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        194,
+        202,
+        0,
+        156,
+        4,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        220,
+        1,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        17,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        32,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        47,
+        0,
+        0,
+        0,
+        52,
+        62,
+        0,
+        0,
+        0,
+        52,
+        71,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        97,
+        0,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        108,
+        0,
+        0,
+        0,
+        52,
+        123,
+        0,
+        0,
+        0,
+        52,
+        138,
+        0,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        153,
+        0,
+        0,
+        0,
+        52,
+        165,
+        0,
+        0,
+        0,
+        52,
+        180,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        195,
+        0,
+        0,
+        0,
+        50,
+        86,
+        39,
+        0,
+        0,
+        52,
+        206,
+        0,
+        0,
+        0,
+        52,
+        234,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        249,
+        0,
+        0,
+        0,
+        52,
+        21,
+        1,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        36,
+        1,
+        0,
+        0,
+        52,
+        51,
+        1,
+        0,
+        0,
+        52,
+        60,
+        1,
+        0,
+        0,
+        52,
+        77,
+        1,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        92,
+        1,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        107,
+        1,
+        0,
+        0,
+        52,
+        122,
+        1,
+        0,
+        0,
+        52,
+        137,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        152,
+        1,
+        0,
+        0,
+        52,
+        164,
+        1,
+        0,
+        0,
+        52,
+        179,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        194,
+        1,
+        0,
+        0,
+        52,
+        209,
+        1,
+        0,
+        0,
+        52,
+        218,
+        1,
+        0,
+        0,
+        52,
+        229,
+        1,
+        0,
+        0,
+        50,
+        5,
+        0,
+        0,
+        0,
+        52,
+        244,
+        1,
+        0,
+        0,
+        52,
+        255,
+        1,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        28,
+        2,
+        0,
+        0,
+        50,
+        4,
+        0,
+        0,
+        0,
+        52,
+        40,
+        2,
+        0,
+        0,
+        50,
+        10,
+        0,
+        0,
+        0,
+        52,
+        55,
+        2,
+        0,
+        0,
+        50,
+        10,
+        0,
+        0,
+        0,
+        52,
+        70,
+        2,
+        0,
+        0,
+        50,
+        15,
+        0,
+        0,
+        0,
+        52,
+        85,
+        2,
+        0,
+        0,
+        50,
+        15,
+        0,
+        0,
+        0,
+        52,
+        100,
+        2,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        112,
+        2,
+        0,
+        0,
+        52,
+        123,
+        2,
+        0,
+        0,
+        50,
+        20,
+        0,
+        0,
+        0,
+        52,
+        138,
+        2,
+        0,
+        0,
+        52,
+        169,
+        2,
+        0,
+        0,
+        50,
+        20,
+        0,
+        0,
+        0,
+        52,
+        184,
+        2,
+        0,
+        0,
+        52,
+        215,
+        2,
+        0,
+        0,
+        52,
+        246,
+        2,
+        0,
+        0,
+        50,
+        20,
+        0,
+        0,
+        0,
+        52,
+        5,
+        3,
+        0,
+        0,
+        52,
+        16,
+        3,
+        0,
+        0,
+        50,
+        25,
+        0,
+        0,
+        0,
+        52,
+        31,
+        3,
+        0,
+        0,
+        52,
+        46,
+        3,
+        0,
+        0,
+        50,
+        25,
+        0,
+        0,
+        0,
+        52,
+        61,
+        3,
+        0,
+        0,
+        52,
+        72,
+        3,
+        0,
+        0,
+        50,
+        25,
+        0,
+        0,
+        0,
+        52,
+        87,
+        3,
+        0,
+        0,
+        52,
+        98,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        110,
+        3,
+        0,
+        0,
+        50,
+        30,
+        0,
+        0,
+        0,
+        52,
+        125,
+        3,
+        0,
+        0,
+        50,
+        30,
+        0,
+        0,
+        0,
+        52,
+        140,
+        3,
+        0,
+        0,
+        52,
+        155,
+        3,
+        0,
+        0,
+        52,
+        164,
+        3,
+        0,
+        0,
+        52,
+        175,
+        3,
+        0,
+        0,
+        50,
+        30,
+        0,
+        0,
+        0,
+        52,
+        190,
+        3,
+        0,
+        0,
+        52,
+        201,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        224,
+        3,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        236,
+        3,
+        0,
+        0,
+        50,
+        35,
+        0,
+        0,
+        0,
+        52,
+        251,
+        3,
+        0,
+        0,
+        50,
+        35,
+        0,
+        0,
+        0,
+        52,
+        10,
+        4,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        25,
+        4,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        40,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        52,
+        4,
+        0,
+        0,
+        52,
+        67,
+        4,
+        0,
+        0,
+        52,
+        76,
+        4,
+        0,
+        0,
+        52,
+        87,
+        4,
+        0,
+        0,
+        52,
+        102,
+        4,
+        0,
+        0,
+        52,
+        117,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        129,
+        4,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        152,
+        4,
+        0,
+        0,
+        52,
+        184,
+        4,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        199,
+        4,
+        0,
+        0,
+        52,
+        210,
+        4,
+        0,
+        0,
+        52,
+        234,
+        4,
+        0,
+        0,
+        52,
+        244,
+        4,
+        0,
+        0,
+        52,
+        10,
+        5,
+        0,
+        0,
+        52,
+        37,
+        5,
+        0,
+        0,
+        52,
+        61,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        73,
+        5,
+        0,
+        0,
+        52,
+        96,
+        5,
+        0,
+        0,
+        52,
+        107,
+        5,
+        0,
+        0,
+        52,
+        131,
+        5,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        150,
+        5,
+        0,
+        0,
+        52,
+        161,
+        5,
+        0,
+        0,
+        52,
+        172,
+        5,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        187,
+        5,
+        0,
+        0,
+        52,
+        211,
+        5,
+        0,
+        0,
+        52,
+        221,
+        5,
+        0,
+        0,
+        52,
+        236,
+        5,
+        0,
+        0,
+        52,
+        251,
+        5,
+        0,
+        0,
+        50,
+        244,
+        1,
+        0,
+        0,
+        52,
+        19,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        42,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        65,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        88,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        111,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        134,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        157,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        180,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        203,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        226,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        249,
+        6,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        16,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        39,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        62,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        85,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        108,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        131,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        154,
+        7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        166,
+        7,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        181,
+        7,
+        0,
+        0,
+        52,
+        198,
+        7,
+        0,
+        0,
+        52,
+        215,
+        7,
+        0,
+        0,
+        52,
+        232,
+        7,
+        0,
+        0,
+        52,
+        241,
+        7,
+        0,
+        0,
+        52,
+        7,
+        8,
+        0,
+        0,
+        52,
+        34,
+        8,
+        0,
+        0,
+        50,
+        232,
+        3,
+        0,
+        0,
+        52,
+        61,
+        8,
+        0,
+        0,
+        52,
+        85,
+        8,
+        0,
+        0,
+        52,
+        102,
+        8,
+        0,
+        0,
+        52,
+        119,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        131,
+        8,
+        0,
+        0,
+        52,
+        154,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        177,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        200,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        223,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        246,
+        8,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        13,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        36,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        59,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        82,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        105,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        128,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        151,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        174,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        197,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        220,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        243,
+        9,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        10,
+        10,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        33,
+        10,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        45,
+        10,
+        0,
+        0,
+        52,
+        56,
+        10,
+        0,
+        0,
+        52,
+        67,
+        10,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsa_life12_001\u0000qsa_life12_001\u0000qsa_life12_001\u0000para_avt000000\u0000life0012\u0000ev30_12010\u0000qsa_life12_001\u0000ev30_12010\u0000ME_JINGLE_HERO\u0000qsa_life12_001\u0000qsa_life12_001\u0000qm010070_01\u0000qsa_life12_001\u0000qsa_life12_001\u0000ev30_12010\u0000sysmes_life_skip_confirm_01\u0000qsa_life12_001\u0000sysmes_life_skip_confirm_02\u0000qsa_life12_001\u0000para_avt000000\u0000life0012\u0000flg_life_skip_01\u0000qsa_life12_001\u0000qsa_life12_001\u0000ME_JINGLE_HERO\u0000qsa_life12_001\u0000qsa_life12_001\u0000qm010070_01\u0000qsa_life12_001\u0000qsa_life12_001\u0000para_avt000000\u0000life0012\u0000ev30_12020\u0000qsa_life12_001\u0000ev30_12020\u0000irp_life12_imt01002230_story\u0000imt01002080\u0000qsa_life12_001\u0000qsa_life12_001\u0000qsa_life12_001\u0000qsa_life12_001\u0000imt01002230\u0000ev30_12030\u0000qsa_life12_001\u0000flg_Map100101_destination_life\u0000qsa_life12_001\u0000flg_Map100101_destination_life\u0000flg_Map100101_destination_life\u0000qsa_life12_001\u0000ev30_12040\u0000qsa_life12_001\u0000flg_life12_025\u0000qsa_life12_001\u0000ev30_12050\u0000qsa_life12_001\u0000ev30_12050\u0000iky01000480\u0000qsa_life12_001\u0000qsa_life12_001\u0000para_avt000000\u0000life0012\u0000ev30_12060\u0000qsa_life12_001\u0000ev30_12060\u0000irp_life12_iky01000490\u0000imt01002230\u0000qsa_life12_001\u0000qsa_life12_001\u0000qsa_life12_001\u0000qsa_life12_001\u0000iky01000490\u0000para_avt000000\u0000life0012\u0000ev30_12070\u0000flg_life12_001\u0000flg_life12_025\u0000iky01000490\u0000irp_life12_iky01000490\u0000recipe_life12_imt01002230_story\u0000qsa_life12_001\u0000ev30_12070\u0000flg_check_life_bonus_01\u0000JGL_FLI01\u0000sysmes_life_recipe_00\u0000systems_quest_get_equip_12\u0000flg_check_life_bonus_01\u0000ilt07000020\u0000life_rankup_present_01\u0000hlp_030040\u0000flg_check_life_bonus_01\u0000equip_ability_menu\u0000hlp_030040\u0000hlp_020080\u0000qsa_life12_001\u0000flg_check_life_bonus_01\u0000JGL_FLI03\u0000qsa_life12_001\u0000qsa_life12_001\u0000flg_check_life_bonus_01\u0000irp_life12_imt01002240\u0000irp_life12_imt01002230\u0000irp_life12_imt01002250\u0000irp_life12_imt01002330\u0000irp_life12_iam01000130\u0000irp_life12_iam01000140\u0000irp_life12_iam01000150\u0000irp_life12_iam01000160\u0000irp_life12_iam01007820\u0000irp_life12_iam01007830\u0000irp_life12_iam01007840\u0000irp_life12_iam01007850\u0000irp_life12_ico03010890\u0000irp_life12_iam01004850\u0000irp_life12_iam01004860\u0000irp_life12_iam01004870\u0000irp_life12_iam01004890\u0000ico01100020\u0000qsa_life12_001\u0000flg_life_skip_01\u0000flg_life_skip_02\u0000flg_life_skip_02\u0000life0012\u0000sysmes_life_recipe_01\u0000systems_quest_get_equip_12\u0000sysmes_life_skip_result_02\u0000flg_check_life_bonus_01\u0000flg_life_skip_01\u0000flg_life_skip_02\u0000ilt07000020\u0000life_rankup_present_01\u0000irp_life12_imt01002240\u0000irp_life12_imt01002230\u0000irp_life12_imt01002250\u0000irp_life12_imt01002330\u0000irp_life12_iam01000130\u0000irp_life12_iam01000140\u0000irp_life12_iam01000150\u0000irp_life12_iam01000160\u0000irp_life12_iam01007820\u0000irp_life12_iam01007830\u0000irp_life12_iam01007840\u0000irp_life12_iam01007850\u0000irp_life12_ico03010890\u0000irp_life12_iam01004850\u0000irp_life12_iam01004860\u0000irp_life12_iam01004870\u0000irp_life12_iam01004890\u0000ico01100020\u0000hlp_010020\u0000hlp_020080\u0000hlp_030040\u0000"
+    }
+  }
+]

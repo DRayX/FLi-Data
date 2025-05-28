@@ -1,0 +1,330 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb900030_04_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "4020144756",
+          "Value": {
+            "ID": 4020144756,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "tgs_map_100100_chr000c00_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 12
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept_Silent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 26
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 11
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetLife",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 8
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetLicenseRank",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetLv",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 14
+                  },
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_RequestQuestStartTelop",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1461906705",
+          "Value": {
+            "ID": 1461906705,
+            "triggerType": "TG_QUEST_COUNTER_COND_CLEAR",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1167540991",
+          "Value": {
+            "ID": 1167540991,
+            "triggerType": "TG_MENU_END",
+            "TargetID": "got_window_menu",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 12
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd_Silent",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 12
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_RsvMenu_RequestQuestClearTelop",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_AddGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        231,
+        197,
+        15,
+        105,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        15,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        52,
+        55,
+        0,
+        0,
+        0,
+        52,
+        67,
+        0,
+        0,
+        0,
+        52,
+        82,
+        0,
+        0,
+        0,
+        52,
+        91,
+        0,
+        0,
+        0,
+        52,
+        106,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        52,
+        115,
+        0,
+        0,
+        0,
+        52,
+        130,
+        0,
+        0,
+        0,
+        50,
+        10,
+        0,
+        0,
+        0,
+        52,
+        139,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        152,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        164,
+        0,
+        0,
+        0,
+        52,
+        177,
+        0,
+        0,
+        0,
+        52,
+        190,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsb900030_04\u0000qsb900030_04\u0000flg_tgs_battle_guide2_sign\u0000tgs_hlp_060\u0000para_avt000000\u0000life0006\u0000para_avt000000\u0000life0006\u0000para_avt000000\u0000life0006\u0000qsb900030_04\u0000iky01000300\u0000qsb900030_04\u0000qsb900030_04\u0000cnt_get_key_item_num\u0000"
+    }
+  }
+]

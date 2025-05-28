@@ -1,0 +1,133 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsb_100100_chr900100_01_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "4021547297",
+          "Value": {
+            "ID": 4021547297,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qsb_100100_chr900100_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4245053135",
+          "Value": {
+            "ID": 4245053135,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qsb_100100_chr900100_01",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 23
+                  },
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        230,
+        56,
+        56,
+        30,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        52,
+        0,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        24,
+        0,
+        0,
+        0,
+        52,
+        48,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        72,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "qsb_100100_chr900100_01\u0000qsb_100100_chr900100_01\u0000qsb_100100_chr900100_01\u0000qsb_100100_chr900100_01\u0000"
+    }
+  }
+]

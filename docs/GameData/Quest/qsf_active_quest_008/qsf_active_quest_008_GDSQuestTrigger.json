@@ -1,0 +1,443 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsf_active_quest_008_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "1012410820",
+          "Value": {
+            "ID": 1012410820,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_qsf_map_200000_54_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetProgressActiveEvent",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1311037146",
+          "Value": {
+            "ID": 1311037146,
+            "triggerType": "TG_PICKPOINT_MINIGAME_SUCCESS",
+            "TargetID": "qsf_active_event_008_pick_point_01",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddQuestReportCounter",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1553037620",
+          "Value": {
+            "ID": 1553037620,
+            "triggerType": "TG_PICKPOINT_MINIGAME_SUCCESS",
+            "TargetID": "qsf_active_event_008_pick_point_02",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddQuestReportCounter",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3828162129",
+          "Value": {
+            "ID": 3828162129,
+            "triggerType": "TG_PICKPOINT_MINIGAME_SUCCESS",
+            "TargetID": "qsf_active_event_008_pick_point_03",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddQuestReportCounter",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2046437096",
+          "Value": {
+            "ID": 2046437096,
+            "triggerType": "TG_PICKPOINT_MINIGAME_SUCCESS",
+            "TargetID": "qsf_active_event_008_pick_point_04",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddQuestReportCounter",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3242606989",
+          "Value": {
+            "ID": 3242606989,
+            "triggerType": "TG_PICKPOINT_MINIGAME_SUCCESS",
+            "TargetID": "qsf_active_event_008_pick_point_05",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddQuestReportCounter",
+                "arg": [
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3555978851",
+          "Value": {
+            "ID": 3555978851,
+            "triggerType": "TG_PICKPOINT_MINIGAME_SUCCESS",
+            "TargetID": "qsf_active_event_008_pick_point_06",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_AddQuestReportCounter",
+                "arg": [
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1758023848",
+          "Value": {
+            "ID": 1758023848,
+            "triggerType": "TG_QUEST_COUNTER_COND_CLEAR",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_CheckQuestAchievementReportable",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 20
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalByteFlag",
+                "arg": [
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 24
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1020882552",
+          "Value": {
+            "ID": 1020882552,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_qsf_map_200000_54_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 75,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 80,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetProgressActiveEvent",
+                "arg": [
+                  {
+                    "m_offset": 85,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2560756930",
+          "Value": {
+            "ID": 2560756930,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_qsf_map_200000_54_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 90,
+                    "m_dataSize": 20
+                  },
+                  {
+                    "m_offset": 95,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 100,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ResetProgressActiveEvent",
+                "arg": [
+                  {
+                    "m_offset": 105,
+                    "m_dataSize": 20
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        17,
+        206,
+        190,
+        110,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        255,
+        127,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        23,
+        0,
+        0,
+        0,
+        52,
+        44,
+        0,
+        0,
+        0,
+        52,
+        65,
+        0,
+        0,
+        0,
+        52,
+        86,
+        0,
+        0,
+        0,
+        52,
+        107,
+        0,
+        0,
+        0,
+        52,
+        128,
+        0,
+        0,
+        0,
+        52,
+        149,
+        0,
+        0,
+        0,
+        52,
+        170,
+        0,
+        0,
+        0,
+        52,
+        191,
+        0,
+        0,
+        0,
+        52,
+        212,
+        0,
+        0,
+        0,
+        52,
+        233,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        52,
+        2,
+        1,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        23,
+        1,
+        0,
+        0,
+        52,
+        44,
+        1,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        65,
+        1,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000cnt_qsf_active_event_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000qsf_active_quest_008\u0000"
+    }
+  }
+]

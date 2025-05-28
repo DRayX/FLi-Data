@@ -1,0 +1,271 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qsf_active_event_088_02_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "4231956444",
+          "Value": {
+            "ID": 4231956444,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_qsf_map_200000_45_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 23
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_GroupGeneratorSetPopOrRepop",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 34
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GroupGeneratorSetPopOrRepop",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 32
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetProgressActiveEvent",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 23
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_ActiveEventAccept",
+                "arg": [
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "4002097202",
+          "Value": {
+            "ID": 4002097202,
+            "triggerType": "TG_BTL_GENE_DEFEAT_ALL",
+            "TargetID": "grp_enmy_qsf_active_quest_088_02_B",
+            "TargetSubID": "None",
+            "ValidCondition": [],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1446465367",
+          "Value": {
+            "ID": 1446465367,
+            "triggerType": "TG_FP_IN",
+            "TargetID": "FP_qsf_map_200000_45_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 23
+                  },
+                  {
+                    "m_offset": 40,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 45,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_SetProgressActiveEvent",
+                "arg": [
+                  {
+                    "m_offset": 50,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3420485614",
+          "Value": {
+            "ID": 3420485614,
+            "triggerType": "TG_FP_OUT",
+            "TargetID": "FP_qsf_map_200000_45_00",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_GreaterAndLess",
+                "arg": [
+                  {
+                    "m_offset": 55,
+                    "m_dataSize": 23
+                  },
+                  {
+                    "m_offset": 60,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 65,
+                    "m_dataSize": 4
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_ResetProgressActiveEvent",
+                "arg": [
+                  {
+                    "m_offset": 70,
+                    "m_dataSize": 23
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        195,
+        2,
+        1,
+        75,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        148,
+        2,
+        0,
+        0,
+        52,
+        2,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        26,
+        0,
+        0,
+        0,
+        52,
+        61,
+        0,
+        0,
+        0,
+        52,
+        94,
+        0,
+        0,
+        0,
+        52,
+        118,
+        0,
+        0,
+        0,
+        52,
+        142,
+        0,
+        0,
+        0,
+        52,
+        166,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        190,
+        0,
+        0,
+        0,
+        52,
+        214,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        50,
+        254,
+        0,
+        0,
+        0,
+        52,
+        238,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "＊\u0000qsf_active_event_088_02\u0000grp_enmy_qsf_active_quest_088_02_B\u0000grp_enmy_qsf_active_quest_088_02\u0000qsf_active_event_088_02\u0000qsf_active_event_088_02\u0000qsf_active_event_088_02\u0000qsf_active_event_088_02\u0000qsf_active_event_088_02\u0000qsf_active_event_088_02\u0000qsf_active_event_088_02\u0000"
+    }
+  }
+]

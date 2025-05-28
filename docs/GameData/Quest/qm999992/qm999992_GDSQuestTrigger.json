@@ -1,0 +1,161 @@
+[
+  {
+    "Type": "GDSQuestTrigger",
+    "Name": "qm999992_GDSQuestTrigger",
+    "Class": "UScriptClass'GDSQuestTrigger'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "m_dataMap": [
+        {
+          "Key": "4215306995",
+          "Value": {
+            "ID": 4215306995,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qm_chr900100",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 0,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 5,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 10,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestAccept",
+                "arg": [
+                  {
+                    "m_offset": 15,
+                    "m_dataSize": 8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1140596118",
+          "Value": {
+            "ID": 1140596118,
+            "triggerType": "TG_NPC_TALK_TRIGGER",
+            "TargetID": "qm_chr900200",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_QuestPhase_Equal",
+                "arg": [
+                  {
+                    "m_offset": 20,
+                    "m_dataSize": 8
+                  },
+                  {
+                    "m_offset": 25,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_MapId_Equal",
+                "arg": [
+                  {
+                    "m_offset": 30,
+                    "m_dataSize": 9
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_QuestEnd",
+                "arg": [
+                  {
+                    "m_offset": 35,
+                    "m_dataSize": 8
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "m_autoBin": [
+        1,
+        180,
+        93,
+        164,
+        40,
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        0,
+        165,
+        0,
+        0,
+        0,
+        52,
+        0,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        9,
+        0,
+        0,
+        0,
+        52,
+        19,
+        0,
+        0,
+        0,
+        52,
+        28,
+        0,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        37,
+        0,
+        0,
+        0,
+        52,
+        47,
+        0,
+        0,
+        0
+      ],
+      "m_autoStr": "qm999992\u0000z01_debug\u0000qm999992\u0000qm999992\u0000z01_debug\u0000qm999992\u0000"
+    }
+  }
+]

@@ -40,6 +40,7 @@ class ItemData extends BaseData {
         this.material_for = [];
         this.created_by = [];
         this.shops = [];
+        this.request_rewards = [];
     }
     static async load(path, names, descs) {
         return await loadData(path, async (data) => {
@@ -285,6 +286,10 @@ class EnemyGroupConfig extends BaseData {
     }
 }
 class MapData extends BaseData {
+    constructor() {
+        super(...arguments);
+        this.requests = [];
+    }
     static async load(path, names, pick_groups, enemy_params, drops, shops) {
         return loadData(path, async (data) => {
             const map = new MapData(data);
@@ -293,6 +298,24 @@ class MapData extends BaseData {
             map.enemies = await EnemyGroupConfig.load(`GameData/Map/${data.mapId}/${data.mapId}_GDSMapEnemyPlacementConfig.json`, map, enemy_params, drops);
             map.shops = await MapShopConfig.load(`GameData/Shop/Map/${data.mapId}/${data.mapId}_GDSMapShopConfig.json`, map, shops);
             return map;
+        });
+    }
+}
+class RequestQuestConfig extends BaseData {
+    static async load(path, titles, items, names, maps) {
+        return loadData(path, async (data) => {
+            const quest = new RequestQuestConfig(data);
+            quest.title = getProperty(titles, data.TitleId);
+            quest.reward = getProperty(items, data.reward.ItemId);
+            if (quest.reward) {
+                quest.reward.request_rewards.push(quest);
+            }
+            quest.requester = getProperty(names, data.requester.nameId);
+            quest.map = getProperty(maps, data.requester.mapId);
+            if (quest.map) {
+                quest.map.requests.push(quest);
+            }
+            return quest;
         });
     }
 }
@@ -359,6 +382,8 @@ class GameData {
         data.map_names = await TextData.load('GameData/Map/GDSMapText_Noun.json', 'nounInfo', `nounSingularForm_${lang}`);
         data.map_data = await MapData.load('GameData/Map/GDSMapData.json', data.map_names, data.pick_groups, data.enemy_params, data.battle_item_groups, data.shop_data);
         data.recipe_data = await RecipeData.load('GameData/Recipe/GDSRecipeData.json', data.all_items);
+        data.quest_titles = await TextData.load('GameData/Quest/GDSQuestTitleText.json', 'Text', `nounSingularForm_${lang}`);
+        data.request_quests = await RequestQuestConfig.load('GameData/Quest/GDSRequestQuestConfig.json', data.quest_titles, data.all_items, data.chara_names, data.map_data);
         return data;
     }
 }
