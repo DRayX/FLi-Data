@@ -44,8 +44,8 @@
           "Key": "main_menu_equip_view",
           "Value": {
             "ID": "main_menu_equip_view",
-            "TitleNameID": "equip_view_screen_title",
-            "guideTextId": "equip_view_screen_title",
+            "TitleNameID": "main_menu_icon_equip_view_text",
+            "guideTextId": "main_menu_icon_equip_view_text",
             "iconID": "ICON_MAIN_MENU_17",
             "sameOpenMenu": true,
             "openMenuId": "equip_view_menu",
@@ -101,7 +101,7 @@
             "sameOpenMenu": true,
             "openMenuId": "quest_list_menu",
             "limitId": "QUEST_LIST_MENU",
-            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU",
+            "hideLimitId": "None",
             "lastAddEnabled": false,
             "openBitFlagId": "flg_open_menu_quest",
             "newBitFlagId": "flg_add_menu_quest",
@@ -123,6 +123,23 @@
             "openBitFlagId": "flg_open_menu_activity",
             "newBitFlagId": "flg_add_menu_activity",
             "updateBitFlagId": "flg_update_memu_activity"
+          }
+        },
+        {
+          "Key": "main_menu_picture_book",
+          "Value": {
+            "ID": "main_menu_picture_book",
+            "TitleNameID": "main_menu_icon_picture_book_text",
+            "guideTextId": "main_menu_icon_picture_book_text",
+            "iconID": "ICON_MAIN_MENU_24",
+            "sameOpenMenu": true,
+            "openMenuId": "library_menu",
+            "limitId": "ACTIVITY_MENU_LIBRARY_TAB",
+            "hideLimitId": "None",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_library",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
           }
         },
         {
@@ -282,8 +299,8 @@
           "Key": "main_menu_guide",
           "Value": {
             "ID": "main_menu_guide",
-            "TitleNameID": "activity_menu_category_help_guide",
-            "guideTextId": "activity_menu_category_help_guide",
+            "TitleNameID": "main_menu_icon_help_guide_text",
+            "guideTextId": "main_menu_icon_help_guide_text",
             "iconID": "ICON_MAIN_MENU_14",
             "sameOpenMenu": true,
             "openMenuId": "guide_menu",
@@ -316,8 +333,8 @@
           "Key": "main_menu_play_history",
           "Value": {
             "ID": "main_menu_play_history",
-            "TitleNameID": "text_log_screen_playlog",
-            "guideTextId": "text_log_screen_playlog",
+            "TitleNameID": "main_menu_icon_playlog_text",
+            "guideTextId": "main_menu_icon_playlog_text",
             "iconID": "ICON_MAIN_MENU_19",
             "sameOpenMenu": true,
             "openMenuId": "multi_play_history_menu",
@@ -393,6 +410,23 @@
             "hideLimitId": "RETURN_BASE_MENU_SHOW",
             "lastAddEnabled": true,
             "openBitFlagId": "flg_open_menu_return_base",
+            "newBitFlagId": "None",
+            "updateBitFlagId": "None"
+          }
+        },
+        {
+          "Key": "main_menu_return_title",
+          "Value": {
+            "ID": "main_menu_return_title",
+            "TitleNameID": "main_menu_icon_title_screen_text",
+            "guideTextId": "main_menu_icon_title_screen_text",
+            "iconID": "ICON_MAIN_MENU_25",
+            "sameOpenMenu": false,
+            "openMenuId": "general_window_menu",
+            "limitId": "RETURN_TITLE_MENU",
+            "hideLimitId": "MULTI_PLAY_HIDDEN_MENU",
+            "lastAddEnabled": false,
+            "openBitFlagId": "flg_open_menu_back_to_title",
             "newBitFlagId": "None",
             "updateBitFlagId": "None"
           }

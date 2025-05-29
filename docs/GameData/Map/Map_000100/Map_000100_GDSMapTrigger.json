@@ -1985,6 +1985,27 @@
               {
                 "Cmd": "CondCmd_IsOnline_False",
                 "arg": []
+              },
+              {
+                "Cmd": "CondCmd_IsHaveKitItem",
+                "arg": [
+                  {
+                    "m_offset": 790,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 795,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 800,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsNotMovingGuildHouse",
+                "arg": []
               }
             ],
             "exeImmediateCommand": [],
@@ -2001,7 +2022,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 790,
+                    "m_offset": 805,
                     "m_dataSize": 10
                   }
                 ]
@@ -2010,7 +2031,7 @@
                 "Cmd": "ExeCmd_SetGlobalSyncBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 795,
+                    "m_offset": 810,
                     "m_dataSize": 24
                   }
                 ]
@@ -2019,11 +2040,11 @@
                 "Cmd": "ExeCmd_RenovationGuildHouse",
                 "arg": [
                   {
-                    "m_offset": 800,
+                    "m_offset": 815,
                     "m_dataSize": 15
                   },
                   {
-                    "m_offset": 805,
+                    "m_offset": 820,
                     "m_dataSize": 15
                   }
                 ]
@@ -2032,7 +2053,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 810,
+                    "m_offset": 825,
                     "m_dataSize": 10
                   }
                 ]
@@ -2041,7 +2062,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 815,
+                    "m_offset": 830,
                     "m_dataSize": 10
                   }
                 ]
@@ -2050,7 +2071,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 820,
+                    "m_offset": 835,
                     "m_dataSize": 10
                   }
                 ]
@@ -2070,11 +2091,11 @@
                 "Cmd": "CondCmd_BulletinBoardRank_Greater",
                 "arg": [
                   {
-                    "m_offset": 825,
+                    "m_offset": 840,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 830,
+                    "m_offset": 845,
                     "m_dataSize": 4
                   }
                 ]
@@ -2083,11 +2104,11 @@
                 "Cmd": "CondCmd_IsHaveItem",
                 "arg": [
                   {
-                    "m_offset": 835,
+                    "m_offset": 850,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 840,
+                    "m_offset": 855,
                     "m_dataSize": 4
                   }
                 ]
@@ -2099,11 +2120,11 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 845,
+                    "m_offset": 860,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 850,
+                    "m_offset": 865,
                     "m_dataSize": 4
                   }
                 ]
@@ -2123,11 +2144,11 @@
                 "Cmd": "CondCmd_BulletinBoardRank_Greater",
                 "arg": [
                   {
-                    "m_offset": 855,
+                    "m_offset": 870,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 860,
+                    "m_offset": 875,
                     "m_dataSize": 4
                   }
                 ]
@@ -2136,11 +2157,11 @@
                 "Cmd": "CondCmd_IsHaveItem",
                 "arg": [
                   {
-                    "m_offset": 865,
+                    "m_offset": 880,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 870,
+                    "m_offset": 885,
                     "m_dataSize": 4
                   }
                 ]
@@ -2152,11 +2173,11 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 875,
+                    "m_offset": 890,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 880,
+                    "m_offset": 895,
                     "m_dataSize": 4
                   }
                 ]
@@ -2176,11 +2197,11 @@
                 "Cmd": "CondCmd_BulletinBoardRank_Greater",
                 "arg": [
                   {
-                    "m_offset": 885,
+                    "m_offset": 900,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 890,
+                    "m_offset": 905,
                     "m_dataSize": 4
                   }
                 ]
@@ -2189,11 +2210,11 @@
                 "Cmd": "CondCmd_IsHaveItem",
                 "arg": [
                   {
-                    "m_offset": 895,
+                    "m_offset": 910,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 900,
+                    "m_offset": 915,
                     "m_dataSize": 4
                   }
                 ]
@@ -2205,11 +2226,11 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 905,
+                    "m_offset": 920,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 910,
+                    "m_offset": 925,
                     "m_dataSize": 4
                   }
                 ]
@@ -2229,11 +2250,11 @@
                 "Cmd": "CondCmd_BulletinBoardRank_Greater",
                 "arg": [
                   {
-                    "m_offset": 915,
+                    "m_offset": 930,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 920,
+                    "m_offset": 935,
                     "m_dataSize": 4
                   }
                 ]
@@ -2242,11 +2263,11 @@
                 "Cmd": "CondCmd_IsHaveItem",
                 "arg": [
                   {
-                    "m_offset": 925,
+                    "m_offset": 940,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 930,
+                    "m_offset": 945,
                     "m_dataSize": 4
                   }
                 ]
@@ -2258,37 +2279,11 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 935,
-                    "m_dataSize": 11
-                  },
-                  {
-                    "m_offset": 940,
-                    "m_dataSize": 4
-                  }
-                ]
-              },
-              {
-                "Cmd": "ExeCmd_DeleteItem",
-                "arg": [
-                  {
-                    "m_offset": 945,
-                    "m_dataSize": 11
-                  },
-                  {
                     "m_offset": 950,
-                    "m_dataSize": 4
-                  }
-                ]
-              },
-              {
-                "Cmd": "ExeCmd_DeleteItem",
-                "arg": [
+                    "m_dataSize": 11
+                  },
                   {
                     "m_offset": 955,
-                    "m_dataSize": 11
-                  },
-                  {
-                    "m_offset": 960,
                     "m_dataSize": 4
                   }
                 ]
@@ -2297,11 +2292,37 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 965,
+                    "m_offset": 960,
                     "m_dataSize": 11
                   },
                   {
+                    "m_offset": 965,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItem",
+                "arg": [
+                  {
                     "m_offset": 970,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 975,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItem",
+                "arg": [
+                  {
+                    "m_offset": 980,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 985,
                     "m_dataSize": 4
                   }
                 ]
@@ -2321,11 +2342,11 @@
                 "Cmd": "CondCmd_BulletinBoardRank_Greater",
                 "arg": [
                   {
-                    "m_offset": 975,
+                    "m_offset": 990,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 980,
+                    "m_offset": 995,
                     "m_dataSize": 4
                   }
                 ]
@@ -2334,11 +2355,11 @@
                 "Cmd": "CondCmd_IsHaveItem",
                 "arg": [
                   {
-                    "m_offset": 985,
+                    "m_offset": 1000,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 990,
+                    "m_offset": 1005,
                     "m_dataSize": 4
                   }
                 ]
@@ -2350,11 +2371,11 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 995,
+                    "m_offset": 1010,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1000,
+                    "m_offset": 1015,
                     "m_dataSize": 4
                   }
                 ]
@@ -2363,11 +2384,11 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 1005,
+                    "m_offset": 1020,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1010,
+                    "m_offset": 1025,
                     "m_dataSize": 4
                   }
                 ]
@@ -2387,11 +2408,11 @@
                 "Cmd": "CondCmd_BulletinBoardRank_Greater",
                 "arg": [
                   {
-                    "m_offset": 1015,
+                    "m_offset": 1030,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 1020,
+                    "m_offset": 1035,
                     "m_dataSize": 4
                   }
                 ]
@@ -2400,11 +2421,11 @@
                 "Cmd": "CondCmd_IsHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1025,
+                    "m_offset": 1040,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1030,
+                    "m_offset": 1045,
                     "m_dataSize": 4
                   }
                 ]
@@ -2416,37 +2437,37 @@
                 "Cmd": "ExeCmd_DeleteItem",
                 "arg": [
                   {
-                    "m_offset": 1035,
-                    "m_dataSize": 11
-                  },
-                  {
-                    "m_offset": 1040,
-                    "m_dataSize": 4
-                  }
-                ]
-              },
-              {
-                "Cmd": "ExeCmd_DeleteItem",
-                "arg": [
-                  {
-                    "m_offset": 1045,
-                    "m_dataSize": 11
-                  },
-                  {
                     "m_offset": 1050,
-                    "m_dataSize": 4
-                  }
-                ]
-              },
-              {
-                "Cmd": "ExeCmd_DeleteItem",
-                "arg": [
+                    "m_dataSize": 11
+                  },
                   {
                     "m_offset": 1055,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItem",
+                "arg": [
+                  {
+                    "m_offset": 1060,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1060,
+                    "m_offset": 1065,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_DeleteItem",
+                "arg": [
+                  {
+                    "m_offset": 1070,
+                    "m_dataSize": 11
+                  },
+                  {
+                    "m_offset": 1075,
                     "m_dataSize": 4
                   }
                 ]
@@ -2466,7 +2487,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1065,
+                    "m_offset": 1080,
                     "m_dataSize": 10
                   }
                 ]
@@ -2475,11 +2496,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1070,
+                    "m_offset": 1085,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1075,
+                    "m_offset": 1090,
                     "m_dataSize": 4
                   }
                 ]
@@ -2495,7 +2516,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1080,
+                    "m_offset": 1095,
                     "m_dataSize": 10
                   }
                 ]
@@ -2515,7 +2536,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1085,
+                    "m_offset": 1100,
                     "m_dataSize": 10
                   }
                 ]
@@ -2524,11 +2545,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1090,
+                    "m_offset": 1105,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1095,
+                    "m_offset": 1110,
                     "m_dataSize": 4
                   }
                 ]
@@ -2544,7 +2565,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1100,
+                    "m_offset": 1115,
                     "m_dataSize": 10
                   }
                 ]
@@ -2564,7 +2585,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1105,
+                    "m_offset": 1120,
                     "m_dataSize": 10
                   }
                 ]
@@ -2573,11 +2594,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1110,
+                    "m_offset": 1125,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1115,
+                    "m_offset": 1130,
                     "m_dataSize": 4
                   }
                 ]
@@ -2593,7 +2614,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1120,
+                    "m_offset": 1135,
                     "m_dataSize": 10
                   }
                 ]
@@ -2613,7 +2634,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1125,
+                    "m_offset": 1140,
                     "m_dataSize": 10
                   }
                 ]
@@ -2622,11 +2643,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1130,
+                    "m_offset": 1145,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1135,
+                    "m_offset": 1150,
                     "m_dataSize": 4
                   }
                 ]
@@ -2642,7 +2663,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1140,
+                    "m_offset": 1155,
                     "m_dataSize": 10
                   }
                 ]
@@ -2662,7 +2683,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1145,
+                    "m_offset": 1160,
                     "m_dataSize": 10
                   }
                 ]
@@ -2671,11 +2692,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1150,
+                    "m_offset": 1165,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1155,
+                    "m_offset": 1170,
                     "m_dataSize": 4
                   }
                 ]
@@ -2691,7 +2712,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1160,
+                    "m_offset": 1175,
                     "m_dataSize": 10
                   }
                 ]
@@ -2711,7 +2732,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1165,
+                    "m_offset": 1180,
                     "m_dataSize": 10
                   }
                 ]
@@ -2720,11 +2741,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1170,
+                    "m_offset": 1185,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1175,
+                    "m_offset": 1190,
                     "m_dataSize": 4
                   }
                 ]
@@ -2740,7 +2761,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1180,
+                    "m_offset": 1195,
                     "m_dataSize": 10
                   }
                 ]
@@ -2760,7 +2781,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1185,
+                    "m_offset": 1200,
                     "m_dataSize": 10
                   }
                 ]
@@ -2769,11 +2790,11 @@
                 "Cmd": "CondCmd_IsNotHaveItem",
                 "arg": [
                   {
-                    "m_offset": 1190,
+                    "m_offset": 1205,
                     "m_dataSize": 11
                   },
                   {
-                    "m_offset": 1195,
+                    "m_offset": 1210,
                     "m_dataSize": 4
                   }
                 ]
@@ -2789,7 +2810,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1200,
+                    "m_offset": 1215,
                     "m_dataSize": 10
                   }
                 ]
@@ -2809,7 +2830,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 1205,
+                    "m_offset": 1220,
                     "m_dataSize": 23
                   }
                 ]
@@ -2821,11 +2842,11 @@
                 "Cmd": "ExeCmd_Removal_Obstacle",
                 "arg": [
                   {
-                    "m_offset": 1210,
+                    "m_offset": 1225,
                     "m_dataSize": 27
                   },
                   {
-                    "m_offset": 1215,
+                    "m_offset": 1230,
                     "m_dataSize": 10
                   }
                 ]
@@ -2834,15 +2855,15 @@
                 "Cmd": "ExeCmd_CreateCraftObj_MainCraftArea_Rot",
                 "arg": [
                   {
-                    "m_offset": 1220,
+                    "m_offset": 1235,
                     "m_dataSize": 15
                   },
                   {
-                    "m_offset": 1225,
+                    "m_offset": 1240,
                     "m_dataSize": 5
                   },
                   {
-                    "m_offset": 1230,
+                    "m_offset": 1245,
                     "m_dataSize": 4
                   }
                 ]
@@ -2851,7 +2872,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1235,
+                    "m_offset": 1250,
                     "m_dataSize": 23
                   }
                 ]
@@ -2871,7 +2892,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 1240,
+                    "m_offset": 1255,
                     "m_dataSize": 23
                   }
                 ]
@@ -2880,7 +2901,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1245,
+                    "m_offset": 1260,
                     "m_dataSize": 23
                   }
                 ]
@@ -2892,29 +2913,12 @@
                 "Cmd": "ExeCmd_Removal_Obstacle",
                 "arg": [
                   {
-                    "m_offset": 1250,
+                    "m_offset": 1265,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 1255,
-                    "m_dataSize": 10
-                  }
-                ]
-              },
-              {
-                "Cmd": "ExeCmd_CreateCraftObj_MainCraftArea",
-                "arg": [
-                  {
-                    "m_offset": 1260,
-                    "m_dataSize": 15
-                  },
-                  {
-                    "m_offset": 1265,
-                    "m_dataSize": 4
-                  },
-                  {
                     "m_offset": 1270,
-                    "m_dataSize": 4
+                    "m_dataSize": 10
                   }
                 ]
               },
@@ -2936,10 +2940,27 @@
                 ]
               },
               {
-                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "Cmd": "ExeCmd_CreateCraftObj_MainCraftArea",
                 "arg": [
                   {
                     "m_offset": 1290,
+                    "m_dataSize": 15
+                  },
+                  {
+                    "m_offset": 1295,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 1300,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 1305,
                     "m_dataSize": 23
                   }
                 ]
@@ -2961,7 +2982,7 @@
                 "Cmd": "ExeCmd_RsvMenu_MultiFrontCounter",
                 "arg": [
                   {
-                    "m_offset": 1295,
+                    "m_offset": 1310,
                     "m_dataSize": 4
                   }
                 ]
@@ -2981,7 +3002,7 @@
                 "Cmd": "CondCmd_Fellow_Greater",
                 "arg": [
                   {
-                    "m_offset": 1300,
+                    "m_offset": 1315,
                     "m_dataSize": 4
                   }
                 ]
@@ -2990,7 +3011,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1305,
+                    "m_offset": 1320,
                     "m_dataSize": 10
                   }
                 ]
@@ -2999,7 +3020,7 @@
                 "Cmd": "CondCmd_Phase_Not_Equal",
                 "arg": [
                   {
-                    "m_offset": 1310,
+                    "m_offset": 1325,
                     "m_dataSize": 4
                   }
                 ]
@@ -3015,7 +3036,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1315,
+                    "m_offset": 1330,
                     "m_dataSize": 10
                   }
                 ]
@@ -3035,7 +3056,7 @@
                 "Cmd": "CondCmd_Fellow_Greater",
                 "arg": [
                   {
-                    "m_offset": 1320,
+                    "m_offset": 1335,
                     "m_dataSize": 4
                   }
                 ]
@@ -3044,7 +3065,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1325,
+                    "m_offset": 1340,
                     "m_dataSize": 10
                   }
                 ]
@@ -3053,7 +3074,7 @@
                 "Cmd": "CondCmd_Phase_Not_Equal",
                 "arg": [
                   {
-                    "m_offset": 1330,
+                    "m_offset": 1345,
                     "m_dataSize": 4
                   }
                 ]
@@ -3069,7 +3090,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1335,
+                    "m_offset": 1350,
                     "m_dataSize": 10
                   }
                 ]
@@ -3110,51 +3131,6 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1340,
-                    "m_dataSize": 10
-                  }
-                ]
-              },
-              {
-                "Cmd": "CondCmd_IsOnline_False",
-                "arg": []
-              }
-            ],
-            "exeImmediateCommand": [],
-            "ExeCommand": [
-              {
-                "Cmd": "ExeCmd_OpenHelpWindow",
-                "arg": [
-                  {
-                    "m_offset": 1345,
-                    "m_dataSize": 10
-                  }
-                ]
-              },
-              {
-                "Cmd": "ExeCmd_OpenHelpWindow",
-                "arg": [
-                  {
-                    "m_offset": 1350,
-                    "m_dataSize": 10
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Key": "3164303682",
-          "Value": {
-            "ID": 3164303682,
-            "triggerType": "TG_APPROACHEC_BIG_BUD",
-            "TargetID": "None",
-            "TargetSubID": "None",
-            "ValidCondition": [
-              {
-                "Cmd": "CondCmd_IsHelpOpenFlag_False",
-                "arg": [
-                  {
                     "m_offset": 1355,
                     "m_dataSize": 10
                   }
@@ -3175,6 +3151,51 @@
                     "m_dataSize": 10
                   }
                 ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 1365,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3164303682",
+          "Value": {
+            "ID": 3164303682,
+            "triggerType": "TG_APPROACHEC_BIG_BUD",
+            "TargetID": "None",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 1370,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsOnline_False",
+                "arg": []
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 1375,
+                    "m_dataSize": 10
+                  }
+                ]
               }
             ]
           }
@@ -3191,7 +3212,7 @@
                 "Cmd": "CondCmd_IsHelpOpenFlag_False",
                 "arg": [
                   {
-                    "m_offset": 1365,
+                    "m_offset": 1380,
                     "m_dataSize": 10
                   }
                 ]
@@ -3207,7 +3228,7 @@
                 "Cmd": "ExeCmd_OpenHelpWindow",
                 "arg": [
                   {
-                    "m_offset": 1370,
+                    "m_offset": 1385,
                     "m_dataSize": 10
                   }
                 ]
@@ -3218,10 +3239,10 @@
       ],
       "m_autoBin": [
         1,
-        31,
-        140,
+        104,
+        232,
         0,
-        95,
+        110,
         5,
         0,
         0,
@@ -3229,8 +3250,8 @@
         0,
         0,
         0,
-        197,
-        1,
+        167,
+        2,
         0,
         0,
         52,
@@ -4021,6 +4042,21 @@
         52,
         158,
         7,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        50,
+        3,
+        0,
+        0,
+        0,
+        50,
+        0,
+        0,
         0,
         0,
         52,

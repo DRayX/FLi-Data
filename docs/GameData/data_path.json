@@ -1533,6 +1533,10 @@
 			"asset_path": "GameData\/Menu\/GDSKeyboardMouseInputCommandGaijiConfig.uasset"
 		},
 		{
+			"name": "KeyboardMouseGuideData",
+			"asset_path": "GameData\/Menu\/GDSKeyboardMouseGuideData.uasset"
+		},
+		{
 			"name": "EventPictureOpenCloseType",
 			"asset_path": "GameData\/Menu\/GDSEventPictureOpenCloseType.uasset"
 		},
@@ -2127,6 +2131,10 @@
 		{
 			"name": "ItemCraftSignData",
 			"asset_path": "GameData\/Recipe\/GDSItemCraftSignData.uasset"
+		},
+		{
+			"name": "CompensationData",
+			"asset_path": "GameData\/Compensation\/GDSCompensationData.uasset"
 		}
 
 	],
@@ -2413,6 +2421,7 @@
 				"InputGaijiConfig",
 				"InputCommandGaijiConfig",
 				"KeyboardMouseInputCommandGaijiConfig",
+				"KeyboardMouseGuideData",
 				"EventPictureOpenCloseType",
 				"FastTravel",
 				"WorkbenchSetting",
@@ -2575,7 +2584,8 @@
 				"MapMenuPlacementConfig",
 				"MapMenuIconVisibleSetting",
 				"MapMenuPurposeInfoOverwriteSetting",
-				"DungeonEntranceIconSetting"
+				"DungeonEntranceIconSetting",
+				"CompensationData"
 			]
 		},
 		"PostFix" :

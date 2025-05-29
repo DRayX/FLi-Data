@@ -5164,10 +5164,6 @@
                         "m_dataSize": 4
                       }
                     ]
-                  },
-                  {
-                    "Cmd": "CondCmd_IsNotMovingNpcHouse",
-                    "arg": []
                   }
                 ],
                 "FocusableCondition": [],
@@ -5227,12 +5223,7 @@
                 "CancelSelected": false,
                 "EnterSEId": "None",
                 "WindowMenuButtonType": 713,
-                "ShowableCondition": [
-                  {
-                    "Cmd": "CondCmd_IsNotMovingNpcHouse",
-                    "arg": []
-                  }
-                ],
+                "ShowableCondition": [],
                 "FocusableCondition": [],
                 "DecidableCondition": [
                   {
@@ -5723,10 +5714,6 @@
                         "m_dataSize": 4
                       }
                     ]
-                  },
-                  {
-                    "Cmd": "CondCmd_IsNotMovingVegetableField",
-                    "arg": []
                   }
                 ],
                 "FocusableCondition": [],
@@ -5766,12 +5753,7 @@
                 "CancelSelected": false,
                 "EnterSEId": "None",
                 "WindowMenuButtonType": 713,
-                "ShowableCondition": [
-                  {
-                    "Cmd": "CondCmd_IsNotMovingVegetableField",
-                    "arg": []
-                  }
-                ],
+                "ShowableCondition": [],
                 "FocusableCondition": [],
                 "DecidableCondition": []
               },
@@ -10414,7 +10396,7 @@
             "choiceInfoArray": [
               {
                 "textId": "delivery_dialog_connect_internet_confirm_button_positive",
-                "FirstSelected": false,
+                "FirstSelected": true,
                 "CancelSelected": false,
                 "EnterSEId": "None",
                 "WindowMenuButtonType": 0,
@@ -10424,7 +10406,7 @@
               },
               {
                 "textId": "delivery_dialog_connect_internet_confirm_button_refuse",
-                "FirstSelected": true,
+                "FirstSelected": false,
                 "CancelSelected": true,
                 "EnterSEId": "None",
                 "WindowMenuButtonType": 20,
@@ -10768,9 +10750,9 @@
       ],
       "m_autoBin": [
         1,
-        117,
-        2,
-        203,
+        72,
+        129,
+        0,
         213,
         2,
         0,
@@ -10779,8 +10761,8 @@
         0,
         0,
         0,
-        161,
-        0,
+        187,
+        2,
         0,
         0,
         52,

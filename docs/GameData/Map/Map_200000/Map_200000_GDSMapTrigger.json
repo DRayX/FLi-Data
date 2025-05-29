@@ -36468,9 +36468,9 @@
           }
         },
         {
-          "Key": "370683484",
+          "Key": "486894953",
           "Value": {
-            "ID": 370683484,
+            "ID": 486894953,
             "triggerType": "TG_FP_BUTTON",
             "TargetID": "FP_map_200000_recipe_0001",
             "TargetSubID": "None",
@@ -36483,6 +36483,15 @@
                     "m_dataSize": 29
                   }
                 ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14814,
+                    "m_dataSize": 10
+                  }
+                ]
               }
             ],
             "exeImmediateCommand": [],
@@ -36491,15 +36500,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14814,
+                    "m_offset": 14819,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14819,
+                    "m_offset": 14824,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 14824,
+                    "m_offset": 14829,
                     "m_dataSize": 4
                   }
                 ]
@@ -36508,7 +36517,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 14829,
+                    "m_offset": 14834,
                     "m_dataSize": 29
                   }
                 ]
@@ -36517,7 +36526,922 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 14834,
+                    "m_offset": 14839,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 14844,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2458147814",
+          "Value": {
+            "ID": 2458147814,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0002",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14849,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14854,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 14859,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 14864,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 14869,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 14874,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 14879,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 14884,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1053906629",
+          "Value": {
+            "ID": 1053906629,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0003",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14889,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14894,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 14899,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 14904,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 14909,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 14914,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 14919,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 14924,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2430207313",
+          "Value": {
+            "ID": 2430207313,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0004",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14929,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14934,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 14939,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 14944,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 14949,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 14954,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 14959,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 14964,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "874575600",
+          "Value": {
+            "ID": 874575600,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0005",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14969,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 14974,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 14979,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 14984,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 14989,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 14994,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 14999,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15004,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2442345732",
+          "Value": {
+            "ID": 2442345732,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0006",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15009,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15014,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15019,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15024,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15029,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15034,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15039,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15044,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1816255067",
+          "Value": {
+            "ID": 1816255067,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0007",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15049,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15054,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15059,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15064,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15069,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15074,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15079,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15084,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "491521037",
+          "Value": {
+            "ID": 491521037,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0008",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15089,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15094,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15099,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15104,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15109,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15114,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15119,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15124,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "2074984654",
+          "Value": {
+            "ID": 2074984654,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0009",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15129,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15134,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15139,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15144,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15149,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15154,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15159,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15164,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "1876689757",
+          "Value": {
+            "ID": 1876689757,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0010",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15169,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15174,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15179,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15184,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15189,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15194,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15199,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15204,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "3768509266",
+          "Value": {
+            "ID": 3768509266,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0011",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15209,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "CondCmd_IsHelpOpenFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15214,
+                    "m_dataSize": 10
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15219,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15224,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15229,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15234,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15239,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_OpenHelpWindow",
+                "arg": [
+                  {
+                    "m_offset": 15244,
+                    "m_dataSize": 10
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSubLevel",
+                "arg": []
+              },
+              {
+                "Cmd": "ExeCmd_UpdateSavedataWaitComplete",
+                "arg": []
+              }
+            ]
+          }
+        },
+        {
+          "Key": "370683484",
+          "Value": {
+            "ID": 370683484,
+            "triggerType": "TG_FP_BUTTON",
+            "TargetID": "FP_map_200000_recipe_0001",
+            "TargetSubID": "None",
+            "ValidCondition": [
+              {
+                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "arg": [
+                  {
+                    "m_offset": 15249,
+                    "m_dataSize": 29
+                  }
+                ]
+              }
+            ],
+            "exeImmediateCommand": [],
+            "ExeCommand": [
+              {
+                "Cmd": "ExeCmd_RsvMenu_GotWindow",
+                "arg": [
+                  {
+                    "m_offset": 15254,
+                    "m_dataSize": 4
+                  },
+                  {
+                    "m_offset": 15259,
+                    "m_dataSize": 25
+                  },
+                  {
+                    "m_offset": 15264,
+                    "m_dataSize": 4
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_GetItemWithLog",
+                "arg": [
+                  {
+                    "m_offset": 15269,
+                    "m_dataSize": 29
+                  }
+                ]
+              },
+              {
+                "Cmd": "ExeCmd_SetGlobalBitFlag_True",
+                "arg": [
+                  {
+                    "m_offset": 15274,
                     "m_dataSize": 29
                   }
                 ]
@@ -36545,7 +37469,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 14839,
+                    "m_offset": 15279,
                     "m_dataSize": 29
                   }
                 ]
@@ -36557,15 +37481,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14844,
+                    "m_offset": 15284,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14849,
+                    "m_offset": 15289,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 14854,
+                    "m_offset": 15294,
                     "m_dataSize": 4
                   }
                 ]
@@ -36574,7 +37498,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 14859,
+                    "m_offset": 15299,
                     "m_dataSize": 29
                   }
                 ]
@@ -36583,7 +37507,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 14864,
+                    "m_offset": 15304,
                     "m_dataSize": 29
                   }
                 ]
@@ -36611,7 +37535,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 14869,
+                    "m_offset": 15309,
                     "m_dataSize": 29
                   }
                 ]
@@ -36623,15 +37547,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14874,
+                    "m_offset": 15314,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14879,
+                    "m_offset": 15319,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 14884,
+                    "m_offset": 15324,
                     "m_dataSize": 4
                   }
                 ]
@@ -36640,7 +37564,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 14889,
+                    "m_offset": 15329,
                     "m_dataSize": 29
                   }
                 ]
@@ -36649,7 +37573,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 14894,
+                    "m_offset": 15334,
                     "m_dataSize": 29
                   }
                 ]
@@ -36677,7 +37601,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 14899,
+                    "m_offset": 15339,
                     "m_dataSize": 29
                   }
                 ]
@@ -36689,15 +37613,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14904,
+                    "m_offset": 15344,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14909,
+                    "m_offset": 15349,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 14914,
+                    "m_offset": 15354,
                     "m_dataSize": 4
                   }
                 ]
@@ -36706,7 +37630,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 14919,
+                    "m_offset": 15359,
                     "m_dataSize": 29
                   }
                 ]
@@ -36715,7 +37639,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 14924,
+                    "m_offset": 15364,
                     "m_dataSize": 29
                   }
                 ]
@@ -36743,7 +37667,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 14929,
+                    "m_offset": 15369,
                     "m_dataSize": 29
                   }
                 ]
@@ -36755,15 +37679,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14934,
+                    "m_offset": 15374,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14939,
+                    "m_offset": 15379,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 14944,
+                    "m_offset": 15384,
                     "m_dataSize": 4
                   }
                 ]
@@ -36772,7 +37696,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 14949,
+                    "m_offset": 15389,
                     "m_dataSize": 29
                   }
                 ]
@@ -36781,7 +37705,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 14954,
+                    "m_offset": 15394,
                     "m_dataSize": 29
                   }
                 ]
@@ -36809,7 +37733,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 14959,
+                    "m_offset": 15399,
                     "m_dataSize": 29
                   }
                 ]
@@ -36821,15 +37745,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14964,
+                    "m_offset": 15404,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14969,
+                    "m_offset": 15409,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 14974,
+                    "m_offset": 15414,
                     "m_dataSize": 4
                   }
                 ]
@@ -36838,7 +37762,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 14979,
+                    "m_offset": 15419,
                     "m_dataSize": 29
                   }
                 ]
@@ -36847,7 +37771,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 14984,
+                    "m_offset": 15424,
                     "m_dataSize": 29
                   }
                 ]
@@ -36875,7 +37799,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 14989,
+                    "m_offset": 15429,
                     "m_dataSize": 29
                   }
                 ]
@@ -36887,15 +37811,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 14994,
+                    "m_offset": 15434,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 14999,
+                    "m_offset": 15439,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 15004,
+                    "m_offset": 15444,
                     "m_dataSize": 4
                   }
                 ]
@@ -36904,7 +37828,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 15009,
+                    "m_offset": 15449,
                     "m_dataSize": 29
                   }
                 ]
@@ -36913,7 +37837,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15014,
+                    "m_offset": 15454,
                     "m_dataSize": 29
                   }
                 ]
@@ -36941,7 +37865,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15019,
+                    "m_offset": 15459,
                     "m_dataSize": 29
                   }
                 ]
@@ -36953,15 +37877,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 15024,
+                    "m_offset": 15464,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15029,
+                    "m_offset": 15469,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 15034,
+                    "m_offset": 15474,
                     "m_dataSize": 4
                   }
                 ]
@@ -36970,7 +37894,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 15039,
+                    "m_offset": 15479,
                     "m_dataSize": 29
                   }
                 ]
@@ -36979,7 +37903,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15044,
+                    "m_offset": 15484,
                     "m_dataSize": 29
                   }
                 ]
@@ -37007,7 +37931,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15049,
+                    "m_offset": 15489,
                     "m_dataSize": 29
                   }
                 ]
@@ -37019,15 +37943,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 15054,
+                    "m_offset": 15494,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15059,
+                    "m_offset": 15499,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 15064,
+                    "m_offset": 15504,
                     "m_dataSize": 4
                   }
                 ]
@@ -37036,7 +37960,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 15069,
+                    "m_offset": 15509,
                     "m_dataSize": 29
                   }
                 ]
@@ -37045,7 +37969,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15074,
+                    "m_offset": 15514,
                     "m_dataSize": 29
                   }
                 ]
@@ -37073,7 +37997,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15079,
+                    "m_offset": 15519,
                     "m_dataSize": 29
                   }
                 ]
@@ -37085,15 +38009,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 15084,
+                    "m_offset": 15524,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15089,
+                    "m_offset": 15529,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 15094,
+                    "m_offset": 15534,
                     "m_dataSize": 4
                   }
                 ]
@@ -37102,7 +38026,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 15099,
+                    "m_offset": 15539,
                     "m_dataSize": 29
                   }
                 ]
@@ -37111,7 +38035,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15104,
+                    "m_offset": 15544,
                     "m_dataSize": 29
                   }
                 ]
@@ -37139,7 +38063,7 @@
                 "Cmd": "CondCmd_GetGlobalBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15109,
+                    "m_offset": 15549,
                     "m_dataSize": 29
                   }
                 ]
@@ -37151,15 +38075,15 @@
                 "Cmd": "ExeCmd_RsvMenu_GotWindow",
                 "arg": [
                   {
-                    "m_offset": 15114,
+                    "m_offset": 15554,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15119,
+                    "m_offset": 15559,
                     "m_dataSize": 25
                   },
                   {
-                    "m_offset": 15124,
+                    "m_offset": 15564,
                     "m_dataSize": 4
                   }
                 ]
@@ -37168,7 +38092,7 @@
                 "Cmd": "ExeCmd_GetItemWithLog",
                 "arg": [
                   {
-                    "m_offset": 15129,
+                    "m_offset": 15569,
                     "m_dataSize": 29
                   }
                 ]
@@ -37177,7 +38101,7 @@
                 "Cmd": "ExeCmd_SetGlobalBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15134,
+                    "m_offset": 15574,
                     "m_dataSize": 29
                   }
                 ]
@@ -37205,7 +38129,7 @@
                 "Cmd": "CondCmd_Phase_Less",
                 "arg": [
                   {
-                    "m_offset": 15139,
+                    "m_offset": 15579,
                     "m_dataSize": 4
                   }
                 ]
@@ -37217,7 +38141,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15144,
+                    "m_offset": 15584,
                     "m_dataSize": 22
                   }
                 ]
@@ -37237,11 +38161,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15149,
+                    "m_offset": 15589,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15154,
+                    "m_offset": 15594,
                     "m_dataSize": 4
                   }
                 ]
@@ -37253,7 +38177,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15159,
+                    "m_offset": 15599,
                     "m_dataSize": 23
                   }
                 ]
@@ -37273,11 +38197,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15164,
+                    "m_offset": 15604,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15169,
+                    "m_offset": 15609,
                     "m_dataSize": 4
                   }
                 ]
@@ -37289,7 +38213,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15174,
+                    "m_offset": 15614,
                     "m_dataSize": 22
                   }
                 ]
@@ -37309,11 +38233,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15179,
+                    "m_offset": 15619,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15184,
+                    "m_offset": 15624,
                     "m_dataSize": 4
                   }
                 ]
@@ -37325,7 +38249,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15189,
+                    "m_offset": 15629,
                     "m_dataSize": 22
                   }
                 ]
@@ -37345,7 +38269,7 @@
                 "Cmd": "CondCmd_Phase_Less",
                 "arg": [
                   {
-                    "m_offset": 15194,
+                    "m_offset": 15634,
                     "m_dataSize": 4
                   }
                 ]
@@ -37357,7 +38281,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15199,
+                    "m_offset": 15639,
                     "m_dataSize": 22
                   }
                 ]
@@ -37377,11 +38301,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15204,
+                    "m_offset": 15644,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15209,
+                    "m_offset": 15649,
                     "m_dataSize": 4
                   }
                 ]
@@ -37393,7 +38317,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15214,
+                    "m_offset": 15654,
                     "m_dataSize": 23
                   }
                 ]
@@ -37413,11 +38337,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15219,
+                    "m_offset": 15659,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15224,
+                    "m_offset": 15664,
                     "m_dataSize": 4
                   }
                 ]
@@ -37429,7 +38353,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15229,
+                    "m_offset": 15669,
                     "m_dataSize": 22
                   }
                 ]
@@ -37449,11 +38373,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15234,
+                    "m_offset": 15674,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15239,
+                    "m_offset": 15679,
                     "m_dataSize": 4
                   }
                 ]
@@ -37465,7 +38389,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15244,
+                    "m_offset": 15684,
                     "m_dataSize": 22
                   }
                 ]
@@ -37485,7 +38409,7 @@
                 "Cmd": "CondCmd_Phase_Less",
                 "arg": [
                   {
-                    "m_offset": 15249,
+                    "m_offset": 15689,
                     "m_dataSize": 4
                   }
                 ]
@@ -37497,7 +38421,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15254,
+                    "m_offset": 15694,
                     "m_dataSize": 22
                   }
                 ]
@@ -37517,11 +38441,11 @@
                 "Cmd": "CondCmd_Phase_GreaterAndLess",
                 "arg": [
                   {
-                    "m_offset": 15259,
+                    "m_offset": 15699,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15264,
+                    "m_offset": 15704,
                     "m_dataSize": 4
                   }
                 ]
@@ -37533,7 +38457,7 @@
                 "Cmd": "ExeCmd_RunGeneralTalk",
                 "arg": [
                   {
-                    "m_offset": 15269,
+                    "m_offset": 15709,
                     "m_dataSize": 23
                   }
                 ]
@@ -37553,7 +38477,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15274,
+                    "m_offset": 15714,
                     "m_dataSize": 21
                   }
                 ]
@@ -37565,7 +38489,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15279,
+                    "m_offset": 15719,
                     "m_dataSize": 21
                   }
                 ]
@@ -37589,7 +38513,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15284,
+                    "m_offset": 15724,
                     "m_dataSize": 21
                   }
                 ]
@@ -37601,7 +38525,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15289,
+                    "m_offset": 15729,
                     "m_dataSize": 21
                   }
                 ]
@@ -37625,7 +38549,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15294,
+                    "m_offset": 15734,
                     "m_dataSize": 21
                   }
                 ]
@@ -37637,7 +38561,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15299,
+                    "m_offset": 15739,
                     "m_dataSize": 21
                   }
                 ]
@@ -37661,7 +38585,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15304,
+                    "m_offset": 15744,
                     "m_dataSize": 21
                   }
                 ]
@@ -37673,7 +38597,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15309,
+                    "m_offset": 15749,
                     "m_dataSize": 21
                   }
                 ]
@@ -37697,7 +38621,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15314,
+                    "m_offset": 15754,
                     "m_dataSize": 21
                   }
                 ]
@@ -37709,7 +38633,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15319,
+                    "m_offset": 15759,
                     "m_dataSize": 21
                   }
                 ]
@@ -37733,7 +38657,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15324,
+                    "m_offset": 15764,
                     "m_dataSize": 21
                   }
                 ]
@@ -37745,7 +38669,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15329,
+                    "m_offset": 15769,
                     "m_dataSize": 21
                   }
                 ]
@@ -37769,7 +38693,7 @@
                 "Cmd": "CondCmd_MapId_Equal",
                 "arg": [
                   {
-                    "m_offset": 15334,
+                    "m_offset": 15774,
                     "m_dataSize": 10
                   }
                 ]
@@ -37778,7 +38702,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15339,
+                    "m_offset": 15779,
                     "m_dataSize": 21
                   }
                 ]
@@ -37790,11 +38714,11 @@
                 "Cmd": "ExeCmd_SetTempBitFlagArray_False",
                 "arg": [
                   {
-                    "m_offset": 15344,
+                    "m_offset": 15784,
                     "m_dataSize": 21
                   },
                   {
-                    "m_offset": 15349,
+                    "m_offset": 15789,
                     "m_dataSize": 21
                   }
                 ]
@@ -37807,11 +38731,11 @@
                 "Cmd": "ExeCmd_MoveRoundCameraCharaForward",
                 "arg": [
                   {
-                    "m_offset": 15354,
+                    "m_offset": 15794,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15359,
+                    "m_offset": 15799,
                     "m_dataSize": 4
                   }
                 ]
@@ -37820,7 +38744,7 @@
                 "Cmd": "ExeCmd_RsvPreloadMapDuringEventForFastTravel",
                 "arg": [
                   {
-                    "m_offset": 15364,
+                    "m_offset": 15804,
                     "m_dataSize": 10
                   }
                 ]
@@ -37829,7 +38753,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 15369,
+                    "m_offset": 15809,
                     "m_dataSize": 10
                   }
                 ]
@@ -37838,7 +38762,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15374,
+                    "m_offset": 15814,
                     "m_dataSize": 21
                   }
                 ]
@@ -37851,7 +38775,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 15379,
+                    "m_offset": 15819,
                     "m_dataSize": 10
                   }
                 ]
@@ -37860,7 +38784,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15384,
+                    "m_offset": 15824,
                     "m_dataSize": 21
                   }
                 ]
@@ -37880,7 +38804,7 @@
                 "Cmd": "CondCmd_MapId_Equal",
                 "arg": [
                   {
-                    "m_offset": 15389,
+                    "m_offset": 15829,
                     "m_dataSize": 10
                   }
                 ]
@@ -37889,7 +38813,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15394,
+                    "m_offset": 15834,
                     "m_dataSize": 21
                   }
                 ]
@@ -37901,11 +38825,11 @@
                 "Cmd": "ExeCmd_SetTempBitFlagArray_False",
                 "arg": [
                   {
-                    "m_offset": 15399,
+                    "m_offset": 15839,
                     "m_dataSize": 21
                   },
                   {
-                    "m_offset": 15404,
+                    "m_offset": 15844,
                     "m_dataSize": 21
                   }
                 ]
@@ -37918,11 +38842,11 @@
                 "Cmd": "ExeCmd_MoveRoundCameraCharaForward",
                 "arg": [
                   {
-                    "m_offset": 15409,
+                    "m_offset": 15849,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15414,
+                    "m_offset": 15854,
                     "m_dataSize": 4
                   }
                 ]
@@ -37931,7 +38855,7 @@
                 "Cmd": "ExeCmd_RsvPreloadMapDuringEventForFastTravel",
                 "arg": [
                   {
-                    "m_offset": 15419,
+                    "m_offset": 15859,
                     "m_dataSize": 10
                   }
                 ]
@@ -37940,7 +38864,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 15424,
+                    "m_offset": 15864,
                     "m_dataSize": 10
                   }
                 ]
@@ -37949,7 +38873,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15429,
+                    "m_offset": 15869,
                     "m_dataSize": 21
                   }
                 ]
@@ -37962,7 +38886,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 15434,
+                    "m_offset": 15874,
                     "m_dataSize": 10
                   }
                 ]
@@ -37971,7 +38895,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_False",
                 "arg": [
                   {
-                    "m_offset": 15439,
+                    "m_offset": 15879,
                     "m_dataSize": 21
                   }
                 ]
@@ -37991,7 +38915,7 @@
                 "Cmd": "CondCmd_MapId_Equal",
                 "arg": [
                   {
-                    "m_offset": 15444,
+                    "m_offset": 15884,
                     "m_dataSize": 10
                   }
                 ]
@@ -38000,7 +38924,7 @@
                 "Cmd": "CondCmd_GetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15449,
+                    "m_offset": 15889,
                     "m_dataSize": 21
                   }
                 ]
@@ -38012,11 +38936,11 @@
                 "Cmd": "ExeCmd_SetTempBitFlagArray_False",
                 "arg": [
                   {
-                    "m_offset": 15454,
+                    "m_offset": 15894,
                     "m_dataSize": 21
                   },
                   {
-                    "m_offset": 15459,
+                    "m_offset": 15899,
                     "m_dataSize": 21
                   }
                 ]
@@ -38029,11 +38953,11 @@
                 "Cmd": "ExeCmd_MoveRoundCameraCharaForward",
                 "arg": [
                   {
-                    "m_offset": 15464,
+                    "m_offset": 15904,
                     "m_dataSize": 4
                   },
                   {
-                    "m_offset": 15469,
+                    "m_offset": 15909,
                     "m_dataSize": 4
                   }
                 ]
@@ -38042,7 +38966,7 @@
                 "Cmd": "ExeCmd_RsvPreloadMapDuringEventForFastTravel",
                 "arg": [
                   {
-                    "m_offset": 15474,
+                    "m_offset": 15914,
                     "m_dataSize": 10
                   }
                 ]
@@ -38051,7 +38975,7 @@
                 "Cmd": "ExeCmd_RsvRunEvent",
                 "arg": [
                   {
-                    "m_offset": 15479,
+                    "m_offset": 15919,
                     "m_dataSize": 10
                   }
                 ]
@@ -38060,7 +38984,7 @@
                 "Cmd": "ExeCmd_SetTempBitFlag_True",
                 "arg": [
                   {
-                    "m_offset": 15484,
+                    "m_offset": 15924,
                     "m_dataSize": 21
                   }
                 ]
@@ -38071,19 +38995,19 @@
       ],
       "m_autoBin": [
         1,
-        77,
-        131,
-        122,
-        129,
-        60,
+        63,
+        113,
+        0,
+        57,
+        62,
         0,
         0,
         16,
         0,
         0,
         0,
-        172,
-        0,
+        143,
+        2,
         0,
         0,
         52,
@@ -52900,549 +53824,724 @@
         153,
         0,
         0,
-        50,
-        2,
-        0,
-        0,
-        0,
         52,
         59,
         153,
         0,
         0,
         50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        70,
+        153,
+        0,
+        0,
+        50,
         1,
+        0,
+        0,
+        0,
+        52,
+        96,
+        153,
+        0,
+        0,
+        52,
+        126,
+        153,
+        0,
+        0,
+        52,
+        156,
+        153,
+        0,
+        0,
+        52,
+        167,
+        153,
+        0,
+        0,
+        52,
+        197,
+        153,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        208,
+        153,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        234,
+        153,
+        0,
+        0,
+        52,
+        8,
+        154,
+        0,
+        0,
+        52,
+        38,
+        154,
+        0,
+        0,
+        52,
+        49,
+        154,
+        0,
+        0,
+        52,
+        79,
+        154,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        90,
+        154,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        116,
+        154,
+        0,
+        0,
+        52,
+        146,
+        154,
+        0,
+        0,
+        52,
+        176,
+        154,
+        0,
+        0,
+        52,
+        187,
+        154,
+        0,
+        0,
+        52,
+        217,
+        154,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        228,
+        154,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        254,
+        154,
+        0,
+        0,
+        52,
+        28,
+        155,
+        0,
+        0,
+        52,
+        58,
+        155,
+        0,
+        0,
+        52,
+        69,
+        155,
+        0,
+        0,
+        52,
+        99,
+        155,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        110,
+        155,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        136,
+        155,
+        0,
+        0,
+        52,
+        166,
+        155,
+        0,
+        0,
+        52,
+        196,
+        155,
+        0,
+        0,
+        52,
+        207,
+        155,
+        0,
+        0,
+        52,
+        237,
+        155,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        248,
+        155,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        18,
+        156,
+        0,
+        0,
+        52,
+        48,
+        156,
+        0,
+        0,
+        52,
+        78,
+        156,
+        0,
+        0,
+        52,
+        89,
+        156,
+        0,
+        0,
+        52,
+        119,
+        156,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        130,
+        156,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        156,
+        156,
+        0,
+        0,
+        52,
+        186,
+        156,
+        0,
+        0,
+        52,
+        216,
+        156,
+        0,
+        0,
+        52,
+        227,
+        156,
+        0,
+        0,
+        52,
+        1,
+        157,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        12,
+        157,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        38,
+        157,
+        0,
+        0,
+        52,
+        68,
+        157,
+        0,
+        0,
+        52,
+        98,
+        157,
+        0,
+        0,
+        52,
+        109,
+        157,
+        0,
+        0,
+        52,
+        139,
+        157,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        150,
+        157,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        176,
+        157,
+        0,
+        0,
+        52,
+        206,
+        157,
+        0,
+        0,
+        52,
+        236,
+        157,
+        0,
+        0,
+        52,
+        247,
+        157,
+        0,
+        0,
+        52,
+        21,
+        158,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        32,
+        158,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        58,
+        158,
+        0,
+        0,
+        52,
+        88,
+        158,
+        0,
+        0,
+        52,
+        118,
+        158,
+        0,
+        0,
+        52,
+        129,
+        158,
+        0,
+        0,
+        52,
+        159,
+        158,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        170,
+        158,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        196,
+        158,
+        0,
+        0,
+        52,
+        226,
+        158,
+        0,
+        0,
+        52,
+        0,
+        159,
+        0,
+        0,
+        52,
+        11,
+        159,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        41,
+        159,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        67,
+        159,
+        0,
+        0,
+        52,
+        97,
+        159,
+        0,
+        0,
+        52,
+        127,
+        159,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        157,
+        159,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        183,
+        159,
+        0,
+        0,
+        52,
+        213,
+        159,
+        0,
+        0,
+        52,
+        243,
+        159,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        17,
+        160,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        43,
+        160,
+        0,
+        0,
+        52,
+        73,
+        160,
+        0,
+        0,
+        52,
+        103,
+        160,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        133,
+        160,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        159,
+        160,
+        0,
+        0,
+        52,
+        189,
+        160,
+        0,
+        0,
+        52,
+        219,
+        160,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        249,
+        160,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        19,
+        161,
+        0,
+        0,
+        52,
+        49,
+        161,
+        0,
+        0,
+        52,
+        79,
+        161,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        109,
+        161,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        135,
+        161,
+        0,
+        0,
+        52,
+        165,
+        161,
+        0,
+        0,
+        52,
+        195,
+        161,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        225,
+        161,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        251,
+        161,
+        0,
+        0,
+        52,
+        25,
+        162,
+        0,
+        0,
+        52,
+        55,
+        162,
+        0,
+        0,
+        50,
+        2,
         0,
         0,
         0,
         52,
         85,
-        153,
-        0,
-        0,
-        52,
-        115,
-        153,
-        0,
-        0,
-        52,
-        145,
-        153,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        175,
-        153,
+        162,
         0,
         0,
         50,
         1,
+        0,
+        0,
+        0,
+        52,
+        111,
+        162,
+        0,
+        0,
+        52,
+        141,
+        162,
+        0,
+        0,
+        52,
+        171,
+        162,
+        0,
+        0,
+        50,
+        2,
         0,
         0,
         0,
         52,
         201,
-        153,
-        0,
-        0,
-        52,
-        231,
-        153,
-        0,
-        0,
-        52,
-        5,
-        154,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        35,
-        154,
+        162,
         0,
         0,
         50,
         1,
+        0,
+        0,
+        0,
+        52,
+        227,
+        162,
+        0,
+        0,
+        52,
+        1,
+        163,
+        0,
+        0,
+        52,
+        31,
+        163,
+        0,
+        0,
+        50,
+        2,
         0,
         0,
         0,
         52,
         61,
-        154,
-        0,
-        0,
-        52,
-        91,
-        154,
-        0,
-        0,
-        52,
-        121,
-        154,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        151,
-        154,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        177,
-        154,
-        0,
-        0,
-        52,
-        207,
-        154,
-        0,
-        0,
-        52,
-        237,
-        154,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        11,
-        155,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        37,
-        155,
-        0,
-        0,
-        52,
-        67,
-        155,
-        0,
-        0,
-        52,
-        97,
-        155,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        127,
-        155,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        153,
-        155,
-        0,
-        0,
-        52,
-        183,
-        155,
-        0,
-        0,
-        52,
-        213,
-        155,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        243,
-        155,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        13,
-        156,
-        0,
-        0,
-        52,
-        43,
-        156,
-        0,
-        0,
-        52,
-        73,
-        156,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        103,
-        156,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        129,
-        156,
-        0,
-        0,
-        52,
-        159,
-        156,
-        0,
-        0,
-        52,
-        189,
-        156,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        219,
-        156,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        245,
-        156,
-        0,
-        0,
-        52,
-        19,
-        157,
-        0,
-        0,
-        52,
-        49,
-        157,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        79,
-        157,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        105,
-        157,
-        0,
-        0,
-        52,
-        135,
-        157,
-        0,
-        0,
-        52,
-        165,
-        157,
-        0,
-        0,
-        50,
-        2,
-        0,
-        0,
-        0,
-        52,
-        195,
-        157,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        221,
-        157,
-        0,
-        0,
-        52,
-        251,
-        157,
-        0,
-        0,
-        50,
-        72,
-        78,
-        0,
-        0,
-        52,
-        25,
-        158,
-        0,
-        0,
-        50,
-        82,
-        78,
-        0,
-        0,
-        50,
-        118,
-        78,
-        0,
-        0,
-        52,
-        48,
-        158,
-        0,
-        0,
-        50,
-        122,
-        78,
-        0,
-        0,
-        50,
-        142,
-        78,
-        0,
-        0,
-        52,
-        72,
-        158,
-        0,
-        0,
-        50,
-        152,
-        78,
-        0,
-        0,
-        50,
-        162,
-        78,
-        0,
-        0,
-        52,
-        95,
-        158,
-        0,
-        0,
-        50,
-        72,
-        78,
-        0,
-        0,
-        52,
-        118,
-        158,
-        0,
-        0,
-        50,
-        82,
-        78,
-        0,
-        0,
-        50,
-        118,
-        78,
-        0,
-        0,
-        52,
-        141,
-        158,
-        0,
-        0,
-        50,
-        122,
-        78,
-        0,
-        0,
-        50,
-        142,
-        78,
-        0,
-        0,
-        52,
-        165,
-        158,
-        0,
-        0,
-        50,
-        152,
-        78,
-        0,
-        0,
-        50,
-        162,
-        78,
-        0,
-        0,
-        52,
-        188,
-        158,
-        0,
-        0,
-        50,
-        72,
-        78,
-        0,
-        0,
-        52,
-        211,
-        158,
-        0,
-        0,
-        50,
-        82,
-        78,
-        0,
-        0,
-        50,
-        118,
-        78,
-        0,
-        0,
-        52,
-        234,
-        158,
-        0,
-        0,
-        52,
-        2,
-        159,
-        0,
-        0,
-        52,
-        24,
-        159,
-        0,
-        0,
-        52,
-        46,
-        159,
-        0,
-        0,
-        52,
-        68,
-        159,
-        0,
-        0,
-        52,
-        90,
-        159,
-        0,
-        0,
-        52,
-        112,
-        159,
-        0,
-        0,
-        52,
-        134,
-        159,
-        0,
-        0,
-        52,
-        156,
-        159,
-        0,
-        0,
-        52,
-        178,
-        159,
-        0,
-        0,
-        52,
-        200,
-        159,
-        0,
-        0,
-        52,
-        222,
-        159,
-        0,
-        0,
-        52,
-        244,
-        159,
-        0,
-        0,
-        52,
-        10,
-        160,
-        0,
-        0,
-        52,
-        21,
-        160,
-        0,
-        0,
-        52,
-        43,
-        160,
-        0,
-        0,
-        52,
-        65,
-        160,
-        0,
-        0,
-        50,
-        0,
-        0,
+        163,
         0,
         0,
         50,
@@ -53452,102 +54551,257 @@
         0,
         52,
         87,
-        160,
-        0,
-        0,
-        52,
-        98,
-        160,
-        0,
-        0,
-        52,
-        109,
-        160,
-        0,
-        0,
-        52,
-        131,
-        160,
-        0,
-        0,
-        52,
-        142,
-        160,
-        0,
-        0,
-        52,
-        164,
-        160,
-        0,
-        0,
-        52,
-        175,
-        160,
-        0,
-        0,
-        52,
-        197,
-        160,
-        0,
-        0,
-        52,
-        219,
-        160,
-        0,
-        0,
-        50,
-        0,
-        0,
-        0,
-        0,
-        50,
-        1,
-        0,
-        0,
-        0,
-        52,
-        241,
-        160,
-        0,
-        0,
-        52,
-        252,
-        160,
-        0,
-        0,
-        52,
-        7,
-        161,
-        0,
-        0,
-        52,
-        29,
-        161,
-        0,
-        0,
-        52,
-        40,
-        161,
-        0,
-        0,
-        52,
-        62,
-        161,
-        0,
-        0,
-        52,
-        73,
-        161,
-        0,
-        0,
-        52,
-        95,
-        161,
+        163,
         0,
         0,
         52,
         117,
-        161,
+        163,
+        0,
+        0,
+        52,
+        147,
+        163,
+        0,
+        0,
+        50,
+        2,
+        0,
+        0,
+        0,
+        52,
+        177,
+        163,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        203,
+        163,
+        0,
+        0,
+        52,
+        233,
+        163,
+        0,
+        0,
+        50,
+        72,
+        78,
+        0,
+        0,
+        52,
+        7,
+        164,
+        0,
+        0,
+        50,
+        82,
+        78,
+        0,
+        0,
+        50,
+        118,
+        78,
+        0,
+        0,
+        52,
+        30,
+        164,
+        0,
+        0,
+        50,
+        122,
+        78,
+        0,
+        0,
+        50,
+        142,
+        78,
+        0,
+        0,
+        52,
+        54,
+        164,
+        0,
+        0,
+        50,
+        152,
+        78,
+        0,
+        0,
+        50,
+        162,
+        78,
+        0,
+        0,
+        52,
+        77,
+        164,
+        0,
+        0,
+        50,
+        72,
+        78,
+        0,
+        0,
+        52,
+        100,
+        164,
+        0,
+        0,
+        50,
+        82,
+        78,
+        0,
+        0,
+        50,
+        118,
+        78,
+        0,
+        0,
+        52,
+        123,
+        164,
+        0,
+        0,
+        50,
+        122,
+        78,
+        0,
+        0,
+        50,
+        142,
+        78,
+        0,
+        0,
+        52,
+        147,
+        164,
+        0,
+        0,
+        50,
+        152,
+        78,
+        0,
+        0,
+        50,
+        162,
+        78,
+        0,
+        0,
+        52,
+        170,
+        164,
+        0,
+        0,
+        50,
+        72,
+        78,
+        0,
+        0,
+        52,
+        193,
+        164,
+        0,
+        0,
+        50,
+        82,
+        78,
+        0,
+        0,
+        50,
+        118,
+        78,
+        0,
+        0,
+        52,
+        216,
+        164,
+        0,
+        0,
+        52,
+        240,
+        164,
+        0,
+        0,
+        52,
+        6,
+        165,
+        0,
+        0,
+        52,
+        28,
+        165,
+        0,
+        0,
+        52,
+        50,
+        165,
+        0,
+        0,
+        52,
+        72,
+        165,
+        0,
+        0,
+        52,
+        94,
+        165,
+        0,
+        0,
+        52,
+        116,
+        165,
+        0,
+        0,
+        52,
+        138,
+        165,
+        0,
+        0,
+        52,
+        160,
+        165,
+        0,
+        0,
+        52,
+        182,
+        165,
+        0,
+        0,
+        52,
+        204,
+        165,
+        0,
+        0,
+        52,
+        226,
+        165,
+        0,
+        0,
+        52,
+        248,
+        165,
+        0,
+        0,
+        52,
+        3,
+        166,
+        0,
+        0,
+        52,
+        25,
+        166,
+        0,
+        0,
+        52,
+        47,
+        166,
         0,
         0,
         50,
@@ -53561,22 +54815,132 @@
         0,
         0,
         52,
-        139,
-        161,
+        69,
+        166,
         0,
         0,
         52,
-        150,
-        161,
+        80,
+        166,
         0,
         0,
         52,
-        161,
-        161,
+        91,
+        166,
+        0,
+        0,
+        52,
+        113,
+        166,
+        0,
+        0,
+        52,
+        124,
+        166,
+        0,
+        0,
+        52,
+        146,
+        166,
+        0,
+        0,
+        52,
+        157,
+        166,
+        0,
+        0,
+        52,
+        179,
+        166,
+        0,
+        0,
+        52,
+        201,
+        166,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        223,
+        166,
+        0,
+        0,
+        52,
+        234,
+        166,
+        0,
+        0,
+        52,
+        245,
+        166,
+        0,
+        0,
+        52,
+        11,
+        167,
+        0,
+        0,
+        52,
+        22,
+        167,
+        0,
+        0,
+        52,
+        44,
+        167,
+        0,
+        0,
+        52,
+        55,
+        167,
+        0,
+        0,
+        52,
+        77,
+        167,
+        0,
+        0,
+        52,
+        99,
+        167,
+        0,
+        0,
+        50,
+        0,
+        0,
+        0,
+        0,
+        50,
+        1,
+        0,
+        0,
+        0,
+        52,
+        121,
+        167,
+        0,
+        0,
+        52,
+        132,
+        167,
+        0,
+        0,
+        52,
+        143,
+        167,
         0,
         0
       ],
-      "m_autoStr": "＊\u0000cnt_shrine_tama_00\u0000ev00_10200\u0000Map_200000\u0000flg_event_common_01\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10200\u0000flg_event_common_01\u0000Map_9a0000\u0000ev00_10200\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10300\u0000ev00_10300\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000ev00_10400\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000flg_sysmes_map_200000_sealed_before70070\u0000gtt_map_200000_chr100400_01\u0000flg_sysmes_map_200000_sealed_before70070\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000ev00_11600\u0000sysmes_map_200000_sealed2\u0000ev00_11600\u0000ev00_11600\u0000flg_sysmes_map_200000_sealed\u0000sysmes_map_200000_sealed\u0000flg_sysmes_map_200000_sealed\u0000cnt_shrine_tama_00\u0000ev00_10600\u0000ev00_10600\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000Map_200007\u0000flg_event_common_01\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000Map_200000\u0000flg_event_common_01\u0000Map_9c0000\u0000ev00_10700\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000flg_event_common_01\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000flg_event_common_01\u0000Map_200007\u0000Map_9c0000\u0000ev00_10700\u0000flg_event_common_01\u0000ev00_10800\u0000ev00_10800\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000sysmes_map_200000_00\u0000cnt_shrine_tama_00\u0000sysmes_map_200000_01\u0000ev00_10900\u0000ev00_10400\u0000ev00_20200_000\u0000ev00_10900\u0000ev00_10400\u0000flg_Xernes_barrier\u0000ev00_10900\u0000gen_enmy_ev00_10100\u0000ev00_10100\u0000ev00_10100\u0000ev00_10100\u0000★セーブポイント作成\u0000ev00_10100\u0000gtt_ev00_30100_01\u0000gtt_ev00_30100_01\u0000gtt_ev00_30100_01\u0000map_200000_enm105006_00\u0000map_200000_enm105006_01\u0000map_200000_enm105006_02\u0000map_200000_enm105006_03\u0000map_200000_enm105006_04\u0000map_200000_enm105006_05\u0000map_200000_enm105006_06\u0000map_200000_enm105006_07\u0000map_200000_enm105006_08\u0000map_200000_enm105006_09\u0000map_200000_enm105006_10\u0000map_200000_enm105006_11\u0000map_200000_enm105006_12\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000map200000_FarmStand_00\u0000map200000_FarmStand_01\u0000map200000_FarmStand_02\u0000map200000_FarmStand_03\u0000map200000_FarmStand_04\u0000map200000_FarmStand_05\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_00\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_00\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_01\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_01\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_02\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_02\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_03\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_03\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_04\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_04\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_05\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_05\u0000flg_event_common_01\u0000flg_event_common_01\u0000flg_event_common_01\u0000flg_event_common_01\u0000hlp_010400\u0000hlp_010480\u0000hlp_010480\u0000hlp_010480\u0000hlp_010480\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000flg_shrine_map_jump\u0000flg_shrine_map_jump\u0000flg_shrine_map_jump\u0000false\u0000flg_shrine_map_jump\u0000flg_shrine_startpoint_telop\u0000flg_shrine_stop_restart_area\u0000false\u0000shrine_01\u0000ev90_03600\u0000true\u0000flg_shrine_stop_restart_area\u0000flg_shrine_stop_restart_area\u0000true\u0000flg_shrine_stop_restart_area\u0000flg_shrine_stop_restart_area\u0000flg_shrine_map_jump\u0000true\u0000flg_shrine_map_jump\u0000flg_shrine_startpoint_telop\u0000flg_shrine_stop_restart_area\u0000True\u0000true\u0000cmn_correct\u0000true\u0000cmn_correct\u0000PlayerRestart_shrine\u0000true\u0000cmn_correct\u0000PlayerRestart_shrine\u0000para_avt000000\u0000True\u0000true\u0000cmn_correct\u0000True\u0000true\u0000cmn_correct\u0000TG_SHRINE_MINIGAME_CLEAR_PICK\u0000true\u0000cmn_correct\u0000True\u0000true\u0000cmn_correct\u0000Default_ChaseCamera\u0000true\u0000cmn_correct\u0000PlayerRestart_shrine\u0000Default_ChaseCamera\u0000flg_shine_floor_clear\u0000flg_shine_floor_wall\u0000flg_check_start_ev90_03601\u0000para_avt000000\u0000ev90_03601\u0000flg_check_start_ev90_03601\u0000flg_check_start_ev90_03602\u0000para_avt000000\u0000ev90_03602\u0000flg_check_start_ev90_03602\u0000flg_shine_floor_clear_road\u0000flg_check_start_ev90_03603\u0000para_avt000000\u0000ev90_03603\u0000flg_check_start_ev90_03603\u0000flg_check_start_ev90_03604\u0000para_avt000000\u0000ev90_03604\u0000flg_check_start_ev90_03604\u0000flg_shine_floor_clear_road\u0000shrine_02\u0000flg_shrine_02\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_02\u0000sysmes_shrine_minigame_start\u0000shrine_02\u0000flg_shrine_02\u0000shrine_02\u0000sysmes_shrine_minigame_start\u0000shrine_02\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_02\u0000grp_enmy_map200000_shrine_02\u0000shrine_02\u0000flg_shrine_02\u0000shrine_02\u0000sysmes_shrine_minigame_start\u0000shrine_02\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_02\u0000shrine_02\u0000flg_shrine_02\u0000flg_shrine_02\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_02\u0000flg_shrine_02\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_03\u0000flg_shrine_03\u0000hlp_010450\u0000hlp_010450\u0000shrine_03\u0000sysmes_shrine_minigame_battle_start\u0000shrine_03\u0000flg_shrine_03\u0000shrine_03\u0000sysmes_shrine_minigame_battle_start\u0000shrine_03\u0000shrine_03\u0000shrine_03\u0000flg_shrine_03\u0000shrine_03\u0000sysmes_shrine_minigame_battle_start\u0000shrine_03\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_03_1\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_03_2\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_03_3\u0000shrine_03\u0000shrine_03\u0000shrine_03\u0000shrine_03\u0000flg_shrine_03\u0000flg_shrine_03\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_03\u0000flg_shrine_03\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_04\u0000flg_shrine_04\u0000hlp_010460\u0000hlp_010460\u0000shrine_04\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_04\u0000flg_shrine_04\u0000shrine_04\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_04\u0000shrine_04\u0000PlayerRestart_shrine\u0000shrine_04\u0000flg_shrine_04\u0000shrine_04\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_04\u0000shrine_04\u0000flg_shrine_04\u0000flg_shrine_04\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_04\u0000flg_shrine_04\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_05\u0000flg_shrine_05\u0000hlp_010460\u0000hlp_010460\u0000shrine_05\u0000life0006\u0000sysmes_shrine_minigame_pick_start\u0000shrine_05\u0000flg_shrine_05\u0000shrine_05\u0000life0006\u0000sysmes_shrine_minigame_pick_start\u0000shrine_05\u0000shrine_05\u0000PlayerRestart_shrine\u0000shrine_05\u0000flg_shrine_05\u0000shrine_05\u0000life0006\u0000sysmes_shrine_minigame_pick_start\u0000shrine_05\u0000shrine_05\u0000flg_shrine_05\u0000flg_shrine_05\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_05\u0000flg_shrine_05\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_06\u0000flg_shrine_06\u0000hlp_010450\u0000hlp_010450\u0000shrine_06\u0000sysmes_shrine_minigame_battle_start\u0000shrine_06\u0000flg_shrine_06\u0000shrine_06\u0000sysmes_shrine_minigame_battle_start\u0000shrine_06\u0000shrine_06\u0000shrine_06\u0000flg_shrine_06\u0000shrine_06\u0000sysmes_shrine_minigame_battle_start\u0000shrine_06\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_06_1\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_06_2\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_06_3\u0000shrine_06\u0000shrine_06\u0000shrine_06\u0000shrine_06\u0000flg_shrine_06\u0000flg_shrine_06\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_06\u0000flg_shrine_06\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_07\u0000flg_shrine_07\u0000hlp_010430\u0000hlp_010430\u0000shrine_07\u0000sysmes_shrine_minigame_start\u0000shrine_07\u0000flg_shrine_07\u0000shrine_07\u0000sysmes_shrine_minigame_start\u0000shrine_07\u0000shrine_07\u0000shrine_07\u0000flg_shrine_07\u0000shrine_07\u0000sysmes_shrine_minigame_start\u0000shrine_07\u0000shrine_07\u0000flg_shrine_07\u0000flg_shrine_07\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_07\u0000flg_shrine_07\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_08\u0000flg_shrine_08\u0000hlp_010450\u0000hlp_010450\u0000shrine_08\u0000sysmes_shrine_minigame_battle_start\u0000shrine_08\u0000flg_shrine_08\u0000shrine_08\u0000sysmes_shrine_minigame_battle_start\u0000shrine_08\u0000shrine_08\u0000shrine_08\u0000flg_shrine_08\u0000shrine_08\u0000sysmes_shrine_minigame_battle_start\u0000shrine_08\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_08_1\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_08_2\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_08_3\u0000shrine_08\u0000shrine_08\u0000shrine_08\u0000shrine_08\u0000flg_shrine_08\u0000flg_shrine_08\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_08\u0000flg_shrine_08\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_09\u0000flg_shrine_09\u0000hlp_010440\u0000hlp_010440\u0000shrine_09\u0000sysmes_shrine_minigame_start\u0000shrine_09\u0000flg_shrine_09\u0000shrine_09\u0000sysmes_shrine_minigame_start\u0000shrine_09\u0000shrine_09\u0000grp_enmy_map200000_shrine_09\u0000PlayerRestart_shrine\u0000shrine_09\u0000flg_shrine_09\u0000shrine_09\u0000sysmes_shrine_minigame_start\u0000shrine_09\u0000shrine_09\u0000flg_shrine_09\u0000flg_shrine_09\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_09\u0000flg_shrine_09\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_10\u0000flg_shrine_10\u0000hlp_010440\u0000hlp_010440\u0000shrine_10\u0000sysmes_shrine_minigame_start\u0000shrine_10\u0000flg_shrine_10\u0000shrine_10\u0000sysmes_shrine_minigame_start\u0000shrine_10\u0000shrine_10\u0000PlayerRestart_shrine\u0000PickDestroyMiniGame_Shrine_003\u0000shrine_10\u0000flg_shrine_10\u0000shrine_10\u0000sysmes_shrine_minigame_start\u0000shrine_10\u0000shrine_10\u0000flg_shrine_10\u0000flg_shrine_10\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_10\u0000flg_shrine_10\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_11\u0000flg_shrine_11\u0000hlp_010440\u0000hlp_010440\u0000shrine_11\u0000sysmes_shrine_minigame_start\u0000shrine_11\u0000flg_shrine_11\u0000shrine_11\u0000sysmes_shrine_minigame_start\u0000shrine_11\u0000shrine_11\u0000grp_enmy_map200000_shrine_11\u0000PlayerRestart_shrine\u0000shrine_11\u0000flg_shrine_11\u0000shrine_11\u0000sysmes_shrine_minigame_start\u0000shrine_11\u0000shrine_11\u0000flg_shrine_11\u0000flg_shrine_11\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_11\u0000flg_shrine_11\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_12\u0000flg_shrine_12\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_12\u0000sysmes_shrine_minigame_start\u0000shrine_12\u0000flg_shrine_12\u0000shrine_12\u0000sysmes_shrine_minigame_start\u0000shrine_12\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_12\u0000PickDestroyMiniGame_Shrine_004\u0000shrine_12\u0000flg_shrine_12\u0000shrine_12\u0000sysmes_shrine_minigame_start\u0000shrine_12\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_12\u0000shrine_12\u0000flg_shrine_12\u0000flg_shrine_12\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_12\u0000flg_shrine_12\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_13\u0000flg_shrine_13\u0000hlp_010460\u0000hlp_010460\u0000shrine_13\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_13\u0000flg_shrine_13\u0000shrine_13\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_13\u0000shrine_13\u0000PlayerRestart_shrine\u0000shrine_13\u0000flg_shrine_13\u0000shrine_13\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_13\u0000shrine_13\u0000flg_shrine_13\u0000flg_shrine_13\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_13\u0000flg_shrine_13\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_14\u0000flg_shrine_14\u0000hlp_010440\u0000hlp_010440\u0000shrine_14\u0000sysmes_shrine_minigame_start\u0000shrine_14\u0000flg_shrine_14\u0000shrine_14\u0000sysmes_shrine_minigame_start\u0000shrine_14\u0000shrine_14\u0000PlayerRestart_shrine\u0000PickDestroyMiniGame_Shrine_005\u0000shrine_14\u0000flg_shrine_14\u0000shrine_14\u0000sysmes_shrine_minigame_start\u0000shrine_14\u0000shrine_14\u0000flg_shrine_14\u0000flg_shrine_14\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_14\u0000flg_shrine_14\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_15\u0000flg_shrine_15\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_15\u0000sysmes_shrine_minigame_start\u0000shrine_15\u0000flg_shrine_15\u0000shrine_15\u0000sysmes_shrine_minigame_start\u0000shrine_15\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_15\u0000grp_enmy_map200000_shrine_15\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_15\u0000flg_shrine_15\u0000shrine_15\u0000sysmes_shrine_minigame_start\u0000shrine_15\u0000shrine_15\u0000shrine_15\u0000flg_shrine_15\u0000flg_shrine_15\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_15\u0000flg_shrine_15\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_16\u0000flg_shrine_16\u0000hlp_010430\u0000hlp_010430\u0000shrine_16\u0000sysmes_shrine_minigame_start\u0000shrine_16\u0000flg_shrine_16\u0000shrine_16\u0000sysmes_shrine_minigame_start\u0000shrine_16\u0000shrine_16\u0000shrine_16\u0000flg_shrine_16\u0000shrine_16\u0000sysmes_shrine_minigame_start\u0000shrine_16\u0000shrine_16\u0000flg_shrine_16\u0000flg_shrine_16\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_16\u0000flg_shrine_16\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_17\u0000flg_shrine_17\u0000hlp_010430\u0000hlp_010430\u0000shrine_17\u0000sysmes_shrine_minigame_start\u0000shrine_17\u0000flg_shrine_17\u0000shrine_17\u0000sysmes_shrine_minigame_start\u0000shrine_17\u0000shrine_17\u0000shrine_17\u0000flg_shrine_17\u0000shrine_17\u0000sysmes_shrine_minigame_start\u0000shrine_17\u0000shrine_17\u0000flg_shrine_17\u0000flg_shrine_17\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_17\u0000flg_shrine_17\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_18\u0000flg_shrine_18\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_18\u0000sysmes_shrine_minigame_start\u0000shrine_18\u0000flg_shrine_18\u0000shrine_18\u0000sysmes_shrine_minigame_start\u0000shrine_18\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_18\u0000grp_enmy_map200000_shrine_18\u0000shrine_18\u0000flg_shrine_18\u0000shrine_18\u0000sysmes_shrine_minigame_start\u0000shrine_18\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_18\u0000shrine_18\u0000flg_shrine_18\u0000flg_shrine_18\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_18\u0000flg_shrine_18\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_19\u0000flg_shrine_19\u0000hlp_010430\u0000hlp_010430\u0000shrine_19\u0000sysmes_shrine_minigame_start\u0000shrine_19\u0000flg_shrine_19\u0000shrine_19\u0000sysmes_shrine_minigame_start\u0000shrine_19\u0000shrine_19\u0000shrine_19\u0000flg_shrine_19\u0000shrine_19\u0000sysmes_shrine_minigame_start\u0000shrine_19\u0000shrine_19\u0000flg_shrine_19\u0000flg_shrine_19\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_19\u0000flg_shrine_19\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_20\u0000flg_shrine_20\u0000hlp_010430\u0000hlp_010430\u0000shrine_20\u0000sysmes_shrine_minigame_start\u0000shrine_20\u0000flg_shrine_20\u0000shrine_20\u0000sysmes_shrine_minigame_start\u0000shrine_20\u0000shrine_20\u0000shrine_20\u0000flg_shrine_20\u0000shrine_20\u0000sysmes_shrine_minigame_start\u0000shrine_20\u0000shrine_20\u0000flg_shrine_20\u0000flg_shrine_20\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_20\u0000flg_shrine_20\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000True\u0000PlayerRestart_shrine\u0000map200000_camp_001\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_001\u0000map200000_camp_002\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_002\u0000map200000_camp_003\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_003\u0000map200000_camp_004\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_004\u0000map200000_camp_005\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_005\u0000map200000_camp_006\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_006\u0000map200000_camp_007\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_007\u0000map200000_camp_008\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_008\u0000map200000_camp_009\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_009\u0000map200000_camp_001\u0000map200000_camp_001\u0000map200000_camp_002\u0000map200000_camp_002\u0000map200000_camp_003\u0000map200000_camp_003\u0000map200000_camp_004\u0000map200000_camp_004\u0000map200000_camp_005\u0000map200000_camp_005\u0000map200000_camp_006\u0000map200000_camp_006\u0000map200000_camp_007\u0000map200000_camp_007\u0000map200000_camp_008\u0000map200000_camp_008\u0000map200000_camp_009\u0000map200000_camp_009\u0000shrine_01\u0000shrine_01\u0000shrine_02\u0000shrine_02\u0000shrine_03\u0000shrine_03\u0000shrine_04\u0000shrine_04\u0000shrine_05\u0000shrine_05\u0000shrine_06\u0000shrine_06\u0000shrine_07\u0000shrine_07\u0000shrine_08\u0000shrine_08\u0000shrine_09\u0000shrine_09\u0000shrine_10\u0000shrine_10\u0000shrine_11\u0000shrine_11\u0000shrine_12\u0000shrine_12\u0000shrine_13\u0000shrine_13\u0000shrine_14\u0000shrine_14\u0000shrine_15\u0000shrine_15\u0000shrine_16\u0000shrine_16\u0000shrine_17\u0000shrine_17\u0000shrine_18\u0000shrine_18\u0000shrine_19\u0000shrine_19\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_01\u0000gtt_map_200000_enm126002_01\u0000grp_enmy_map200000_village_01\u0000title_qsf_active_event_001\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_01_timer\u0000gtt_map_200000_enm126002_01\u0000flg_cheack_village_01_timer\u0000trg_timer_village_01\u0000flg_cheack_village_01_timer\u0000flg_cheack_village_01_timer\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_event_common_01\u0000para_avt000000\u0000PS_enemy_village_01\u0000qsb200000_0101_enm126001\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_event_common_01\u0000flg_enemy_village_01\u0000flg_enemy_village_01\u0000ev90_03800\u0000FT200000_051\u0000map200000_area002\u0000flg_cheack_village_01\u0000flg_event_common_01\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_02\u0000flg_cheack_village_02\u0000flg_cheack_village_02\u0000gtt_map_200000_enm107003_01\u0000grp_enmy_map200000_village_02\u0000title_qsf_active_event_001\u0000flg_enemy_village_02\u0000flg_cheack_village_02\u0000flg_cheack_village_02_timer\u0000gtt_map_200000_enm107003_01\u0000flg_cheack_village_02_timer\u0000trg_timer_village_02\u0000flg_cheack_village_02_timer\u0000flg_cheack_village_02_timer\u0000flg_enemy_village_02\u0000flg_event_common_01\u0000para_avt000000\u0000PS_enemy_village_02\u0000qsb200000_0201_enm107003\u0000flg_enemy_village_02\u0000flg_cheack_village_02\u0000flg_event_common_01\u0000flg_enemy_village_02\u0000flg_enemy_village_02\u0000ev90_03801\u0000FT200000_052\u0000map200000_area006\u0000flg_event_common_01\u0000flg_cheack_village_02\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_03\u0000flg_cheack_village_03\u0000flg_cheack_village_03\u0000gtt_map_200000_enm10e002_01\u0000grp_enmy_map200000_village_03\u0000title_qsf_active_event_001\u0000flg_enemy_village_03\u0000flg_cheack_village_03\u0000flg_cheack_village_03_timer\u0000gtt_map_200000_enm10e002_01\u0000flg_cheack_village_03_timer\u0000trg_timer_village_03\u0000flg_cheack_village_03_timer\u0000flg_cheack_village_03_timer\u0000flg_enemy_village_03\u0000flg_event_common_01\u0000para_avt000000\u0000PS_enemy_village_03\u0000qsb200000_0301_enm10e002\u0000flg_enemy_village_03\u0000flg_cheack_village_03\u0000flg_event_common_01\u0000flg_enemy_village_03\u0000flg_enemy_village_03\u0000ev90_03805\u0000FT200000_053\u0000map200000_area015\u0000flg_event_common_01\u0000flg_cheack_village_03\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_cheack_village_04\u0000gtt_map_200000_enm108001_01\u0000grp_enmy_map200000_village_04\u0000title_qsf_active_event_004\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_cheack_village_04_timer\u0000gtt_map_200000_enm108001_01\u0000flg_cheack_village_04_timer\u0000trg_timer_village_04\u0000flg_cheack_village_04_timer\u0000flg_cheack_village_04_timer\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_04\u0000flg_cheack_village_04\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_event_common_01\u0000Map_200000_enm108001_40\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_event_common_01\u0000flg_enemy_village_04\u0000flg_enemy_village_04\u0000ev90_03802\u0000FT200000_054\u0000map200000_area008\u0000flg_event_common_01\u0000flg_cheack_village_04\u0000flg_cheack_village_04_timer\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_cheack_village_05\u0000gtt_map_200000_enm118004_01\u0000grp_enmy_map200000_village_05\u0000title_qsf_active_event_003\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_cheack_village_05_timer\u0000gtt_map_200000_enm118004_01\u0000flg_cheack_village_05_timer\u0000trg_timer_village_05\u0000flg_cheack_village_05_timer\u0000flg_cheack_village_05_timer\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_05\u0000flg_cheack_village_05\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_event_common_01\u0000Map_200000_enm118004_40\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_event_common_01\u0000flg_enemy_village_05\u0000flg_enemy_village_05\u0000ev90_03803\u0000FT200000_055\u0000map200000_area012\u0000flg_event_common_01\u0000flg_cheack_village_05\u0000flg_cheack_village_05_timer\u0000flg_enemy_village_05\u0000hlp_010560\u0000hlp_010560\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_cheack_village_06\u0000gtt_map_200000_enm103009_01\u0000grp_enmy_map200000_village_06\u0000title_qsf_active_event_003\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_cheack_village_06_timer\u0000gtt_map_200000_enm103009_01\u0000flg_cheack_village_06_timer\u0000trg_timer_village_06\u0000flg_cheack_village_06_timer\u0000flg_cheack_village_06_timer\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_06\u0000flg_cheack_village_06\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_event_common_01\u0000qsb200000_0601_enm103009\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_event_common_01\u0000flg_enemy_village_06\u0000flg_enemy_village_06\u0000ev90_03804\u0000FT200000_056\u0000map200000_area010\u0000flg_event_common_01\u0000flg_cheack_village_06\u0000flg_cheack_village_06_timer\u0000flg_enemy_village_06\u0000hlp_010560\u0000hlp_010560\u0000map_200000_zone001_00\u0000map_200000_zone001_01\u0000map_200000_zone001_02\u0000map_200000_zone001_03\u0000map_200000_zone001_04\u0000flg_tower_leaf_01\u0000sys_talk_map200000_tower_01_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_01\u0000sys_talk_map200000_tower_01_02\u0000trg_tlk_map_200000_gyoro_01_00\u0000map200000_area001\u0000sys_talk_map200000_tower_01_00\u0000sys_talk_map200000_tower_01_01\u0000map_200000_zone002_00\u0000map_200000_zone002_01\u0000map_200000_zone002_02\u0000map_200000_zone002_03\u0000map_200000_zone002_04\u0000flg_tower_leaf_02\u0000sys_talk_map200000_tower_02_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_02\u0000sys_talk_map200000_tower_02_02\u0000trg_tlk_map_200000_gyoro_02_00\u0000map200000_area002\u0000sys_talk_map200000_tower_02_01\u0000flg_travelpoint_200000_03\u0000TOWER_IDENTIFIER\u0000tower067\u0000flg_travelpoint_200000_03\u0000ev90_03400\u0000ev90_03903\u0000map_200000_zone003_00\u0000map_200000_zone003_01\u0000map_200000_zone003_02\u0000map_200000_zone003_03\u0000map_200000_zone003_04\u0000map_200000_zone003_05\u0000flg_tower_leaf_03\u0000sys_talk_map200000_tower_03_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_03\u0000sys_talk_map200000_tower_03_02\u0000trg_tlk_map_200000_gyoro_03_00\u0000map200000_area003\u0000sys_talk_map200000_tower_03_01\u0000flg_travelpoint_200000_04\u0000TOWER_IDENTIFIER\u0000tower064\u0000flg_travelpoint_200000_04\u0000ev90_03400\u0000ev90_03904\u0000map_200000_zone004_00\u0000map_200000_zone004_01\u0000map_200000_zone004_02\u0000map_200000_zone004_03\u0000map_200000_zone004_04\u0000map_200000_zone004_05\u0000flg_tower_leaf_04\u0000sys_talk_map200000_tower_04_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_04\u0000sys_talk_map200000_tower_04_02\u0000trg_tlk_map_200000_gyoro_04_00\u0000map200000_area004\u0000sys_talk_map200000_tower_04_01\u0000flg_travelpoint_200000_05\u0000TOWER_IDENTIFIER\u0000tower035\u0000flg_travelpoint_200000_05\u0000ev90_03400\u0000ev90_03905\u0000map_200000_zone005_00\u0000map_200000_zone005_01\u0000map_200000_zone005_02\u0000map_200000_zone005_03\u0000map_200000_zone005_04\u0000map_200000_zone005_05\u0000flg_tower_leaf_05\u0000sys_talk_map200000_tower_05_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_05\u0000sys_talk_map200000_tower_05_02\u0000trg_tlk_map_200000_gyoro_05_00\u0000map200000_area005\u0000sys_talk_map200000_tower_05_01\u0000flg_travelpoint_200000_06\u0000TOWER_IDENTIFIER\u0000tower045\u0000flg_travelpoint_200000_06\u0000ev90_03400\u0000ev90_03906\u0000map_200000_zone006_00\u0000map_200000_zone006_01\u0000map_200000_zone006_02\u0000map_200000_zone006_03\u0000map_200000_zone006_04\u0000flg_tower_leaf_06\u0000sys_talk_map200000_tower_06_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_06\u0000sys_talk_map200000_tower_06_02\u0000trg_tlk_map_200000_gyoro_06_00\u0000map200000_area006\u0000sys_talk_map200000_tower_06_01\u0000flg_travelpoint_200000_07\u0000TOWER_IDENTIFIER\u0000tower048\u0000flg_travelpoint_200000_07\u0000ev90_03400\u0000ev90_03907\u0000map_200000_zone007_00\u0000map_200000_zone007_01\u0000map_200000_zone007_02\u0000map_200000_zone007_03\u0000map_200000_zone007_04\u0000map_200000_zone007_05\u0000flg_tower_leaf_07\u0000sys_talk_map200000_tower_07_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_07\u0000sys_talk_map200000_tower_07_02\u0000trg_tlk_map_200000_gyoro_07_00\u0000map200000_area007\u0000sys_talk_map200000_tower_07_01\u0000flg_travelpoint_200000_08\u0000TOWER_IDENTIFIER\u0000tower029\u0000flg_travelpoint_200000_08\u0000ev90_03400\u0000ev90_03908\u0000map_200000_zone008_00\u0000map_200000_zone008_01\u0000map_200000_zone008_02\u0000map_200000_zone008_03\u0000map_200000_zone008_04\u0000flg_tower_leaf_08\u0000sys_talk_map200000_tower_08_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_08\u0000sys_talk_map200000_tower_08_02\u0000trg_tlk_map_200000_gyoro_08_00\u0000map200000_area008\u0000sys_talk_map200000_tower_08_01\u0000sys_talk_map200000_tower_08_multiplay_01\u0000trg_tlk_map_200000_tower_08_multiplay_01\u0000sys_talk_map200000_tower_08_multiplay_retire_01\u0000trg_tlk_map_200000_tower_08_multiplay_retire_01\u0000sys_talk_map200000_tower_08_multiplay_no\u0000sys_talk_map200000_tower_08_multiplay_retire_02\u0000tg_multiplay_suspend\u0000sys_talk_map200000_tower_08_multiplay_no\u0000flg_travelpoint_200000_09\u0000TOWER_IDENTIFIER\u0000tower008\u0000flg_travelpoint_200000_09\u0000ev90_03400\u0000ev90_03909\u0000map_200000_zone009_00\u0000map_200000_zone009_01\u0000map_200000_zone009_02\u0000map_200000_zone009_03\u0000map_200000_zone009_04\u0000flg_tower_leaf_09\u0000sys_talk_map200000_tower_09_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_09\u0000sys_talk_map200000_tower_09_02\u0000trg_tlk_map_200000_gyoro_09_00\u0000map200000_area009\u0000sys_talk_map200000_tower_09_01\u0000sys_talk_map200000_tower_09_multiplay_01\u0000trg_tlk_map_200000_tower_09_multiplay_01\u0000sys_talk_map200000_tower_09_multiplay_retire_01\u0000trg_tlk_map_200000_tower_09_multiplay_retire_01\u0000sys_talk_map200000_tower_09_multiplay_no\u0000sys_talk_map200000_tower_09_multiplay_retire_02\u0000tg_multiplay_suspend\u0000sys_talk_map200000_tower_09_multiplay_no\u0000flg_travelpoint_200000_10\u0000TOWER_IDENTIFIER\u0000tower026\u0000flg_travelpoint_200000_10\u0000ev90_03400\u0000ev90_03910\u0000map_200000_zone010_00\u0000map_200000_zone010_01\u0000map_200000_zone010_02\u0000map_200000_zone010_03\u0000map_200000_zone010_04\u0000flg_tower_leaf_10\u0000sys_talk_map200000_tower_10_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_10\u0000sys_talk_map200000_tower_10_02\u0000trg_tlk_map_200000_gyoro_10_00\u0000map200000_area010\u0000sys_talk_map200000_tower_10_01\u0000flg_travelpoint_200000_11\u0000TOWER_IDENTIFIER\u0000tower014\u0000flg_travelpoint_200000_11\u0000ev90_03400\u0000ev90_03911\u0000map_200000_zone011_00\u0000map_200000_zone011_01\u0000map_200000_zone011_02\u0000map_200000_zone011_03\u0000map_200000_zone011_04\u0000flg_tower_leaf_11\u0000sys_talk_map200000_tower_11_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_11\u0000sys_talk_map200000_tower_11_02\u0000trg_tlk_map_200000_gyoro_11_00\u0000map200000_area011\u0000sys_talk_map200000_tower_11_01\u0000flg_travelpoint_200000_12\u0000TOWER_IDENTIFIER\u0000tower024\u0000flg_travelpoint_200000_12\u0000ev90_03400\u0000ev90_03912\u0000map_200000_zone012_00\u0000map_200000_zone012_01\u0000map_200000_zone012_02\u0000map_200000_zone012_03\u0000map_200000_zone012_04\u0000flg_tower_leaf_12\u0000sys_talk_map200000_tower_12_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_12\u0000sys_talk_map200000_tower_12_02\u0000trg_tlk_map_200000_gyoro_12_00\u0000map200000_area012\u0000sys_talk_map200000_tower_12_01\u0000flg_travelpoint_200000_13\u0000TOWER_IDENTIFIER\u0000tower030\u0000flg_travelpoint_200000_13\u0000ev90_03400\u0000ev90_03913\u0000map_200000_zone013_00\u0000map_200000_zone013_01\u0000map_200000_zone013_02\u0000map_200000_zone013_03\u0000map_200000_zone013_04\u0000map_200000_zone013_05\u0000flg_tower_leaf_13\u0000sys_talk_map200000_tower_13_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_13\u0000sys_talk_map200000_tower_13_02\u0000trg_tlk_map_200000_gyoro_13_00\u0000map200000_area013\u0000sys_talk_map200000_tower_13_01\u0000flg_travelpoint_200000_14\u0000TOWER_IDENTIFIER\u0000tower041\u0000flg_travelpoint_200000_14\u0000ev90_03400\u0000ev90_03914\u0000map_200000_zone014_00\u0000map_200000_zone014_01\u0000map_200000_zone014_02\u0000map_200000_zone014_03\u0000map_200000_zone014_04\u0000flg_tower_leaf_14\u0000sys_talk_map200000_tower_14_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_14\u0000sys_talk_map200000_tower_14_02\u0000trg_tlk_map_200000_gyoro_14_00\u0000map200000_area014\u0000sys_talk_map200000_tower_14_01\u0000flg_travelpoint_200000_15\u0000TOWER_IDENTIFIER\u0000tower042\u0000flg_travelpoint_200000_15\u0000ev90_03400\u0000ev90_03915\u0000map_200000_zone015_00\u0000map_200000_zone015_01\u0000map_200000_zone015_02\u0000map_200000_zone015_03\u0000map_200000_zone015_04\u0000flg_tower_leaf_15\u0000sys_talk_map200000_tower_15_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_15\u0000sys_talk_map200000_tower_15_02\u0000trg_tlk_map_200000_gyoro_15_00\u0000map200000_area015\u0000sys_talk_map200000_tower_15_01\u0000ico05010010\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010010\u0000ev90_tamaget_chr000101\u0000ico05010010\u0000ico05010010\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010070\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010070\u0000ev90_tamaget_chr000401\u0000ico05010070\u0000ico05010070\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010040\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010040\u0000ev90_tamaget_chr000701\u0000ico05010040\u0000ico05010040\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010270\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010270\u0000ev90_tamaget_chr000b01\u0000ico05010270\u0000ico05010270\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010240\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010240\u0000ev90_tamaget_chr000c01\u0000ico05010240\u0000ico05010240\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010080\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010080\u0000ev90_tamaget_chr000e01\u0000ico05010080\u0000ico05010080\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010120\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010120\u0000ev90_tamaget_chr001201\u0000ico05010120\u0000ico05010120\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010140\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010140\u0000ev90_tamaget_chr001401\u0000ico05010140\u0000ico05010140\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010150\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010150\u0000ev90_tamaget_chr001501\u0000ico05010150\u0000ico05010150\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010170\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010170\u0000ev90_tamaget_chr001701\u0000ico05010170\u0000ico05010170\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010220\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010220\u0000ev90_tamaget_chr001b01\u0000ico05010220\u0000ico05010220\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010230\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010230\u0000ev90_tamaget_chr001c01\u0000ico05010230\u0000ico05010230\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010290\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010290\u0000ev90_tamaget_chr002001\u0000ico05010290\u0000ico05010290\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010330\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010330\u0000ev90_tamaget_chr002401\u0000ico05010330\u0000ico05010330\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010350\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010350\u0000ev90_tamaget_chr002601\u0000ico05010350\u0000ico05010350\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010390\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010390\u0000ev90_tamaget_chr002801\u0000ico05010390\u0000ico05010390\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010430\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010430\u0000ev90_tamaget_chr002c01\u0000ico05010430\u0000ico05010430\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010450\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010450\u0000ev90_tamaget_chr002e01\u0000ico05010450\u0000ico05010450\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010490\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010490\u0000ev90_tamaget_chr003401\u0000ico05010490\u0000ico05010490\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010050\u0000TAMA_IDENTIFIER\u0000tama_ico05010050\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010050\u0000ev90_tamaget_chr000301\u0000ico05010050\u0000ico05010050\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010030\u0000TAMA_IDENTIFIER\u0000tama_ico05010030\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010030\u0000ev90_tamaget_chr000601\u0000ico05010030\u0000ico05010030\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010370\u0000TAMA_IDENTIFIER\u0000tama_ico05010370\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010370\u0000ev90_tamaget_chr000901\u0000ico05010370\u0000ico05010370\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010380\u0000TAMA_IDENTIFIER\u0000tama_ico05010380\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010380\u0000ev90_tamaget_chr000d01\u0000ico05010380\u0000ico05010380\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010090\u0000TAMA_IDENTIFIER\u0000tama_ico05010090\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010090\u0000ev90_tamaget_chr000f01\u0000ico05010090\u0000ico05010090\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010180\u0000TAMA_IDENTIFIER\u0000tama_ico05010180\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010180\u0000ev90_tamaget_chr001801\u0000ico05010180\u0000ico05010180\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010250\u0000TAMA_IDENTIFIER\u0000tama_ico05010250\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010250\u0000ev90_tamaget_chr001d01\u0000ico05010250\u0000ico05010250\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010260\u0000TAMA_IDENTIFIER\u0000tama_ico05010260\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010260\u0000ev90_tamaget_chr001e01\u0000ico05010260\u0000ico05010260\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010280\u0000TAMA_IDENTIFIER\u0000tama_ico05010280\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010280\u0000ev90_tamaget_chr001f01\u0000ico05010280\u0000ico05010280\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010320\u0000TAMA_IDENTIFIER\u0000tama_ico05010320\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010320\u0000ev90_tamaget_chr002301\u0000ico05010320\u0000ico05010320\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010410\u0000TAMA_IDENTIFIER\u0000tama_ico05010410\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010410\u0000ev90_tamaget_chr002a01\u0000ico05010410\u0000ico05010410\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010460\u0000TAMA_IDENTIFIER\u0000tama_ico05010460\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010460\u0000ev90_tamaget_chr002f01\u0000ico05010460\u0000ico05010460\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010480\u0000TAMA_IDENTIFIER\u0000tama_ico05010480\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010480\u0000ev90_tamaget_chr003201\u0000ico05010480\u0000ico05010480\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_treasure_first_talk\u0000flg_treasure_second_talk\u0000irp_recipe_life10_iwp02000220\u0000irp_recipe_life10_iwp02000220\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_iwp02000220\u0000irp_recipe_life10_iam01007050\u0000irp_recipe_life10_iam01007050\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_iam01007050\u0000irp_recipe_life10_iwp03000200\u0000irp_recipe_life10_iwp03000200\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_iwp03000200\u0000irp_recipe_life11_iwp05000210\u0000irp_recipe_life11_iwp05000210\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_iwp05000210\u0000irp_recipe_life11_iwp04000200\u0000irp_recipe_life11_iwp04000200\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_iwp04000200\u0000irp_recipe_life11_ilt01000120\u0000irp_recipe_life11_ilt01000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt01000120\u0000irp_recipe_life10_ilt02000120\u0000irp_recipe_life10_ilt02000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt02000120\u0000irp_recipe_life11_ilt03000120\u0000irp_recipe_life11_ilt03000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt03000120\u0000irp_recipe_life10_ilt04000120\u0000irp_recipe_life10_ilt04000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt04000120\u0000irp_recipe_life10_ilt08000120\u0000irp_recipe_life10_ilt08000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt08000120\u0000irp_recipe_life11_ilt06000120\u0000irp_recipe_life11_ilt06000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt06000120\u0000irp_recipe_life10_ilt07000120\u0000irp_recipe_life10_ilt07000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt07000120\u0000irp_recipe_life13_ilt11000120\u0000irp_recipe_life13_ilt11000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life13_ilt11000120\u0000irp_recipe_life10_ilt10000120\u0000irp_recipe_life10_ilt10000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt10000120\u0000irp_recipe_life11_ilt09000120\u0000irp_recipe_life11_ilt09000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt09000120\u0000flg_npc_placement_treasure_02\u0000flg_chr_treasure_legend_talk\u0000flg_treasure_wepon\u0000flg_treasure_wepon\u0000flg_npc_placement_treasure_02\u0000flg_treasure_gatherer\u0000flg_treasure_gatherer\u0000flg_npc_placement_treasure_02\u0000flg_treasure_tools\u0000flg_treasure_tools\u0000flg_npc_placement_treasure_02\u0000flg_treasure_shield\u0000flg_treasure_shield\u0000flg_npc_placement_treasure_02\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000hlp_010370\u0000hlp_010370\u0000hlp_000122\u0000hlp_000122\u0000hlp_010390\u0000hlp_010390\u0000hlp_010620\u0000hlp_010620\u0000ev00_20100\u0000gtt_ev00_20100_000\u0000ev00_20100\u0000hlp_010391\u0000hlp_010391\u0000flg_recipe_life10_iwp02000190\u0000recipe_life10_iwp02000190\u0000irp_recipe_life10_iwp02000190\u0000flg_recipe_life10_iwp02000190\u0000flg_recipe_life10_iam01007000\u0000recipe_life10_iam01007000\u0000irp_recipe_life10_iam01007000\u0000flg_recipe_life10_iam01007000\u0000flg_recipe_life11_iwp05000190\u0000recipe_life11_iwp05000190\u0000irp_recipe_life11_iwp05000190\u0000flg_recipe_life11_iwp05000190\u0000flg_recipe_life11_iwp04000190\u0000recipe_life11_iwp04000190\u0000irp_recipe_life11_iwp04000190\u0000flg_recipe_life11_iwp04000190\u0000flg_recipe_life10_ilt04000110\u0000recipe_life10_ilt04000110\u0000irp_recipe_life10_ilt04000110\u0000flg_recipe_life10_ilt04000110\u0000flg_recipe_life10_ilt08000110\u0000recipe_life10_ilt08000110\u0000irp_recipe_life10_ilt08000110\u0000flg_recipe_life10_ilt08000110\u0000flg_recipe_life11_ilt06000110\u0000recipe_life11_ilt06000110\u0000irp_recipe_life11_ilt06000110\u0000flg_recipe_life11_ilt06000110\u0000flg_recipe_life10_ilt07000110\u0000recipe_life10_ilt07000110\u0000irp_recipe_life10_ilt07000110\u0000flg_recipe_life10_ilt07000110\u0000flg_recipe_life13_ilt11000110\u0000recipe_life13_ilt11000110\u0000irp_recipe_life13_ilt11000110\u0000flg_recipe_life13_ilt11000110\u0000flg_recipe_life10_ilt10000110\u0000recipe_life10_ilt10000110\u0000irp_recipe_life10_ilt10000110\u0000flg_recipe_life10_ilt10000110\u0000flg_recipe_life11_ilt09000110\u0000recipe_life11_ilt09000110\u0000irp_recipe_life11_ilt09000110\u0000flg_recipe_life11_ilt09000110\u0000tlk_stopper_p20040_001\u0000gtt_common_chr100400_01\u0000tlk_stopper_p20100_001\u0000tlk_stopper_p20120_001\u0000tlk_stopper_p20040_001\u0000gtt_common_chr100400_01\u0000tlk_stopper_p20100_001\u0000tlk_stopper_p20120_001\u0000tlk_stopper_p20040_001\u0000gtt_common_chr100400_01\u0000flg_cheack_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_02\u0000flg_cheack_village_02\u0000flg_cheack_village_03\u0000flg_cheack_village_03\u0000flg_cheack_village_04\u0000flg_cheack_village_04\u0000flg_cheack_village_05\u0000flg_cheack_village_05\u0000flg_cheack_village_06\u0000flg_cheack_village_06\u0000Map_200000\u0000flg_cheack_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_03\u0000ev90_00201\u0000ev90_00201\u0000flg_honegon_mapjump_1\u0000ev90_00203\u0000flg_honegon_mapjump_1\u0000Map_200000\u0000flg_cheack_village_02\u0000flg_cheack_village_01\u0000flg_cheack_village_03\u0000ev90_00201\u0000ev90_00201\u0000flg_honegon_mapjump_1\u0000ev90_00203\u0000flg_honegon_mapjump_1\u0000Map_200000\u0000flg_cheack_village_03\u0000flg_cheack_village_01\u0000flg_cheack_village_03\u0000ev90_00201\u0000ev90_00201\u0000flg_honegon_mapjump_1\u0000"
+      "m_autoStr": "＊\u0000cnt_shrine_tama_00\u0000ev00_10200\u0000Map_200000\u0000flg_event_common_01\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10200\u0000flg_event_common_01\u0000Map_9a0000\u0000ev00_10200\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10300\u0000ev00_10300\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000ev00_10400\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000flg_sysmes_map_200000_sealed_before70070\u0000gtt_map_200000_chr100400_01\u0000flg_sysmes_map_200000_sealed_before70070\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000ev00_11600\u0000sysmes_map_200000_sealed2\u0000ev00_11600\u0000ev00_11600\u0000flg_sysmes_map_200000_sealed\u0000sysmes_map_200000_sealed\u0000flg_sysmes_map_200000_sealed\u0000cnt_shrine_tama_00\u0000ev00_10600\u0000ev00_10600\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000Map_200007\u0000flg_event_common_01\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000Map_200000\u0000flg_event_common_01\u0000Map_9c0000\u0000ev00_10700\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000flg_event_common_01\u0000flg_event_common_01\u0000cnt_shrine_tama_00\u0000ev00_10700\u0000flg_event_common_01\u0000Map_200007\u0000Map_9c0000\u0000ev00_10700\u0000flg_event_common_01\u0000ev00_10800\u0000ev00_10800\u0000cnt_shrine_tama_00\u0000ev00_10400\u0000sysmes_map_200000_00\u0000cnt_shrine_tama_00\u0000sysmes_map_200000_01\u0000ev00_10900\u0000ev00_10400\u0000ev00_20200_000\u0000ev00_10900\u0000ev00_10400\u0000flg_Xernes_barrier\u0000ev00_10900\u0000gen_enmy_ev00_10100\u0000ev00_10100\u0000ev00_10100\u0000ev00_10100\u0000★セーブポイント作成\u0000ev00_10100\u0000gtt_ev00_30100_01\u0000gtt_ev00_30100_01\u0000gtt_ev00_30100_01\u0000map_200000_enm105006_00\u0000map_200000_enm105006_01\u0000map_200000_enm105006_02\u0000map_200000_enm105006_03\u0000map_200000_enm105006_04\u0000map_200000_enm105006_05\u0000map_200000_enm105006_06\u0000map_200000_enm105006_07\u0000map_200000_enm105006_08\u0000map_200000_enm105006_09\u0000map_200000_enm105006_10\u0000map_200000_enm105006_11\u0000map_200000_enm105006_12\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000flg_peddler_first_talk\u0000flg_peddler_first_talk\u0000hlp_010470\u0000map200000_FarmStand_00\u0000map200000_FarmStand_01\u0000map200000_FarmStand_02\u0000map200000_FarmStand_03\u0000map200000_FarmStand_04\u0000map200000_FarmStand_05\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_00\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_00\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_01\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_01\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_02\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_02\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_03\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_03\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_04\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_04\u0000FARM_STAND_LETTER\u0000map200000_FarmStand_05\u0000tlk_map_200000_letter_00\u0000map200000_FarmStand_05\u0000flg_event_common_01\u0000flg_event_common_01\u0000flg_event_common_01\u0000flg_event_common_01\u0000hlp_010400\u0000hlp_010480\u0000hlp_010480\u0000hlp_010480\u0000hlp_010480\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000para_avt000000\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000PlayerRestart_shrine\u0000flg_shrine_map_jump\u0000flg_shrine_map_jump\u0000flg_shrine_map_jump\u0000false\u0000flg_shrine_map_jump\u0000flg_shrine_startpoint_telop\u0000flg_shrine_stop_restart_area\u0000false\u0000shrine_01\u0000ev90_03600\u0000true\u0000flg_shrine_stop_restart_area\u0000flg_shrine_stop_restart_area\u0000true\u0000flg_shrine_stop_restart_area\u0000flg_shrine_stop_restart_area\u0000flg_shrine_map_jump\u0000true\u0000flg_shrine_map_jump\u0000flg_shrine_startpoint_telop\u0000flg_shrine_stop_restart_area\u0000True\u0000true\u0000cmn_correct\u0000true\u0000cmn_correct\u0000PlayerRestart_shrine\u0000true\u0000cmn_correct\u0000PlayerRestart_shrine\u0000para_avt000000\u0000True\u0000true\u0000cmn_correct\u0000True\u0000true\u0000cmn_correct\u0000TG_SHRINE_MINIGAME_CLEAR_PICK\u0000true\u0000cmn_correct\u0000True\u0000true\u0000cmn_correct\u0000Default_ChaseCamera\u0000true\u0000cmn_correct\u0000PlayerRestart_shrine\u0000Default_ChaseCamera\u0000flg_shine_floor_clear\u0000flg_shine_floor_wall\u0000flg_check_start_ev90_03601\u0000para_avt000000\u0000ev90_03601\u0000flg_check_start_ev90_03601\u0000flg_check_start_ev90_03602\u0000para_avt000000\u0000ev90_03602\u0000flg_check_start_ev90_03602\u0000flg_shine_floor_clear_road\u0000flg_check_start_ev90_03603\u0000para_avt000000\u0000ev90_03603\u0000flg_check_start_ev90_03603\u0000flg_check_start_ev90_03604\u0000para_avt000000\u0000ev90_03604\u0000flg_check_start_ev90_03604\u0000flg_shine_floor_clear_road\u0000shrine_02\u0000flg_shrine_02\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_02\u0000sysmes_shrine_minigame_start\u0000shrine_02\u0000flg_shrine_02\u0000shrine_02\u0000sysmes_shrine_minigame_start\u0000shrine_02\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_02\u0000grp_enmy_map200000_shrine_02\u0000shrine_02\u0000flg_shrine_02\u0000shrine_02\u0000sysmes_shrine_minigame_start\u0000shrine_02\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_02\u0000shrine_02\u0000flg_shrine_02\u0000flg_shrine_02\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_02\u0000flg_shrine_02\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_03\u0000flg_shrine_03\u0000hlp_010450\u0000hlp_010450\u0000shrine_03\u0000sysmes_shrine_minigame_battle_start\u0000shrine_03\u0000flg_shrine_03\u0000shrine_03\u0000sysmes_shrine_minigame_battle_start\u0000shrine_03\u0000shrine_03\u0000shrine_03\u0000flg_shrine_03\u0000shrine_03\u0000sysmes_shrine_minigame_battle_start\u0000shrine_03\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_03_1\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_03_2\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_03_3\u0000shrine_03\u0000shrine_03\u0000shrine_03\u0000shrine_03\u0000flg_shrine_03\u0000flg_shrine_03\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_03\u0000flg_shrine_03\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_04\u0000flg_shrine_04\u0000hlp_010460\u0000hlp_010460\u0000shrine_04\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_04\u0000flg_shrine_04\u0000shrine_04\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_04\u0000shrine_04\u0000PlayerRestart_shrine\u0000shrine_04\u0000flg_shrine_04\u0000shrine_04\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_04\u0000shrine_04\u0000flg_shrine_04\u0000flg_shrine_04\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_04\u0000flg_shrine_04\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_05\u0000flg_shrine_05\u0000hlp_010460\u0000hlp_010460\u0000shrine_05\u0000life0006\u0000sysmes_shrine_minigame_pick_start\u0000shrine_05\u0000flg_shrine_05\u0000shrine_05\u0000life0006\u0000sysmes_shrine_minigame_pick_start\u0000shrine_05\u0000shrine_05\u0000PlayerRestart_shrine\u0000shrine_05\u0000flg_shrine_05\u0000shrine_05\u0000life0006\u0000sysmes_shrine_minigame_pick_start\u0000shrine_05\u0000shrine_05\u0000flg_shrine_05\u0000flg_shrine_05\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_05\u0000flg_shrine_05\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_06\u0000flg_shrine_06\u0000hlp_010450\u0000hlp_010450\u0000shrine_06\u0000sysmes_shrine_minigame_battle_start\u0000shrine_06\u0000flg_shrine_06\u0000shrine_06\u0000sysmes_shrine_minigame_battle_start\u0000shrine_06\u0000shrine_06\u0000shrine_06\u0000flg_shrine_06\u0000shrine_06\u0000sysmes_shrine_minigame_battle_start\u0000shrine_06\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_06_1\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_06_2\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_06_3\u0000shrine_06\u0000shrine_06\u0000shrine_06\u0000shrine_06\u0000flg_shrine_06\u0000flg_shrine_06\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_06\u0000flg_shrine_06\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_07\u0000flg_shrine_07\u0000hlp_010430\u0000hlp_010430\u0000shrine_07\u0000sysmes_shrine_minigame_start\u0000shrine_07\u0000flg_shrine_07\u0000shrine_07\u0000sysmes_shrine_minigame_start\u0000shrine_07\u0000shrine_07\u0000shrine_07\u0000flg_shrine_07\u0000shrine_07\u0000sysmes_shrine_minigame_start\u0000shrine_07\u0000shrine_07\u0000flg_shrine_07\u0000flg_shrine_07\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_07\u0000flg_shrine_07\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_08\u0000flg_shrine_08\u0000hlp_010450\u0000hlp_010450\u0000shrine_08\u0000sysmes_shrine_minigame_battle_start\u0000shrine_08\u0000flg_shrine_08\u0000shrine_08\u0000sysmes_shrine_minigame_battle_start\u0000shrine_08\u0000shrine_08\u0000shrine_08\u0000flg_shrine_08\u0000shrine_08\u0000sysmes_shrine_minigame_battle_start\u0000shrine_08\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_08_1\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_08_2\u0000PlayerRestart_shrine\u0000grp_enmy_map200000_shrine_08_3\u0000shrine_08\u0000shrine_08\u0000shrine_08\u0000shrine_08\u0000flg_shrine_08\u0000flg_shrine_08\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_08\u0000flg_shrine_08\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_09\u0000flg_shrine_09\u0000hlp_010440\u0000hlp_010440\u0000shrine_09\u0000sysmes_shrine_minigame_start\u0000shrine_09\u0000flg_shrine_09\u0000shrine_09\u0000sysmes_shrine_minigame_start\u0000shrine_09\u0000shrine_09\u0000grp_enmy_map200000_shrine_09\u0000PlayerRestart_shrine\u0000shrine_09\u0000flg_shrine_09\u0000shrine_09\u0000sysmes_shrine_minigame_start\u0000shrine_09\u0000shrine_09\u0000flg_shrine_09\u0000flg_shrine_09\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_09\u0000flg_shrine_09\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_10\u0000flg_shrine_10\u0000hlp_010440\u0000hlp_010440\u0000shrine_10\u0000sysmes_shrine_minigame_start\u0000shrine_10\u0000flg_shrine_10\u0000shrine_10\u0000sysmes_shrine_minigame_start\u0000shrine_10\u0000shrine_10\u0000PlayerRestart_shrine\u0000PickDestroyMiniGame_Shrine_003\u0000shrine_10\u0000flg_shrine_10\u0000shrine_10\u0000sysmes_shrine_minigame_start\u0000shrine_10\u0000shrine_10\u0000flg_shrine_10\u0000flg_shrine_10\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_10\u0000flg_shrine_10\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_11\u0000flg_shrine_11\u0000hlp_010440\u0000hlp_010440\u0000shrine_11\u0000sysmes_shrine_minigame_start\u0000shrine_11\u0000flg_shrine_11\u0000shrine_11\u0000sysmes_shrine_minigame_start\u0000shrine_11\u0000shrine_11\u0000grp_enmy_map200000_shrine_11\u0000PlayerRestart_shrine\u0000shrine_11\u0000flg_shrine_11\u0000shrine_11\u0000sysmes_shrine_minigame_start\u0000shrine_11\u0000shrine_11\u0000flg_shrine_11\u0000flg_shrine_11\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_11\u0000flg_shrine_11\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_12\u0000flg_shrine_12\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_12\u0000sysmes_shrine_minigame_start\u0000shrine_12\u0000flg_shrine_12\u0000shrine_12\u0000sysmes_shrine_minigame_start\u0000shrine_12\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_12\u0000PickDestroyMiniGame_Shrine_004\u0000shrine_12\u0000flg_shrine_12\u0000shrine_12\u0000sysmes_shrine_minigame_start\u0000shrine_12\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_12\u0000shrine_12\u0000flg_shrine_12\u0000flg_shrine_12\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_12\u0000flg_shrine_12\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_13\u0000flg_shrine_13\u0000hlp_010460\u0000hlp_010460\u0000shrine_13\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_13\u0000flg_shrine_13\u0000shrine_13\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_13\u0000shrine_13\u0000PlayerRestart_shrine\u0000shrine_13\u0000flg_shrine_13\u0000shrine_13\u0000life0005\u0000sysmes_shrine_minigame_pick_start\u0000shrine_13\u0000shrine_13\u0000flg_shrine_13\u0000flg_shrine_13\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_13\u0000flg_shrine_13\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_14\u0000flg_shrine_14\u0000hlp_010440\u0000hlp_010440\u0000shrine_14\u0000sysmes_shrine_minigame_start\u0000shrine_14\u0000flg_shrine_14\u0000shrine_14\u0000sysmes_shrine_minigame_start\u0000shrine_14\u0000shrine_14\u0000PlayerRestart_shrine\u0000PickDestroyMiniGame_Shrine_005\u0000shrine_14\u0000flg_shrine_14\u0000shrine_14\u0000sysmes_shrine_minigame_start\u0000shrine_14\u0000shrine_14\u0000flg_shrine_14\u0000flg_shrine_14\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_14\u0000flg_shrine_14\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_15\u0000flg_shrine_15\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_15\u0000sysmes_shrine_minigame_start\u0000shrine_15\u0000flg_shrine_15\u0000shrine_15\u0000sysmes_shrine_minigame_start\u0000shrine_15\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_15\u0000grp_enmy_map200000_shrine_15\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_15\u0000flg_shrine_15\u0000shrine_15\u0000sysmes_shrine_minigame_start\u0000shrine_15\u0000shrine_15\u0000shrine_15\u0000flg_shrine_15\u0000flg_shrine_15\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_15\u0000flg_shrine_15\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_16\u0000flg_shrine_16\u0000hlp_010430\u0000hlp_010430\u0000shrine_16\u0000sysmes_shrine_minigame_start\u0000shrine_16\u0000flg_shrine_16\u0000shrine_16\u0000sysmes_shrine_minigame_start\u0000shrine_16\u0000shrine_16\u0000shrine_16\u0000flg_shrine_16\u0000shrine_16\u0000sysmes_shrine_minigame_start\u0000shrine_16\u0000shrine_16\u0000flg_shrine_16\u0000flg_shrine_16\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_16\u0000flg_shrine_16\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_17\u0000flg_shrine_17\u0000hlp_010430\u0000hlp_010430\u0000shrine_17\u0000sysmes_shrine_minigame_start\u0000shrine_17\u0000flg_shrine_17\u0000shrine_17\u0000sysmes_shrine_minigame_start\u0000shrine_17\u0000shrine_17\u0000shrine_17\u0000flg_shrine_17\u0000shrine_17\u0000sysmes_shrine_minigame_start\u0000shrine_17\u0000shrine_17\u0000flg_shrine_17\u0000flg_shrine_17\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_17\u0000flg_shrine_17\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_18\u0000flg_shrine_18\u0000hlp_010420\u0000hlp_010420\u0000hlp_010421\u0000shrine_18\u0000sysmes_shrine_minigame_start\u0000shrine_18\u0000flg_shrine_18\u0000shrine_18\u0000sysmes_shrine_minigame_start\u0000shrine_18\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000PlayerRestart_shrine\u0000shrine_18\u0000grp_enmy_map200000_shrine_18\u0000shrine_18\u0000flg_shrine_18\u0000shrine_18\u0000sysmes_shrine_minigame_start\u0000shrine_18\u0000ShrineMinigame_ShineFloor_ChaseCamera\u0000shrine_18\u0000shrine_18\u0000flg_shrine_18\u0000flg_shrine_18\u0000cnt_shrine_clear_00\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03602\u0000shrine_18\u0000flg_shrine_18\u0000flg_shine_floor_wall\u0000flg_shine_floor_clear_road\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03604\u0000PlayerRestart_shrine\u0000shrine_19\u0000flg_shrine_19\u0000hlp_010430\u0000hlp_010430\u0000shrine_19\u0000sysmes_shrine_minigame_start\u0000shrine_19\u0000flg_shrine_19\u0000shrine_19\u0000sysmes_shrine_minigame_start\u0000shrine_19\u0000shrine_19\u0000shrine_19\u0000flg_shrine_19\u0000shrine_19\u0000sysmes_shrine_minigame_start\u0000shrine_19\u0000shrine_19\u0000flg_shrine_19\u0000flg_shrine_19\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_19\u0000flg_shrine_19\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000shrine_20\u0000flg_shrine_20\u0000hlp_010430\u0000hlp_010430\u0000shrine_20\u0000sysmes_shrine_minigame_start\u0000shrine_20\u0000flg_shrine_20\u0000shrine_20\u0000sysmes_shrine_minigame_start\u0000shrine_20\u0000shrine_20\u0000shrine_20\u0000flg_shrine_20\u0000shrine_20\u0000sysmes_shrine_minigame_start\u0000shrine_20\u0000shrine_20\u0000flg_shrine_20\u0000flg_shrine_20\u0000cnt_shrine_clear_00\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03601\u0000shrine_20\u0000flg_shrine_20\u0000PlayerRestart_shrine\u0000flg_check_start_ev90_03603\u0000PlayerRestart_shrine\u0000True\u0000PlayerRestart_shrine\u0000map200000_camp_001\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_001\u0000map200000_camp_002\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_002\u0000map200000_camp_003\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_003\u0000map200000_camp_004\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_004\u0000map200000_camp_005\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_005\u0000map200000_camp_006\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_006\u0000map200000_camp_007\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_007\u0000map200000_camp_008\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_008\u0000map200000_camp_009\u0000hlp_010650\u0000hlp_010650\u0000map200000_camp_009\u0000map200000_camp_001\u0000map200000_camp_001\u0000map200000_camp_002\u0000map200000_camp_002\u0000map200000_camp_003\u0000map200000_camp_003\u0000map200000_camp_004\u0000map200000_camp_004\u0000map200000_camp_005\u0000map200000_camp_005\u0000map200000_camp_006\u0000map200000_camp_006\u0000map200000_camp_007\u0000map200000_camp_007\u0000map200000_camp_008\u0000map200000_camp_008\u0000map200000_camp_009\u0000map200000_camp_009\u0000shrine_01\u0000shrine_01\u0000shrine_02\u0000shrine_02\u0000shrine_03\u0000shrine_03\u0000shrine_04\u0000shrine_04\u0000shrine_05\u0000shrine_05\u0000shrine_06\u0000shrine_06\u0000shrine_07\u0000shrine_07\u0000shrine_08\u0000shrine_08\u0000shrine_09\u0000shrine_09\u0000shrine_10\u0000shrine_10\u0000shrine_11\u0000shrine_11\u0000shrine_12\u0000shrine_12\u0000shrine_13\u0000shrine_13\u0000shrine_14\u0000shrine_14\u0000shrine_15\u0000shrine_15\u0000shrine_16\u0000shrine_16\u0000shrine_17\u0000shrine_17\u0000shrine_18\u0000shrine_18\u0000shrine_19\u0000shrine_19\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_01\u0000gtt_map_200000_enm126002_01\u0000grp_enmy_map200000_village_01\u0000title_qsf_active_event_001\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_01_timer\u0000gtt_map_200000_enm126002_01\u0000flg_cheack_village_01_timer\u0000trg_timer_village_01\u0000flg_cheack_village_01_timer\u0000flg_cheack_village_01_timer\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_event_common_01\u0000para_avt000000\u0000PS_enemy_village_01\u0000qsb200000_0101_enm126001\u0000flg_enemy_village_01\u0000flg_cheack_village_01\u0000flg_event_common_01\u0000flg_enemy_village_01\u0000flg_enemy_village_01\u0000ev90_03800\u0000FT200000_051\u0000map200000_area002\u0000flg_cheack_village_01\u0000flg_event_common_01\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_02\u0000flg_cheack_village_02\u0000flg_cheack_village_02\u0000gtt_map_200000_enm107003_01\u0000grp_enmy_map200000_village_02\u0000title_qsf_active_event_001\u0000flg_enemy_village_02\u0000flg_cheack_village_02\u0000flg_cheack_village_02_timer\u0000gtt_map_200000_enm107003_01\u0000flg_cheack_village_02_timer\u0000trg_timer_village_02\u0000flg_cheack_village_02_timer\u0000flg_cheack_village_02_timer\u0000flg_enemy_village_02\u0000flg_event_common_01\u0000para_avt000000\u0000PS_enemy_village_02\u0000qsb200000_0201_enm107003\u0000flg_enemy_village_02\u0000flg_cheack_village_02\u0000flg_event_common_01\u0000flg_enemy_village_02\u0000flg_enemy_village_02\u0000ev90_03801\u0000FT200000_052\u0000map200000_area006\u0000flg_event_common_01\u0000flg_cheack_village_02\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_03\u0000flg_cheack_village_03\u0000flg_cheack_village_03\u0000gtt_map_200000_enm10e002_01\u0000grp_enmy_map200000_village_03\u0000title_qsf_active_event_001\u0000flg_enemy_village_03\u0000flg_cheack_village_03\u0000flg_cheack_village_03_timer\u0000gtt_map_200000_enm10e002_01\u0000flg_cheack_village_03_timer\u0000trg_timer_village_03\u0000flg_cheack_village_03_timer\u0000flg_cheack_village_03_timer\u0000flg_enemy_village_03\u0000flg_event_common_01\u0000para_avt000000\u0000PS_enemy_village_03\u0000qsb200000_0301_enm10e002\u0000flg_enemy_village_03\u0000flg_cheack_village_03\u0000flg_event_common_01\u0000flg_enemy_village_03\u0000flg_enemy_village_03\u0000ev90_03805\u0000FT200000_053\u0000map200000_area015\u0000flg_event_common_01\u0000flg_cheack_village_03\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_cheack_village_04\u0000gtt_map_200000_enm108001_01\u0000grp_enmy_map200000_village_04\u0000title_qsf_active_event_004\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_cheack_village_04_timer\u0000gtt_map_200000_enm108001_01\u0000flg_cheack_village_04_timer\u0000trg_timer_village_04\u0000flg_cheack_village_04_timer\u0000flg_cheack_village_04_timer\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_04\u0000flg_enemy_village_04\u0000cnt_enemy_village_04\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_04\u0000flg_cheack_village_04\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_event_common_01\u0000Map_200000_enm108001_40\u0000flg_enemy_village_04\u0000flg_cheack_village_04\u0000flg_event_common_01\u0000flg_enemy_village_04\u0000flg_enemy_village_04\u0000ev90_03802\u0000FT200000_054\u0000map200000_area008\u0000flg_event_common_01\u0000flg_cheack_village_04\u0000flg_cheack_village_04_timer\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_cheack_village_05\u0000gtt_map_200000_enm118004_01\u0000grp_enmy_map200000_village_05\u0000title_qsf_active_event_003\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_cheack_village_05_timer\u0000gtt_map_200000_enm118004_01\u0000flg_cheack_village_05_timer\u0000trg_timer_village_05\u0000flg_cheack_village_05_timer\u0000flg_cheack_village_05_timer\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_05\u0000flg_enemy_village_05\u0000cnt_enemy_village_05\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_05\u0000flg_cheack_village_05\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_event_common_01\u0000Map_200000_enm118004_40\u0000flg_enemy_village_05\u0000flg_cheack_village_05\u0000flg_event_common_01\u0000flg_enemy_village_05\u0000flg_enemy_village_05\u0000ev90_03803\u0000FT200000_055\u0000map200000_area012\u0000flg_event_common_01\u0000flg_cheack_village_05\u0000flg_cheack_village_05_timer\u0000flg_enemy_village_05\u0000hlp_010560\u0000hlp_010560\u0000hlp_010560\u0000hlp_010560\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_cheack_village_06\u0000gtt_map_200000_enm103009_01\u0000grp_enmy_map200000_village_06\u0000title_qsf_active_event_003\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_cheack_village_06_timer\u0000gtt_map_200000_enm103009_01\u0000flg_cheack_village_06_timer\u0000trg_timer_village_06\u0000flg_cheack_village_06_timer\u0000flg_cheack_village_06_timer\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_06\u0000flg_enemy_village_06\u0000cnt_enemy_village_06\u0000flg_event_common_01\u0000flg_event_common_01\u0000Map_200000\u0000PS_enemy_village_06\u0000flg_cheack_village_06\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_event_common_01\u0000qsb200000_0601_enm103009\u0000flg_enemy_village_06\u0000flg_cheack_village_06\u0000flg_event_common_01\u0000flg_enemy_village_06\u0000flg_enemy_village_06\u0000ev90_03804\u0000FT200000_056\u0000map200000_area010\u0000flg_event_common_01\u0000flg_cheack_village_06\u0000flg_cheack_village_06_timer\u0000flg_enemy_village_06\u0000hlp_010560\u0000hlp_010560\u0000map_200000_zone001_00\u0000map_200000_zone001_01\u0000map_200000_zone001_02\u0000map_200000_zone001_03\u0000map_200000_zone001_04\u0000flg_tower_leaf_01\u0000sys_talk_map200000_tower_01_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_01\u0000sys_talk_map200000_tower_01_02\u0000trg_tlk_map_200000_gyoro_01_00\u0000map200000_area001\u0000sys_talk_map200000_tower_01_00\u0000sys_talk_map200000_tower_01_01\u0000map_200000_zone002_00\u0000map_200000_zone002_01\u0000map_200000_zone002_02\u0000map_200000_zone002_03\u0000map_200000_zone002_04\u0000flg_tower_leaf_02\u0000sys_talk_map200000_tower_02_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_02\u0000sys_talk_map200000_tower_02_02\u0000trg_tlk_map_200000_gyoro_02_00\u0000map200000_area002\u0000sys_talk_map200000_tower_02_01\u0000flg_travelpoint_200000_03\u0000TOWER_IDENTIFIER\u0000tower067\u0000flg_travelpoint_200000_03\u0000ev90_03400\u0000ev90_03903\u0000map_200000_zone003_00\u0000map_200000_zone003_01\u0000map_200000_zone003_02\u0000map_200000_zone003_03\u0000map_200000_zone003_04\u0000map_200000_zone003_05\u0000flg_tower_leaf_03\u0000sys_talk_map200000_tower_03_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_03\u0000sys_talk_map200000_tower_03_02\u0000trg_tlk_map_200000_gyoro_03_00\u0000map200000_area003\u0000sys_talk_map200000_tower_03_01\u0000flg_travelpoint_200000_04\u0000TOWER_IDENTIFIER\u0000tower064\u0000flg_travelpoint_200000_04\u0000ev90_03400\u0000ev90_03904\u0000map_200000_zone004_00\u0000map_200000_zone004_01\u0000map_200000_zone004_02\u0000map_200000_zone004_03\u0000map_200000_zone004_04\u0000map_200000_zone004_05\u0000flg_tower_leaf_04\u0000sys_talk_map200000_tower_04_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_04\u0000sys_talk_map200000_tower_04_02\u0000trg_tlk_map_200000_gyoro_04_00\u0000map200000_area004\u0000sys_talk_map200000_tower_04_01\u0000flg_travelpoint_200000_05\u0000TOWER_IDENTIFIER\u0000tower035\u0000flg_travelpoint_200000_05\u0000ev90_03400\u0000ev90_03905\u0000map_200000_zone005_00\u0000map_200000_zone005_01\u0000map_200000_zone005_02\u0000map_200000_zone005_03\u0000map_200000_zone005_04\u0000map_200000_zone005_05\u0000flg_tower_leaf_05\u0000sys_talk_map200000_tower_05_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_05\u0000sys_talk_map200000_tower_05_02\u0000trg_tlk_map_200000_gyoro_05_00\u0000map200000_area005\u0000sys_talk_map200000_tower_05_01\u0000flg_travelpoint_200000_06\u0000TOWER_IDENTIFIER\u0000tower045\u0000flg_travelpoint_200000_06\u0000ev90_03400\u0000ev90_03906\u0000map_200000_zone006_00\u0000map_200000_zone006_01\u0000map_200000_zone006_02\u0000map_200000_zone006_03\u0000map_200000_zone006_04\u0000flg_tower_leaf_06\u0000sys_talk_map200000_tower_06_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_06\u0000sys_talk_map200000_tower_06_02\u0000trg_tlk_map_200000_gyoro_06_00\u0000map200000_area006\u0000sys_talk_map200000_tower_06_01\u0000flg_travelpoint_200000_07\u0000TOWER_IDENTIFIER\u0000tower048\u0000flg_travelpoint_200000_07\u0000ev90_03400\u0000ev90_03907\u0000map_200000_zone007_00\u0000map_200000_zone007_01\u0000map_200000_zone007_02\u0000map_200000_zone007_03\u0000map_200000_zone007_04\u0000map_200000_zone007_05\u0000flg_tower_leaf_07\u0000sys_talk_map200000_tower_07_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_07\u0000sys_talk_map200000_tower_07_02\u0000trg_tlk_map_200000_gyoro_07_00\u0000map200000_area007\u0000sys_talk_map200000_tower_07_01\u0000flg_travelpoint_200000_08\u0000TOWER_IDENTIFIER\u0000tower029\u0000flg_travelpoint_200000_08\u0000ev90_03400\u0000ev90_03908\u0000map_200000_zone008_00\u0000map_200000_zone008_01\u0000map_200000_zone008_02\u0000map_200000_zone008_03\u0000map_200000_zone008_04\u0000flg_tower_leaf_08\u0000sys_talk_map200000_tower_08_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_08\u0000sys_talk_map200000_tower_08_02\u0000trg_tlk_map_200000_gyoro_08_00\u0000map200000_area008\u0000sys_talk_map200000_tower_08_01\u0000sys_talk_map200000_tower_08_multiplay_01\u0000trg_tlk_map_200000_tower_08_multiplay_01\u0000sys_talk_map200000_tower_08_multiplay_retire_01\u0000trg_tlk_map_200000_tower_08_multiplay_retire_01\u0000sys_talk_map200000_tower_08_multiplay_no\u0000sys_talk_map200000_tower_08_multiplay_retire_02\u0000tg_multiplay_suspend\u0000sys_talk_map200000_tower_08_multiplay_no\u0000flg_travelpoint_200000_09\u0000TOWER_IDENTIFIER\u0000tower008\u0000flg_travelpoint_200000_09\u0000ev90_03400\u0000ev90_03909\u0000map_200000_zone009_00\u0000map_200000_zone009_01\u0000map_200000_zone009_02\u0000map_200000_zone009_03\u0000map_200000_zone009_04\u0000flg_tower_leaf_09\u0000sys_talk_map200000_tower_09_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_09\u0000sys_talk_map200000_tower_09_02\u0000trg_tlk_map_200000_gyoro_09_00\u0000map200000_area009\u0000sys_talk_map200000_tower_09_01\u0000sys_talk_map200000_tower_09_multiplay_01\u0000trg_tlk_map_200000_tower_09_multiplay_01\u0000sys_talk_map200000_tower_09_multiplay_retire_01\u0000trg_tlk_map_200000_tower_09_multiplay_retire_01\u0000sys_talk_map200000_tower_09_multiplay_no\u0000sys_talk_map200000_tower_09_multiplay_retire_02\u0000tg_multiplay_suspend\u0000sys_talk_map200000_tower_09_multiplay_no\u0000flg_travelpoint_200000_10\u0000TOWER_IDENTIFIER\u0000tower026\u0000flg_travelpoint_200000_10\u0000ev90_03400\u0000ev90_03910\u0000map_200000_zone010_00\u0000map_200000_zone010_01\u0000map_200000_zone010_02\u0000map_200000_zone010_03\u0000map_200000_zone010_04\u0000flg_tower_leaf_10\u0000sys_talk_map200000_tower_10_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_10\u0000sys_talk_map200000_tower_10_02\u0000trg_tlk_map_200000_gyoro_10_00\u0000map200000_area010\u0000sys_talk_map200000_tower_10_01\u0000flg_travelpoint_200000_11\u0000TOWER_IDENTIFIER\u0000tower014\u0000flg_travelpoint_200000_11\u0000ev90_03400\u0000ev90_03911\u0000map_200000_zone011_00\u0000map_200000_zone011_01\u0000map_200000_zone011_02\u0000map_200000_zone011_03\u0000map_200000_zone011_04\u0000flg_tower_leaf_11\u0000sys_talk_map200000_tower_11_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_11\u0000sys_talk_map200000_tower_11_02\u0000trg_tlk_map_200000_gyoro_11_00\u0000map200000_area011\u0000sys_talk_map200000_tower_11_01\u0000flg_travelpoint_200000_12\u0000TOWER_IDENTIFIER\u0000tower024\u0000flg_travelpoint_200000_12\u0000ev90_03400\u0000ev90_03912\u0000map_200000_zone012_00\u0000map_200000_zone012_01\u0000map_200000_zone012_02\u0000map_200000_zone012_03\u0000map_200000_zone012_04\u0000flg_tower_leaf_12\u0000sys_talk_map200000_tower_12_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_12\u0000sys_talk_map200000_tower_12_02\u0000trg_tlk_map_200000_gyoro_12_00\u0000map200000_area012\u0000sys_talk_map200000_tower_12_01\u0000flg_travelpoint_200000_13\u0000TOWER_IDENTIFIER\u0000tower030\u0000flg_travelpoint_200000_13\u0000ev90_03400\u0000ev90_03913\u0000map_200000_zone013_00\u0000map_200000_zone013_01\u0000map_200000_zone013_02\u0000map_200000_zone013_03\u0000map_200000_zone013_04\u0000map_200000_zone013_05\u0000flg_tower_leaf_13\u0000sys_talk_map200000_tower_13_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_13\u0000sys_talk_map200000_tower_13_02\u0000trg_tlk_map_200000_gyoro_13_00\u0000map200000_area013\u0000sys_talk_map200000_tower_13_01\u0000flg_travelpoint_200000_14\u0000TOWER_IDENTIFIER\u0000tower041\u0000flg_travelpoint_200000_14\u0000ev90_03400\u0000ev90_03914\u0000map_200000_zone014_00\u0000map_200000_zone014_01\u0000map_200000_zone014_02\u0000map_200000_zone014_03\u0000map_200000_zone014_04\u0000flg_tower_leaf_14\u0000sys_talk_map200000_tower_14_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_14\u0000sys_talk_map200000_tower_14_02\u0000trg_tlk_map_200000_gyoro_14_00\u0000map200000_area014\u0000sys_talk_map200000_tower_14_01\u0000flg_travelpoint_200000_15\u0000TOWER_IDENTIFIER\u0000tower042\u0000flg_travelpoint_200000_15\u0000ev90_03400\u0000ev90_03915\u0000map_200000_zone015_00\u0000map_200000_zone015_01\u0000map_200000_zone015_02\u0000map_200000_zone015_03\u0000map_200000_zone015_04\u0000flg_tower_leaf_15\u0000sys_talk_map200000_tower_15_03\u0000chestnut\u0000chestnut\u0000flg_tower_leaf_15\u0000sys_talk_map200000_tower_15_02\u0000trg_tlk_map_200000_gyoro_15_00\u0000map200000_area015\u0000sys_talk_map200000_tower_15_01\u0000ico05010010\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010010\u0000ev90_tamaget_chr000101\u0000ico05010010\u0000ico05010010\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010070\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010070\u0000ev90_tamaget_chr000401\u0000ico05010070\u0000ico05010070\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010040\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010040\u0000ev90_tamaget_chr000701\u0000ico05010040\u0000ico05010040\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010270\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010270\u0000ev90_tamaget_chr000b01\u0000ico05010270\u0000ico05010270\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010240\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010240\u0000ev90_tamaget_chr000c01\u0000ico05010240\u0000ico05010240\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010080\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010080\u0000ev90_tamaget_chr000e01\u0000ico05010080\u0000ico05010080\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010120\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010120\u0000ev90_tamaget_chr001201\u0000ico05010120\u0000ico05010120\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010140\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010140\u0000ev90_tamaget_chr001401\u0000ico05010140\u0000ico05010140\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010150\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010150\u0000ev90_tamaget_chr001501\u0000ico05010150\u0000ico05010150\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010170\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010170\u0000ev90_tamaget_chr001701\u0000ico05010170\u0000ico05010170\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010220\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010220\u0000ev90_tamaget_chr001b01\u0000ico05010220\u0000ico05010220\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010230\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010230\u0000ev90_tamaget_chr001c01\u0000ico05010230\u0000ico05010230\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010290\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010290\u0000ev90_tamaget_chr002001\u0000ico05010290\u0000ico05010290\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010330\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010330\u0000ev90_tamaget_chr002401\u0000ico05010330\u0000ico05010330\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010350\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010350\u0000ev90_tamaget_chr002601\u0000ico05010350\u0000ico05010350\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010390\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010390\u0000ev90_tamaget_chr002801\u0000ico05010390\u0000ico05010390\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010430\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010430\u0000ev90_tamaget_chr002c01\u0000ico05010430\u0000ico05010430\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010450\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010450\u0000ev90_tamaget_chr002e01\u0000ico05010450\u0000ico05010450\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010490\u0000TAMA_IDENTIFIER\u0000tama_01\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010490\u0000ev90_tamaget_chr003401\u0000ico05010490\u0000ico05010490\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000cnt_shrine_tama_00\u0000ico05010050\u0000TAMA_IDENTIFIER\u0000tama_ico05010050\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010050\u0000ev90_tamaget_chr000301\u0000ico05010050\u0000ico05010050\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010030\u0000TAMA_IDENTIFIER\u0000tama_ico05010030\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010030\u0000ev90_tamaget_chr000601\u0000ico05010030\u0000ico05010030\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010370\u0000TAMA_IDENTIFIER\u0000tama_ico05010370\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010370\u0000ev90_tamaget_chr000901\u0000ico05010370\u0000ico05010370\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010380\u0000TAMA_IDENTIFIER\u0000tama_ico05010380\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010380\u0000ev90_tamaget_chr000d01\u0000ico05010380\u0000ico05010380\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010090\u0000TAMA_IDENTIFIER\u0000tama_ico05010090\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010090\u0000ev90_tamaget_chr000f01\u0000ico05010090\u0000ico05010090\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010180\u0000TAMA_IDENTIFIER\u0000tama_ico05010180\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010180\u0000ev90_tamaget_chr001801\u0000ico05010180\u0000ico05010180\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010250\u0000TAMA_IDENTIFIER\u0000tama_ico05010250\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010250\u0000ev90_tamaget_chr001d01\u0000ico05010250\u0000ico05010250\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010260\u0000TAMA_IDENTIFIER\u0000tama_ico05010260\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010260\u0000ev90_tamaget_chr001e01\u0000ico05010260\u0000ico05010260\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010280\u0000TAMA_IDENTIFIER\u0000tama_ico05010280\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010280\u0000ev90_tamaget_chr001f01\u0000ico05010280\u0000ico05010280\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010320\u0000TAMA_IDENTIFIER\u0000tama_ico05010320\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010320\u0000ev90_tamaget_chr002301\u0000ico05010320\u0000ico05010320\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010410\u0000TAMA_IDENTIFIER\u0000tama_ico05010410\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010410\u0000ev90_tamaget_chr002a01\u0000ico05010410\u0000ico05010410\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010460\u0000TAMA_IDENTIFIER\u0000tama_ico05010460\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010460\u0000ev90_tamaget_chr002f01\u0000ico05010460\u0000ico05010460\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010480\u0000TAMA_IDENTIFIER\u0000tama_ico05010480\u0000RELEASE_TAMAGEMONO_ITEMID\u0000ico05010480\u0000ev90_tamaget_chr003201\u0000ico05010480\u0000ico05010480\u0000TAMA_IDENTIFIER\u0000RELEASE_TAMAGEMONO_ITEMID\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_npc_placement_treasure_01\u0000flg_npc_placement_treasure_01\u0000flg_treasure_first_talk\u0000flg_treasure_first_talk\u0000flg_treasure_second_talk\u0000irp_recipe_life10_iwp02000220\u0000irp_recipe_life10_iwp02000220\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_iwp02000220\u0000irp_recipe_life10_iam01007050\u0000irp_recipe_life10_iam01007050\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_iam01007050\u0000irp_recipe_life10_iwp03000200\u0000irp_recipe_life10_iwp03000200\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_iwp03000200\u0000irp_recipe_life11_iwp05000210\u0000irp_recipe_life11_iwp05000210\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_iwp05000210\u0000irp_recipe_life11_iwp04000200\u0000irp_recipe_life11_iwp04000200\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_iwp04000200\u0000irp_recipe_life11_ilt01000120\u0000irp_recipe_life11_ilt01000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt01000120\u0000irp_recipe_life10_ilt02000120\u0000irp_recipe_life10_ilt02000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt02000120\u0000irp_recipe_life11_ilt03000120\u0000irp_recipe_life11_ilt03000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt03000120\u0000irp_recipe_life10_ilt04000120\u0000irp_recipe_life10_ilt04000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt04000120\u0000irp_recipe_life10_ilt08000120\u0000irp_recipe_life10_ilt08000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt08000120\u0000irp_recipe_life11_ilt06000120\u0000irp_recipe_life11_ilt06000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt06000120\u0000irp_recipe_life10_ilt07000120\u0000irp_recipe_life10_ilt07000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt07000120\u0000irp_recipe_life13_ilt11000120\u0000irp_recipe_life13_ilt11000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life13_ilt11000120\u0000irp_recipe_life10_ilt10000120\u0000irp_recipe_life10_ilt10000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life10_ilt10000120\u0000irp_recipe_life11_ilt09000120\u0000irp_recipe_life11_ilt09000120\u0000flg_chr_treasure_legend_talk\u0000flg_npc_placement_treasure_02\u0000recipe_life11_ilt09000120\u0000flg_npc_placement_treasure_02\u0000flg_chr_treasure_legend_talk\u0000flg_treasure_wepon\u0000flg_treasure_wepon\u0000flg_npc_placement_treasure_02\u0000flg_treasure_gatherer\u0000flg_treasure_gatherer\u0000flg_npc_placement_treasure_02\u0000flg_treasure_tools\u0000flg_treasure_tools\u0000flg_npc_placement_treasure_02\u0000flg_treasure_shield\u0000flg_treasure_shield\u0000flg_npc_placement_treasure_02\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000sysmes_map_200000_inn\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000ME_SLEEPING_TIME\u0000cmn_action02\u0000gutsPose\u0000flg_not_play_time_gauge_max\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000WorkbenchX\u0000WorkbenchY\u0000WorkbenchZ\u0000WorkbenchRot\u0000WorkbenchType\u0000mg_workbench_stone\u0000hlp_010370\u0000hlp_010370\u0000hlp_000122\u0000hlp_000122\u0000hlp_010390\u0000hlp_010390\u0000hlp_010620\u0000hlp_010620\u0000ev00_20100\u0000gtt_ev00_20100_000\u0000ev00_20100\u0000hlp_010391\u0000hlp_010391\u0000flg_recipe_life10_iwp02000190\u0000hlp_010392\u0000recipe_life10_iwp02000190\u0000irp_recipe_life10_iwp02000190\u0000flg_recipe_life10_iwp02000190\u0000hlp_010392\u0000flg_recipe_life10_iam01007000\u0000hlp_010392\u0000recipe_life10_iam01007000\u0000irp_recipe_life10_iam01007000\u0000flg_recipe_life10_iam01007000\u0000hlp_010392\u0000flg_recipe_life11_iwp05000190\u0000hlp_010392\u0000recipe_life11_iwp05000190\u0000irp_recipe_life11_iwp05000190\u0000flg_recipe_life11_iwp05000190\u0000hlp_010392\u0000flg_recipe_life11_iwp04000190\u0000hlp_010392\u0000recipe_life11_iwp04000190\u0000irp_recipe_life11_iwp04000190\u0000flg_recipe_life11_iwp04000190\u0000hlp_010392\u0000flg_recipe_life10_ilt04000110\u0000hlp_010392\u0000recipe_life10_ilt04000110\u0000irp_recipe_life10_ilt04000110\u0000flg_recipe_life10_ilt04000110\u0000hlp_010392\u0000flg_recipe_life10_ilt08000110\u0000hlp_010392\u0000recipe_life10_ilt08000110\u0000irp_recipe_life10_ilt08000110\u0000flg_recipe_life10_ilt08000110\u0000hlp_010392\u0000flg_recipe_life11_ilt06000110\u0000hlp_010392\u0000recipe_life11_ilt06000110\u0000irp_recipe_life11_ilt06000110\u0000flg_recipe_life11_ilt06000110\u0000hlp_010392\u0000flg_recipe_life10_ilt07000110\u0000hlp_010392\u0000recipe_life10_ilt07000110\u0000irp_recipe_life10_ilt07000110\u0000flg_recipe_life10_ilt07000110\u0000hlp_010392\u0000flg_recipe_life13_ilt11000110\u0000hlp_010392\u0000recipe_life13_ilt11000110\u0000irp_recipe_life13_ilt11000110\u0000flg_recipe_life13_ilt11000110\u0000hlp_010392\u0000flg_recipe_life10_ilt10000110\u0000hlp_010392\u0000recipe_life10_ilt10000110\u0000irp_recipe_life10_ilt10000110\u0000flg_recipe_life10_ilt10000110\u0000hlp_010392\u0000flg_recipe_life11_ilt09000110\u0000hlp_010392\u0000recipe_life11_ilt09000110\u0000irp_recipe_life11_ilt09000110\u0000flg_recipe_life11_ilt09000110\u0000hlp_010392\u0000flg_recipe_life10_iwp02000190\u0000recipe_life10_iwp02000190\u0000irp_recipe_life10_iwp02000190\u0000flg_recipe_life10_iwp02000190\u0000flg_recipe_life10_iam01007000\u0000recipe_life10_iam01007000\u0000irp_recipe_life10_iam01007000\u0000flg_recipe_life10_iam01007000\u0000flg_recipe_life11_iwp05000190\u0000recipe_life11_iwp05000190\u0000irp_recipe_life11_iwp05000190\u0000flg_recipe_life11_iwp05000190\u0000flg_recipe_life11_iwp04000190\u0000recipe_life11_iwp04000190\u0000irp_recipe_life11_iwp04000190\u0000flg_recipe_life11_iwp04000190\u0000flg_recipe_life10_ilt04000110\u0000recipe_life10_ilt04000110\u0000irp_recipe_life10_ilt04000110\u0000flg_recipe_life10_ilt04000110\u0000flg_recipe_life10_ilt08000110\u0000recipe_life10_ilt08000110\u0000irp_recipe_life10_ilt08000110\u0000flg_recipe_life10_ilt08000110\u0000flg_recipe_life11_ilt06000110\u0000recipe_life11_ilt06000110\u0000irp_recipe_life11_ilt06000110\u0000flg_recipe_life11_ilt06000110\u0000flg_recipe_life10_ilt07000110\u0000recipe_life10_ilt07000110\u0000irp_recipe_life10_ilt07000110\u0000flg_recipe_life10_ilt07000110\u0000flg_recipe_life13_ilt11000110\u0000recipe_life13_ilt11000110\u0000irp_recipe_life13_ilt11000110\u0000flg_recipe_life13_ilt11000110\u0000flg_recipe_life10_ilt10000110\u0000recipe_life10_ilt10000110\u0000irp_recipe_life10_ilt10000110\u0000flg_recipe_life10_ilt10000110\u0000flg_recipe_life11_ilt09000110\u0000recipe_life11_ilt09000110\u0000irp_recipe_life11_ilt09000110\u0000flg_recipe_life11_ilt09000110\u0000tlk_stopper_p20040_001\u0000gtt_common_chr100400_01\u0000tlk_stopper_p20100_001\u0000tlk_stopper_p20120_001\u0000tlk_stopper_p20040_001\u0000gtt_common_chr100400_01\u0000tlk_stopper_p20100_001\u0000tlk_stopper_p20120_001\u0000tlk_stopper_p20040_001\u0000gtt_common_chr100400_01\u0000flg_cheack_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_02\u0000flg_cheack_village_02\u0000flg_cheack_village_03\u0000flg_cheack_village_03\u0000flg_cheack_village_04\u0000flg_cheack_village_04\u0000flg_cheack_village_05\u0000flg_cheack_village_05\u0000flg_cheack_village_06\u0000flg_cheack_village_06\u0000Map_200000\u0000flg_cheack_village_01\u0000flg_cheack_village_01\u0000flg_cheack_village_03\u0000ev90_00201\u0000ev90_00201\u0000flg_honegon_mapjump_1\u0000ev90_00203\u0000flg_honegon_mapjump_1\u0000Map_200000\u0000flg_cheack_village_02\u0000flg_cheack_village_01\u0000flg_cheack_village_03\u0000ev90_00201\u0000ev90_00201\u0000flg_honegon_mapjump_1\u0000ev90_00203\u0000flg_honegon_mapjump_1\u0000Map_200000\u0000flg_cheack_village_03\u0000flg_cheack_village_01\u0000flg_cheack_village_03\u0000ev90_00201\u0000ev90_00201\u0000flg_honegon_mapjump_1\u0000"
     }
   }
 ]

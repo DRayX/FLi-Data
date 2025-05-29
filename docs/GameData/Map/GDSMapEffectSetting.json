@@ -374,7 +374,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
                 "arg": [
                   {
                     "m_offset": 10,
@@ -417,7 +417,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
                 "arg": [
                   {
                     "m_offset": 15,
@@ -460,7 +460,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
                 "arg": [
                   {
                     "m_offset": 20,
@@ -503,7 +503,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
                 "arg": [
                   {
                     "m_offset": 25,
@@ -546,7 +546,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
                 "arg": [
                   {
                     "m_offset": 30,
@@ -589,7 +589,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_True",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_True",
                 "arg": [
                   {
                     "m_offset": 35,
@@ -632,7 +632,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
                 "arg": [
                   {
                     "m_offset": 40,
@@ -675,7 +675,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
                 "arg": [
                   {
                     "m_offset": 45,
@@ -718,7 +718,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
                 "arg": [
                   {
                     "m_offset": 50,
@@ -761,7 +761,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
                 "arg": [
                   {
                     "m_offset": 55,
@@ -804,7 +804,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
                 "arg": [
                   {
                     "m_offset": 60,
@@ -847,7 +847,7 @@
             },
             "cond": [
               {
-                "Cmd": "CondCmd_GetGlobalBitFlag_False",
+                "Cmd": "CondCmd_GetGlobalSyncBitFlag_False",
                 "arg": [
                   {
                     "m_offset": 65,
@@ -2214,9 +2214,9 @@
       ],
       "m_autoBin": [
         1,
-        75,
-        137,
-        183,
+        0,
+        80,
+        211,
         225,
         0,
         0,

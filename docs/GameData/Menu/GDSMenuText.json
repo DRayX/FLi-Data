@@ -1319,7 +1319,7 @@
                 "text_it": "Ricevi",
                 "text_de": "Erhalten",
                 "text_es": "Recibir",
-                "text_czh": "收下",
+                "text_czh": "领取",
                 "text_tzh": "領取",
                 "text_ko": "수령하기"
               }
@@ -2927,6 +2927,26 @@
           }
         },
         {
+          "Key": "button_guide_text_craft_obj_back",
+          "Value": {
+            "ID": "button_guide_text_craft_obj_back",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[元/もと]の[位置/いち]に[戻/もど]す",
+                "text_en": "Reset Position",
+                "text_fr": "Remettre à sa place",
+                "text_it": "Torna a posizione precedente",
+                "text_de": "Zurücksetzen",
+                "text_es": "Devolver a posición original",
+                "text_czh": "放回原位",
+                "text_tzh": "放回原處",
+                "text_ko": "원래 위치로 돌아가기"
+              }
+            ]
+          }
+        },
+        {
           "Key": "button_guide_text_move",
           "Value": {
             "ID": "button_guide_text_move",
@@ -4167,6 +4187,26 @@
           }
         },
         {
+          "Key": "gaiji_key_god_touch_default",
+          "Value": {
+            "ID": "gaiji_key_god_touch_default",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<CMD_GOD_TOUCH>",
+                "text_en": "<CMD_GOD_TOUCH>",
+                "text_fr": "<CMD_GOD_TOUCH>",
+                "text_it": "<CMD_GOD_TOUCH>",
+                "text_de": "<CMD_GOD_TOUCH>",
+                "text_es": "<CMD_GOD_TOUCH>",
+                "text_czh": "<CMD_GOD_TOUCH>",
+                "text_tzh": "<CMD_GOD_TOUCH>",
+                "text_ko": "<CMD_GOD_TOUCH>"
+              }
+            ]
+          }
+        },
+        {
           "Key": "gaiji_key_mg_collect_move",
           "Value": {
             "ID": "gaiji_key_mg_collect_move",
@@ -4522,6 +4562,26 @@
                 "text_czh": "<CMD_BTL_SKILL_MODE_CHANGE_DOWN>",
                 "text_tzh": "<CMD_BTL_SKILL_MODE_CHANGE_DOWN>",
                 "text_ko": "<CMD_BTL_SKILL_MODE_CHANGE_DOWN>"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "gaiji_player_knock_out_friend_help_cancel",
+          "Value": {
+            "ID": "gaiji_player_knock_out_friend_help_cancel",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_en": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_fr": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_it": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_de": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_es": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_czh": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_tzh": "<CMD_OPEN_MENU_KNOCK_OUT>",
+                "text_ko": "<CMD_OPEN_MENU_KNOCK_OUT>"
               }
             ]
           }
@@ -5362,6 +5422,86 @@
                 "text_czh": "<CMD_MENU_MODEL_ROTATE_KEYBOARD>",
                 "text_tzh": "<CMD_MENU_MODEL_ROTATE_KEYBOARD>",
                 "text_ko": "<CMD_MENU_MODEL_ROTATE_KEYBOARD>"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "gaiji_key_menu_change_map_hierarchy",
+          "Value": {
+            "ID": "gaiji_key_menu_change_map_hierarchy",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_en": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_fr": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_it": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_de": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_es": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_czh": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_tzh": "<CMD_MENU_CHANGE_MAP_HIERARCHY>",
+                "text_ko": "<CMD_MENU_CHANGE_MAP_HIERARCHY>"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "gaiji_key_menu_change_map_hierarchy_keyboard",
+          "Value": {
+            "ID": "gaiji_key_menu_change_map_hierarchy_keyboard",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_en": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_fr": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_it": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_de": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_es": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_czh": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_tzh": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>",
+                "text_ko": "<CMD_MENU_CHANGE_MAP_HIERARCHY_KEYBOARD>"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "gaiji_key_menu_open_close_keyboard_mouse_guide",
+          "Value": {
+            "ID": "gaiji_key_menu_open_close_keyboard_mouse_guide",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<CMD_MENU_KEY_F10>",
+                "text_en": "<CMD_MENU_KEY_F10>",
+                "text_fr": "<CMD_MENU_KEY_F10>",
+                "text_it": "<CMD_MENU_KEY_F10>",
+                "text_de": "<CMD_MENU_KEY_F10>",
+                "text_es": "<CMD_MENU_KEY_F10>",
+                "text_czh": "<CMD_MENU_KEY_F10>",
+                "text_tzh": "<CMD_MENU_KEY_F10>",
+                "text_ko": "<CMD_MENU_KEY_F10>"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "gaiji_key_layout_craft_obj_back",
+          "Value": {
+            "ID": "gaiji_key_layout_craft_obj_back",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_en": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_fr": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_it": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_de": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_es": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_czh": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_tzh": "<CMD_CRAFT_LAYOUT_MODE_EXIT>",
+                "text_ko": "<CMD_CRAFT_LAYOUT_MODE_EXIT>"
               }
             ]
           }
@@ -15699,7 +15839,7 @@
                 "text_it": "Verifica collegamento dell'account Epic Games...",
                 "text_de": "Überprüfe Epic Games-Konto-Verknüpfung...",
                 "text_es": "Comprobando la vinculación a Epic Games...",
-                "text_czh": "正在确认可否绑定Epic Games账号……",
+                "text_czh": "正在确认可否绑定Epic Games账户……",
                 "text_tzh": "正在確認是否可綁定\r\nＥｐｉｃ Ｇａｍｅｓ帳號……",
                 "text_ko": "Epic Games 계정 연동 확인 중..."
               }
@@ -15840,7 +15980,7 @@
                 "text_de": "Epic Games-Konto Verknüpfung fehlgeschlagen.\r\n\r\nDie Verknüpfung mit deinem Epic Games-Konto konnte nicht abgeschlossen werden.",
                 "text_es": "Error al vincular la cuenta de Epic Games. No se ha podido vincular la cuenta.",
                 "text_czh": "Epic Games账户绑定失败。\r\n未能成功绑定相关账户。",
-                "text_tzh": "Ｅｐｉｃ Ｇａｍｅｓ帳號綁定失敗。\r\n未能成功綁定相關帳戶。",
+                "text_tzh": "Ｅｐｉｃ Ｇａｍｅｓ帳號綁定失敗。\r\n未能成功綁定相關帳號。",
                 "text_ko": "Epic Games 계정 연동 실패\r\n해당 계정을 연동할 수 없습니다."
               }
             ]
@@ -15959,7 +16099,7 @@
                 "text_it": "Sovrascrittura in corso. Non spegnere il dispositivo.",
                 "text_de": "Überschreibe Speicherdaten.\r\nSchalte die Stromversorgung nicht aus.",
                 "text_es": "Descargando los datos guardados multiplataforma...\r\n¡No apagues el sistema!",
-                "text_czh": "正在下载共享存档。\r\n请勿切断电源。",
+                "text_czh": "正在覆盖共享存档。\r\n请勿切断电源。",
                 "text_tzh": "正在覆蓋原有存檔，\r\n請勿關閉電源。",
                 "text_ko": "공유 데이터를 다운로드하고 있습니다.\r\n전원 버튼을 만지지 마십시오."
               }
@@ -17682,6 +17822,26 @@
                 "text_czh": "署名",
                 "text_tzh": "簽名",
                 "text_ko": "사인"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "compensation_screen_title",
+          "Value": {
+            "ID": "compensation_screen_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "ほてん[受/う]け[取/と]り",
+                "text_en": "Compensation Collection",
+                "text_fr": "Récompenses",
+                "text_it": "Compensazioni",
+                "text_de": "Entschädigung",
+                "text_es": "Compensación",
+                "text_czh": "补偿道具",
+                "text_tzh": "補償道具",
+                "text_ko": "보상 아이템"
               }
             ]
           }
@@ -19436,7 +19596,7 @@
                 "Text": "マウント",
                 "text_en": "Mount",
                 "text_fr": "Monture",
-                "text_it": "Mezzo di trasporto",
+                "text_it": "Mezzo\r\ndi trasporto",
                 "text_de": "Reittiere",
                 "text_es": "Monturas",
                 "text_czh": "坐骑",
@@ -19682,6 +19842,106 @@
                 "text_czh": "※请注意，未保存的进度将会丢失。",
                 "text_tzh": "※將失去尚未儲存的遊戲內容。",
                 "text_ko": "*저장하지 않은 데이터는 사라집니다."
+              }
+            ]
+          }
+        },
+        {
+          "Key": "main_menu_icon_title_screen_text",
+          "Value": {
+            "ID": "main_menu_icon_title_screen_text",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "タイトル[画面/がめん]へ",
+                "text_en": "Title Screen",
+                "text_fr": "Écran-titre",
+                "text_it": "Torna\r\nal titolo",
+                "text_de": "Titelbildschirm",
+                "text_es": "Ir al título",
+                "text_czh": "返回标题画面",
+                "text_tzh": "前往標題畫面",
+                "text_ko": "타이틀 화면으로"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "main_menu_icon_picture_book_text",
+          "Value": {
+            "ID": "main_menu_icon_picture_book_text",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "ずかん",
+                "text_en": "Encyclopedia",
+                "text_fr": "Livre\r\nde références",
+                "text_it": "Guida illustrata",
+                "text_de": "Enzyklopädie",
+                "text_es": "Guía de campo",
+                "text_czh": "图鉴",
+                "text_tzh": "圖鑑",
+                "text_ko": "도감"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "main_menu_icon_equip_view_text",
+          "Value": {
+            "ID": "main_menu_icon_equip_view_text",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "かさねぎ",
+                "text_en": "Outfits",
+                "text_fr": "Habillement",
+                "text_it": "Ornamenti",
+                "text_de": "Bekleidung",
+                "text_es": "Conjunto",
+                "text_czh": "外观装备",
+                "text_tzh": "外觀裝備",
+                "text_ko": "겹쳐 입기"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "main_menu_icon_help_guide_text",
+          "Value": {
+            "ID": "main_menu_icon_help_guide_text",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "ガイド",
+                "text_en": "Guide",
+                "text_fr": "Guide",
+                "text_it": "Guida",
+                "text_de": "Leitfaden",
+                "text_es": "Guía",
+                "text_czh": "指南",
+                "text_tzh": "指南",
+                "text_ko": "가이드"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "main_menu_icon_playlog_text",
+          "Value": {
+            "ID": "main_menu_icon_playlog_text",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "プレイ履歴",
+                "text_en": "Play History",
+                "text_fr": "Historique",
+                "text_it": "Cronologia\r\ngioco",
+                "text_de": "Spielverlauf",
+                "text_es": "Jug. recientes",
+                "text_czh": "游玩记录",
+                "text_tzh": "遊玩紀錄",
+                "text_ko": "플레이 기록"
               }
             ]
           }
@@ -26179,7 +26439,7 @@
                 "text_it": "Amici per la pelle",
                 "text_de": "Freunde fürs Leben",
                 "text_es": "Mejores amigos",
-                "text_czh": "铁哥们",
+                "text_czh": "死党",
                 "text_tzh": "死黨",
                 "text_ko": "절친"
               }
@@ -40159,7 +40419,7 @@
                 "text_it": "Account Epic Games:",
                 "text_de": "Epic Games-Konto:",
                 "text_es": "Cuenta de Epic Games:",
-                "text_czh": "Epic Games账号：",
+                "text_czh": "Epic Games账户：",
                 "text_tzh": "Ｅｐｉｃ Ｇａｍｅｓ帳號：",
                 "text_ko": "Epic Games 계정:"
               }
@@ -40299,7 +40559,7 @@
                 "text_it": "Puoi scollegare il tuo account Epic Games dal sito ufficiale di Epic Games.",
                 "text_de": "Du kannst die Verknüpfung mit deinem Epic Games-Konto auf der offiziellen Epic Games-Webseite aufheben.",
                 "text_es": "Puedes desvincular tu cuenta de Epic Games desde el sitio web oficial de Epic Games.",
-                "text_czh": "Epic Games账号可以从官方网站解除绑定。",
+                "text_czh": "Epic Games账户可以从官方网站解除绑定。",
                 "text_tzh": "Ｅｐｉｃ Ｇａｍｅｓ帳號可在官方網站進行解除綁定。",
                 "text_ko": "Epic Games 공식 사이트에서 계정 연동을 해제할 수 있습니다."
               }
@@ -40359,7 +40619,7 @@
                 "text_it": "Puoi verificare lo stato di collegamento del tuo account Epic Games.",
                 "text_de": "Den Verknüpfungsstatus deines Epic Games-Kontos überprüfen.",
                 "text_es": "Puedes verificar el estado de vinculación de tu cuenta de Epic Games.",
-                "text_czh": "确认Epic Games账号的绑定状态。",
+                "text_czh": "确认Epic Games账户的绑定状态。",
                 "text_tzh": "確認Ｅｐｉｃ Ｇａｍｅｓ帳號的綁定狀態。",
                 "text_ko": "Epic Games 계정의 연동 상태를 확인할 수 있습니다."
               }
@@ -41642,6 +41902,26 @@
                 "text_czh": "已解锁本岛屿的公告栏功能！",
                 "text_tzh": "這座島的公布欄已解鎖！",
                 "text_ko": "이 섬의 게시판이 개방되었습니다!"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "notification_multiple_quest_clear",
+          "Value": {
+            "ID": "notification_multiple_quest_clear",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[CRPGNOTI_G]<VALUE>[件/けん]のクエストを[達成/たっせい]しました[C]",
+                "text_en": "[CRPGNOTI_G]<VALUE> quests have been completed[C]",
+                "text_fr": "[CRPGNOTI_G]Vous avez terminé <VALUE> quêtes[C]",
+                "text_it": "[CRPGNOTI_G]Hai completato <VALUE> missioni[C]",
+                "text_de": "[CRPGNOTI_G]<VALUE> Aufträge abgeschlossen[C]",
+                "text_es": "[CRPGNOTI_G]Has completado <VALUE> misiones[C]",
+                "text_czh": "[CRPGNOTI_G]已完成<VALUE>个任务[C]",
+                "text_tzh": "[CRPGNOTI_G]已完成<VALUE>個任務[C]",
+                "text_ko": "[CRPGNOTI_G]<VALUE>개의 퀘스트를 달성했습니다[C]"
               }
             ]
           }
@@ -48546,7 +48826,7 @@
                 "text_it": "Ricevi",
                 "text_de": "Erhalten",
                 "text_es": "Recibir",
-                "text_czh": "收下",
+                "text_czh": "领取",
                 "text_tzh": "領取",
                 "text_ko": "수령하기"
               }
@@ -49009,6 +49289,66 @@
                 "text_czh": "该特典已被领取。",
                 "text_tzh": "該特典已被領取。",
                 "text_ko": "해당 특전은 수령되었습니다."
+              }
+            ]
+          }
+        },
+        {
+          "Key": "compensation_category_benefit_list",
+          "Value": {
+            "ID": "compensation_category_benefit_list",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[受/う]け[取/と]りアイテム",
+                "text_en": "Item List",
+                "text_fr": "Liste des récompenses",
+                "text_it": "Elenco compensazioni",
+                "text_de": "Entschädigungsliste",
+                "text_es": "Lista de compensaciones",
+                "text_czh": "补偿道具列表",
+                "text_tzh": "補償道具列表",
+                "text_ko": "보상 아이템 목록"
+              }
+            ]
+          }
+        },
+        {
+          "Key": "compensation_dialog_confirm",
+          "Value": {
+            "ID": "compensation_dialog_confirm",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<ITEM_NAME>の\r\n[補填/ほてん]を[受/う]け[取/と]りました。",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "compensation_dialog_confirm_2",
+          "Value": {
+            "ID": "compensation_dialog_confirm_2",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "<ITEM_NAME>を\r\n[受/う]け[取/と]りました。",
+                "text_en": "You've received the <ITEM_NAME>.",
+                "text_fr": "Vous avez reçu : <ITEM_NAME>",
+                "text_it": "Hai ricevuto <ITEM_NAME>.",
+                "text_de": "Du hast <ITEM_NAME> erhalten.",
+                "text_es": "Has recibido <ITEM_NAME>.",
+                "text_czh": "已领取<ITEM_NAME>！",
+                "text_tzh": "已領取<ITEM_NAME>！",
+                "text_ko": "<ITEM_NAME>를 받았습니다."
               }
             ]
           }
@@ -53529,6 +53869,246 @@
                 "text_czh": "举报失败。",
                 "text_tzh": "檢舉失敗。",
                 "text_ko": "오프라인 상태이므로 보고할 수 없습니다. \r\n인터넷 연결을 확인하세요."
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_key_mouse_list_title",
+          "Value": {
+            "ID": "action_list_key_mouse_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "キーボード・マウス[操作/そうさ][一覧/いちらん]",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "为阿栎盖一座房子吧！",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_basic_controls_list_title",
+          "Value": {
+            "ID": "action_list_basic_controls_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[基本操作/きほんそうさ]",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_battle_list_title",
+          "Value": {
+            "ID": "action_list_battle_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[戦闘/せんとう]",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "为阿栎盖一座房子吧！",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_gathering_list_title",
+          "Value": {
+            "ID": "action_list_gathering_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[採取/さいしゅ]・[伐採/ばっさい]・[収穫/しゅうかく]",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_fishing_list_title",
+          "Value": {
+            "ID": "action_list_fishing_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[釣/つ]り",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "为阿栎盖一座房子吧！",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_craft_area_list_title",
+          "Value": {
+            "ID": "action_list_craft_area_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[島/しま]のクラフト",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_craftmenu_list_title",
+          "Value": {
+            "ID": "action_list_craftmenu_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "クラフトモード",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_hagram_craftmenu_list_title",
+          "Value": {
+            "ID": "action_list_hagram_craftmenu_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "ハグラムビルド（クラフトモード）",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_hagram_build_list_title",
+          "Value": {
+            "ID": "action_list_hagram_build_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "ハグラムビルド（ビルドモード）",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "为阿栎盖一座房子吧！",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_craft_layout_mode_floor_list_title",
+          "Value": {
+            "ID": "action_list_craft_layout_mode_floor_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[室内/しつない]クラフトモード（[床/ゆか]）",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_craft_layout_mode_wall_list_title",
+          "Value": {
+            "ID": "action_list_craft_layout_mode_wall_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[室内/しつない]クラフトモード（[壁/かべ]）",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "为阿栎盖一座房子吧！",
+                "text_tzh": "",
+                "text_ko": ""
+              }
+            ]
+          }
+        },
+        {
+          "Key": "action_list_itemcraft_game_wall_list_title",
+          "Value": {
+            "ID": "action_list_itemcraft_game_wall_list_title",
+            "textInfo": [
+              {
+                "subID": 0,
+                "Text": "[制作/せいさく]ミニゲーム",
+                "text_en": "",
+                "text_fr": "",
+                "text_it": "",
+                "text_de": "",
+                "text_es": "",
+                "text_czh": "",
+                "text_tzh": "",
+                "text_ko": ""
               }
             ]
           }
